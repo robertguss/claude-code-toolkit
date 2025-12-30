@@ -91,9 +91,7 @@
 
 -
 -
--
-
----
+- ***
 
 ## Pricing Recommendation
 
@@ -179,17 +177,13 @@ Based on what's working in this category:
 **If Conditional Go, conditions are:**
 
 -
--
-
-**If Revise, suggested changes:**
+- **If Revise, suggested changes:**
 
 -
--
+- **Next step:**
+  [What should the author do now?]
 
-**Next step:**
-[What should the author do now?]
-
----
+  ***
 
 ## Appendix: Data Sources
 

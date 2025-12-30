@@ -38,13 +38,13 @@ When brainstorming, read and follow `/path/to/claude-skills/brainstorm/SKILL.md`
 
 A pipeline of skills for developing nonfiction books from idea to architecture. See [full documentation](non-fiction-book-factory/).
 
-| Skill                | Description                                                     |
-| -------------------- | --------------------------------------------------------------- |
-| book-ideation        | Develop raw ideas into structured Book Concept Documents        |
-| book-idea-validator  | Stress-test concepts against existing research (Go/Revise/Kill) |
-| book-market-research | Assess commercial viability for Amazon KDP                      |
-| book-architect       | Design structural and emotional architecture for drafting       |
-| book-research-assistant | Plan, orchestrate, and validate deep research before outlining |
+| Skill                   | Description                                                     |
+| ----------------------- | --------------------------------------------------------------- |
+| book-ideation           | Develop raw ideas into structured Book Concept Documents        |
+| book-idea-validator     | Stress-test concepts against existing research (Go/Revise/Kill) |
+| book-market-research    | Assess commercial viability for Amazon KDP                      |
+| book-architect          | Design structural and emotional architecture for drafting       |
+| book-research-assistant | Plan, orchestrate, and validate deep research before outlining  |
 
 ## License
 

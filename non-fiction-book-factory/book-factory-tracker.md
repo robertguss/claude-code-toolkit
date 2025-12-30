@@ -67,10 +67,10 @@
 
 ### Phase 5: Drafting
 
-| Skill               | Status    | Version | Date Completed | Location                           | Dependencies                           | Notes/Blockers                                                                              |
-| ------------------- | --------- | ------- | -------------- | ---------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Skill               | Status    | Version | Date Completed | Location                           | Dependencies                           | Notes/Blockers                                                                               |
+| ------------------- | --------- | ------- | -------------- | ---------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------- |
 | `chapter-architect` | ✅ Done   | v1      | 2025-12-30     | `claude-skills/chapter-architect/` | `book-architect`, `research-assistant` | Beat-level chapter outlining. Produces Chapter Outline Document for ghostwriter/draft-coach. |
-| `draft-coach`       | ⬜ Future | —       | —              | —                                  | `chapter-architect`                    | Guides chapter-by-chapter drafting. Dual-mode: coaching or ghostwriting.                    |
+| `draft-coach`       | ⬜ Future | —       | —              | —                                  | `chapter-architect`                    | Guides chapter-by-chapter drafting. Dual-mode: coaching or ghostwriting.                     |
 
 ---
 
@@ -98,15 +98,15 @@
 
 Recommended order for building remaining skills:
 
-| Priority    | Skill                  | Rationale                                   |
-| ----------- | ---------------------- | ------------------------------------------- |
-| 🔜 **Next** | `draft-coach`          | Completes the drafting phase                |
-| 2           | `developmental-editor` | First editing pass                          |
-| 3           | `line-editor`          | Sentence-level polish                       |
-| 4           | `copy-editor`          | Technical cleanup                           |
-| 5           | `fact-checker`         | Accuracy verification                       |
-| 6           | `proofreader`          | Final check                                 |
-| 7           | `indexer`              | Production (if needed)                      |
+| Priority    | Skill                  | Rationale                    |
+| ----------- | ---------------------- | ---------------------------- |
+| 🔜 **Next** | `draft-coach`          | Completes the drafting phase |
+| 2           | `developmental-editor` | First editing pass           |
+| 3           | `line-editor`          | Sentence-level polish        |
+| 4           | `copy-editor`          | Technical cleanup            |
+| 5           | `fact-checker`         | Accuracy verification        |
+| 6           | `proofreader`          | Final check                  |
+| 7           | `indexer`              | Production (if needed)       |
 
 ---
 
@@ -114,12 +114,12 @@ Recommended order for building remaining skills:
 
 Projects used to test and validate skills:
 
-| Project                 | Stage                      | Used to Test                    | Notes                                                                      |
-| ----------------------- | -------------------------- | ------------------------------- | -------------------------------------------------------------------------- |
-| **Thinking with Paper** | Architecture (30 chapters) | Validation benchmark            | Already well-developed; useful for testing if skills surface same elements |
-| **A Critique of Truth** | Seed/Early ideation        | `book-ideation` real test       | Less developed; true test of skill's ability to develop concepts           |
-| **Recovering Thinking** | Concept outline            | Future testing                  |                                                                            |
-| **The Ancient Paths**   | Detailed outline           | Future testing                  | Overlaps with Thinking with Paper                                          |
+| Project                 | Stage                      | Used to Test              | Notes                                                                      |
+| ----------------------- | -------------------------- | ------------------------- | -------------------------------------------------------------------------- |
+| **Thinking with Paper** | Architecture (30 chapters) | Validation benchmark      | Already well-developed; useful for testing if skills surface same elements |
+| **A Critique of Truth** | Seed/Early ideation        | `book-ideation` real test | Less developed; true test of skill's ability to develop concepts           |
+| **Recovering Thinking** | Concept outline            | Future testing            |                                                                            |
+| **The Ancient Paths**   | Detailed outline           | Future testing            | Overlaps with Thinking with Paper                                          |
 
 ---
 
@@ -134,12 +134,12 @@ Projects used to test and validate skills:
 
 ## Notes & Decisions Log
 
-| Date       | Decision/Note                                                                                                                                                                      |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Date       | Decision/Note                                                                                                                                                                                                      |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 2025-12-30 | Added `chapter-architect` as new skill in Phase 5, before `draft-coach`. Produces beat-level chapter outlines. `draft-coach` now depends on `chapter-architect` and supports dual-mode (coaching or ghostwriting). |
-| 2024-12-29 | Decided to split research into two skills: `idea-validator` (pre-architecture validation) and `research-assistant` (post-architecture gap-filling).                                |
-| 2024-12-29 | Confirmed nonfiction-only scope for entire factory.                                                                                                                                |
-| 2024-12-29 | Editing skills will include high-level descriptions in reference doc; detailed design happens when building each skill.                                                            |
+| 2024-12-29 | Decided to split research into two skills: `idea-validator` (pre-architecture validation) and `research-assistant` (post-architecture gap-filling).                                                                |
+| 2024-12-29 | Confirmed nonfiction-only scope for entire factory.                                                                                                                                                                |
+| 2024-12-29 | Editing skills will include high-level descriptions in reference doc; detailed design happens when building each skill.                                                                                            |
 
 ---
 

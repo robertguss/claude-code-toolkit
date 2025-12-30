@@ -16,34 +16,37 @@ An introduction isn't just "Chapter 1"—it has distinct jobs that regular chapt
 2. **Establish the author** — Build credibility and connection
 3. **Set the promise** — Articulate what the reader will gain
 4. **Orient the reader** — Provide a map for the journey ahead
-5. **Create buy-in** — Make the reader *want* the transformation
+5. **Create buy-in** — Make the reader _want_ the transformation
 
 ### Adapted Beat Structure
 
-| Standard Beat | Introduction Adaptation |
-|--------------|------------------------|
-| Opening hook | Higher stakes—this hook sells the entire book |
-| Context-setting | Often includes "why I wrote this" or "why now" |
-| Problem statement | The problem the *book* solves, not just this chapter |
+| Standard Beat     | Introduction Adaptation                                           |
+| ----------------- | ----------------------------------------------------------------- |
+| Opening hook      | Higher stakes—this hook sells the entire book                     |
+| Context-setting   | Often includes "why I wrote this" or "why now"                    |
+| Problem statement | The problem the _book_ solves, not just this chapter              |
 | Promise statement | The book's core promise—what the reader will become/understand/do |
-| Roadmap | Preview of the book's structure (optional but common) |
-| Bridge | Must create irresistible pull into Chapter 2 |
+| Roadmap           | Preview of the book's structure (optional but common)             |
+| Bridge            | Must create irresistible pull into Chapter 2                      |
 
 ### Common Introduction Patterns
 
 **Pattern 1: The Personal Story**
+
 - Open with author's journey to this topic
 - Extract the insight that became the book
 - Promise the reader the same transformation
 - Preview the path
 
 **Pattern 2: The Problem Statement**
+
 - Open with the reader's pain or gap
 - Establish stakes—why this matters now
 - Introduce the solution (the book's thesis)
 - Preview how the book will deliver
 
 **Pattern 3: The Manifesto**
+
 - Open with a bold declaration
 - Articulate what's wrong with conventional wisdom
 - Promise a better way
@@ -59,6 +62,7 @@ An introduction isn't just "Chapter 1"—it has distinct jobs that regular chapt
 ### Reader Exit State for Introductions
 
 The reader should leave the introduction:
+
 - Clear on what the book promises
 - Trusting the author to deliver
 - Eager to begin Chapter 1 (or Chapter 2 if intro is Chapter 1)
@@ -80,35 +84,39 @@ A conclusion doesn't just end the last topic—it ends the entire book:
 
 ### Adapted Beat Structure
 
-| Standard Beat | Conclusion Adaptation |
-|--------------|----------------------|
-| Opening | Often returns to the book's opening (bookend) |
-| Synthesis | Brings together the book's major threads |
-| So-what | The book's ultimate meaning or significance |
-| Call to action | Invitation into post-book life |
-| Closing | Final emotional landing—no forward bridge needed |
+| Standard Beat  | Conclusion Adaptation                            |
+| -------------- | ------------------------------------------------ |
+| Opening        | Often returns to the book's opening (bookend)    |
+| Synthesis      | Brings together the book's major threads         |
+| So-what        | The book's ultimate meaning or significance      |
+| Call to action | Invitation into post-book life                   |
+| Closing        | Final emotional landing—no forward bridge needed |
 
 ### Common Conclusion Patterns
 
 **Pattern 1: The Bookend**
+
 - Return to the book's opening story/image/question
 - Show how it looks different now
 - Synthesize the journey
 - Send the reader forward
 
 **Pattern 2: The Vision**
+
 - Paint a picture of the transformed reader/world
 - Connect to the book's promise
 - Inspire continued commitment
 - Land with emotional resonance
 
 **Pattern 3: The Practical Send-Off**
+
 - Recap key takeaways
 - Provide next steps
 - Offer resources for continued learning
 - End with encouragement
 
 **Pattern 4: The Expansion**
+
 - Widen the lens—what does this mean beyond the book?
 - Connect to larger themes or questions
 - Leave the reader with something to carry
@@ -124,6 +132,7 @@ A conclusion doesn't just end the last topic—it ends the entire book:
 ### Reader Exit State for Conclusions
 
 The reader should leave the conclusion:
+
 - Clear on what they've gained
 - Emotionally satisfied (appropriate emotion depends on the book)
 - Equipped to go forward
@@ -144,30 +153,33 @@ A case study chapter is structured around an extended example rather than an arg
 
 ### Adapted Beat Structure
 
-| Standard Beat | Case Study Adaptation |
-|--------------|----------------------|
-| Opening | Introduce the case—hook into the story |
-| Context-setting | Background needed to understand the case |
-| Narrative beats | The story unfolds—what happened, in sequence |
-| Analysis beats | What does this mean? (can interleave with narrative) |
-| Synthesis | The generalizable insight extracted from the case |
-| Application | How does this apply beyond this specific case? |
+| Standard Beat   | Case Study Adaptation                                |
+| --------------- | ---------------------------------------------------- |
+| Opening         | Introduce the case—hook into the story               |
+| Context-setting | Background needed to understand the case             |
+| Narrative beats | The story unfolds—what happened, in sequence         |
+| Analysis beats  | What does this mean? (can interleave with narrative) |
+| Synthesis       | The generalizable insight extracted from the case    |
+| Application     | How does this apply beyond this specific case?       |
 
 ### Case Study Patterns
 
 **Pattern 1: Story First**
+
 - Tell the full story with minimal interruption
 - Then analyze: "What can we learn?"
 - Extract principles
 - Connect to broader themes
 
 **Pattern 2: Interleaved**
+
 - Story section → Analysis
 - Story continues → More analysis
 - Repeat until story completes
 - Final synthesis
 
 **Pattern 3: Mystery Structure**
+
 - Present the case as a puzzle
 - Reader tries to figure it out alongside
 - Reveal the key insight
@@ -188,37 +200,40 @@ A case study chapter is structured around an extended example rather than an arg
 
 These chapters teach a skill or process:
 
-1. **Action-oriented** — Reader should *do* something, not just understand
+1. **Action-oriented** — Reader should _do_ something, not just understand
 2. **Sequential** — Steps must be in order
 3. **Concrete** — Abstract principles matter less than specific instructions
 4. **Outcome-focused** — Clear definition of success
 
 ### Adapted Beat Structure
 
-| Standard Beat | How-To Adaptation |
-|--------------|-------------------|
-| Opening | Why this skill/process matters (motivation) |
-| Context-setting | What you'll need, prerequisites, overview |
-| Steps | The actual sequence of actions |
-| Examples | Demonstrations of each step |
-| Pitfalls | Common mistakes and how to avoid them |
-| Closing | How to know you've succeeded; next steps |
+| Standard Beat   | How-To Adaptation                           |
+| --------------- | ------------------------------------------- |
+| Opening         | Why this skill/process matters (motivation) |
+| Context-setting | What you'll need, prerequisites, overview   |
+| Steps           | The actual sequence of actions              |
+| Examples        | Demonstrations of each step                 |
+| Pitfalls        | Common mistakes and how to avoid them       |
+| Closing         | How to know you've succeeded; next steps    |
 
 ### How-To Patterns
 
 **Pattern 1: Linear Steps**
+
 - Step 1 → Step 2 → Step 3 → etc.
 - Each step gets a beat or group of beats
 - Examples within each step
 - Summary/recap at end
 
 **Pattern 2: Principle + Practice**
+
 - Introduce the underlying principle
 - Show the practical application
 - Repeat for each principle/practice pair
 - Integration exercise
 
 **Pattern 3: Before/During/After**
+
 - Preparation beats
 - Execution beats
 - Follow-through beats
@@ -248,13 +263,13 @@ Structured as questions and answers rather than flowing argument:
 
 Q&A chapters replace traditional beats with Q&A pairs:
 
-| Element | Purpose |
-|---------|---------|
-| Chapter frame | Why this Q&A, what it covers |
-| Question 1 | Address a key reader question |
-| Answer 1 | Substantive response |
-| (Repeat for each Q&A pair) | |
-| Closing frame | Wrap-up, where to go next |
+| Element                    | Purpose                       |
+| -------------------------- | ----------------------------- |
+| Chapter frame              | Why this Q&A, what it covers  |
+| Question 1                 | Address a key reader question |
+| Answer 1                   | Substantive response          |
+| (Repeat for each Q&A pair) |                               |
+| Closing frame              | Wrap-up, where to go next     |
 
 ### Q&A Considerations
 
@@ -279,16 +294,19 @@ Short chapters between major sections that provide transition:
 ### Interlude Patterns
 
 **Pattern 1: The Recap & Preview**
+
 - Where we've been (brief)
 - Where we're going (brief)
 - Why the transition matters
 
 **Pattern 2: The Story Interlude**
+
 - A story that bridges the two sections
 - Lighter touch than full chapters
 - Creates anticipation for what's next
 
 **Pattern 3: The Reflection**
+
 - Invite the reader to pause
 - Consider what they've learned
 - Prepare for what's next

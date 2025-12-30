@@ -1,6 +1,6 @@
 # Emotional Arc Patterns Reference
 
-Chapters have an emotional shape—not just what the reader learns, but how they *feel* through the journey. Tracking the emotional arc alongside the intellectual arc produces chapters that engage the whole reader. This reference provides common emotional patterns to consider.
+Chapters have an emotional shape—not just what the reader learns, but how they _feel_ through the journey. Tracking the emotional arc alongside the intellectual arc produces chapters that engage the whole reader. This reference provides common emotional patterns to consider.
 
 **How to use this document:** During Phase 1 (Orient), consider what emotional shape this chapter should have. During Phase 3 (Sequence), ensure the beat order serves the emotional arc. During Phase 5 (Review), walk through both arcs in the stress-test.
 
@@ -10,9 +10,9 @@ Chapters have an emotional shape—not just what the reader learns, but how they
 
 Two chapters can cover the same content and have radically different reader experiences:
 
-- **Chapter A:** Opens with the insight, explains it thoroughly, ends with applications. Reader learns but doesn't *feel* the learning.
+- **Chapter A:** Opens with the insight, explains it thoroughly, ends with applications. Reader learns but doesn't _feel_ the learning.
 
-- **Chapter B:** Opens with confusion (why doesn't this work?), builds tension (conventional wisdom fails), releases into insight (here's what's really happening), lands with application (now you can act). Reader learns *and* experiences the insight as discovery.
+- **Chapter B:** Opens with confusion (why doesn't this work?), builds tension (conventional wisdom fails), releases into insight (here's what's really happening), lands with application (now you can act). Reader learns _and_ experiences the insight as discovery.
 
 Same content. Different arcs. Chapter B transforms more effectively.
 
@@ -27,6 +27,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader feels increasing tension (a problem unsolved, a question unanswered, a paradox unresolved) until the chapter provides relief through insight, solution, or clarity.
 
 **Beat implications:**
+
 - Early beats establish or amplify the tension
 - Middle beats can complicate or deepen the tension
 - Climactic beat provides the release
@@ -45,6 +46,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader begins uncertain or disoriented (maybe intentionally), and the chapter progressively brings things into focus until clarity emerges.
 
 **Beat implications:**
+
 - Opening beat may deliberately unsettle or disorient
 - Early beats add pieces without full picture
 - Middle beats begin to organize and connect
@@ -64,6 +66,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader starts with their current understanding (comfortable), has that understanding challenged or complicated (disruption), and arrives at a new, better equilibrium.
 
 **Beat implications:**
+
 - Opening beat meets reader in their current understanding
 - Early beats may even affirm that understanding
 - Middle beats introduce the challenge or complication
@@ -83,6 +86,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader begins doubtful or resistant, is gradually won over by evidence and argument, and ends ready to apply the insight.
 
 **Beat implications:**
+
 - Opening beat acknowledges the skepticism (maybe even voices it)
 - Early beats present initial evidence
 - Middle beats build the case, handle objections
@@ -102,6 +106,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader collects separate elements (concepts, examples, perspectives) that seem related but aren't yet unified, then experiences the "click" when they synthesize.
 
 **Beat implications:**
+
 - Early/middle beats introduce distinct elements
 - Reader may feel "where is this going?"—maintain just enough thread
 - Penultimate beat begins connecting
@@ -121,6 +126,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Energy and stakes build progressively, reach a peak moment, then the chapter provides space to process and come down.
 
 **Beat implications:**
+
 - Early beats establish baseline, begin building
 - Middle beats increase stakes, energy, speed
 - Climactic beat is the peak—the most intense moment
@@ -139,6 +145,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader enters with a question, follows an investigation or exploration, and arrives at either an answer or a more profound version of the question.
 
 **Beat implications:**
+
 - Opening beat poses the question compellingly
 - Middle beats explore angles, evidence, complications
 - Later beats work toward resolution
@@ -157,6 +164,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Rather than one arc, the chapter has several smaller emotional cycles, keeping the reader engaged through variety.
 
 **Beat implications:**
+
 - Beats are grouped into mini-arcs
 - After each release, new tension begins
 - Overall shape still has a macro-arc (each cycle may build on the last)
@@ -175,6 +183,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** Reader first feels understood or connected (their experience, their struggle), then gains insight into why or what, then is moved to act or change.
 
 **Beat implications:**
+
 - Early beats establish empathy (story, acknowledgment, shared experience)
 - Middle beats provide intellectual understanding
 - Later beats connect understanding to action
@@ -193,6 +202,7 @@ Same content. Different arcs. Chapter B transforms more effectively.
 **The experience:** The chapter maintains a stable emotional tone—calm, serious, reflective—without dramatic peaks or valleys.
 
 **Beat implications:**
+
 - Beats vary in content but not in emotional intensity
 - Pacing is steady, not accelerating/decelerating
 - Closing beat maintains the tone, provides gentle landing
@@ -206,16 +216,19 @@ Same content. Different arcs. Chapter B transforms more effectively.
 ## Using This in Chapter Architecture
 
 ### During Orient (Phase 1):
+
 - What emotional shape does this chapter call for?
 - Does the chapter's content naturally suggest an arc?
 - Where is the reader emotionally at entry? Where should they be at exit?
 
 ### During Sequence (Phase 3):
+
 - Do the beats serve the emotional arc?
 - Are there enough emotional transitions?
 - Is there variety, or is the chapter emotionally monotone?
 
 ### During Review (Phase 5):
+
 - Walk through the emotional arc explicitly: "Reader feels [X], then [Y], then [Z]..."
 - Does the arc work? Any dead spots or mismatched beats?
 - Does the exit emotional state match the goal?

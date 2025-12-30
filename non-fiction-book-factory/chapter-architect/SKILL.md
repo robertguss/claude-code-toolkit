@@ -15,9 +15,9 @@ Transform a chapter's high-level specification (from book-architect) into a beat
 
 3. **Collaborative partnership.** Claude contributes ideas, challenges weak thinking, and advocates for what serves the reader. The author has final approval on all decisions.
 
-4. **Intent over prescription.** Each beat captures *why* it exists, not just *what* it contains. This enables intelligent adaptation during drafting.
+4. **Intent over prescription.** Each beat captures _why_ it exists, not just _what_ it contains. This enables intelligent adaptation during drafting.
 
-5. **Emotional arc matters.** Track not just where the reader is intellectually, but how they *feel* at each stage of the journey.
+5. **Emotional arc matters.** Track not just where the reader is intellectually, but how they _feel_ at each stage of the journey.
 
 ## Session Flow
 
@@ -48,12 +48,13 @@ This skill is session-flexible. Simple chapters may complete in one session. Com
 Review inputs together. Surface any tensions, questions, or issues.
 
 **Key questions to explore:**
+
 - Is this a standard chapter or special type? (introduction, conclusion, case-study, etc.)
-  - *If special type, read `references/special-chapter-types.md`*
+  - _If special type, read `references/special-chapter-types.md`_
 - Is the research sufficient? Any gaps?
 - Are there competing ways to approach this chapter?
 - What's the emotional shape of this chapter? (tension→release, confusion→clarity, etc.)
-  - *Reference `references/emotional-arc-patterns.md` as needed*
+  - _Reference `references/emotional-arc-patterns.md` as needed_
 
 **Claude's role:** Surface concerns, ask probing questions, identify what's unclear or underdeveloped.
 
@@ -64,13 +65,14 @@ Review inputs together. Surface any tensions, questions, or issues.
 Generate candidate beats without worrying about sequence yet.
 
 **Process:**
+
 1. Review the beat vocabulary together
-   - *Read `references/beat-vocabulary.md`*
+   - _Read `references/beat-vocabulary.md`_
 2. Generate possible beats—both author and Claude contribute
 3. Consider opening options
-   - *Reference `references/opening-strategies.md`*
+   - _Reference `references/opening-strategies.md`_
 4. Consider closing options
-   - *Reference `references/closing-strategies.md`*
+   - _Reference `references/closing-strategies.md`_
 5. Capture all candidates without judging yet
 
 **Claude's role:** Actively contribute beat ideas, not just record. Suggest moves the author might not have considered. Ask "what about a beat that does X?"
@@ -80,6 +82,7 @@ Generate candidate beats without worrying about sequence yet.
 Put the beats in order. This is where real collaboration happens.
 
 **Process:**
+
 1. Propose an initial sequence
 2. Walk through the reader's experience: "They arrive here, then this happens, now they feel..."
 3. Debate ordering decisions:
@@ -106,8 +109,9 @@ For each beat in the final sequence, define:
 - **Notes** (anything the ghostwriter should know)
 
 **Special attention:** Opening and closing beats get deeper treatment.
-- *Reference `references/opening-strategies.md` and `references/closing-strategies.md`*
-- Articulate *why* this opening/closing works
+
+- _Reference `references/opening-strategies.md` and `references/closing-strategies.md`_
+- Articulate _why_ this opening/closing works
 - Note what to avoid
 - Identify specific hooks, callbacks, or images to consider
 
@@ -116,15 +120,17 @@ For each beat in the final sequence, define:
 Stress-test the complete arc before producing the document.
 
 **Process:**
+
 1. Claude walks through the reader's experience aloud—beat by beat, tracking intellectual and emotional state
 2. Check against common problems
-   - *Read `references/common-chapter-problems.md`*
+   - _Read `references/common-chapter-problems.md`_
 3. Verify the chapter delivers on its job and reaches the exit state
 4. Confirm the bridge to the next chapter works
 5. Final author approval
 
 **Only after approval:** Produce the Chapter Outline Document using the template.
-- *Use `assets/templates/chapter-outline-template.md`*
+
+- _Use `assets/templates/chapter-outline-template.md`_
 
 ### Session End
 
@@ -136,16 +142,17 @@ Stress-test the complete arc before producing the document.
 
 ## Inputs
 
-| Document | Source | Purpose |
-|----------|--------|---------|
-| Architecture Document | `book-architect` | Chapter's job, entry/exit states, key concepts, bridges |
-| Research Dossier | `research-assistant` | Evidence, examples, quotes organized by chapter |
-| Book Concept Document | `book-ideation` | Reader, promise, thesis, voice, author angle |
-| Author notes | Author | Any existing thoughts, fragments, or constraints |
+| Document              | Source               | Purpose                                                 |
+| --------------------- | -------------------- | ------------------------------------------------------- |
+| Architecture Document | `book-architect`     | Chapter's job, entry/exit states, key concepts, bridges |
+| Research Dossier      | `research-assistant` | Evidence, examples, quotes organized by chapter         |
+| Book Concept Document | `book-ideation`      | Reader, promise, thesis, voice, author angle            |
+| Author notes          | Author               | Any existing thoughts, fragments, or constraints        |
 
 ## Outputs
 
 **Chapter Outline Document** containing:
+
 1. Chapter Context (job, entry/exit states, connections, emotional arc, tone notes)
 2. Reader Journey Walkthrough (prose narrative of the experience)
 3. Beat Sequence (detailed breakdown of each beat)
@@ -156,6 +163,7 @@ See `assets/templates/chapter-outline-template.md` for exact format.
 ## Readiness Criteria
 
 Before handoff, confirm:
+
 - [ ] All beats have clear reader destinations (intellectual and emotional)
 - [ ] Load-bearing beats are flagged
 - [ ] Key material is curated and pointed to for each beat
@@ -168,6 +176,7 @@ Before handoff, confirm:
 ## Handoff
 
 The Chapter Outline Document feeds into:
+
 - **`draft-coach`** — if author is writing and wants feedback
 - **`ghostwriter`** (modal) — if Claude is drafting and author approves
 
