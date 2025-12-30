@@ -42,10 +42,10 @@
 
 ### Phase 2: Validation
 
-| Skill             | Status    | Version | Date Completed | Location | Dependencies                      | Notes/Blockers                                                     |
-| ----------------- | --------- | ------- | -------------- | -------- | --------------------------------- | ------------------------------------------------------------------ |
-| `idea-validator`  | ✅ Done   | —       | —              | —        | `book-ideation`                   | Stress-tests thesis against existing research. Uses web search.    |
-| `market-research` | ⬜ Future | —       | —              | —        | `book-ideation`, `idea-validator` | KDP-specific market analysis. Uses web search for Amazon research. |
+| Skill             | Status  | Version | Date Completed | Location | Dependencies                      | Notes/Blockers                                                     |
+| ----------------- | ------- | ------- | -------------- | -------- | --------------------------------- | ------------------------------------------------------------------ |
+| `idea-validator`  | ✅ Done | —       | —              | —        | `book-ideation`                   | Stress-tests thesis against existing research. Uses web search.    |
+| `market-research` | ✅ Done | —       | —              | —        | `book-ideation`, `idea-validator` | KDP-specific market analysis. Uses web search for Amazon research. |
 
 ---
 
