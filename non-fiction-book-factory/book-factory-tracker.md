@@ -12,9 +12,9 @@
 | ---------------------- | ------ | -------------- |
 | Phase 0: Raw Ideation  | 1      | ✅ Complete    |
 | Phase 1: Book Concept  | 1      | ✅ Complete    |
-| Phase 2: Validation    | 2      | ⬜ Not Started |
-| Phase 3: Architecture  | 1      | ⬜ Not Started |
-| Phase 4: Deep Research | 1      | ⬜ Not Started |
+| Phase 2: Validation    | 2      | ✅ Complete    |
+| Phase 3: Architecture  | 1      | ✅ Complete    |
+| Phase 4: Deep Research | 1      | ✅ Complete    |
 | Phase 5: Drafting      | 2      | 🟡 In Progress |
 | Phase 6: Editing       | 5      | ⬜ Not Started |
 | Phase 7: Production    | 1      | ⬜ Not Started |
