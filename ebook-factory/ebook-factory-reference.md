@@ -4,7 +4,7 @@
 
 **Author:** Robert Guss  
 **Created:** December 30, 2024  
-**Last Updated:** December 30, 2024
+**Last Updated:** December 31, 2024
 
 ---
 
@@ -13,14 +13,15 @@
 1. [Overview & Philosophy](#overview--philosophy)
 2. [The Ebook Pipeline](#the-ebook-pipeline)
 3. [Design Principles](#design-principles)
-4. [Skill 1: Ebook Brainstorming](#skill-1-ebook-brainstorming)
-5. [Skill 2: Ebook Architecture](#skill-2-ebook-architecture)
-6. [Skill 3: Chapter Outlining](#skill-3-chapter-outlining)
-7. [Skill 4: Research](#skill-4-research)
-8. [Skill 5: Drafting](#skill-5-drafting)
-9. [Skill 6: Editing & Revision](#skill-6-editing--revision)
-10. [Reference Documents](#reference-documents)
-11. [Handoffs Between Skills](#handoffs-between-skills)
+4. [Skill 0: Ebook Discovery (Optional)](#skill-0-ebook-discovery-optional)
+5. [Skill 1: Ebook Concept Development](#skill-1-ebook-concept-development)
+6. [Skill 2: Ebook Architecture](#skill-2-ebook-architecture)
+7. [Skill 3: Chapter Outlining](#skill-3-chapter-outlining)
+8. [Skill 4: Research](#skill-4-research)
+9. [Skill 5: Drafting](#skill-5-drafting)
+10. [Skill 6: Editing & Revision](#skill-6-editing--revision)
+11. [Reference Documents](#reference-documents)
+12. [Handoffs Between Skills](#handoffs-between-skills)
 
 ---
 
@@ -96,9 +97,15 @@ The Ebook Factory borrows wisdom from the Book Factory but adapts it for the for
 │                         THE EBOOK FACTORY                               │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
-│  SKILL 1: EBOOK BRAINSTORMING                                          │
+│  SKILL 0: EBOOK DISCOVERY (Optional)                                   │
 │  ┌─────────────────────┐                                               │
-│  │ ebook-brainstorm    │                                               │
+│  │ ebook-discovery     │ Surface ideas you didn't know you had         │
+│  └──────────┬──────────┘                                               │
+│             │ Outputs: Discovery Tracker with ebook candidates         │
+│             ▼                                                          │
+│  SKILL 1: EBOOK CONCEPT DEVELOPMENT                                    │
+│  ┌─────────────────────┐                                               │
+│  │ ebook-concept-dev   │ (or start here with an existing idea)         │
 │  └──────────┬──────────┘                                               │
 │             │ Outputs: Ebook Concept Document                          │
 │             ▼                                                          │
@@ -145,6 +152,7 @@ The Ebook Factory borrows wisdom from the Book Factory but adapts it for the for
 - **Single-session default** — Each skill designed to complete in one focused session
 - **Chapter-by-chapter option** — Outlining and drafting can work chapter-by-chapter with review points
 - **Research is conditional** — Not every ebook needs dedicated research; the skill starts with a "do you need this?" gate
+- **Discovery is optional** — Users with existing ideas can skip straight to Concept Development
 
 ---
 
@@ -197,7 +205,61 @@ Brevity is the discipline. The constraint of being shorter forces higher quality
 
 ---
 
-## Skill 1: Ebook Brainstorming
+## Skill 0: Ebook Discovery (Optional)
+
+**Status:** ✅ Built — See `ebook-discovery/SKILL.md`
+
+### Purpose
+
+Surface ebook ideas you didn't know you had. This is the optional "upstream" skill that feeds into Concept Development. Use when you want to explore what ebooks might be hiding in your content, expertise, or thinking.
+
+### Core Philosophy
+
+This is divergent/generative discovery ("what's here?") rather than convergent development ("is this right?"). Claude is an active intellectual partner who contributes ideas, not just a facilitator who asks questions.
+
+### Two Starting Paths
+
+**Path A: Content Audit** — For those with published content (blog posts, videos, newsletters, podcasts, teaching materials)
+
+**Path B: Expertise Extraction** — For those with unpublished expertise (tacit knowledge that feels obvious to you but valuable to others)
+
+Both paths are equally valid. Claude recommends with reasoning, user decides.
+
+### Entry Modes (11 Total)
+
+**Content-Based:** Content Audit, Book Extraction, Failed Project Resurrection
+
+**Audience-Based:** Repeated Questions Analysis
+
+**Knowledge-Based:** Expertise Extraction, Contrarian Positions, Translation Bridges, Personal Systems
+
+**Archive-Based:** Zettelkasten Mining, Parking Lot Review, Deep Archive Mining
+
+Modes are introduced progressively through guided exploration, not presented as a menu.
+
+### Output
+
+**Discovery Tracker** containing:
+- User profile (content inventory, expertise areas, intent)
+- Exploration log (which modes explored, how deeply)
+- Candidates with viability ratings and reasoning
+- Patterns and insights across candidates
+- Session notes for multi-session continuity
+
+### Handoff to Concept Development
+
+A candidate is ready when:
+- Core idea stated in 1-2 sentences
+- Source identified (which mode, what material)
+- Appears ebook-shaped (not too thin, not too thick)
+- Viability notes with reasoning
+- User has decided to pursue it
+
+---
+
+## Skill 1: Ebook Concept Development
+
+**Status:** ✅ Built — See `ebook-concept-development/SKILL.md`
 
 ### Purpose
 
@@ -1251,7 +1313,24 @@ Each skill benefits from focused reference documents. Unlike the Book Factory's 
 
 Clear handoffs prevent gaps and ensure continuity.
 
-### Ebook Brainstorming → Ebook Architecture
+### Ebook Discovery → Ebook Concept Development
+
+**Passes forward:**
+
+- Discovery Tracker with evaluated candidates
+- Candidate handoff summary for chosen idea
+- User profile (intent, content inventory, expertise areas)
+- Viability assessment with reasoning
+
+**Concept Development needs to know:**
+
+- What's the core idea (1-2 sentences)?
+- Where did it come from (which mode, what material)?
+- What validation signals exist?
+- What concerns were identified?
+- What's the user's intent (income, authority, etc.)?
+
+### Ebook Concept Development → Ebook Architecture
 
 **Passes forward:**
 
