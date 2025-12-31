@@ -240,6 +240,7 @@ Modes are introduced progressively through guided exploration, not presented as 
 ### Output
 
 **Discovery Tracker** containing:
+
 - User profile (content inventory, expertise areas, intent)
 - Exploration log (which modes explored, how deeply)
 - Candidates with viability ratings and reasoning
@@ -249,6 +250,7 @@ Modes are introduced progressively through guided exploration, not presented as 
 ### Handoff to Concept Development
 
 A candidate is ready when:
+
 - Core idea stated in 1-2 sentences
 - Source identified (which mode, what material)
 - Appears ebook-shaped (not too thin, not too thick)
