@@ -46,6 +46,15 @@ A pipeline of skills for developing nonfiction books from idea to architecture. 
 | book-architect          | Design structural and emotional architecture for drafting       |
 | book-research-assistant | Plan, orchestrate, and validate deep research before outlining  |
 
+### Writing Skills
+
+A pipeline for capturing and replicating a writer's authentic voice. See [full documentation](writing/).
+
+| Skill                 | Description                                                              |
+| --------------------- | ------------------------------------------------------------------------ |
+| writing-dna-discovery | Capture voice patterns through collaborative interview and sample analysis |
+| ghost-writer          | Produce first drafts at ~80% voice accuracy using Voice DNA Documents   |
+
 ## License
 
 Personal use. Modify freely.

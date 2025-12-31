@@ -79,27 +79,30 @@ This section is specifically designed for the ghost writer skill to consume. It 
 **Voice Essence:** 2-3 sentence distillation of the writer's voice—the north star.
 
 **Do This:** Specific, actionable instructions:
+
 - "Keep sentences under 15 words"
 - "Use contractions always"
 - "End paragraphs with concrete images"
 
 **Don't Do This:** Specific avoidances:
+
 - "No sentences over 20 words"
 - "Never use 'utilize,' 'leverage,' 'facilitate'"
 - "No passive voice"
 
 **When Uncertain:** Decision rules for ambiguous situations:
+
 - "Default to shorter rather than longer"
 - "When in doubt, cut the adjective"
 - "Favor concrete over abstract"
 
 ### Readiness Levels
 
-| Level | Meaning | Ghost Writer Accuracy |
-|-------|---------|----------------------|
-| **Minimum Viable** | Basic patterns captured | ~60-70% |
-| **Solid** | Multiple dimensions developed, briefing complete | ~75-85% |
-| **Strong** | Deep analysis, validated against output | ~85-90% |
+| Level              | Meaning                                          | Ghost Writer Accuracy |
+| ------------------ | ------------------------------------------------ | --------------------- |
+| **Minimum Viable** | Basic patterns captured                          | ~60-70%               |
+| **Solid**          | Multiple dimensions developed, briefing complete | ~75-85%               |
+| **Strong**         | Deep analysis, validated against output          | ~85-90%               |
 
 The ghost writer should communicate expected accuracy based on readiness level.
 
@@ -110,6 +113,7 @@ The ghost writer should communicate expected accuracy based on readiness level.
 ### One Register Per Session
 
 Writers have different voices for different contexts:
+
 - Blog posts vs. fiction prose
 - Technical writing vs. casual essays
 - Marketing copy vs. personal emails
@@ -119,6 +123,7 @@ Each register gets its own DNA document. The ghost writer should ask which regis
 ### Living Documents
 
 Voice DNA Documents are not static. They:
+
 - Grow richer over time with additional discovery sessions
 - Get refined based on ghost writer feedback
 - Evolve as the writer's voice changes
@@ -127,6 +132,7 @@ Voice DNA Documents are not static. They:
 ### Comprehensive Capability, Intelligent Application
 
 The DNA discovery skill has a full arsenal of dimensions but doesn't use everything for every writer. The ghost writer should similarly:
+
 - Use what's captured in the specific DNA document
 - Not assume patterns that aren't documented
 - Handle sparse profiles gracefully (lower confidence output)
@@ -138,11 +144,13 @@ The DNA discovery skill has a full arsenal of dimensions but doesn't use everyth
 We developed a comprehensive 8-level framework for analyzing voice:
 
 ### Level 1: Sentence Level
+
 - Rhythm & architecture (length, variation, internal structure)
 - Opening word tendencies (starts with "I"? "And"? "But"?)
 - Emphasis placement (front-loaded vs. end-weighted)
 
 ### Level 2: Punctuation Personality
+
 - Em-dash usage (frequency, purpose)
 - Semicolons (present/absent)
 - Comma density
@@ -150,6 +158,7 @@ We developed a comprehensive 8-level framework for analyzing voice:
 - Parenthetical asides
 
 ### Level 3: Paragraph & Structure
+
 - Paragraph construction and length
 - Topic sentence placement
 - Transitional patterns
@@ -157,6 +166,7 @@ We developed a comprehensive 8-level framework for analyzing voice:
 - Closing moves (how pieces end)
 
 ### Level 4: Word Level
+
 - Vocabulary character (Anglo-Saxon vs. Latinate)
 - Favorite words and phrases
 - Avoided words
@@ -164,6 +174,7 @@ We developed a comprehensive 8-level framework for analyzing voice:
 - Jargon handling
 
 ### Level 5: Voice & Tone
+
 - Emotional temperature (warm/cool)
 - Confidence style (direct assertion vs. hedging)
 - Formality gradient
@@ -171,17 +182,20 @@ We developed a comprehensive 8-level framework for analyzing voice:
 - Authority stance
 
 ### Level 6: Reader Relationship
+
 - First person presence ("I" frequency)
 - Second person usage ("you" address)
 - Inclusive "we" patterns
 - Reader assumptions (expertise level)
 
 ### Level 7: Signature Elements
+
 - Distinctive moves (things only they do)
 - Pet phrases
 - Characteristic tics
 
 ### Level 8: Anti-Patterns
+
 - What they never do
 - What would feel "off"
 - AI patterns to suppress
@@ -189,17 +203,20 @@ We developed a comprehensive 8-level framework for analyzing voice:
 ### Register-Specific Dimensions
 
 **For Fiction:**
+
 - Narrative distance
 - Dialogue style
 - Description density
 - Interiority access
 
 **For Non-Fiction:**
+
 - Argument structure
 - Evidence handling
 - Counterargument approach
 
 **For Blog/Casual:**
+
 - Hook patterns
 - Personal disclosure level
 - Call-to-action style
@@ -213,33 +230,43 @@ The ghost writer must avoid these AI tells. Full details in `writing-dna-discove
 ### The 11 Pattern Categories
 
 1. **Significance Puffery**
+
    - "stands as a testament," "plays a vital role," "underscores its importance"
 
 2. **Superficial Analysis**
+
    - "-ing" phrases: "highlighting," "emphasizing," "reflecting," "showcasing"
 
 3. **Promotional Language**
+
    - "rich tapestry," "nestled," "in the heart of," "vibrant," "stunning"
 
 4. **Formulaic Structures**
+
    - "It's important to note," "Despite challenges...," "In conclusion"
 
 5. **Hedging Patterns**
+
    - "various," "numerous," "significant," "some critics argue"
 
 6. **Elegant Variation**
+
    - Excessive synonym-swapping from repetition penalty
 
 7. **Rule of Three Overuse**
+
    - Every list having exactly three items
 
 8. **False Ranges**
+
    - "from X to Y" constructions without real scale
 
 9. **Negative Parallelisms**
+
    - "Not only... but also" without genuine contrast
 
 10. **Common AI Words**
+
     - "delve," "navigate," "landscape," "multifaceted," "utilize," "leverage"
 
 11. **Structural Tells**
@@ -286,18 +313,21 @@ Ghost Writer:
 ### Handling Different Readiness Levels
 
 **Minimum Viable Profile:**
+
 - Acknowledge lower confidence
 - Focus on the patterns that ARE documented
 - Be more conservative (avoid risky choices)
 - Suggest areas where more DNA discovery would help
 
 **Solid Profile:**
+
 - Higher confidence output
 - Use the full Ghost Writer Briefing
 - Apply documented patterns consistently
 - Flag only genuine ambiguities
 
 **Strong Profile:**
+
 - Highest confidence output
 - Trust the comprehensive documentation
 - Make bolder choices within documented patterns
@@ -330,16 +360,16 @@ From the discovery skill (apply to ghost writer too):
 
 ### Writing DNA Discovery Skill
 
-| File | Path | Purpose |
-|------|------|---------|
-| **SKILL.md** | `writing-dna-discovery/SKILL.md` | Core skill instructions |
-| **Template** | `writing-dna-discovery/assets/templates/voice-dna-template.md` | Voice DNA Document template |
-| **Anti-AI Patterns** | `writing-dna-discovery/references/anti-ai-patterns.md` | 11 AI pattern categories to avoid |
-| **Dimension Catalog** | `writing-dna-discovery/references/voice-dimension-catalog.md` | Full 8-level dimension framework |
-| **Question Bank** | `writing-dna-discovery/references/interview-question-bank.md` | 100+ discovery questions |
-| **Sample Analysis** | `writing-dna-discovery/references/sample-analysis-guide.md` | How to analyze writing samples |
-| **Examples** | `writing-dna-discovery/references/dna-document-examples.md` | 3 annotated example profiles |
-| **Failure Patterns** | `writing-dna-discovery/references/failure-patterns.md` | 8 common mistakes |
+| File                  | Path                                                           | Purpose                           |
+| --------------------- | -------------------------------------------------------------- | --------------------------------- |
+| **SKILL.md**          | `writing-dna-discovery/SKILL.md`                               | Core skill instructions           |
+| **Template**          | `writing-dna-discovery/assets/templates/voice-dna-template.md` | Voice DNA Document template       |
+| **Anti-AI Patterns**  | `writing-dna-discovery/references/anti-ai-patterns.md`         | 11 AI pattern categories to avoid |
+| **Dimension Catalog** | `writing-dna-discovery/references/voice-dimension-catalog.md`  | Full 8-level dimension framework  |
+| **Question Bank**     | `writing-dna-discovery/references/interview-question-bank.md`  | 100+ discovery questions          |
+| **Sample Analysis**   | `writing-dna-discovery/references/sample-analysis-guide.md`    | How to analyze writing samples    |
+| **Examples**          | `writing-dna-discovery/references/dna-document-examples.md`    | 3 annotated example profiles      |
+| **Failure Patterns**  | `writing-dna-discovery/references/failure-patterns.md`         | 8 common mistakes                 |
 
 ### Key Documents to Reference
 
@@ -371,18 +401,21 @@ ghost-writer/
 ### Key Behaviors to Implement
 
 1. **DNA Document Parsing**
+
    - Extract Ghost Writer Briefing section
    - Identify readiness level
    - Build pattern checklist from Do/Don't sections
    - Note anti-patterns to suppress
 
 2. **Generation Mode**
+
    - Apply sentence-level guidance
    - Follow structural guidance
    - Check against anti-patterns continuously
    - Use "When Uncertain" rules for ambiguous cases
 
 3. **Quality Assurance**
+
    - Scan output for AI patterns
    - Verify adherence to documented patterns
    - Flag confidence level
@@ -427,4 +460,4 @@ The human always edits and finalizes. The ghost writer is a starting point, not 
 
 ---
 
-*This document was created during the writing-dna-discovery skill development session. Use it as the foundation for building the ghost writer skill.*
+_This document was created during the writing-dna-discovery skill development session. Use it as the foundation for building the ghost writer skill._
