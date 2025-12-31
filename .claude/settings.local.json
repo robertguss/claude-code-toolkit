@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(skill-creator)",
+      "Bash(python3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd ebook-discovery skill\n\nComplete skill for surfacing ebook ideas from content, expertise, and archives.\nIncludes 11 entry modes, multi-session tracker, and comprehensive reference guides.\nFeeds into ebook-concept-development skill.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(gh pr create:*)"
+    ]
+  }
+}

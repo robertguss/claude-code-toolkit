@@ -55,6 +55,15 @@ A pipeline for capturing and replicating a writer's authentic voice. See [full d
 | writing-dna-discovery | Capture voice patterns through collaborative interview and sample analysis |
 | ghost-writer          | Produce first drafts at ~80% voice accuracy using Voice DNA Documents   |
 
+### Ebook Factory
+
+A pipeline of skills for creating ebooks — shorter, concentrated solutions optimized for speed-to-value. See [full documentation](ebook-factory/).
+
+| Skill                    | Description                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| ebook-discovery          | Surface ebook ideas from content, expertise, and archives (11 entry modes)         |
+| ebook-concept-development | Develop ideas into structured concepts ready for architecture                      |
+
 ## License
 
 Personal use. Modify freely.
