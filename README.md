@@ -46,6 +46,15 @@ A pipeline of skills for developing nonfiction books from idea to architecture. 
 | book-architect          | Design structural and emotional architecture for drafting       |
 | book-research-assistant | Plan, orchestrate, and validate deep research before outlining  |
 
+### Ebook Factory
+
+A pipeline of skills for creating ebooks — shorter, concentrated solutions optimized for speed-to-value. See [full documentation](ebook-factory/).
+
+| Skill                    | Description                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| ebook-discovery          | Surface ebook ideas from content, expertise, and archives (11 entry modes)         |
+| ebook-concept-development | Develop ideas into structured concepts ready for architecture                      |
+
 ## License
 
 Personal use. Modify freely.
