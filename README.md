@@ -45,6 +45,7 @@ A pipeline of skills for developing nonfiction books from idea to architecture. 
 | book-market-research    | Assess commercial viability for Amazon KDP                      |
 | book-architect          | Design structural and emotional architecture for drafting       |
 | book-research-assistant | Plan, orchestrate, and validate deep research before outlining  |
+| chapter-architect       | Plan individual chapters at beat-level granularity for drafting |
 
 ### Writing Skills
 

@@ -40,6 +40,12 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 │  └─────────────────────┘                                                │
 │          │ Outputs: Research Synthesis, Chapter Summaries               │
 │          ▼                                                              │
+│  PHASE 5: CHAPTER PLANNING                                              │
+│  ┌─────────────────────┐                                                │
+│  │ chapter-architect   │ Plan chapters at beat-level granularity        │
+│  └─────────────────────┘                                                │
+│          │ Outputs: Chapter Outline Documents                           │
+│          ▼                                                              │
 │                                                                         │
 │                    [READY TO DRAFT]                                     │
 │                                                                         │
@@ -147,6 +153,25 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 ---
 
+### 6. Chapter Architect
+
+**Purpose:** Plan and architect a single chapter at beat-level granularity before drafting.
+
+**Use when:** You have a chapter from the Architecture Document and need to create a detailed outline before drafting.
+
+**What it does:**
+
+- Transforms chapter specs into beat-level outlines
+- Guides drafting while preserving creative freedom
+- Tracks reader's intellectual and emotional journey through each beat
+- Provides collaborative partnership with author for sequencing and debate
+
+**Outputs:**
+
+- Chapter Outline Document (context, reader journey, beat sequence, opening/closing deep dives)
+
+---
+
 ## Workflow
 
 1. **Start with ideation** — Run `book-ideation` to develop your raw idea into a structured concept
@@ -154,5 +179,6 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 3. **Make the Go/No-Go decision** — Review both reports and decide whether to proceed
 4. **Architect the book** — Run `book-architect` to design the complete structure before drafting
 5. **Conduct research** — Run `book-research-assistant` to plan research prompts, execute deep research externally, then validate findings
+6. **Plan each chapter** — Run `chapter-architect` to create beat-level outlines for individual chapters before drafting
 
 Each skill produces documents that the next skill consumes, creating a consistent, repeatable workflow.
