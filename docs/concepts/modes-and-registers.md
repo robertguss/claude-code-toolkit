@@ -22,7 +22,7 @@ Many skills ask about session energy at the start:
 | **Quick progress** | Short sessions, need decisions, move forward | Clear scope upfront, primarily convergent methods, time-boxed, end with next actions |
 
 **Example prompt:**
-```
+```text
 Claude: Deep exploration today or quick progress?
 ```
 
@@ -124,7 +124,7 @@ How structured the output is:
 
 Most mode selection happens at session start:
 
-```
+```text
 Claude: A few questions before we begin:
         1. New project or continuing?
         2. Deep exploration or quick progress today?
@@ -135,7 +135,7 @@ Claude: A few questions before we begin:
 
 You can adjust modes during a session:
 
-```
+```text
 You: Let's switch to quick progress mode—I need to wrap up soon.
 
 Claude: Got it. Switching to quick progress. Let me summarize where we are
@@ -158,7 +158,7 @@ The same skill can produce very different outputs based on mode:
 
 ### Brainstorm: Deep Exploration
 
-```
+```text
 Session: 45 minutes
 Output: 3 pages of explored territory
 Methods: SCAMPER, Random Stimulus, First Principles
@@ -168,7 +168,7 @@ Next: "Sit with this before deciding"
 
 ### Brainstorm: Quick Progress
 
-```
+```text
 Session: 15 minutes
 Output: 1 page with clear decision
 Methods: Elimination Rounds

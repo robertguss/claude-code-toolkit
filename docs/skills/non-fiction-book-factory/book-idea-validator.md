@@ -25,16 +25,18 @@ The validation uses a two-layer research model: Claude performs landscape scans 
 
 === "Claude Code"
 
+    Add to your project's `CLAUDE.md`:
+
     ```markdown
     When validating book ideas, read and follow /path/to/claude-skills/non-fiction-book-factory/book-idea-validator/SKILL.md.
     ```
 
 === "Claude.ai"
 
-    Upload `book-idea-validator.skill` to Settings → Skills.
+    Upload the packaged `.skill` file via Settings → Skills (build with `python build.py book-idea-validator`).
 
 **Sample prompt:**
-```
+```text
 I have a Book Concept Document ready for validation. Here it is: [paste document]
 ```
 
@@ -190,7 +192,7 @@ Claude recommends these based on book type:
 flowchart LR
     A[book-ideation] --> B[book-idea-validator]
     B --> C[book-market-research]
-    B --> D[book-architect]
+    C --> D[book-architect]
 ```
 
 ### Upstream Skills

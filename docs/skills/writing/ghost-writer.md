@@ -20,7 +20,7 @@ Every session produces two meaningfully different drafts. These are not minor va
 
 ### Basic Usage
 
-```
+```text
 I need a blog post about remote work productivity for my developer audience.
 
 [Voice DNA Document]

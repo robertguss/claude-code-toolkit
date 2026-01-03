@@ -6,7 +6,8 @@ This guide covers installing and using skills with Claude Code (the CLI tool).
 
 ## Prerequisites
 
-- [Claude Code](https://claude.ai/code) installed and configured
+- **Node.js 18+** (required for Claude Code CLI)
+- **Claude Code CLI**: Install via `npm install -g @anthropic-ai/claude-code` ([setup guide](https://docs.anthropic.com/en/docs/claude-code/getting-started))
 - Git (for cloning the repository)
 - Python 3.8+ (optional, for packaging skills)
 

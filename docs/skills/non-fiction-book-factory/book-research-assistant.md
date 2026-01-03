@@ -25,16 +25,18 @@ Core principles guide this work: **reader-first research** (every gap filled ser
 
 === "Claude Code"
 
+    Add to your project's `CLAUDE.md`:
+
     ```markdown
     When planning or validating book research, read and follow /path/to/claude-skills/non-fiction-book-factory/book-research-assistant/SKILL.md.
     ```
 
 === "Claude.ai"
 
-    Upload `book-research-assistant.skill` to Settings → Skills.
+    Upload the packaged `.skill` file via Settings → Skills (build with `python build.py book-research-assistant`).
 
 **Sample prompt:**
-```
+```text
 I'm ready to start research for my book. Here are my architecture documents: [paste documents]
 ```
 

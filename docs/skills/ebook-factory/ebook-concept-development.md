@@ -226,11 +226,11 @@ flowchart LR
 
 ## References
 
-The skill loads these as needed:
+The skill loads these reference files as needed from the `ebook-factory/ebook-concept-development/references/` directory:
 
-- `format-options.md` — Catalog of ebook formats (prose, workbook, etc.)
-- `element-examples.md` — Good/bad examples for each element
-- `failure-patterns.md` — Anti-patterns and warning signs
+- Format options — Catalog of ebook formats (prose, workbook, etc.)
+- Element examples — Good/bad examples for each element
+- Failure patterns — Anti-patterns and warning signs
 
 ---
 

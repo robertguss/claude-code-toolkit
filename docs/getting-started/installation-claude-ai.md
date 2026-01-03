@@ -88,7 +88,7 @@ Use the build script to create a `.skill` package:
 
 Simply describe what you want to do:
 
-```
+```text
 Let's brainstorm some ideas for a new mobile app.
 ```
 
@@ -156,7 +156,7 @@ Hidden files, `.DS_Store`, and `__pycache__` are automatically excluded.
 
 ### Build Errors
 
-**"Missing required field: name"**
+#### "Missing required field: name"
 
 The skill's `SKILL.md` is missing required YAML frontmatter. Each SKILL.md must start with:
 
@@ -167,13 +167,13 @@ description: A description of at least 20 characters explaining what the skill d
 ---
 ```
 
-**"Description must be at least 20 characters"**
+#### "Description must be at least 20 characters"
 
 The description in the frontmatter is too short. Provide a meaningful description.
 
 ### Upload Errors
 
-**"Invalid skill file"**
+#### "Invalid skill file"
 
 The `.skill` file may be corrupted. Try re-packaging:
 
@@ -181,7 +181,7 @@ The `.skill` file may be corrupted. Try re-packaging:
 python build.py <skill-name>
 ```
 
-**"Skill already exists"**
+#### "Skill already exists"
 
 Remove the existing skill in Settings → Skills before uploading the updated version, or use the update/replace option if available.
 

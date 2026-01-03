@@ -191,18 +191,18 @@ All skills support multi-session work with versioned documents:
 
 ### Book Factory Pipeline
 
-```
+```text
 book-ideation → book-idea-validator → book-market-research → book-architect → book-research-assistant → chapter-architect
 ```
 
 ### Ebook Factory Pipeline
 
-```
+```text
 ebook-discovery → ebook-concept-development → [ebook-architecture]
 ```
 
 ### Writing Pipeline
 
-```
+```text
 writing-dna-discovery → ghost-writer
 ```

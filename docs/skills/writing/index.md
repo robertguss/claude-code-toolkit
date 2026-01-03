@@ -113,7 +113,7 @@ The DNA Discovery skill analyzes multiple dimensions of voice:
 - Punctuation Personality: em-dashes, semicolons, parentheses, comma density
 - Word Choice: vocabulary level, favorites, avoided words
 - Tone and Temperature: warm/cool, formal/casual, confident/hedging
-- Reader Relationship: first person presence, direct address, authority stance
+- Reader Relationship: first-person presence, direct address, authority stance
 
 **Extended Dimensions** (as relevant):
 - Opening Moves: how pieces begin

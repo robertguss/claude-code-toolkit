@@ -8,7 +8,7 @@ The Brainstorm skill transforms Claude into a genuine intellectual partner for i
 
 At its core, Brainstorm operates on the principle that good ideas emerge through dialogue, not dictation. Claude will bring observations and suggestions proactively, push back on weak reasoning, surface connections to other work (when desired), and ask the hard questions you might avoid. The human always decides, but the reasoning gets logged -- creating a rich record of the thinking process, not just the conclusions.
 
-The skill solves the fundamental problem of multi-session creative work: maintaining continuity. Through versioned markdown documents, structured session logs, and idea maturity tracking, you can pick up exactly where you left off -- whether that was yesterday or three weeks ago.
+The skill solves the fundamental problem of multi-session creative work: maintaining continuity. Through versioned Markdown documents, structured session logs, and idea maturity tracking, you can pick up exactly where you left off -- whether that was yesterday or three weeks ago.
 
 ## Quick Start
 
@@ -24,14 +24,14 @@ The skill solves the fundamental problem of multi-session creative work: maintai
 ```markdown
 ## Skills
 
-- /path/to/brainstorm/SKILL.md
+When brainstorming, read and follow /path/to/claude-skills/brainstorm/SKILL.md.
 ```
 
 **For Claude.ai**, upload the packaged `.skill` file via Settings > Skills.
 
 **Sample prompt to begin:**
 
-```
+```text
 I want to brainstorm a new SaaS product idea. I've noticed that developer tools
 for API documentation are either too complex or too basic. Help me explore this space.
 ```
@@ -125,7 +125,7 @@ Every session concludes with three elements:
 
 **File structure:**
 
-```
+```text
 brainstorms/
   _parking-lot.md              # Cross-project idea capture
   project-name/
@@ -248,7 +248,7 @@ Ideas move through six maturity stages:
 ### Example 1: SaaS Product Ideation
 
 **Prompt:**
-```
+```text
 I want to brainstorm a developer tool for API documentation. The current tools
 feel either too enterprise-heavy or too basic. Help me find the opportunity.
 ```
@@ -265,7 +265,7 @@ feel either too enterprise-heavy or too basic. Help me find the opportunity.
 ### Example 2: Continuing a Book Brainstorm
 
 **Prompt:**
-```
+```text
 Continuing our brainstorm on the nonfiction book. Here's v3. [uploads file]
 I've been thinking about the overnight question and I think Chapter 4 needs to come first.
 ```
@@ -281,7 +281,7 @@ I've been thinking about the overnight question and I think Chapter 4 needs to c
 ### Example 3: Quick Capture Mode
 
 **Prompt:**
-```
+```text
 Quick capture -- I'm about to go into a meeting but I just had an idea about
 a newsletter format that combines book summaries with my own frameworks.
 ```
@@ -308,9 +308,9 @@ a newsletter format that combines book summaries with my own frameworks.
 
 ## Related Files
 
-- **Source:** `/Users/robertguss/Projects/github/claude-skills/brainstorm/SKILL.md`
-- **Methods Reference:** `/Users/robertguss/Projects/github/claude-skills/brainstorm/references/methods-detailed.md`
-- **Quick Methods Guide:** `/Users/robertguss/Projects/github/claude-skills/brainstorm/references/methods-quick.md`
-- **Session Types:** `/Users/robertguss/Projects/github/claude-skills/brainstorm/references/session-types.md`
-- **Project Template:** `/Users/robertguss/Projects/github/claude-skills/brainstorm/assets/templates/project-template.md`
-- **Index Template:** `/Users/robertguss/Projects/github/claude-skills/brainstorm/assets/templates/index-template.md`
+- **Source:** `brainstorm/SKILL.md`
+- **Methods Reference:** `brainstorm/references/methods-detailed.md`
+- **Quick Methods Guide:** `brainstorm/references/methods-quick.md`
+- **Session Types:** `brainstorm/references/session-types.md`
+- **Project Template:** `brainstorm/assets/templates/project-template.md`
+- **Index Template:** `brainstorm/assets/templates/index-template.md`

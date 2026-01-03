@@ -22,7 +22,7 @@ This is genuine intellectual partnership, not extraction or interrogation. The s
 
 **For Initial Discovery:**
 
-```
+```text
 I want to capture my writing voice. I write blog posts about technology.
 
 Here are some samples:
@@ -33,7 +33,7 @@ The skill will analyze your samples, share initial observations, and begin the c
 
 **For Returning Users:**
 
-```
+```text
 I want to refine my Voice DNA Document. The ghost writer keeps
 using em-dashes too much - I rarely use them.
 
