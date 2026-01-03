@@ -2,6 +2,8 @@
 
 A pipeline for capturing and replicating a writer's authentic voice. These skills work together: first discover your voice DNA, then use it to generate drafts that sound like you.
 
+📚 **[View Full Documentation](https://robertguss.github.io/claude-skills/skills/writing/)**
+
 ## The Workflow
 
 ```

@@ -1,7 +1,16 @@
 [project]
 name = "claude-skills"
 version = "0.1.0"
-description = "Add your description here"
+description = "Custom skills that extend Claude's capabilities with specialized workflows and domain knowledge"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.5.0",
+    "pymdown-extensions>=10.0",
+]

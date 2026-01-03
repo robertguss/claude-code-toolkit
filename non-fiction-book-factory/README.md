@@ -2,6 +2,8 @@
 
 A suite of Claude skills that replicate the traditional publishing infrastructure for nonfiction book creation. Each skill specializes in one phase of the book development process, handing off structured output to the next.
 
+📚 **[View Full Documentation](https://robertguss.github.io/claude-skills/skills/non-fiction-book-factory/)**
+
 ## Pipeline Overview
 
 ```

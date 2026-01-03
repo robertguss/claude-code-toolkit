@@ -1,0 +1,127 @@
+site_name: Claude Skills Documentation
+site_description: >-
+  Modular packages that extend Claude's capabilities with specialized
+  workflows, domain knowledge, and tools.
+site_url: https://robertguss.github.io/claude-skills/
+repo_url: https://github.com/robertguss/claude-skills
+repo_name: claude-skills
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/index.md
+    - What Are Skills?: getting-started/what-are-skills.md
+    - Claude Code Setup: getting-started/installation-claude-code.md
+    - Claude.ai Setup: getting-started/installation-claude-ai.md
+    - Your First Skill: getting-started/your-first-skill.md
+  - Skills:
+    - skills/index.md
+    - Brainstorm: skills/brainstorm/index.md
+    - Non-Fiction Book Factory:
+      - skills/non-fiction-book-factory/index.md
+      - Book Ideation: skills/non-fiction-book-factory/book-ideation.md
+      - Book Idea Validator: skills/non-fiction-book-factory/book-idea-validator.md
+      - Book Market Research: skills/non-fiction-book-factory/book-market-research.md
+      - Book Architect: skills/non-fiction-book-factory/book-architect.md
+      - Book Research Assistant: skills/non-fiction-book-factory/book-research-assistant.md
+      - Chapter Architect: skills/non-fiction-book-factory/chapter-architect.md
+    - Ebook Factory:
+      - skills/ebook-factory/index.md
+      - Ebook Discovery: skills/ebook-factory/ebook-discovery.md
+      - Ebook Concept Development: skills/ebook-factory/ebook-concept-development.md
+    - Writing:
+      - skills/writing/index.md
+      - Writing DNA Discovery: skills/writing/writing-dna-discovery.md
+      - Ghost Writer: skills/writing/ghost-writer.md
+  - Developer Guide:
+    - developer-guide/index.md
+    - Skill Anatomy: developer-guide/skill-anatomy.md
+    - Writing SKILL.md: developer-guide/writing-skill-md.md
+    - References & Assets: developer-guide/references-and-assets.md
+    - Building & Packaging: developer-guide/building-and-packaging.md
+    - Contributing: developer-guide/contributing.md
+  - Concepts:
+    - concepts/index.md
+    - Pipelines: concepts/pipelines.md
+    - Session Continuity: concepts/session-continuity.md
+    - Handoffs: concepts/handoffs.md
+    - Modes & Registers: concepts/modes-and-registers.md
+  - Reference:
+    - reference/index.md
+    - Skill Catalog: reference/skill-catalog.md
+    - Build Commands: reference/build-commands.md
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/robertguss/claude-skills
+
+  generator: false
+
+copyright: Personal use. Modify freely.

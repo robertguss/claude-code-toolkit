@@ -1,9 +1,17 @@
-# The Ebook Factory: Complete Reference Guide
+# The Ebook Factory
+
+A suite of Claude skills designed specifically for ebook creation—shorter, concentrated solutions optimized for speed-to-value.
+
+📚 **[View Full Documentation](https://robertguss.github.io/claude-skills/skills/ebook-factory/)**
+
+---
+
+## Reference Guide
 
 **Purpose:** This document captures the complete vision, philosophy, and specifications for a suite of Claude skills designed specifically for ebook creation. Use this to brief future Claude sessions when building individual skills.
 
-**Author:** Robert Guss  
-**Created:** December 30, 2024  
+**Author:** Robert Guss
+**Created:** December 30, 2024
 **Last Updated:** December 31, 2024
 
 ---

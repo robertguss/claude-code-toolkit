@@ -2,68 +2,60 @@
 
 A collection of custom skills that extend Claude's capabilities with specialized workflows, methods, and domain knowledge.
 
-## What Are Skills?
+📚 **[View Full Documentation](https://robertguss.github.io/claude-skills/)**
 
-Skills are modular packages that transform Claude from a general-purpose assistant into a specialized collaborator. Each skill contains instructions, reference documentation, and templates for specific domains.
-
-## Installation
+## Quick Start
 
 ### Claude Code (CLI)
-
-Reference skills directly in your project's `CLAUDE.md` or global `~/.claude/CLAUDE.md`:
 
 ```markdown
 # CLAUDE.md
 
-## Skills
-
-When brainstorming, read and follow `/path/to/claude-skills/brainstorm/SKILL.md`.
+When brainstorming, read and follow /path/to/claude-skills/brainstorm/SKILL.md.
 ```
 
 ### Claude.ai (Web/Mobile/Desktop)
 
-1. Package the skill: `python build.py <skill-name>`
-2. Open Claude.ai → Settings → Skills
-3. Upload the `.skill` file from `dist/`
+```bash
+python build.py brainstorm
+# Upload dist/brainstorm.skill to Claude.ai → Settings → Skills
+```
 
 ## Available Skills
 
-### Standalone Skills
+| Category | Skills | Description |
+|----------|--------|-------------|
+| **Standalone** | [brainstorm](brainstorm/) | Multi-session ideation with 25+ thinking methods |
+| **Book Factory** | 6 skills | Full pipeline from idea to chapter architecture |
+| **Ebook Factory** | 2 skills | Focused ebook creation pipeline |
+| **Writing** | 2 skills | Voice capture and ghost writing |
 
-| Skill                     | Description                                                                                                     |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [brainstorm](brainstorm/) | Collaborative multi-session brainstorming with versioned documents, 25+ thinking methods, and decision tracking |
+## Documentation
 
-### Non-Fiction Book Factory
+- [Getting Started](https://robertguss.github.io/claude-skills/getting-started/)
+- [All Skills](https://robertguss.github.io/claude-skills/skills/)
+- [Developer Guide](https://robertguss.github.io/claude-skills/developer-guide/)
 
-A pipeline of skills for developing nonfiction books from idea to architecture. See [full documentation](non-fiction-book-factory/).
+## Development
 
-| Skill                   | Description                                                     |
-| ----------------------- | --------------------------------------------------------------- |
-| book-ideation           | Develop raw ideas into structured Book Concept Documents        |
-| book-idea-validator     | Stress-test concepts against existing research (Go/Revise/Kill) |
-| book-market-research    | Assess commercial viability for Amazon KDP                      |
-| book-architect          | Design structural and emotional architecture for drafting       |
-| book-research-assistant | Plan, orchestrate, and validate deep research before outlining  |
-| chapter-architect       | Plan individual chapters at beat-level granularity for drafting |
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management and [just](https://github.com/casey/just) as a command runner.
 
-### Writing Skills
+```bash
+# Install dependencies
+just install
 
-A pipeline for capturing and replicating a writer's authentic voice. See [full documentation](writing/).
+# Serve docs locally at http://localhost:8000
+just docs-serve
 
-| Skill                 | Description                                                                |
-| --------------------- | -------------------------------------------------------------------------- |
-| writing-dna-discovery | Capture voice patterns through collaborative interview and sample analysis |
-| ghost-writer          | Produce first drafts at ~80% voice accuracy using Voice DNA Documents      |
+# Deploy docs to GitHub Pages
+just docs-deploy
 
-### Ebook Factory
+# Package a skill
+just package brainstorm
 
-A pipeline of skills for creating ebooks — shorter, concentrated solutions optimized for speed-to-value. See [full documentation](ebook-factory/).
-
-| Skill                     | Description                                                                |
-| ------------------------- | -------------------------------------------------------------------------- |
-| ebook-discovery           | Surface ebook ideas from content, expertise, and archives (11 entry modes) |
-| ebook-concept-development | Develop ideas into structured concepts ready for architecture              |
+# See all commands
+just
+```
 
 ## License
 
