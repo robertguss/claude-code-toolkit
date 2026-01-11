@@ -23,12 +23,12 @@ python build.py brainstorm
 
 ## Available Skills
 
-| Category | Skills | Description |
-|----------|--------|-------------|
-| **Standalone** | [brainstorm](brainstorm/) | Multi-session ideation with 25+ thinking methods |
-| **Book Factory** | 6 skills | Full pipeline from idea to chapter architecture |
-| **Ebook Factory** | 2 skills | Focused ebook creation pipeline |
-| **Writing** | 2 skills | Voice capture and ghost writing |
+| Category          | Skills                                                         | Description                                                  |
+| ----------------- | -------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Standalone**    | [brainstorm](brainstorm/), [code-documenter](code-documenter/) | Multi-session ideation; Intelligent documentation generation |
+| **Book Factory**  | 6 skills                                                       | Full pipeline from idea to chapter architecture              |
+| **Ebook Factory** | 2 skills                                                       | Focused ebook creation pipeline                              |
+| **Writing**       | 2 skills                                                       | Voice capture and ghost writing                              |
 
 ## Documentation
 
