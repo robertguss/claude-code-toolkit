@@ -48,47 +48,48 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
-    - getting-started/index.md
-    - What Are Skills?: getting-started/what-are-skills.md
-    - Claude Code Setup: getting-started/installation-claude-code.md
-    - Claude.ai Setup: getting-started/installation-claude-ai.md
-    - Your First Skill: getting-started/your-first-skill.md
+      - getting-started/index.md
+      - What Are Skills?: getting-started/what-are-skills.md
+      - Claude Code Setup: getting-started/installation-claude-code.md
+      - Claude.ai Setup: getting-started/installation-claude-ai.md
+      - Your First Skill: getting-started/your-first-skill.md
   - Skills:
-    - skills/index.md
-    - Brainstorm: skills/brainstorm/index.md
-    - Non-Fiction Book Factory:
-      - skills/non-fiction-book-factory/index.md
-      - Book Ideation: skills/non-fiction-book-factory/book-ideation.md
-      - Book Idea Validator: skills/non-fiction-book-factory/book-idea-validator.md
-      - Book Market Research: skills/non-fiction-book-factory/book-market-research.md
-      - Book Architect: skills/non-fiction-book-factory/book-architect.md
-      - Book Research Assistant: skills/non-fiction-book-factory/book-research-assistant.md
-      - Chapter Architect: skills/non-fiction-book-factory/chapter-architect.md
-    - Ebook Factory:
-      - skills/ebook-factory/index.md
-      - Ebook Discovery: skills/ebook-factory/ebook-discovery.md
-      - Ebook Concept Development: skills/ebook-factory/ebook-concept-development.md
-    - Writing:
-      - skills/writing/index.md
-      - Writing DNA Discovery: skills/writing/writing-dna-discovery.md
-      - Ghost Writer: skills/writing/ghost-writer.md
+      - skills/index.md
+      - Brainstorm: skills/brainstorm/index.md
+      - Code Documenter: skills/code-documenter/index.md
+      - Non-Fiction Book Factory:
+          - skills/non-fiction-book-factory/index.md
+          - Book Ideation: skills/non-fiction-book-factory/book-ideation.md
+          - Book Idea Validator: skills/non-fiction-book-factory/book-idea-validator.md
+          - Book Market Research: skills/non-fiction-book-factory/book-market-research.md
+          - Book Architect: skills/non-fiction-book-factory/book-architect.md
+          - Book Research Assistant: skills/non-fiction-book-factory/book-research-assistant.md
+          - Chapter Architect: skills/non-fiction-book-factory/chapter-architect.md
+      - Ebook Factory:
+          - skills/ebook-factory/index.md
+          - Ebook Discovery: skills/ebook-factory/ebook-discovery.md
+          - Ebook Concept Development: skills/ebook-factory/ebook-concept-development.md
+      - Writing:
+          - skills/writing/index.md
+          - Writing DNA Discovery: skills/writing/writing-dna-discovery.md
+          - Ghost Writer: skills/writing/ghost-writer.md
   - Developer Guide:
-    - developer-guide/index.md
-    - Skill Anatomy: developer-guide/skill-anatomy.md
-    - Writing SKILL.md: developer-guide/writing-skill-md.md
-    - References & Assets: developer-guide/references-and-assets.md
-    - Building & Packaging: developer-guide/building-and-packaging.md
-    - Contributing: developer-guide/contributing.md
+      - developer-guide/index.md
+      - Skill Anatomy: developer-guide/skill-anatomy.md
+      - Writing SKILL.md: developer-guide/writing-skill-md.md
+      - References & Assets: developer-guide/references-and-assets.md
+      - Building & Packaging: developer-guide/building-and-packaging.md
+      - Contributing: developer-guide/contributing.md
   - Concepts:
-    - concepts/index.md
-    - Pipelines: concepts/pipelines.md
-    - Session Continuity: concepts/session-continuity.md
-    - Handoffs: concepts/handoffs.md
-    - Modes & Registers: concepts/modes-and-registers.md
+      - concepts/index.md
+      - Pipelines: concepts/pipelines.md
+      - Session Continuity: concepts/session-continuity.md
+      - Handoffs: concepts/handoffs.md
+      - Modes & Registers: concepts/modes-and-registers.md
   - Reference:
-    - reference/index.md
-    - Skill Catalog: reference/skill-catalog.md
-    - Build Commands: reference/build-commands.md
+      - reference/index.md
+      - Skill Catalog: reference/skill-catalog.md
+      - Build Commands: reference/build-commands.md
 
 plugins:
   - search

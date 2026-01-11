@@ -6,9 +6,10 @@ A complete collection of skills organized by category.
 
 ## Standalone Skills
 
-| Skill | Description |
-|-------|-------------|
-| [Brainstorm](brainstorm/index.md) | Collaborative multi-session brainstorming with versioned documents, 25+ thinking methods, and decision tracking |
+| Skill                                       | Description                                                                                                     |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [Brainstorm](brainstorm/index.md)           | Collaborative multi-session brainstorming with versioned documents, 25+ thinking methods, and decision tracking |
+| [Code Documenter](code-documenter/index.md) | Intelligent documentation generation with multi-agent analysis, health scoring, and audience-aware output       |
 
 ---
 
@@ -29,14 +30,14 @@ flowchart LR
     E --> F[chapter-architect]
 ```
 
-| Skill | Description |
-|-------|-------------|
-| [Book Ideation](non-fiction-book-factory/book-ideation.md) | Develop raw ideas into structured Book Concept Documents with 8 core elements |
-| [Book Idea Validator](non-fiction-book-factory/book-idea-validator.md) | Stress-test concepts against existing research (Go/Revise/Kill recommendation) |
-| [Book Market Research](non-fiction-book-factory/book-market-research.md) | Assess commercial viability for Amazon KDP self-publishing |
-| [Book Architect](non-fiction-book-factory/book-architect.md) | Design structural and emotional architecture for drafting |
-| [Book Research Assistant](non-fiction-book-factory/book-research-assistant.md) | Plan, orchestrate, and validate deep research before outlining |
-| [Chapter Architect](non-fiction-book-factory/chapter-architect.md) | Plan individual chapters at beat-level granularity for drafting |
+| Skill                                                                          | Description                                                                    |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| [Book Ideation](non-fiction-book-factory/book-ideation.md)                     | Develop raw ideas into structured Book Concept Documents with 8 core elements  |
+| [Book Idea Validator](non-fiction-book-factory/book-idea-validator.md)         | Stress-test concepts against existing research (Go/Revise/Kill recommendation) |
+| [Book Market Research](non-fiction-book-factory/book-market-research.md)       | Assess commercial viability for Amazon KDP self-publishing                     |
+| [Book Architect](non-fiction-book-factory/book-architect.md)                   | Design structural and emotional architecture for drafting                      |
+| [Book Research Assistant](non-fiction-book-factory/book-research-assistant.md) | Plan, orchestrate, and validate deep research before outlining                 |
+| [Chapter Architect](non-fiction-book-factory/chapter-architect.md)             | Plan individual chapters at beat-level granularity for drafting                |
 
 [:octicons-arrow-right-24: Full Book Factory Documentation](non-fiction-book-factory/index.md)
 
@@ -51,10 +52,10 @@ flowchart LR
     A[ebook-discovery] --> B[ebook-concept-development]
 ```
 
-| Skill | Description |
-|-------|-------------|
-| [Ebook Discovery](ebook-factory/ebook-discovery.md) | Surface ebook ideas from content, expertise, and archives (11 entry modes) |
-| [Ebook Concept Development](ebook-factory/ebook-concept-development.md) | Develop ideas into structured concepts ready for architecture |
+| Skill                                                                   | Description                                                                |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Ebook Discovery](ebook-factory/ebook-discovery.md)                     | Surface ebook ideas from content, expertise, and archives (11 entry modes) |
+| [Ebook Concept Development](ebook-factory/ebook-concept-development.md) | Develop ideas into structured concepts ready for architecture              |
 
 [:octicons-arrow-right-24: Full Ebook Factory Documentation](ebook-factory/index.md)
 
@@ -69,10 +70,10 @@ flowchart LR
     A[writing-dna-discovery] --> B[ghost-writer]
 ```
 
-| Skill | Description |
-|-------|-------------|
+| Skill                                                     | Description                                                                |
+| --------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [Writing DNA Discovery](writing/writing-dna-discovery.md) | Capture voice patterns through collaborative interview and sample analysis |
-| [Ghost Writer](writing/ghost-writer.md) | Produce first drafts at ~80% voice accuracy using Voice DNA Documents |
+| [Ghost Writer](writing/ghost-writer.md)                   | Produce first drafts at ~80% voice accuracy using Voice DNA Documents      |
 
 [:octicons-arrow-right-24: Full Writing Documentation](writing/index.md)
 
@@ -80,12 +81,13 @@ flowchart LR
 
 ## Skill Comparison
 
-| Feature | Brainstorm | Book Factory | Ebook Factory | Writing |
-|---------|------------|--------------|---------------|---------|
-| Multi-session | Yes | Yes | Yes | Yes |
-| Pipeline | No | 6 skills | 2 skills | 2 skills |
-| Versioned docs | Yes | Yes | Yes | Yes |
-| Templates | Yes | Yes | Yes | Yes |
+| Feature         | Brainstorm | Code Documenter | Book Factory | Ebook Factory | Writing  |
+| --------------- | ---------- | --------------- | ------------ | ------------- | -------- |
+| Multi-session   | Yes        | Yes             | Yes          | Yes           | Yes      |
+| Pipeline        | No         | No              | 6 skills     | 2 skills      | 2 skills |
+| Versioned docs  | Yes        | Yes             | Yes          | Yes           | Yes      |
+| Templates       | Yes        | Yes             | Yes          | Yes           | Yes      |
+| Health tracking | No         | Yes             | No           | No            | No       |
 
 ---
 
@@ -93,6 +95,9 @@ flowchart LR
 
 **Need to explore ideas?**
 → Start with [Brainstorm](brainstorm/index.md)
+
+**Need documentation for a codebase?**
+→ Use [Code Documenter](code-documenter/index.md)
 
 **Writing a comprehensive nonfiction book?**
 → Use the [Non-Fiction Book Factory](non-fiction-book-factory/index.md) pipeline
