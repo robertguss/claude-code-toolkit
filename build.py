@@ -24,7 +24,10 @@ def get_repo_root() -> Path:
 def get_skill_dirs(repo_root: Path) -> list[Path]:
     """Find all valid skill directories (folders containing SKILL.md)."""
     skills = []
-    for item in repo_root.iterdir():
+    skills_dir = repo_root / "skills"
+    if not skills_dir.exists():
+        return skills
+    for item in skills_dir.iterdir():
         if item.is_dir() and (item / "SKILL.md").exists():
             skills.append(item)
     return sorted(skills)
@@ -146,7 +149,7 @@ Examples:
     if args.all:
         to_package = skill_dirs
     elif args.skill:
-        skill_path = repo_root / args.skill
+        skill_path = repo_root / "skills" / args.skill
         if not skill_path.exists():
             print(f"Error: Skill '{args.skill}' not found")
             print(f"Available skills: {', '.join(s.name for s in skill_dirs)}")
@@ -164,7 +167,7 @@ Examples:
         # Validate first
         is_valid, errors = validate_skill(skill_dir)
         if not is_valid:
-            print(f"❌ Validation failed:")
+            print("❌ Validation failed:")
             for error in errors:
                 print(f"   └─ {error}")
             continue
