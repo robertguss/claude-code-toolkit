@@ -56,3 +56,22 @@ Requires: `pyyaml` (for frontmatter parsing)
 **Claude Code**: Reference skills directly via filesystem paths in project `CLAUDE.md` or global `~/.claude/CLAUDE.md`
 
 **Claude.ai**: Upload packaged `.skill` files via Settings → Skills
+
+## Templates
+
+The `templates/` directory contains document templates and guides for configuring Claude Code:
+
+| Document                    | Purpose                                                        |
+| --------------------------- | -------------------------------------------------------------- |
+| CLAUDE-MD-template.md       | Project or global instructions for Claude                      |
+| HUMAN-MD-template.md        | Relationship document — helps Claude know who you are          |
+| SKILL-MD-template.md        | Create custom skills (slash commands)                          |
+| SESSION-HANDOFF-template.md | Preserve context when sessions end                             |
+| CORRECTION-template.md      | Give Claude structured feedback it can learn from              |
+| compaction-strategy.md      | What to preserve when context is compressed                    |
+| CLAUDE-MD-GUIDE.md          | Deep dive into why each CLAUDE.md section matters              |
+| PROMPT-GUIDE.md             | How to write prompts that get better results                   |
+| INTERACTION-PATTERNS.md     | How different phrases affect Claude's processing               |
+| CLAUDE_DNA.md               | Understanding who Claude is — values, preferences, limitations |
+
+See [templates/README.md](templates/README.md) for full documentation and usage instructions
