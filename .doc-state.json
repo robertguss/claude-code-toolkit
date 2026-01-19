@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "project": {
+    "name": "claude-code-toolkit",
+    "type": "skill-toolkit",
+    "lastScanned": "2026-01-19T00:00:00Z",
+    "gitCommit": "71b5027"
+  },
+  "preferences": {
+    "audiences": ["developers", "users"],
+    "depthLevel": "standard",
+    "tone": "professional"
+  },
+  "healthScore": {
+    "overall": 88,
+    "components": {
+      "coverage": 90,
+      "freshness": 95,
+      "quality": 85,
+      "consistency": 82
+    },
+    "previousScore": 75,
+    "trend": [75, 88]
+  },
+  "coverage": {
+    "skills": {
+      "total": 6,
+      "documented": 6,
+      "notes": "All main skills have READMEs"
+    },
+    "hooks": {
+      "total": 3,
+      "documented": 3,
+      "notes": "All hooks have READMEs"
+    },
+    "templates": {
+      "total": 10,
+      "documented": 10,
+      "notes": "templates/README.md covers all"
+    },
+    "plugins": {
+      "total": 1,
+      "documented": 1,
+      "notes": "compound-writing has README"
+    },
+    "projectFiles": {
+      "total": 4,
+      "documented": 4,
+      "notes": "README, LICENSE, CONTRIBUTING, CHANGELOG all present"
+    }
+  },
+  "debt": {
+    "critical": [],
+    "important": [],
+    "minor": [
+      {
+        "item": "build.py could have more inline documentation",
+        "effort": "low",
+        "status": "accepted"
+      },
+      {
+        "item": "End-to-end workflow examples could be expanded",
+        "effort": "medium",
+        "status": "accepted"
+      }
+    ]
+  },
+  "documentationMap": {
+    "README.md": {
+      "lastUpdated": "2026-01-19T00:00:00Z",
+      "covers": ["overview", "quickstart", "structure"],
+      "wordCount": 850
+    },
+    "LICENSE.md": {
+      "lastUpdated": "2026-01-19T00:00:00Z",
+      "covers": ["legal"],
+      "wordCount": 170
+    },
+    "CONTRIBUTING.md": {
+      "lastUpdated": "2026-01-19T00:00:00Z",
+      "covers": ["contribution-guidelines"],
+      "wordCount": 450
+    },
+    "CHANGELOG.md": {
+      "lastUpdated": "2026-01-19T00:00:00Z",
+      "covers": ["version-history"],
+      "wordCount": 380
+    },
+    "docs/concepts/skill-connections.md": {
+      "lastUpdated": "2026-01-19T00:00:00Z",
+      "covers": ["skill-relationships", "workflows", "combinations"],
+      "wordCount": 750
+    }
+  },
+  "sessionHistory": [
+    {
+      "date": "2026-01-19T00:00:00Z",
+      "mode": "comprehensive",
+      "changes": [
+        "Created LICENSE.md",
+        "Created CONTRIBUTING.md",
+        "Created CHANGELOG.md",
+        "Created docs/concepts/skill-connections.md",
+        "Updated README.md with quick start and links",
+        "Updated docs/concepts/index.md with skill connections",
+        "Updated mkdocs.yml navigation"
+      ],
+      "healthScoreBefore": 75,
+      "healthScoreAfter": 88
+    }
+  ]
+}

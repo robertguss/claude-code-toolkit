@@ -86,6 +86,7 @@ nav:
       - Session Continuity: concepts/session-continuity.md
       - Handoffs: concepts/handoffs.md
       - Modes & Registers: concepts/modes-and-registers.md
+      - Skill Connections: concepts/skill-connections.md
   - Reference:
       - reference/index.md
       - Skill Catalog: reference/skill-catalog.md

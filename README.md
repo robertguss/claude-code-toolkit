@@ -1,6 +1,25 @@
 # Claude Code Toolkit
 
-A collection of skills, hooks, and templates that extend Claude Code with specialized workflows and better defaults.
+Extend Claude Code with specialized workflows, automatic formatting, and better defaults.
+
+**Skills** give Claude domain expertise—brainstorming methods, documentation generation, book writing pipelines. **Hooks** automate repetitive tasks—format code after edits, summarize changes at session end. **Templates** configure how Claude works with you.
+
+Works with both Claude Code (CLI) and Claude.ai (web/mobile/desktop).
+
+## Quick Start
+
+```bash
+# Clone the toolkit
+git clone https://github.com/robertguss/claude-code-toolkit.git
+
+# Use a skill in Claude Code
+# Add to your project's CLAUDE.md:
+echo "When brainstorming, read /path/to/claude-code-toolkit/skills/brainstorm/SKILL.md" >> CLAUDE.md
+
+# Or package for Claude.ai
+python build.py brainstorm
+# Upload dist/brainstorm.skill to Claude.ai → Settings → Skills
+```
 
 ## What's Included
 
@@ -149,6 +168,10 @@ just package brainstorm
 just
 ```
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting skills, hooks, or improvements.
+
 ## License
 
-Personal use. Modify freely.
+MIT License. See [LICENSE.md](LICENSE.md) for details.

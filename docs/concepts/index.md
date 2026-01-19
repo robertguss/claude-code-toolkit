@@ -32,6 +32,12 @@ Understanding the key ideas behind how Claude Skills work.
 
     Different operating modes skills offer for different situations.
 
+-   :material-link-variant:{ .lg .middle } **[Skill Connections](skill-connections.md)**
+
+    ---
+
+    How skills relate to each other and can be combined for complex workflows.
+
 </div>
 
 ---
@@ -46,6 +52,7 @@ Skills aren't just instruction sets—they're designed systems with specific pat
 | **Session Continuity** | Creative work happens over time, not in one sitting |
 | **Handoffs** | Each specialist needs clear input from the previous |
 | **Modes** | Different situations need different approaches |
+| **Skill Connections** | Complex projects need multiple skills working together |
 
 ---
 
@@ -86,3 +93,4 @@ A typical workflow combines all these concepts:
 - [:octicons-arrow-right-24: Session Continuity](session-continuity.md) — How work persists across time
 - [:octicons-arrow-right-24: Handoffs](handoffs.md) — What passes between skills
 - [:octicons-arrow-right-24: Modes & Registers](modes-and-registers.md) — Adapting to different situations
+- [:octicons-arrow-right-24: Skill Connections](skill-connections.md) — Combining skills for complex workflows
