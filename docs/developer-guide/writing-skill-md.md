@@ -13,18 +13,27 @@ Every SKILL.md has two parts:
 ```yaml
 ---
 name: skill-name
-description: A comprehensive description of what this skill does and when Claude should use it. This is what Claude reads to decide whether to activate the skill.
+description:
+  A comprehensive description of what this skill does and when Claude should use
+  it. This is what Claude reads to decide whether to activate the skill.
 ---
 ```
 
-The description is the most important part—it determines when the skill activates.
+The description is the most important part—it determines when the skill
+activates.
 
 **Good description:**
+
 ```yaml
-description: Collaborative brainstorming partner for multi-session ideation projects. Use when the user wants to brainstorm, ideate, explore ideas, or think through problems—whether for SaaS products, software tools, book ideas, newsletter content, business strategies, or any creative/analytical challenge.
+description:
+  Collaborative brainstorming partner for multi-session ideation projects. Use
+  when the user wants to brainstorm, ideate, explore ideas, or think through
+  problems—whether for SaaS products, software tools, book ideas, newsletter
+  content, business strategies, or any creative/analytical challenge.
 ```
 
 **Weak description:**
+
 ```yaml
 description: A brainstorming skill.
 ```
@@ -61,12 +70,15 @@ How work progresses:
 ## Session Flow
 
 ### Session Start
+
 [What happens when starting]
 
 ### During Session
+
 [Key activities and behaviors]
 
 ### Session End
+
 [How sessions conclude, outputs produced]
 ```
 
@@ -77,17 +89,17 @@ What the skill needs and produces:
 ```markdown
 ## Inputs
 
-| Input | Required | Description |
-|-------|----------|-------------|
-| Topic | Yes | What to work on |
+| Input         | Required      | Description             |
+| ------------- | ------------- | ----------------------- |
+| Topic         | Yes           | What to work on         |
 | Prior version | If continuing | Previous session output |
 
 ## Outputs
 
-| Output | Description |
-|--------|-------------|
-| Version document | Captures session work |
-| Decision log | Records choices with reasoning |
+| Output           | Description                    |
+| ---------------- | ------------------------------ |
+| Version document | Captures session work          |
+| Decision log     | Records choices with reasoning |
 ```
 
 ### Reference Pointers
@@ -116,17 +128,20 @@ Challenge every sentence:
 - "Could an example replace this explanation?"
 
 **Before (verbose):**
+
 ```markdown
-When working with users on brainstorming tasks, it is very important to
-remember that Claude should be acting as a collaborative partner rather
-than simply a tool that generates ideas on demand. This means that Claude
-should proactively offer observations, challenge weak reasoning, and
-surface connections to other work the user has done.
+When working with users on brainstorming tasks, it is very important to remember
+that Claude should be acting as a collaborative partner rather than simply a
+tool that generates ideas on demand. This means that Claude should proactively
+offer observations, challenge weak reasoning, and surface connections to other
+work the user has done.
 ```
 
 **After (concise):**
+
 ```markdown
 Claude is a collaborative partner, not an idea generator:
+
 - Offer observations proactively
 - Challenge weak reasoning
 - Surface connections to other work
@@ -137,6 +152,7 @@ Claude is a collaborative partner, not an idea generator:
 Match specificity to fragility:
 
 **High freedom (flexible):**
+
 ```markdown
 ## Collaboration Style
 
@@ -146,10 +162,12 @@ Match specificity to fragility:
 ```
 
 **Low freedom (prescriptive):**
+
 ```markdown
 ## File Naming
 
 ALWAYS use this format:
+
 - `project-name-v1.md`
 - `project-name-v2.md`
 - Never overwrite, always increment version
@@ -160,17 +178,19 @@ ALWAYS use this format:
 Prefer examples over explanations:
 
 **Instead of explaining:**
+
 ```markdown
-Claude should mark decision points explicitly when significant
-choices are made during the session.
+Claude should mark decision points explicitly when significant choices are made
+during the session.
 ```
 
 **Show an example:**
+
 ```markdown
 Mark decision points explicitly:
 
-"This feels like a decision point. Should we log:
-'Target reader is mid-career professionals'?"
+"This feels like a decision point. Should we log: 'Target reader is mid-career
+professionals'?"
 ```
 
 ---
@@ -184,7 +204,8 @@ Describe how Claude should engage:
 ```markdown
 **Collaboration behaviors:**
 
-- Proactively offer observations: "I notice you keep circling back to X—want to dig into why?"
+- Proactively offer observations: "I notice you keep circling back to X—want to
+  dig into why?"
 - Challenge weak reasoning: "I'm not convinced by that reasoning. Here's why..."
 - Ask the hard questions the user might avoid
 ```
@@ -197,6 +218,7 @@ How to handle significant moments:
 **Decision checkpoints:**
 
 When a decision crystallizes:
+
 - "This feels like a decision point. Should we log: [decision statement]?"
 - Capture the reasoning, not just the conclusion
 ```
@@ -209,6 +231,7 @@ What the skill does and doesn't do:
 ## Scope Boundaries
 
 This skill validates **intellectual merit**, not:
+
 - Commercial viability (that's market-research)
 - Structural decisions (that's book-architect)
 - Writing quality (that's the editing pipeline)
@@ -226,12 +249,15 @@ For sequential processes:
 ## Workflow
 
 ### Phase 1: Setup
+
 [First phase activities]
 
 ### Phase 2: Development
+
 [Second phase activities]
 
 ### Phase 3: Completion
+
 [Final phase activities]
 ```
 
@@ -243,11 +269,13 @@ For branching logic:
 ## Session Start
 
 **If new project:**
+
 1. Ask context questions
 2. Initialize documents
 3. Begin development
 
 **If continuing:**
+
 1. Request version file
 2. Summarize current state
 3. Confirm direction
@@ -261,6 +289,7 @@ For cycles:
 ## Validation Loop
 
 For each gap:
+
 1. Confirm gap to validate
 2. Request research outputs
 3. Review against criteria
@@ -288,6 +317,7 @@ Claude can't load what it doesn't know exists.
 **Problem:** References exist but aren't mentioned
 
 **Solution:**
+
 ```markdown
 ## References
 
@@ -300,7 +330,9 @@ The frontmatter description determines activation.
 
 **Problem:** "A skill for writing things."
 
-**Solution:** "Produce first drafts at ~80% voice accuracy using Voice DNA Documents. Use when you have a Voice DNA Document and need to draft content in that writer's authentic voice."
+**Solution:** "Produce first drafts at ~80% voice accuracy using Voice DNA
+Documents. Use when you have a Voice DNA Document and need to draft content in
+that writer's authentic voice."
 
 ### Duplicated Content
 

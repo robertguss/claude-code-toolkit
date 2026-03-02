@@ -6,7 +6,9 @@ CLI reference for the build.py packaging script.
 
 ## Overview
 
-The `build.py` script packages skills for Claude.ai upload. It validates skill structure, creates ZIP archives, and outputs `.skill` files to the `dist/` directory.
+The `build.py` script packages skills for Claude.ai upload. It validates skill
+structure, creates ZIP archives, and outputs `.skill` files to the `dist/`
+directory.
 
 ---
 
@@ -28,11 +30,13 @@ python build.py <skill-name>
 ```
 
 **Example:**
+
 ```bash
 python build.py brainstorm
 ```
 
 **Output:**
+
 ```
 Packaging brainstorm...
 Created: dist/brainstorm.skill
@@ -45,6 +49,7 @@ python build.py --all
 ```
 
 **Output:**
+
 ```
 Packaging brainstorm...
 Created: dist/brainstorm.skill
@@ -61,6 +66,7 @@ python build.py --list
 ```
 
 **Output:**
+
 ```
 Available skills:
   brainstorm             ✓ valid
@@ -82,12 +88,12 @@ Available skills:
 
 Skill names for the build command match their folder names:
 
-| Folder Path | Build Command |
-|-------------|---------------|
-| `brainstorm/` | `python build.py brainstorm` |
-| `non-fiction-book-factory/book-ideation/` | `python build.py book-ideation` |
-| `ebook-factory/ebook-discovery/` | `python build.py ebook-discovery` |
-| `writing/ghost-writer/` | `python build.py ghost-writer` |
+| Folder Path                               | Build Command                     |
+| ----------------------------------------- | --------------------------------- |
+| `brainstorm/`                             | `python build.py brainstorm`      |
+| `non-fiction-book-factory/book-ideation/` | `python build.py book-ideation`   |
+| `ebook-factory/ebook-discovery/`          | `python build.py ebook-discovery` |
+| `writing/ghost-writer/`                   | `python build.py ghost-writer`    |
 
 ---
 
@@ -130,31 +136,35 @@ The build script validates each skill before packaging:
 
 ### Required Elements
 
-| Element | Requirement |
-|---------|-------------|
-| `SKILL.md` | Must exist in skill folder |
-| YAML frontmatter | Must be present at top of SKILL.md |
-| `name` field | Required in frontmatter |
-| `description` field | Required, minimum 20 characters |
+| Element             | Requirement                        |
+| ------------------- | ---------------------------------- |
+| `SKILL.md`          | Must exist in skill folder         |
+| YAML frontmatter    | Must be present at top of SKILL.md |
+| `name` field        | Required in frontmatter            |
+| `description` field | Required, minimum 20 characters    |
 
 ### Validation Errors
 
 **Missing SKILL.md:**
+
 ```
 Error: brainstorm/SKILL.md not found
 ```
 
 **Missing frontmatter:**
+
 ```
 Error: SKILL.md must start with YAML frontmatter (---)
 ```
 
 **Missing required field:**
+
 ```
 Error: Missing required field: name
 ```
 
 **Description too short:**
+
 ```
 Error: Description must be at least 20 characters
 ```
@@ -168,9 +178,10 @@ Each SKILL.md must begin with YAML frontmatter:
 ```yaml
 ---
 name: skill-name
-description: A description of at least 20 characters explaining what the skill does and when to use it.
+description:
+  A description of at least 20 characters explaining what the skill does and
+  when to use it.
 ---
-
 # Skill Title
 
 Content...
@@ -178,12 +189,13 @@ Content...
 
 ### Frontmatter Fields
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| `name` | Yes | Skill identifier (should match folder name) |
-| `description` | Yes | When to activate the skill (min 20 chars) |
+| Field         | Required | Description                                 |
+| ------------- | -------- | ------------------------------------------- |
+| `name`        | Yes      | Skill identifier (should match folder name) |
+| `description` | Yes      | When to activate the skill (min 20 chars)   |
 
-The `description` field is particularly important—it determines when Claude activates the skill based on user prompts.
+The `description` field is particularly important—it determines when Claude
+activates the skill based on user prompts.
 
 ---
 
@@ -192,11 +204,13 @@ The `description` field is particularly important—it determines when Claude ac
 ### Typical Packaging Workflow
 
 1. **Validate** — Ensure skill is valid
+
    ```bash
    python build.py --list
    ```
 
 2. **Package** — Create the .skill file
+
    ```bash
    python build.py brainstorm
    ```
@@ -242,6 +256,9 @@ chmod 755 dist
 
 ## Related
 
-- [Claude.ai Setup](../getting-started/installation-claude-ai.md) — Full upload workflow
-- [Skill Anatomy](../developer-guide/skill-anatomy.md) — Understanding skill structure
-- [Writing SKILL.md](../developer-guide/writing-skill-md.md) — Best practices for SKILL.md
+- [Claude.ai Setup](../getting-started/installation-claude-ai.md) — Full upload
+  workflow
+- [Skill Anatomy](../developer-guide/skill-anatomy.md) — Understanding skill
+  structure
+- [Writing SKILL.md](../developer-guide/writing-skill-md.md) — Best practices
+  for SKILL.md

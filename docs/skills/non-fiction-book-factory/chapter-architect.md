@@ -1,14 +1,22 @@
 # Chapter Architect
 
-> Plan individual chapters at beat-level granularity. Transforms high-level chapter specs into detailed outlines that guide drafting while preserving creative freedom.
+> Plan individual chapters at beat-level granularity. Transforms high-level
+> chapter specs into detailed outlines that guide drafting while preserving
+> creative freedom.
 
 ---
 
 ## Overview
 
-The Chapter Architect skill transforms a chapter's high-level specification (from book-architect) into a beat-level outline that guides drafting while preserving creative freedom. The result is a compass, not GPS—it points direction and marks waypoints without dictating every turn.
+The Chapter Architect skill transforms a chapter's high-level specification
+(from book-architect) into a beat-level outline that guides drafting while
+preserving creative freedom. The result is a compass, not GPS—it points
+direction and marks waypoints without dictating every turn.
 
-Core philosophy: **reader-first, always.** Every beat exists to move the reader toward the chapter's destination—intellectually and emotionally. Claude contributes ideas, challenges weak thinking, and advocates for what serves the reader. The author has final approval on all decisions.
+Core philosophy: **reader-first, always.** Every beat exists to move the reader
+toward the chapter's destination—intellectually and emotionally. Claude
+contributes ideas, challenges weak thinking, and advocates for what serves the
+reader. The author has final approval on all decisions.
 
 ---
 
@@ -33,6 +41,7 @@ Core philosophy: **reader-first, always.** Every beat exists to move the reader 
     Upload `chapter-architect.skill` to Settings → Skills.
 
 **Sample prompt:**
+
 ```
 I'm ready to architect Chapter 3. Here's the chapter spec from my Architecture Document and the research dossier: [paste documents]
 ```
@@ -41,24 +50,26 @@ I'm ready to architect Chapter 3. Here's the chapter spec from my Architecture D
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| **Beat-Level Planning** | Detailed structure without over-prescription |
-| **Compass Not GPS** | Direction and waypoints, not every turn |
-| **Emotional Arc Tracking** | Where reader is intellectually AND emotionally |
-| **Load-Bearing Identification** | Which beats can/can't be moved or cut |
-| **Opening/Closing Deep Dives** | Extra attention to critical moments |
-| **Session Flexibility** | Simple chapters = one session; complex = multiple |
+| Feature                         | Description                                       |
+| ------------------------------- | ------------------------------------------------- |
+| **Beat-Level Planning**         | Detailed structure without over-prescription      |
+| **Compass Not GPS**             | Direction and waypoints, not every turn           |
+| **Emotional Arc Tracking**      | Where reader is intellectually AND emotionally    |
+| **Load-Bearing Identification** | Which beats can/can't be moved or cut             |
+| **Opening/Closing Deep Dives**  | Extra attention to critical moments               |
+| **Session Flexibility**         | Simple chapters = one session; complex = multiple |
 
 ---
 
 ## Core Philosophy
 
-1. **Reader-first, always** — Every beat moves reader toward chapter's destination
+1. **Reader-first, always** — Every beat moves reader toward chapter's
+   destination
 
 2. **Compass, not GPS** — Points direction, doesn't dictate every turn
 
-3. **Intent over prescription** — Each beat captures WHY it exists, enabling intelligent adaptation
+3. **Intent over prescription** — Each beat captures WHY it exists, enabling
+   intelligent adaptation
 
 4. **Emotional arc matters** — Track how reader FEELS, not just what they learn
 
@@ -77,7 +88,8 @@ Review inputs together and surface tensions, questions, or issues.
 - Competing ways to approach this chapter?
 - What's the emotional shape? (tension→release, confusion→clarity)
 
-**Pause point:** If significant unresolved questions emerge, resolve before proceeding.
+**Pause point:** If significant unresolved questions emerge, resolve before
+proceeding.
 
 ### Phase 2: Brainstorm Beats
 
@@ -102,7 +114,8 @@ Put beats in order—this is where real collaboration happens.
 5. Cut beats that aren't earning their place
 6. Add beats if gaps emerge
 
-**Pause point:** If sequence isn't clicking, pause. Complex chapters need marinating time.
+**Pause point:** If sequence isn't clicking, pause. Complex chapters need
+marinating time.
 
 ### Phase 4: Flesh Out Beats
 
@@ -115,7 +128,8 @@ For each beat, define:
 - **Load-bearing flag** (can this be moved or cut?)
 - **Notes** (anything ghostwriter should know)
 
-**Special attention:** Opening and closing beats get deeper treatment with specific hooks, callbacks, or images.
+**Special attention:** Opening and closing beats get deeper treatment with
+specific hooks, callbacks, or images.
 
 ### Phase 5: Review and Finalize
 
@@ -134,18 +148,19 @@ Stress-test the complete arc before producing the document.
 
 ### Inputs
 
-| Input | Required | Source |
-|-------|----------|--------|
-| Architecture Document (chapter spec) | Yes | book-architect |
-| Research Dossier (chapter section) | Yes | book-research-assistant |
-| Book Concept Document | Yes | book-ideation |
-| Author notes on chapter | Optional | Author |
+| Input                                | Required | Source                  |
+| ------------------------------------ | -------- | ----------------------- |
+| Architecture Document (chapter spec) | Yes      | book-architect          |
+| Research Dossier (chapter section)   | Yes      | book-research-assistant |
+| Book Concept Document                | Yes      | book-ideation           |
+| Author notes on chapter              | Optional | Author                  |
 
 ### Outputs
 
 **Chapter Outline Document** containing:
 
-1. **Chapter Context** — Job, entry/exit states, connections, emotional arc, tone notes
+1. **Chapter Context** — Job, entry/exit states, connections, emotional arc,
+   tone notes
 2. **Reader Journey Walkthrough** — Prose narrative of the experience
 3. **Beat Sequence** — Detailed breakdown of each beat
 4. **Opening Deep Dive** — Expanded treatment of opening
@@ -157,15 +172,15 @@ Stress-test the complete arc before producing the document.
 
 Each beat includes:
 
-| Element | Description |
-|---------|-------------|
-| Beat name | Descriptive identifier |
-| Beat type | From vocabulary (claim, story, objection, etc.) |
-| What happens | Loose description of content |
+| Element            | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| Beat name          | Descriptive identifier                              |
+| Beat type          | From vocabulary (claim, story, objection, etc.)     |
+| What happens       | Loose description of content                        |
 | Reader destination | Where reader ends up intellectually AND emotionally |
-| Key material | Specific pointers to research |
-| Load-bearing | Yes/No—can this beat move or be cut? |
-| Notes | Guidance for ghostwriter |
+| Key material       | Specific pointers to research                       |
+| Load-bearing       | Yes/No—can this beat move or be cut?                |
+| Notes              | Guidance for ghostwriter                            |
 
 ---
 
@@ -186,10 +201,12 @@ Before handoff, confirm:
 
 ## Best Practices
 
-- **Let Claude contribute beats** — The skill is collaborative, not transcription
+- **Let Claude contribute beats** — The skill is collaborative, not
+  transcription
 - **Debate the sequence** — This is where real value emerges
 - **Flag load-bearing beats clearly** — Protects structure during drafting
-- **Don't skip emotional arc** — HOW reader feels matters as much as what they learn
+- **Don't skip emotional arc** — HOW reader feels matters as much as what they
+  learn
 - **Give opening/closing extra attention** — These are high-leverage moments
 - **Trust pause points** — Complex chapters need thinking time between sessions
 
@@ -233,5 +250,6 @@ The skill loads these as needed:
 ## Related Skills
 
 - [Book Architect](book-architect.md) — Creates chapter specifications
-- [Book Research Assistant](book-research-assistant.md) — Provides research dossier
+- [Book Research Assistant](book-research-assistant.md) — Provides research
+  dossier
 - [Book Ideation](book-ideation.md) — Creates Book Concept Document

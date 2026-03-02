@@ -1,19 +1,22 @@
 # What Are Skills?
 
-Skills are modular packages that transform Claude from a general-purpose assistant into a specialized collaborator for specific domains and workflows.
+Skills are modular packages that transform Claude from a general-purpose
+assistant into a specialized collaborator for specific domains and workflows.
 
 ---
 
 ## The Problem Skills Solve
 
-Claude is incredibly capable out of the box, but for complex, domain-specific work, you often need to:
+Claude is incredibly capable out of the box, but for complex, domain-specific
+work, you often need to:
 
 - Explain your workflow every time
 - Remind Claude of best practices and frameworks
 - Provide templates for consistent output
 - Reference detailed documentation repeatedly
 
-Skills solve this by packaging all of that context into a reusable module that Claude can load on-demand.
+Skills solve this by packaging all of that context into a reusable module that
+Claude can load on-demand.
 
 ---
 
@@ -64,7 +67,8 @@ flowchart LR
     G --> H[Use Template]
 ```
 
-1. **Activation** — When your request matches a skill's domain, Claude loads the skill
+1. **Activation** — When your request matches a skill's domain, Claude loads the
+   skill
 2. **Workflow** — Claude follows the skill's prescribed approach
 3. **Progressive Disclosure** — Detailed references load only when needed
 4. **Structured Output** — Templates ensure consistent, useful deliverables
@@ -83,11 +87,13 @@ Self-contained skills for specific tasks:
 
 Skills designed to work together in sequence:
 
-- **Non-Fiction Book Factory** — From idea → validation → market research → architecture → chapters
+- **Non-Fiction Book Factory** — From idea → validation → market research →
+  architecture → chapters
 - **Ebook Factory** — From discovery → concept development
 - **Writing** — From voice DNA discovery → ghost writing
 
-Pipeline skills pass structured "handoff documents" between stages, ensuring continuity and quality.
+Pipeline skills pass structured "handoff documents" between stages, ensuring
+continuity and quality.
 
 ---
 
@@ -95,7 +101,8 @@ Pipeline skills pass structured "handoff documents" between stages, ensuring con
 
 ### Session Continuity
 
-Many skills support multi-session workflows spanning days or weeks. They do this through:
+Many skills support multi-session workflows spanning days or weeks. They do this
+through:
 
 - **Versioned documents** — Each session creates a new version (v1, v2, v3...)
 - **Session logs** — Track what happened when
@@ -121,13 +128,13 @@ Pipeline skills produce structured handoff documents that:
 
 ## Benefits of Using Skills
 
-| Without Skills | With Skills |
-|----------------|-------------|
-| Explain workflow each time | Workflow is pre-defined |
-| Inconsistent output format | Templates ensure consistency |
+| Without Skills                | With Skills                          |
+| ----------------------------- | ------------------------------------ |
+| Explain workflow each time    | Workflow is pre-defined              |
+| Inconsistent output format    | Templates ensure consistency         |
 | Context lost between sessions | Versioned documents maintain history |
-| Ad-hoc quality standards | Built-in quality checks |
-| Generic responses | Domain-specialized collaboration |
+| Ad-hoc quality standards      | Built-in quality checks              |
+| Generic responses             | Domain-specialized collaboration     |
 
 ---
 

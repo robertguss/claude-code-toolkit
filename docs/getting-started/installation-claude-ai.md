@@ -1,6 +1,7 @@
 # Claude.ai Setup
 
-This guide covers installing and using skills with Claude.ai (web, mobile, and desktop apps).
+This guide covers installing and using skills with Claude.ai (web, mobile, and
+desktop apps).
 
 ---
 
@@ -109,12 +110,14 @@ In Claude.ai Settings → Skills, you can:
 When skills are updated in the repository:
 
 1. Pull the latest changes:
+
    ```bash
    cd /path/to/claude-skills
    git pull
    ```
 
 2. Re-package the skill:
+
    ```bash
    python build.py brainstorm
    ```
@@ -125,7 +128,8 @@ When skills are updated in the repository:
 
 ## Pipeline Skills
 
-For skills that work in sequence (like the Non-Fiction Book Factory), upload each skill you need:
+For skills that work in sequence (like the Non-Fiction Book Factory), upload
+each skill you need:
 
 ```bash
 python build.py book-ideation
@@ -158,18 +162,21 @@ Hidden files, `.DS_Store`, and `__pycache__` are automatically excluded.
 
 #### "Missing required field: name"
 
-The skill's `SKILL.md` is missing required YAML frontmatter. Each SKILL.md must start with:
+The skill's `SKILL.md` is missing required YAML frontmatter. Each SKILL.md must
+start with:
 
 ```yaml
 ---
 name: skill-name
-description: A description of at least 20 characters explaining what the skill does.
+description:
+  A description of at least 20 characters explaining what the skill does.
 ---
 ```
 
 #### "Description must be at least 20 characters"
 
-The description in the frontmatter is too short. Provide a meaningful description.
+The description in the frontmatter is too short. Provide a meaningful
+description.
 
 ### Upload Errors
 
@@ -183,11 +190,14 @@ python build.py <skill-name>
 
 #### "Skill already exists"
 
-Remove the existing skill in Settings → Skills before uploading the updated version, or use the update/replace option if available.
+Remove the existing skill in Settings → Skills before uploading the updated
+version, or use the update/replace option if available.
 
 ---
 
 ## Next Steps
 
-- [:octicons-arrow-right-24: Your First Skill Tutorial](your-first-skill.md) — Try the Brainstorm skill hands-on
-- [:octicons-arrow-right-24: Browse Available Skills](../skills/index.md) — See all available skills
+- [:octicons-arrow-right-24: Your First Skill Tutorial](your-first-skill.md) —
+  Try the Brainstorm skill hands-on
+- [:octicons-arrow-right-24: Browse Available Skills](../skills/index.md) — See
+  all available skills

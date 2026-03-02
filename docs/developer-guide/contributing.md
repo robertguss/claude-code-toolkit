@@ -80,13 +80,13 @@ my-skill/
 
 ### Quality Standards
 
-| Aspect | Requirement |
-|--------|-------------|
-| **Focused** | One job, done well |
-| **Concise** | Only essential information |
-| **Structured** | Clear workflow with inputs/outputs |
+| Aspect          | Requirement                             |
+| --------------- | --------------------------------------- |
+| **Focused**     | One job, done well                      |
+| **Concise**     | Only essential information              |
+| **Structured**  | Clear workflow with inputs/outputs      |
 | **Progressive** | Core in SKILL.md, details in references |
-| **Tested** | Validated with real usage |
+| **Tested**      | Validated with real usage               |
 
 ---
 
@@ -129,6 +129,7 @@ Add voice calibration reference to ghost-writer
 ### 5. Open Pull Request
 
 Include:
+
 - What changed and why
 - Testing performed
 - Any breaking changes
@@ -209,7 +210,8 @@ Verify the package contains expected files.
 
 ## License
 
-Contributions are subject to the repository's license terms. See LICENSE for details.
+Contributions are subject to the repository's license terms. See LICENSE for
+details.
 
 ---
 
@@ -217,4 +219,5 @@ Contributions are subject to the repository's license terms. See LICENSE for det
 
 - [Skill Anatomy](skill-anatomy.md) — Understand skill structure
 - [Writing SKILL.md](writing-skill-md.md) — Best practices for instructions
-- [Building & Packaging](building-and-packaging.md) — Package skills for distribution
+- [Building & Packaging](building-and-packaging.md) — Package skills for
+  distribution

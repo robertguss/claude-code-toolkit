@@ -6,7 +6,8 @@ Understanding the structure of a skill.
 
 ## Overview
 
-Skills are modular, self-contained packages that extend Claude's capabilities. They consist of a required SKILL.md file and optional bundled resources.
+Skills are modular, self-contained packages that extend Claude's capabilities.
+They consist of a required SKILL.md file and optional bundled resources.
 
 ```
 skill-name/
@@ -26,16 +27,19 @@ Every skill must have a SKILL.md file containing:
 ```yaml
 ---
 name: my-skill
-description: A clear description of what this skill does and when Claude should use it. Must be at least 20 characters.
+description:
+  A clear description of what this skill does and when Claude should use it.
+  Must be at least 20 characters.
 ---
 ```
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| `name` | Yes | Skill identifier (should match folder name) |
-| `description` | Yes | When to activate (min 20 chars) |
+| Field         | Required | Description                                 |
+| ------------- | -------- | ------------------------------------------- |
+| `name`        | Yes      | Skill identifier (should match folder name) |
+| `description` | Yes      | When to activate (min 20 chars)             |
 
-The description is critical—it's what Claude reads to determine when to activate the skill. Be clear and comprehensive.
+The description is critical—it's what Claude reads to determine when to activate
+the skill. Be clear and comprehensive.
 
 ### Markdown Body
 
@@ -98,6 +102,7 @@ references/
 ### Example Reference Pattern
 
 In SKILL.md:
+
 ```markdown
 ## Methods
 
@@ -134,7 +139,8 @@ assets/
 
 ### Best Practices
 
-- **Separate from references** — Assets are for output, references are for context
+- **Separate from references** — Assets are for output, references are for
+  context
 - **Clear organization** — Use subfolders for different asset types
 - **Minimal footprint** — Only include what's actually needed
 
@@ -150,7 +156,8 @@ Skills should only contain essential files. Do NOT create:
 - CHANGELOG.md
 - User-facing documentation
 
-The skill is for Claude, not human readers. It should contain only what Claude needs to do the job.
+The skill is for Claude, not human readers. It should contain only what Claude
+needs to do the job.
 
 ---
 
@@ -158,11 +165,11 @@ The skill is for Claude, not human readers. It should contain only what Claude n
 
 Skills use three levels of loading:
 
-| Level | Content | When Loaded | Size |
-|-------|---------|-------------|------|
-| 1 | name + description | Always | ~100 words |
-| 2 | SKILL.md body | When triggered | <5k words |
-| 3 | References | As needed | Unlimited |
+| Level | Content            | When Loaded    | Size       |
+| ----- | ------------------ | -------------- | ---------- |
+| 1     | name + description | Always         | ~100 words |
+| 2     | SKILL.md body      | When triggered | <5k words  |
+| 3     | References         | As needed      | Unlimited  |
 
 This keeps context lean while making depth available on demand.
 
@@ -173,7 +180,9 @@ Always in context. Claude reads this to decide whether to activate the skill.
 ```yaml
 ---
 name: brainstorm
-description: Collaborative brainstorming partner for multi-session ideation projects. Use when the user wants to brainstorm, ideate, explore ideas...
+description:
+  Collaborative brainstorming partner for multi-session ideation projects. Use
+  when the user wants to brainstorm, ideate, explore ideas...
 ---
 ```
 

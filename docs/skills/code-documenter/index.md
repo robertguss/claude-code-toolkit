@@ -1,14 +1,26 @@
 # Code Documenter
 
-> Intelligent documentation generation system that analyzes codebases and creates comprehensive, reader-focused documentation. Use when you need to generate or update documentation for any project -- APIs, CLIs, libraries, web applications, or complex systems.
+> Intelligent documentation generation system that analyzes codebases and
+> creates comprehensive, reader-focused documentation. Use when you need to
+> generate or update documentation for any project -- APIs, CLIs, libraries, web
+> applications, or complex systems.
 
 ## Overview
 
-The Code Documenter skill transforms Claude into a documentation specialist that doesn't just describe code -- it explains it for the people who need to use it. Operating on the principle that "documentation serves readers, not authors," every decision prioritizes reader understanding and success.
+The Code Documenter skill transforms Claude into a documentation specialist that
+doesn't just describe code -- it explains it for the people who need to use it.
+Operating on the principle that "documentation serves readers, not authors,"
+every decision prioritizes reader understanding and success.
 
-Unlike simple doc generators that extract comments and function signatures, this skill performs deep codebase analysis using five specialized agents, tracks documentation health over time, and adapts its output to different audiences and project types. It produces living documentation that stays current with your code and actually helps users accomplish their goals.
+Unlike simple doc generators that extract comments and function signatures, this
+skill performs deep codebase analysis using five specialized agents, tracks
+documentation health over time, and adapts its output to different audiences and
+project types. It produces living documentation that stays current with your
+code and actually helps users accomplish their goals.
 
-The skill operates in two modes: **Quick Mode** for efficient incremental updates after changes, and **Comprehensive Mode** for thorough analysis with human review gates when starting fresh or performing major overhauls.
+The skill operates in two modes: **Quick Mode** for efficient incremental
+updates after changes, and **Comprehensive Mode** for thorough analysis with
+human review gates when starting fresh or performing major overhauls.
 
 ## Quick Start
 
@@ -25,7 +37,8 @@ The skill operates in two modes: **Quick Mode** for efficient incremental update
 ```markdown
 ## Skills
 
-When documenting code, read and follow /path/to/claude-skills/code-documenter/SKILL.md.
+When documenting code, read and follow
+/path/to/claude-skills/code-documenter/SKILL.md.
 ```
 
 **For Claude.ai**, upload the packaged `.skill` file via Settings > Skills.
@@ -41,7 +54,8 @@ and go through the full analysis process.
 I just added a new API endpoint. Update the docs in quick mode.
 ```
 
-Claude will guide you through mode selection and analysis before generating documentation.
+Claude will guide you through mode selection and analysis before generating
+documentation.
 
 ## Features
 
@@ -104,7 +118,9 @@ flowchart LR
 
 ### Phase 1: Mode Selection
 
-Claude asks whether you want Quick Mode (incremental) or Comprehensive Mode (full analysis). If a `.doc-state.json` manifest exists, Claude summarizes current health and recommends the appropriate mode.
+Claude asks whether you want Quick Mode (incremental) or Comprehensive Mode
+(full analysis). If a `.doc-state.json` manifest exists, Claude summarizes
+current health and recommends the appropriate mode.
 
 ### Phase 2: Multi-Agent Project Analysis
 
@@ -122,7 +138,8 @@ All findings are reported in structured format with full transparency.
 
 ### Phase 3: Documentation State Assessment
 
-Claude loads or creates the `.doc-state.json` manifest, compares documentation state against current code, and identifies gaps and stale sections.
+Claude loads or creates the `.doc-state.json` manifest, compares documentation
+state against current code, and identifies gaps and stale sections.
 
 ### Phase 4: Audience & Scope Discovery
 
@@ -135,7 +152,8 @@ Claude determines who needs documentation:
 Then selects depth level:
 
 - **Standard** (4,000-7,000 words) -- Public surface + essentials
-- **Deep** (8,000-12,000 words) -- Internals, advanced patterns, performance tuning
+- **Deep** (8,000-12,000 words) -- Internals, advanced patterns, performance
+  tuning
 
 ### Phase 5: Documentation Boundaries
 
@@ -162,8 +180,10 @@ Claude presents a complete documentation plan for approval, including:
 1. **Gate 1:** Core Documentation (README + Getting Started)
 2. **Gate 2:** Reference Documentation (API/Commands/Components + Examples)
 3. **Gate 3:** Architecture & Decisions (System design, ADRs)
-4. **Gate 4:** Supporting Documentation (Troubleshooting, Contributing, Navigation)
-5. **Gate 5:** Polish & Verification (Example testing, link validation, accessibility)
+4. **Gate 4:** Supporting Documentation (Troubleshooting, Contributing,
+   Navigation)
+5. **Gate 5:** Polish & Verification (Example testing, link validation,
+   accessibility)
 
 **In Quick Mode**, generation is autonomous with clear status updates.
 
@@ -310,7 +330,8 @@ Our docs are a mess. Health score dropped to 45. Let's do a full overhaul.
 **Session flow:**
 
 1. Claude confirms Comprehensive Mode for overhaul
-2. Analysis reveals: 40% of endpoints undocumented, architecture docs 8 months stale
+2. Analysis reveals: 40% of endpoints undocumented, architecture docs 8 months
+   stale
 3. Claude identifies 3 critical ADR candidates from git history
 4. Deep mode recommended given complexity
 5. Generation proceeds with all five gates, user reviews at each stage
@@ -318,21 +339,31 @@ Our docs are a mess. Health score dropped to 45. Let's do a full overhaul.
 
 ## Best Practices
 
-**Start with Comprehensive Mode for new projects.** Even if you're in a hurry, the initial thorough analysis pays dividends. Switch to Quick Mode for subsequent updates.
+**Start with Comprehensive Mode for new projects.** Even if you're in a hurry,
+the initial thorough analysis pays dividends. Switch to Quick Mode for
+subsequent updates.
 
-**Let Claude ask questions.** The audience and depth questions exist for a reason -- answers dramatically affect output quality.
+**Let Claude ask questions.** The audience and depth questions exist for a
+reason -- answers dramatically affect output quality.
 
-**Review quality gates thoughtfully.** In Comprehensive Mode, the gates aren't bureaucracy -- they're checkpoints to ensure documentation serves your actual users.
+**Review quality gates thoughtfully.** In Comprehensive Mode, the gates aren't
+bureaucracy -- they're checkpoints to ensure documentation serves your actual
+users.
 
-**Keep the manifest in version control.** The `.doc-state.json` file tracks health history and enables smart incremental updates.
+**Keep the manifest in version control.** The `.doc-state.json` file tracks
+health history and enables smart incremental updates.
 
-**Run Quick Mode after significant changes.** Don't let documentation drift. A quick update after each feature keeps health scores high.
+**Run Quick Mode after significant changes.** Don't let documentation drift. A
+quick update after each feature keeps health scores high.
 
-**Trust the health score trajectory.** A declining score over time indicates documentation debt accumulating -- address it before it becomes critical.
+**Trust the health score trajectory.** A declining score over time indicates
+documentation debt accumulating -- address it before it becomes critical.
 
-**Use ADRs for significant decisions.** When Claude identifies potential ADR candidates, capture them. Future developers will thank you.
+**Use ADRs for significant decisions.** When Claude identifies potential ADR
+candidates, capture them. Future developers will thank you.
 
-**Test the examples.** The skill generates test scripts for examples. Run them. Broken examples are worse than no examples.
+**Test the examples.** The skill generates test scripts for examples. Run them.
+Broken examples are worse than no examples.
 
 ## Troubleshooting
 
@@ -351,7 +382,8 @@ Our docs are a mess. Health score dropped to 45. Let's do a full overhaul.
 
 - **Source:** `code-documenter/SKILL.md`
 - **Project Types Guide:** `code-documenter/references/project-types-guide.md`
-- **Documentation Patterns:** `code-documenter/references/documentation-patterns.md`
+- **Documentation Patterns:**
+  `code-documenter/references/documentation-patterns.md`
 - **Quality Standards:** `code-documenter/references/quality-standards.md`
 - **Manifest Specification:** `code-documenter/references/manifest-spec.md`
 - **Depth Levels Guide:** `code-documenter/references/depth-levels-guide.md`
@@ -359,4 +391,5 @@ Our docs are a mess. Health score dropped to 45. Let's do a full overhaul.
 - **ADR Guide:** `code-documenter/references/adr-guide.md`
 - **README Template:** `code-documenter/templates/README-template.md`
 - **API Docs Template:** `code-documenter/templates/api-docs-template.md`
-- **Troubleshooting Template:** `code-documenter/templates/troubleshooting-template.md`
+- **Troubleshooting Template:**
+  `code-documenter/templates/troubleshooting-template.md`

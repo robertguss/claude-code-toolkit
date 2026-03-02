@@ -1,14 +1,21 @@
 # Ebook Concept Development
 
-> Develop ebook ideas into structured concepts ready for architecture. Takes a single idea and develops it into a clear Ebook Concept Document with reader, transformation, promise, content source, scope/format, and key topics.
+> Develop ebook ideas into structured concepts ready for architecture. Takes a
+> single idea and develops it into a clear Ebook Concept Document with reader,
+> transformation, promise, content source, scope/format, and key topics.
 
 ---
 
 ## Overview
 
-The Ebook Concept Development skill takes ONE ebook idea and develops it into a structured concept ready for architecture. Unlike generic brainstorming, this skill constantly applies ebook-specific pressure: format-fit calibration, value density thinking, and transformation sizing.
+The Ebook Concept Development skill takes ONE ebook idea and develops it into a
+structured concept ready for architecture. Unlike generic brainstorming, this
+skill constantly applies ebook-specific pressure: format-fit calibration, value
+density thinking, and transformation sizing.
 
-This is genuine intellectual partnership—Claude contributes substance, offers observations, and pushes back on weak ideas with reasoning. Every element must earn its place in an ebook's concentrated solution.
+This is genuine intellectual partnership—Claude contributes substance, offers
+observations, and pushes back on weak ideas with reasoning. Every element must
+earn its place in an ebook's concentrated solution.
 
 ---
 
@@ -35,6 +42,7 @@ This is genuine intellectual partnership—Claude contributes substance, offers 
     Upload `ebook-concept-development.skill` to Settings → Skills.
 
 **Sample prompt:**
+
 ```
 I have an ebook idea I want to develop. Here's what I'm thinking: [describe idea]
 ```
@@ -43,14 +51,14 @@ I have an ebook idea I want to develop. Here's what I'm thinking: [describe idea
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| **Ebook-Specific Pressure** | Format-fit calibration, value density, transformation sizing |
-| **Five Core Elements** | Reader, Transformation, Promise, Content Source, Scope & Format |
-| **Situational Elements** | Value Gap and Enemy surface when relevant |
-| **Living Document** | Updated at milestones, not constantly |
-| **Stress Testing** | Coherence and viability check before handoff |
-| **Multi-Session Support** | Pick up exactly where you left off |
+| Feature                     | Description                                                     |
+| --------------------------- | --------------------------------------------------------------- |
+| **Ebook-Specific Pressure** | Format-fit calibration, value density, transformation sizing    |
+| **Five Core Elements**      | Reader, Transformation, Promise, Content Source, Scope & Format |
+| **Situational Elements**    | Value Gap and Enemy surface when relevant                       |
+| **Living Document**         | Updated at milestones, not constantly                           |
+| **Stress Testing**          | Coherence and viability check before handoff                    |
+| **Multi-Session Support**   | Pick up exactly where you left off                              |
 
 ---
 
@@ -58,13 +66,13 @@ I have an ebook idea I want to develop. Here's what I'm thinking: [describe idea
 
 Every ebook concept needs these developed:
 
-| Element | Core Question | "Developed" Means |
-|---------|---------------|-------------------|
-| **Reader** | Who specifically is this for? | A specific person, not a category. Their situation, problem, what they've tried. |
-| **Transformation** | Where before → where after? | Concrete states. You can picture the person at each point. |
-| **Promise** | What does the reader get? | One compelling sentence. Specific, believable, would make someone pay. |
-| **Content Source** | What existing content feeds this? | Clear inventory: original, repurposed, or extracted from larger work. |
-| **Scope & Format** | What's the shape? | Word count range, format type, platform, what's explicitly OUT. |
+| Element            | Core Question                     | "Developed" Means                                                                |
+| ------------------ | --------------------------------- | -------------------------------------------------------------------------------- |
+| **Reader**         | Who specifically is this for?     | A specific person, not a category. Their situation, problem, what they've tried. |
+| **Transformation** | Where before → where after?       | Concrete states. You can picture the person at each point.                       |
+| **Promise**        | What does the reader get?         | One compelling sentence. Specific, believable, would make someone pay.           |
+| **Content Source** | What existing content feeds this? | Clear inventory: original, repurposed, or extracted from larger work.            |
+| **Scope & Format** | What's the shape?                 | Word count range, format type, platform, what's explicitly OUT.                  |
 
 ---
 
@@ -72,10 +80,10 @@ Every ebook concept needs these developed:
 
 These surface naturally when signals appear—never forced:
 
-| Element | When It Applies | Signal Phrases |
-|---------|-----------------|----------------|
-| **Value Gap** | Creator-led ebooks (repurposed content) | "I have videos on this," "my newsletter covers this" |
-| **Enemy** | Argument-driven ebooks | "Most people think X but actually Y," "conventional wisdom is wrong" |
+| Element       | When It Applies                         | Signal Phrases                                                       |
+| ------------- | --------------------------------------- | -------------------------------------------------------------------- |
+| **Value Gap** | Creator-led ebooks (repurposed content) | "I have videos on this," "my newsletter covers this"                 |
+| **Enemy**     | Argument-driven ebooks                  | "Most people think X but actually Y," "conventional wisdom is wrong" |
 
 ---
 
@@ -93,11 +101,13 @@ Is this genuinely ebook-sized?
 
 ### Value Density Thinking
 
-Ebooks are concentrated solutions. Every element must earn its place. If content could be cut without losing value, it should be.
+Ebooks are concentrated solutions. Every element must earn its place. If content
+could be cut without losing value, it should be.
 
 ### Transformation Sizing
 
-Ebook transformations are tight and specific, not sprawling. "Go from confused about X to confidently doing Y" not "become a complete expert in everything."
+Ebook transformations are tight and specific, not sprawling. "Go from confused
+about X to confidently doing Y" not "become a complete expert in everything."
 
 ---
 
@@ -113,7 +123,8 @@ You might bring:
 - Existing content to repurpose
 - A section from a larger book
 
-Claude reads the room—coming in hot with analysis for developed material, drawing out more for thin material.
+Claude reads the room—coming in hot with analysis for developed material,
+drawing out more for thin material.
 
 ### First Response Pattern
 
@@ -129,9 +140,12 @@ After receiving material, Claude provides:
 
 **Collaboration behaviors:**
 
-- Proactive observations: "I notice the transformation has two stages—is this one ebook or two?"
-- Challenge with reasoning: "The scope feels ambitious because you're describing three distinct skill-building stages."
-- Surface connections: "Your reader and promise seem misaligned—reader is beginners but promise assumes they understand X."
+- Proactive observations: "I notice the transformation has two stages—is this
+  one ebook or two?"
+- Challenge with reasoning: "The scope feels ambitious because you're describing
+  three distinct skill-building stages."
+- Surface connections: "Your reader and promise seem misaligned—reader is
+  beginners but promise assumes they understand X."
 
 **Working the elements:**
 
@@ -145,6 +159,7 @@ After receiving material, Claude provides:
 When elements feel developed, Claude offers a stress test:
 
 **Element quality:**
+
 - Reader specific enough for real decisions?
 - Transformation has clear before/after?
 - Promise compelling enough to pay for?
@@ -152,11 +167,13 @@ When elements feel developed, Claude offers a stress test:
 - Topics sufficient to deliver transformation?
 
 **Internal coherence:**
+
 - Does everything align? (Reader → Transformation → Promise → Topics)
 - Any contradictions?
 - Does format serve content and reader?
 
 **Viability concerns:**
+
 - Any red flags noticed during development?
 - Anything forced or uncertain?
 
@@ -166,17 +183,17 @@ When elements feel developed, Claude offers a stress test:
 
 ### Inputs
 
-| Input | Description |
-|-------|-------------|
-| Ebook idea | Any form—sentence, paragraph, brainstorm document, existing content |
-| Working document | If continuing a previous session |
+| Input            | Description                                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Ebook idea       | Any form—sentence, paragraph, brainstorm document, existing content |
+| Working document | If continuing a previous session                                    |
 
 ### Outputs
 
-| Output | Description |
-|--------|-------------|
+| Output                     | Description                                                 |
+| -------------------------- | ----------------------------------------------------------- |
 | **Ebook Concept Document** | Living document with all elements, decisions, and reasoning |
-| **Readiness Verdict** | Clear when concept is ready for architecture |
+| **Readiness Verdict**      | Clear when concept is ready for architecture                |
 
 ---
 
@@ -197,9 +214,12 @@ Ready for architecture when:
 ## Best Practices
 
 - **One question at a time** — Never overwhelm with multiple questions
-- **Reasoning with every pushback** — "This scope feels too big because..." not just "feels too big"
-- **Surface problems early** — Better to kill weak concept now than finish weak ebook
-- **Don't force situational elements** — Let Value Gap and Enemy emerge naturally
+- **Reasoning with every pushback** — "This scope feels too big because..." not
+  just "feels too big"
+- **Surface problems early** — Better to kill weak concept now than finish weak
+  ebook
+- **Don't force situational elements** — Let Value Gap and Enemy emerge
+  naturally
 - **Update document at milestones** — Not after every exchange
 
 ---
@@ -216,7 +236,8 @@ flowchart LR
 
 ### Upstream Skills
 
-- **[Ebook Discovery](ebook-discovery.md)** — Provides brainstorm documents with candidate ideas
+- **[Ebook Discovery](ebook-discovery.md)** — Provides brainstorm documents with
+  candidate ideas
 
 ### Downstream Skills
 
@@ -226,7 +247,8 @@ flowchart LR
 
 ## References
 
-The skill loads these reference files as needed from the `ebook-factory/ebook-concept-development/references/` directory:
+The skill loads these reference files as needed from the
+`ebook-factory/ebook-concept-development/references/` directory:
 
 - Format options — Catalog of ebook formats (prose, workbook, etc.)
 - Element examples — Good/bad examples for each element
@@ -238,9 +260,11 @@ The skill loads these reference files as needed from the `ebook-factory/ebook-co
 
 ### Example 1: Developing from Discovery Output
 
-**Input:** Brainstorm document with 3 candidate ideas, user has selected one to develop.
+**Input:** Brainstorm document with 3 candidate ideas, user has selected one to
+develop.
 
 **Session flow:**
+
 1. Claude reads brainstorm, confirms which idea to develop
 2. Provides initial analysis of what's clear vs. fuzzy
 3. Focuses first question on reader specificity
@@ -253,6 +277,7 @@ The skill loads these reference files as needed from the `ebook-factory/ebook-co
 **Input:** "I have a 12-video course on productivity. Want to extract an ebook."
 
 **Session flow:**
+
 1. Claude asks about course content structure
 2. Identifies Value Gap early (creator-led signal)
 3. Works to identify which portion = ebook vs. full course
@@ -264,5 +289,7 @@ The skill loads these reference files as needed from the `ebook-factory/ebook-co
 
 ## Related Skills
 
-- [Ebook Discovery](ebook-discovery.md) — Generate ebook ideas to feed this skill
-- [Brainstorm](../brainstorm/index.md) — General ideation that might produce ebook candidates
+- [Ebook Discovery](ebook-discovery.md) — Generate ebook ideas to feed this
+  skill
+- [Brainstorm](../brainstorm/index.md) — General ideation that might produce
+  ebook candidates

@@ -1,14 +1,24 @@
 # Book Research Assistant
 
-> Plan, orchestrate, and validate deep research for nonfiction books. The research quality gate—does everything around research (planning, prompting, validating, organizing) while you execute actual deep research using Claude and Gemini.
+> Plan, orchestrate, and validate deep research for nonfiction books. The
+> research quality gate—does everything around research (planning, prompting,
+> validating, organizing) while you execute actual deep research using Claude
+> and Gemini.
 
 ---
 
 ## Overview
 
-The Book Research Assistant plans, orchestrates, and validates deep research for nonfiction books. This skill is the research quality gate—it handles everything around the research (planning, prompting, validating, organizing, certifying readiness) while you execute the actual deep research using Claude and Gemini externally.
+The Book Research Assistant plans, orchestrates, and validates deep research for
+nonfiction books. This skill is the research quality gate—it handles everything
+around the research (planning, prompting, validating, organizing, certifying
+readiness) while you execute the actual deep research using Claude and Gemini
+externally.
 
-Core principles guide this work: **reader-first research** (every gap filled serves the reader's transformation), **truth over thesis** (if research contradicts the book's argument, surface it immediately), and **verify everything** (LLM research can hallucinate—sources need checking).
+Core principles guide this work: **reader-first research** (every gap filled
+serves the reader's transformation), **truth over thesis** (if research
+contradicts the book's argument, surface it immediately), and **verify
+everything** (LLM research can hallucinate—sources need checking).
 
 ---
 
@@ -36,6 +46,7 @@ Core principles guide this work: **reader-first research** (every gap filled ser
     Upload the packaged `.skill` file via Settings → Skills (build with `python build.py book-research-assistant`).
 
 **Sample prompt:**
+
 ```text
 I'm ready to start research for my book. Here are my architecture documents: [paste documents]
 ```
@@ -44,15 +55,15 @@ I'm ready to start research for my book. Here are my architecture documents: [pa
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| **Two-Phase Operation** | Planning (generate prompts) + Validation (verify outputs) |
-| **Gap Expansion** | Identifies gaps architect may have missed |
-| **Self-Contained Prompts** | Each prompt includes full context for standalone use |
+| Feature                    | Description                                                                              |
+| -------------------------- | ---------------------------------------------------------------------------------------- |
+| **Two-Phase Operation**    | Planning (generate prompts) + Validation (verify outputs)                                |
+| **Gap Expansion**          | Identifies gaps architect may have missed                                                |
+| **Self-Contained Prompts** | Each prompt includes full context for standalone use                                     |
 | **7-Dimension Validation** | Coverage, depth, source quality, contradictions, thesis tension, usability, gap spawning |
-| **Dual-Model Requirement** | Both Claude and Gemini outputs for P1 gaps |
-| **Chapter Summaries** | Distills findings per chapter |
-| **Final Synthesis** | Book-wide research synthesis with readiness certification |
+| **Dual-Model Requirement** | Both Claude and Gemini outputs for P1 gaps                                               |
+| **Chapter Summaries**      | Distills findings per chapter                                                            |
+| **Final Synthesis**        | Book-wide research synthesis with readiness certification                                |
 
 ---
 
@@ -79,13 +90,13 @@ I'm ready to start research for my book. Here are my architecture documents: [pa
 
 Claude guides you to the right entry point:
 
-| Scenario | What to Provide | Next Action |
-|----------|-----------------|-------------|
-| New book, first chapter | All upstream docs | Initialize trackers, start planning |
-| Continuing, new chapter | Book-Level Tracker | Initialize Chapter Tracker |
-| Continuing, validation | Trackers + research files | Begin gap-by-gap validation |
-| Thesis pivot | All docs | Assess impact, regenerate prompts |
-| Final synthesis | All Chapter Summaries | Produce Final Research Synthesis |
+| Scenario                | What to Provide           | Next Action                         |
+| ----------------------- | ------------------------- | ----------------------------------- |
+| New book, first chapter | All upstream docs         | Initialize trackers, start planning |
+| Continuing, new chapter | Book-Level Tracker        | Initialize Chapter Tracker          |
+| Continuing, validation  | Trackers + research files | Begin gap-by-gap validation         |
+| Thesis pivot            | All docs                  | Assess impact, regenerate prompts   |
+| Final synthesis         | All Chapter Summaries     | Produce Final Research Synthesis    |
 
 ### Planning Flow
 
@@ -126,25 +137,25 @@ For each gap:
 
 ## Validation Dimensions
 
-| Dimension | Question |
-|-----------|----------|
-| Coverage | Did the research actually answer the question? |
-| Depth | Enough evidence for how chapter will use it? |
-| Source Quality | Verifiable, authoritative, properly cited? |
-| Contradiction Check | Did Claude and Gemini agree? |
-| Thesis Tension | Anything challenge the book's thesis? |
-| Usability | Specific, quotable, concrete for drafting? |
-| Gap Spawning | Did answering reveal NEW gaps? |
+| Dimension           | Question                                       |
+| ------------------- | ---------------------------------------------- |
+| Coverage            | Did the research actually answer the question? |
+| Depth               | Enough evidence for how chapter will use it?   |
+| Source Quality      | Verifiable, authoritative, properly cited?     |
+| Contradiction Check | Did Claude and Gemini agree?                   |
+| Thesis Tension      | Anything challenge the book's thesis?          |
+| Usability           | Specific, quotable, concrete for drafting?     |
+| Gap Spawning        | Did answering reveal NEW gaps?                 |
 
 ---
 
 ## Verdicts
 
-| Verdict | Meaning | Action |
-|---------|---------|--------|
-| **Complete** | Research satisfies all dimensions | Gap is filled |
-| **Needs More** | Research fell short | Follow-up prompt generated |
-| **Problematic** | Thesis tension or serious issue | Author decision required |
+| Verdict         | Meaning                           | Action                     |
+| --------------- | --------------------------------- | -------------------------- |
+| **Complete**    | Research satisfies all dimensions | Gap is filled              |
+| **Needs More**  | Research fell short               | Follow-up prompt generated |
+| **Problematic** | Thesis tension or serious issue   | Author decision required   |
 
 ---
 
@@ -152,24 +163,24 @@ For each gap:
 
 ### Inputs
 
-| Input | Required | Source |
-|-------|----------|--------|
-| Research Gaps Document | Yes | book-architect |
-| Book Concept Document | Yes | book-ideation |
-| Master Architecture Document | Yes | book-architect |
-| Section Blueprint Documents | Yes | book-architect |
-| Research outputs | During validation | Claude + Gemini |
+| Input                        | Required          | Source          |
+| ---------------------------- | ----------------- | --------------- |
+| Research Gaps Document       | Yes               | book-architect  |
+| Book Concept Document        | Yes               | book-ideation   |
+| Master Architecture Document | Yes               | book-architect  |
+| Section Blueprint Documents  | Yes               | book-architect  |
+| Research outputs             | During validation | Claude + Gemini |
 
 ### Outputs
 
-| Document | Description |
-|----------|-------------|
-| **Book-Level Research Tracker** | Status of all chapters |
-| **Chapter Research Tracker** | Gaps, statuses, verdicts per chapter |
-| **Research Prompt Files** | One per gap, fully self-contained |
-| **Follow-up Prompt Files** | For "Needs More" scenarios |
-| **Chapter Research Summary** | Distillation of findings per chapter |
-| **Final Research Synthesis** | Book-wide synthesis + readiness certification |
+| Document                        | Description                                   |
+| ------------------------------- | --------------------------------------------- |
+| **Book-Level Research Tracker** | Status of all chapters                        |
+| **Chapter Research Tracker**    | Gaps, statuses, verdicts per chapter          |
+| **Research Prompt Files**       | One per gap, fully self-contained             |
+| **Follow-up Prompt Files**      | For "Needs More" scenarios                    |
+| **Chapter Research Summary**    | Distillation of findings per chapter          |
+| **Final Research Synthesis**    | Book-wide synthesis + readiness certification |
 
 ---
 

@@ -15,11 +15,13 @@ A complete collection of skills organized by category.
 
 ## Skill Pipelines
 
-Pipelines are collections of skills designed to work together in sequence, with structured handoffs between stages.
+Pipelines are collections of skills designed to work together in sequence, with
+structured handoffs between stages.
 
 ### Non-Fiction Book Factory
 
-A complete pipeline for developing nonfiction books from initial idea to chapter-level architecture.
+A complete pipeline for developing nonfiction books from initial idea to
+chapter-level architecture.
 
 ```mermaid
 flowchart LR
@@ -45,7 +47,8 @@ flowchart LR
 
 ### Ebook Factory
 
-A streamlined pipeline for creating ebooks—shorter, concentrated solutions optimized for speed-to-value.
+A streamlined pipeline for creating ebooks—shorter, concentrated solutions
+optimized for speed-to-value.
 
 ```mermaid
 flowchart LR
@@ -93,17 +96,16 @@ flowchart LR
 
 ## Choosing the Right Skill
 
-**Need to explore ideas?**
-→ Start with [Brainstorm](brainstorm/index.md)
+**Need to explore ideas?** → Start with [Brainstorm](brainstorm/index.md)
 
-**Need documentation for a codebase?**
-→ Use [Code Documenter](code-documenter/index.md)
+**Need documentation for a codebase?** → Use
+[Code Documenter](code-documenter/index.md)
 
-**Writing a comprehensive nonfiction book?**
-→ Use the [Non-Fiction Book Factory](non-fiction-book-factory/index.md) pipeline
+**Writing a comprehensive nonfiction book?** → Use the
+[Non-Fiction Book Factory](non-fiction-book-factory/index.md) pipeline
 
-**Creating a focused, shorter ebook?**
-→ Use the [Ebook Factory](ebook-factory/index.md) pipeline
+**Creating a focused, shorter ebook?** → Use the
+[Ebook Factory](ebook-factory/index.md) pipeline
 
-**Need to capture or replicate a writing voice?**
-→ Use the [Writing](writing/index.md) pipeline
+**Need to capture or replicate a writing voice?** → Use the
+[Writing](writing/index.md) pipeline

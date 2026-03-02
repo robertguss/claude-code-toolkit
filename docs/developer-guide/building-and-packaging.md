@@ -6,7 +6,8 @@ How to package skills for Claude.ai upload.
 
 ## Overview
 
-The `build.py` script packages skills into `.skill` files (ZIP archives) that can be uploaded to Claude.ai.
+The `build.py` script packages skills into `.skill` files (ZIP archives) that
+can be uploaded to Claude.ai.
 
 ---
 
@@ -27,6 +28,7 @@ python build.py <skill-name>
 ```
 
 Example:
+
 ```bash
 python build.py brainstorm
 # Output: dist/brainstorm.skill
@@ -50,12 +52,12 @@ python build.py --list
 
 The build script creates a ZIP archive containing:
 
-| Included | Excluded |
-|----------|----------|
-| SKILL.md | Hidden files (.*) |
-| references/ | .DS_Store |
-| assets/ | __pycache__ |
-| | README.md (skill-level) |
+| Included    | Excluded                |
+| ----------- | ----------------------- |
+| SKILL.md    | Hidden files (.\*)      |
+| references/ | .DS_Store               |
+| assets/     | **pycache**             |
+|             | README.md (skill-level) |
 
 ---
 
@@ -74,37 +76,45 @@ description: Description of at least 20 characters.
 
 ### Validation Checks
 
-| Check | Requirement |
-|-------|-------------|
-| SKILL.md exists | File must be present |
-| Frontmatter present | Must start with `---` |
-| name field | Required |
-| description field | Required, min 20 chars |
+| Check               | Requirement            |
+| ------------------- | ---------------------- |
+| SKILL.md exists     | File must be present   |
+| Frontmatter present | Must start with `---`  |
+| name field          | Required               |
+| description field   | Required, min 20 chars |
 
 ### Common Errors
 
 **Missing SKILL.md:**
+
 ```
 Error: brainstorm/SKILL.md not found
 ```
+
 → Ensure SKILL.md exists in the skill folder
 
 **Missing frontmatter:**
+
 ```
 Error: SKILL.md must start with YAML frontmatter (---)
 ```
+
 → Add `---` at top and bottom of frontmatter block
 
 **Missing required field:**
+
 ```
 Error: Missing required field: name
 ```
+
 → Add name field to frontmatter
 
 **Description too short:**
+
 ```
 Error: Description must be at least 20 characters
 ```
+
 → Write a more comprehensive description
 
 ---
@@ -114,6 +124,7 @@ Error: Description must be at least 20 characters
 ### Creating a New Skill
 
 1. **Create folder structure**
+
    ```
    my-skill/
    ├── SKILL.md
@@ -126,12 +137,14 @@ Error: Description must be at least 20 characters
 3. **Add references and assets** as needed
 
 4. **Validate**
+
    ```bash
    python build.py --list
    # Check for ✓ valid next to your skill
    ```
 
 5. **Package**
+
    ```bash
    python build.py my-skill
    ```
@@ -143,6 +156,7 @@ Error: Description must be at least 20 characters
 1. Make changes to skill files
 
 2. Re-package
+
    ```bash
    python build.py my-skill
    ```
@@ -155,11 +169,11 @@ Error: Description must be at least 20 characters
 
 The build command uses the skill folder name:
 
-| Folder Location | Build Command |
-|-----------------|---------------|
-| `brainstorm/` | `python build.py brainstorm` |
+| Folder Location                           | Build Command                   |
+| ----------------------------------------- | ------------------------------- |
+| `brainstorm/`                             | `python build.py brainstorm`    |
 | `non-fiction-book-factory/book-ideation/` | `python build.py book-ideation` |
-| `writing/ghost-writer/` | `python build.py ghost-writer` |
+| `writing/ghost-writer/`                   | `python build.py ghost-writer`  |
 
 Note: Use the skill name, not the full path.
 
@@ -275,4 +289,5 @@ Claude.ai may have size limits. If your skill is very large:
 
 - [Skill Anatomy](skill-anatomy.md) — Understand structure
 - [Writing SKILL.md](writing-skill-md.md) — Best practices
-- [Build Commands Reference](../reference/build-commands.md) — Full CLI reference
+- [Build Commands Reference](../reference/build-commands.md) — Full CLI
+  reference

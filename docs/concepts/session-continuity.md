@@ -6,9 +6,13 @@ How skills maintain context across sessions spanning days or weeks.
 
 ## The Problem
 
-Creative and analytical work rarely completes in one sitting. You might brainstorm today, think overnight, and continue tomorrow. Traditional AI conversations lose context between sessions—you have to re-explain everything each time.
+Creative and analytical work rarely completes in one sitting. You might
+brainstorm today, think overnight, and continue tomorrow. Traditional AI
+conversations lose context between sessions—you have to re-explain everything
+each time.
 
-Session continuity solves this through **versioned documents** that capture the full state of work.
+Session continuity solves this through **versioned documents** that capture the
+full state of work.
 
 ---
 
@@ -27,21 +31,22 @@ project-name/
 └── ...
 ```
 
-When you return, you provide the latest version file. Claude reads it and picks up exactly where you left off.
+When you return, you provide the latest version file. Claude reads it and picks
+up exactly where you left off.
 
 ### What Gets Captured
 
 Version documents typically include:
 
-| Section | Purpose |
-|---------|---------|
-| **Quick Context** | 2-3 sentences on current state |
-| **Session Log** | Date, duration, energy level, methods used |
-| **Current Thinking** | The substance of where things stand |
-| **Ideas/Elements** | Organized by maturity or development status |
-| **Decisions Made** | With reasoning, not just conclusions |
-| **Open Questions** | Unresolved items needing thought |
-| **Next Steps** | Clear actionable items |
+| Section              | Purpose                                     |
+| -------------------- | ------------------------------------------- |
+| **Quick Context**    | 2-3 sentences on current state              |
+| **Session Log**      | Date, duration, energy level, methods used  |
+| **Current Thinking** | The substance of where things stand         |
+| **Ideas/Elements**   | Organized by maturity or development status |
+| **Decisions Made**   | With reasoning, not just conclusions        |
+| **Open Questions**   | Unresolved items needing thought            |
+| **Next Steps**       | Clear actionable items                      |
 
 ### The Index File
 
@@ -51,11 +56,13 @@ A separate index file tracks the project across all versions:
 # Project Index
 
 ## Version History
+
 - v1 (Jan 15): Initial brainstorm, identified 3 directions
 - v2 (Jan 18): Deep dive on direction A, parked B and C
 - v3 (Jan 22): Refined direction A, ready for validation
 
 ## Major Decisions
+
 1. Target reader is mid-career professionals (v2)
 2. Focus on transformation, not information (v3)
 ```
@@ -106,10 +113,10 @@ Every session concludes with:
 
 Many skills ask about "session energy" at the start:
 
-| Mode | Best For | Behavior |
-|------|----------|----------|
+| Mode                 | Best For                           | Behavior                                       |
+| -------------------- | ---------------------------------- | ---------------------------------------------- |
 | **Deep exploration** | Long sessions, open-ended thinking | More questions, more methods, embrace tangents |
-| **Quick progress** | Short sessions, need decisions | Clear scope, primarily convergent, time-boxed |
+| **Quick progress**   | Short sessions, need decisions     | Clear scope, primarily convergent, time-boxed  |
 
 This lets the skill adapt to your available time and mental state.
 
@@ -123,7 +130,8 @@ For projects spanning weeks:
 
 After 3+ sessions, skills may offer:
 
-> "We've had 5 sessions on this. Want me to create a synthesis document that distills our current best thinking?"
+> "We've had 5 sessions on this. Want me to create a synthesis document that
+> distills our current best thinking?"
 
 Synthesis documents consolidate learning without losing the version history.
 
@@ -146,9 +154,12 @@ Claude: Welcome back! It's been 12 days since our last session.
 ### Do
 
 - **Keep version files** — The history matters; don't delete old versions
-- **Provide the latest version** — Always share the most recent file when continuing
-- **Use the overnight test** — Percolation between sessions often yields breakthroughs
-- **Let Claude summarize** — The status recap catches you up and verifies shared understanding
+- **Provide the latest version** — Always share the most recent file when
+  continuing
+- **Use the overnight test** — Percolation between sessions often yields
+  breakthroughs
+- **Let Claude summarize** — The status recap catches you up and verifies shared
+  understanding
 
 ### Don't
 

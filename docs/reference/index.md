@@ -8,17 +8,18 @@ Quick reference documentation for Claude Skills.
 
 <div class="grid cards" markdown>
 
--   :material-table:{ .lg .middle } **[Skill Catalog](skill-catalog.md)**
+- :material-table:{ .lg .middle } **[Skill Catalog](skill-catalog.md)**
 
-    ---
+  ***
 
-    Complete table of all skills with descriptions, inputs, outputs, and pipeline positions.
+  Complete table of all skills with descriptions, inputs, outputs, and pipeline
+  positions.
 
--   :material-console:{ .lg .middle } **[Build Commands](build-commands.md)**
+- :material-console:{ .lg .middle } **[Build Commands](build-commands.md)**
 
-    ---
+  ***
 
-    CLI reference for the build.py packaging script.
+  CLI reference for the build.py packaging script.
 
 </div>
 
@@ -28,21 +29,21 @@ Quick reference documentation for Claude Skills.
 
 ### By Task
 
-| I want to... | Go to... |
-|--------------|----------|
-| See all available skills | [Skill Catalog](skill-catalog.md) |
-| Package a skill for Claude.ai | [Build Commands](build-commands.md) |
-| Understand skill structure | [Developer Guide](../developer-guide/skill-anatomy.md) |
-| Learn about pipelines | [Concepts: Pipelines](../concepts/pipelines.md) |
+| I want to...                  | Go to...                                               |
+| ----------------------------- | ------------------------------------------------------ |
+| See all available skills      | [Skill Catalog](skill-catalog.md)                      |
+| Package a skill for Claude.ai | [Build Commands](build-commands.md)                    |
+| Understand skill structure    | [Developer Guide](../developer-guide/skill-anatomy.md) |
+| Learn about pipelines         | [Concepts: Pipelines](../concepts/pipelines.md)        |
 
 ### By Skill Category
 
-| Category | Skills |
-|----------|--------|
-| Standalone | [Brainstorm](../skills/brainstorm/index.md) |
-| Book Factory | [6 skills](../skills/non-fiction-book-factory/index.md) |
-| Ebook Factory | [2 skills](../skills/ebook-factory/index.md) |
-| Writing | [2 skills](../skills/writing/index.md) |
+| Category      | Skills                                                  |
+| ------------- | ------------------------------------------------------- |
+| Standalone    | [Brainstorm](../skills/brainstorm/index.md)             |
+| Book Factory  | [6 skills](../skills/non-fiction-book-factory/index.md) |
+| Ebook Factory | [2 skills](../skills/ebook-factory/index.md)            |
+| Writing       | [2 skills](../skills/writing/index.md)                  |
 
 ---
 

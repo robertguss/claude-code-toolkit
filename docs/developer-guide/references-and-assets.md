@@ -8,12 +8,13 @@ How to use bundled resources for progressive disclosure.
 
 Skills can bundle additional resources beyond SKILL.md:
 
-| Folder | Purpose | When Loaded |
-|--------|---------|-------------|
-| `references/` | Documentation for Claude to read | On-demand, when needed |
-| `assets/` | Files for Claude's output | Used, not loaded into context |
+| Folder        | Purpose                          | When Loaded                   |
+| ------------- | -------------------------------- | ----------------------------- |
+| `references/` | Documentation for Claude to read | On-demand, when needed        |
+| `assets/`     | Files for Claude's output        | Used, not loaded into context |
 
-This enables progressive disclosure: core instructions in SKILL.md, depth available when needed.
+This enables progressive disclosure: core instructions in SKILL.md, depth
+available when needed.
 
 ---
 
@@ -47,7 +48,8 @@ In SKILL.md, tell Claude when to load each reference:
 
 For quick method selection, see `references/methods-quick.md`.
 
-For full method explanations (to share with user), see `references/methods-detailed.md`.
+For full method explanations (to share with user), see
+`references/methods-detailed.md`.
 ```
 
 ```markdown
@@ -64,6 +66,7 @@ References are powerful when loaded conditionally:
 ## Framework Selection
 
 Based on book type:
+
 - Argument-driven → Load `references/argument-frameworks.md`
 - Narrative → Load `references/narrative-frameworks.md`
 - How-to → Load `references/how-to-frameworks.md`
@@ -90,9 +93,11 @@ For files >100 lines, include a table of contents:
 ## Divergent Methods
 
 ### SCAMPER
+
 [content]
 
 ### Random Stimulus
+
 [content]
 ```
 
@@ -147,9 +152,11 @@ Good templates include:
 # [Project Name] - v[N]
 
 ## Quick Context
+
 [2-3 sentences: what is this, current state]
 
 ## Session Log
+
 - Date: [DATE]
 - Duration: [TIME]
 - Energy: [Deep/Quick]
@@ -157,26 +164,33 @@ Good templates include:
 - Methods used: [LIST]
 
 ## Current Thinking
+
 [The substance of where things stand]
 
 ## Ideas Inventory
 
 ### Raw
+
 [Unexamined ideas]
 
 ### Developing
+
 [Being explored]
 
 ### Refined
+
 [Ready for evaluation]
 
 ## Decisions Made
+
 [With reasoning]
 
 ## Open Questions
+
 [Unresolved items]
 
 ## Next Steps
+
 [Clear actionable items]
 ```
 
@@ -193,8 +207,7 @@ SKILL.md contains core workflow; references contain depth:
 
 ## Quick Start
 
-Extract text with pdfplumber:
-[brief example]
+Extract text with pdfplumber: [brief example]
 
 ## Advanced Features
 
@@ -241,8 +254,8 @@ Show basic in SKILL.md, link to advanced:
 
 For simple edits, modify XML directly.
 
-**For tracked changes**: See `references/redlining.md`
-**For complex formatting**: See `references/ooxml.md`
+**For tracked changes**: See `references/redlining.md` **For complex
+formatting**: See `references/ooxml.md`
 ```
 
 ---
@@ -251,28 +264,28 @@ For simple edits, modify XML directly.
 
 ### References
 
-| Do | Don't |
-|----|-------|
-| Clear pointers from SKILL.md | Assume Claude knows references exist |
-| One level deep from SKILL.md | Deeply nested references |
-| Table of contents for long files | Unstructured walls of text |
-| Conditional loading | Load everything always |
+| Do                               | Don't                                |
+| -------------------------------- | ------------------------------------ |
+| Clear pointers from SKILL.md     | Assume Claude knows references exist |
+| One level deep from SKILL.md     | Deeply nested references             |
+| Table of contents for long files | Unstructured walls of text           |
+| Conditional loading              | Load everything always               |
 
 ### Assets
 
-| Do | Don't |
-|----|-------|
-| Clear template structures | Overly complex templates |
-| Organized subfolders | Flat directory with many files |
-| Only what's needed | Every possible template |
+| Do                        | Don't                          |
+| ------------------------- | ------------------------------ |
+| Clear template structures | Overly complex templates       |
+| Organized subfolders      | Flat directory with many files |
+| Only what's needed        | Every possible template        |
 
 ### General
 
-| Do | Don't |
-|----|-------|
+| Do                     | Don't                                    |
+| ---------------------- | ---------------------------------------- |
 | Single source of truth | Duplicate across SKILL.md and references |
-| Describe when to load | Leave loading implicit |
-| Keep SKILL.md lean | Put everything in SKILL.md |
+| Describe when to load  | Leave loading implicit                   |
+| Keep SKILL.md lean     | Put everything in SKILL.md               |
 
 ---
 
@@ -300,10 +313,12 @@ book-architect/
 ```
 
 SKILL.md points to references:
+
 ```markdown
 ## References
 
 Load as needed:
+
 - `references/structural-frameworks.md` — When selecting framework
 - `references/chapter-architecture.md` — When designing chapters
 - `references/common-problems.md` — When troubleshooting

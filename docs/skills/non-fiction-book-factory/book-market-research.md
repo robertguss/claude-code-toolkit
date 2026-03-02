@@ -1,16 +1,25 @@
 # Book Market Research
 
-> Assess commercial viability of book concepts for Amazon KDP self-publishing. Produces a Market Research Report with viability scorecard and Go/No-Go recommendation. Works standalone or after idea-validator.
+> Assess commercial viability of book concepts for Amazon KDP self-publishing.
+> Produces a Market Research Report with viability scorecard and Go/No-Go
+> recommendation. Works standalone or after idea-validator.
 
 ---
 
 ## Overview
 
-The Book Market Research skill determines if a book is worth writing from a business perspective, specifically for Amazon KDP self-publishing. It answers the question: "Setting aside whether this is a good idea, can it succeed commercially?"
+The Book Market Research skill determines if a book is worth writing from a
+business perspective, specifically for Amazon KDP self-publishing. It answers
+the question: "Setting aside whether this is a good idea, can it succeed
+commercially?"
 
-A key insight: **commercial viability is separate from intellectual merit.** A brilliant idea can fail commercially. A mediocre idea can succeed. This skill assesses the market, not the idea itself.
+A key insight: **commercial viability is separate from intellectual merit.** A
+brilliant idea can fail commercially. A mediocre idea can succeed. This skill
+assesses the market, not the idea itself.
 
-Author intent shapes interpretation—the same viability score means different things depending on whether you're writing for income, authority, passion, or lead generation.
+Author intent shapes interpretation—the same viability score means different
+things depending on whether you're writing for income, authority, passion, or
+lead generation.
 
 ---
 
@@ -34,6 +43,7 @@ Author intent shapes interpretation—the same viability score means different t
     Upload `book-market-research.skill` to Settings → Skills.
 
 **Sample prompt:**
+
 ```
 I want to assess the commercial viability of my book concept. Here's my Book Concept Document: [paste document]
 ```
@@ -42,14 +52,14 @@ I want to assess the commercial viability of my book concept. Here's my Book Con
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| **Author Intent Calibration** | Interprets scores based on your goals (income, authority, passion, lead gen) |
-| **Quick Assessment Mode** | Single-session qualitative analysis |
-| **Deep Dive Mode** | Multi-session with quantitative Amazon data |
-| **8-Criterion Viability Scorecard** | Weighted scoring across key factors |
-| **Positioning Recommendations** | How to differentiate in the market |
-| **Pricing Guidance** | Market-informed pricing strategy |
+| Feature                             | Description                                                                  |
+| ----------------------------------- | ---------------------------------------------------------------------------- |
+| **Author Intent Calibration**       | Interprets scores based on your goals (income, authority, passion, lead gen) |
+| **Quick Assessment Mode**           | Single-session qualitative analysis                                          |
+| **Deep Dive Mode**                  | Multi-session with quantitative Amazon data                                  |
+| **8-Criterion Viability Scorecard** | Weighted scoring across key factors                                          |
+| **Positioning Recommendations**     | How to differentiate in the market                                           |
+| **Pricing Guidance**                | Market-informed pricing strategy                                             |
 
 ---
 
@@ -60,7 +70,8 @@ I want to assess the commercial viability of my book concept. Here's my Book Con
 - Claude-only qualitative analysis via web search
 - Identifies competitors, positioning gaps, review themes
 - Produces preliminary viability assessment
-- **Best for:** Early-stage filtering, passion/legacy authors, experienced KDP authors
+- **Best for:** Early-stage filtering, passion/legacy authors, experienced KDP
+  authors
 
 ### Deep Dive (Multi-Session)
 
@@ -68,7 +79,8 @@ I want to assess the commercial viability of my book concept. Here's my Book Con
 - Claude provides pre-filled CSV with competitor URLs
 - You gather BSR, prices, review counts from Amazon
 - Claude analyzes completed data for full scorecard
-- **Best for:** Income-focused authors, competitive categories, first-time KDP authors
+- **Best for:** Income-focused authors, competitive categories, first-time KDP
+  authors
 
 ---
 
@@ -76,39 +88,39 @@ I want to assess the commercial viability of my book concept. Here's my Book Con
 
 Your intent determines how to interpret the viability score:
 
-| Intent | Description | Score Interpretation |
-|--------|-------------|---------------------|
-| **Income** | Book must generate revenue | Score is decisive—low = revise or kill |
-| **Authority** | Book is a credential | Moderate score OK if positioning strong |
-| **Passion/Legacy** | "This book needs to exist" | Low score = proceed with eyes open |
-| **Lead Generation** | Funnel for services | Score less critical if book serves funnel |
-| **Audience Service** | Serving existing followers | Platform strength matters more |
+| Intent               | Description                | Score Interpretation                      |
+| -------------------- | -------------------------- | ----------------------------------------- |
+| **Income**           | Book must generate revenue | Score is decisive—low = revise or kill    |
+| **Authority**        | Book is a credential       | Moderate score OK if positioning strong   |
+| **Passion/Legacy**   | "This book needs to exist" | Low score = proceed with eyes open        |
+| **Lead Generation**  | Funnel for services        | Score less critical if book serves funnel |
+| **Audience Service** | Serving existing followers | Platform strength matters more            |
 
 ---
 
 ## Viability Scorecard
 
-| Criterion | Weight | What It Measures |
-|-----------|--------|------------------|
-| Market Demand | 25% | Are people buying books in this space? |
-| Review Landscape | 15% | Review patterns, gap signals from complaints |
-| Competition Gap | 15% | Differentiation opportunity |
-| Author Credibility | 15% | Does background match claims? |
-| Pricing Viability | 10% | Can price competitively with margin? |
-| Author Platform | 10% | Existing audience for launch velocity |
-| Timing | 5% | Trend momentum vs. evergreen |
-| Production Feasibility | 5% | Can this realistically be written? |
+| Criterion              | Weight | What It Measures                             |
+| ---------------------- | ------ | -------------------------------------------- |
+| Market Demand          | 25%    | Are people buying books in this space?       |
+| Review Landscape       | 15%    | Review patterns, gap signals from complaints |
+| Competition Gap        | 15%    | Differentiation opportunity                  |
+| Author Credibility     | 15%    | Does background match claims?                |
+| Pricing Viability      | 10%    | Can price competitively with margin?         |
+| Author Platform        | 10%    | Existing audience for launch velocity        |
+| Timing                 | 5%     | Trend momentum vs. evergreen                 |
+| Production Feasibility | 5%     | Can this realistically be written?           |
 
 ---
 
 ## Score Interpretation
 
-| Score | Label | Meaning |
-|-------|-------|---------|
-| 7.0+ | **Strong Go** | Market conditions favor success |
-| 5.5–6.9 | **Conditional Go** | Viable with strategic adjustments |
-| 4.0–5.4 | **Revise** | Significant concerns—reposition or reconsider |
-| <4.0 | **Kill** | Market conditions unfavorable |
+| Score   | Label              | Meaning                                       |
+| ------- | ------------------ | --------------------------------------------- |
+| 7.0+    | **Strong Go**      | Market conditions favor success               |
+| 5.5–6.9 | **Conditional Go** | Viable with strategic adjustments             |
+| 4.0–5.4 | **Revise**         | Significant concerns—reposition or reconsider |
+| <4.0    | **Kill**           | Market conditions unfavorable                 |
 
 **Intent Overlay:**
 
@@ -151,21 +163,21 @@ Your intent determines how to interpret the viability score:
 
 ### Inputs
 
-| Input | Required | Source |
-|-------|----------|--------|
-| Book Concept Document | Yes | book-ideation |
-| Validation Report | Recommended | book-idea-validator |
-| Author intent declaration | Yes | Asked at session start |
+| Input                     | Required    | Source                 |
+| ------------------------- | ----------- | ---------------------- |
+| Book Concept Document     | Yes         | book-ideation          |
+| Validation Report         | Recommended | book-idea-validator    |
+| Author intent declaration | Yes         | Asked at session start |
 
 ### Outputs
 
-| Output | Description |
-|--------|-------------|
-| Market Research Report | Full analysis with scorecard and recommendation |
-| Competitor Analysis CSV | Quantitative data (Deep Dive only) |
-| Positioning Recommendations | How to differentiate |
-| Pricing Recommendations | Market-informed pricing |
-| Title/Subtitle Direction | Market-informed suggestions |
+| Output                      | Description                                     |
+| --------------------------- | ----------------------------------------------- |
+| Market Research Report      | Full analysis with scorecard and recommendation |
+| Competitor Analysis CSV     | Quantitative data (Deep Dive only)              |
+| Positioning Recommendations | How to differentiate                            |
+| Pricing Recommendations     | Market-informed pricing                         |
+| Title/Subtitle Direction    | Market-informed suggestions                     |
 
 ---
 
@@ -189,9 +201,12 @@ Your intent determines how to interpret the viability score:
 ## Best Practices
 
 - **Declare intent honestly** — It shapes interpretation
-- **Do the data gathering** — 10 minutes on Amazon provides valuable quantitative insight
-- **Consider both validation and market** — Intellectual merit ≠ commercial viability
-- **Use positioning guidance** — The how-to-differentiate matters as much as go/no-go
+- **Do the data gathering** — 10 minutes on Amazon provides valuable
+  quantitative insight
+- **Consider both validation and market** — Intellectual merit ≠ commercial
+  viability
+- **Use positioning guidance** — The how-to-differentiate matters as much as
+  go/no-go
 
 ---
 
@@ -210,7 +225,8 @@ flowchart LR
 
 **Standalone Mode:** Book Concept Document only → pure commercial analysis
 
-**Post-Validation Mode:** Book Concept Document + Validation Report → integrated assessment
+**Post-Validation Mode:** Book Concept Document + Validation Report → integrated
+assessment
 
 ### Upstream Skills
 
