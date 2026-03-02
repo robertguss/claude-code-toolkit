@@ -1,6 +1,8 @@
 # Ghost Writer Skill - Design Notes
 
-This document captures the complete context from the brainstorming session that produced the `writing-dna-discovery` skill. Use this as the foundation for building the ghost writer skill.
+This document captures the complete context from the brainstorming session that
+produced the `writing-dna-discovery` skill. Use this as the foundation for
+building the ghost writer skill.
 
 ---
 
@@ -10,33 +12,40 @@ This document captures the complete context from the brainstorming session that 
 
 We designed a two-skill system for AI-assisted writing:
 
-1. **Writing DNA Discovery** (completed) - Captures a writer's voice through collaborative interview and sample analysis. Produces a Voice DNA Document.
+1. **Writing DNA Discovery** (completed) - Captures a writer's voice through
+   collaborative interview and sample analysis. Produces a Voice DNA Document.
 
-2. **Ghost Writer** (to be built) - Consumes the Voice DNA Document and produces first drafts that match the writer's authentic voice.
+2. **Ghost Writer** (to be built) - Consumes the Voice DNA Document and produces
+   first drafts that match the writer's authentic voice.
 
 ### The 80% Accuracy Goal
 
 The ghost writer is NOT intended to replace the human writer. The goal is:
 
 - **Ghost writer produces:** ~80% accurate first drafts
-- **Human adds:** The remaining 20% (creative spark, situational judgment, final polish)
+- **Human adds:** The remaining 20% (creative spark, situational judgment, final
+  polish)
 
-This is a tool for producing strong starting points, not finished work. The human always edits, revises, and finalizes.
+This is a tool for producing strong starting points, not finished work. The
+human always edits, revises, and finalizes.
 
 ### Why Two Skills?
 
 Separating discovery from writing allows:
 
 - **Reusability:** One DNA document can be used for many writing sessions
-- **Refinement:** The DNA document improves over time based on ghost writer feedback
+- **Refinement:** The DNA document improves over time based on ghost writer
+  feedback
 - **Clarity:** Each skill has a focused purpose
-- **Multiple registers:** A writer can have different DNA documents for different modes (blog, fiction, technical, etc.)
+- **Multiple registers:** A writer can have different DNA documents for
+  different modes (blog, fiction, technical, etc.)
 
 ---
 
 ## The Voice DNA Document
 
-The writing-dna-discovery skill produces a structured document. Here's what the ghost writer needs to know:
+The writing-dna-discovery skill produces a structured document. Here's what the
+ghost writer needs to know:
 
 ### Document Structure
 
@@ -74,9 +83,11 @@ Voice DNA: [Author Name]
 
 ### The Ghost Writer Briefing Section
 
-This section is specifically designed for the ghost writer skill to consume. It contains:
+This section is specifically designed for the ghost writer skill to consume. It
+contains:
 
-**Voice Essence:** 2-3 sentence distillation of the writer's voice—the north star.
+**Voice Essence:** 2-3 sentence distillation of the writer's voice—the north
+star.
 
 **Do This:** Specific, actionable instructions:
 
@@ -118,7 +129,8 @@ Writers have different voices for different contexts:
 - Technical writing vs. casual essays
 - Marketing copy vs. personal emails
 
-Each register gets its own DNA document. The ghost writer should ask which register to use if the writer has multiple.
+Each register gets its own DNA document. The ghost writer should ask which
+register to use if the writer has multiple.
 
 ### Living Documents
 
@@ -131,7 +143,8 @@ Voice DNA Documents are not static. They:
 
 ### Comprehensive Capability, Intelligent Application
 
-The DNA discovery skill has a full arsenal of dimensions but doesn't use everything for every writer. The ghost writer should similarly:
+The DNA discovery skill has a full arsenal of dimensions but doesn't use
+everything for every writer. The ghost writer should similarly:
 
 - Use what's captured in the specific DNA document
 - Not assume patterns that aren't documented
@@ -225,7 +238,8 @@ We developed a comprehensive 8-level framework for analyzing voice:
 
 ## Anti-AI Patterns to Suppress
 
-The ghost writer must avoid these AI tells. Full details in `writing-dna-discovery/references/anti-ai-patterns.md`.
+The ghost writer must avoid these AI tells. Full details in
+`writing-dna-discovery/references/anti-ai-patterns.md`.
 
 ### The 11 Pattern Categories
 
@@ -267,7 +281,8 @@ The ghost writer must avoid these AI tells. Full details in `writing-dna-discove
 1. Check the DNA document's "AI Patterns to Suppress" checklist
 2. Actively avoid checked patterns during generation
 3. If a pattern appears in output, revise before presenting
-4. When uncertain if something sounds "AI-like," prefer the more human-sounding alternative
+4. When uncertain if something sounds "AI-like," prefer the more human-sounding
+   alternative
 
 ---
 
@@ -331,7 +346,9 @@ After the user reviews ghost writer output:
 2. **What felt "off"?** → Surfaces missing anti-patterns
 3. **What was missing?** → Identifies gaps in DNA document
 
-This feedback should loop back to the writing-dna-discovery skill for refinement. Consider a "Refinement from Feedback" session type that converts ghost writer feedback into DNA document updates.
+This feedback should loop back to the writing-dna-discovery skill for
+refinement. Consider a "Refinement from Feedback" session type that converts
+ghost writer feedback into DNA document updates.
 
 ---
 
@@ -342,7 +359,8 @@ From the discovery skill (apply to ghost writer too):
 - **The human decides** — Ghost writer produces drafts; human has final say
 - **Transparency about confidence** — Be clear about certainty levels
 - **Surface problems** — If something doesn't work, say so
-- **Respect the voice** — The goal is matching THEM, not producing "good writing"
+- **Respect the voice** — The goal is matching THEM, not producing "good
+  writing"
 
 ---
 
@@ -365,10 +383,14 @@ From the discovery skill (apply to ghost writer too):
 
 When building the ghost writer skill:
 
-1. **Read the template** (`voice-dna-template.md`) to understand DNA document structure
-2. **Study the examples** (`dna-document-examples.md`) to see what real profiles look like
-3. **Internalize anti-AI patterns** (`anti-ai-patterns.md`) for suppression logic
-4. **Understand dimensions** (`voice-dimension-catalog.md`) for comprehensive coverage
+1. **Read the template** (`voice-dna-template.md`) to understand DNA document
+   structure
+2. **Study the examples** (`dna-document-examples.md`) to see what real profiles
+   look like
+3. **Internalize anti-AI patterns** (`anti-ai-patterns.md`) for suppression
+   logic
+4. **Understand dimensions** (`voice-dimension-catalog.md`) for comprehensive
+   coverage
 
 ---
 
@@ -417,17 +439,23 @@ ghost-writer/
 
 ## Questions to Address When Building Ghost Writer
 
-1. **How much context does the ghost writer need?** Should it read the full DNA document or just the Ghost Writer Briefing?
+1. **How much context does the ghost writer need?** Should it read the full DNA
+   document or just the Ghost Writer Briefing?
 
-2. **How should it handle sparse profiles?** More conservative? More explicit about limitations?
+2. **How should it handle sparse profiles?** More conservative? More explicit
+   about limitations?
 
-3. **What's the output format?** Just prose? Prose with annotations? Prose with confidence notes?
+3. **What's the output format?** Just prose? Prose with annotations? Prose with
+   confidence notes?
 
-4. **How does register-switching work?** Does the user specify which DNA document to use?
+4. **How does register-switching work?** Does the user specify which DNA
+   document to use?
 
-5. **Should it offer alternatives?** "Here's version A (more formal) and version B (more casual)"?
+5. **Should it offer alternatives?** "Here's version A (more formal) and version
+   B (more casual)"?
 
-6. **How does it handle length?** Short-form (tweets, headlines) vs. long-form (essays, chapters)?
+6. **How does it handle length?** Short-form (tweets, headlines) vs. long-form
+   (essays, chapters)?
 
 7. **What about the feedback loop?** Built into ghost writer, or separate skill?
 
@@ -443,8 +471,10 @@ The ghost writer skill should:
 4. **Communicate** confidence based on DNA document readiness
 5. **Enable** feedback that loops back to DNA discovery for refinement
 
-The human always edits and finalizes. The ghost writer is a starting point, not a replacement.
+The human always edits and finalizes. The ghost writer is a starting point, not
+a replacement.
 
 ---
 
-_This document was created during the writing-dna-discovery skill development session. Use it as the foundation for building the ghost writer skill._
+_This document was created during the writing-dna-discovery skill development
+session. Use it as the foundation for building the ghost writer skill._

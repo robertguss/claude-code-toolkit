@@ -33,7 +33,8 @@ A ghost writing session moves through these phases:
 
 **If no DNA document provided:**
 
-> "I need a Voice DNA Document to match your voice. Have you completed a session with the writing-dna-discovery skill? If not, I'd recommend starting there."
+> "I need a Voice DNA Document to match your voice. Have you completed a session
+> with the writing-dna-discovery skill? If not, I'd recommend starting there."
 
 **Do not proceed without a DNA document.**
 
@@ -63,24 +64,26 @@ A ghost writing session moves through these phases:
 
 **Run through systematically:**
 
-**Register Match Check:**
-If DNA document register (e.g., "Blog") differs from task format (e.g., newsletter):
+**Register Match Check:** If DNA document register (e.g., "Blog") differs from
+task format (e.g., newsletter):
 
-> "Your DNA document captures your blog voice, but you're asking for a newsletter. Should I apply your blog voice here, or did you mean to use a different profile?"
+> "Your DNA document captures your blog voice, but you're asking for a
+> newsletter. Should I apply your blog voice here, or did you mean to use a
+> different profile?"
 
 - If intentional cross-pollination: Note and proceed
 - If accidental: Pause for correct profile
 
-**Research Check:**
-If research is provided or implied:
+**Research Check:** If research is provided or implied:
 
 1. Review the research for sufficiency
-2. Identify gaps: "Your research covers X and Y, but I don't see Z. Should I proceed without it, or do you have more?"
+2. Identify gaps: "Your research covers X and Y, but I don't see Z. Should I
+   proceed without it, or do you have more?"
 3. Summarize understanding: "My take on your research: [summary]. Accurate?"
-4. Ask about citations: "How should I handle citations? Inline links, footnotes, or woven into prose?"
+4. Ask about citations: "How should I handle citations? Inline links, footnotes,
+   or woven into prose?"
 
-**Sensitive Topic Check:**
-If topic is controversial, personal, or high-stakes:
+**Sensitive Topic Check:** If topic is controversial, personal, or high-stakes:
 
 > "This touches on [topic], which can be sensitive. How bold should I be?
 >
@@ -88,29 +91,29 @@ If topic is controversial, personal, or high-stakes:
 > - Measured: Your voice, but more careful framing
 > - Your guidance: [let them specify]"
 
-**Multiple Audience Check:**
-If piece seems aimed at different readers:
+**Multiple Audience Check:** If piece seems aimed at different readers:
 
-> "This seems like it needs to work for both [audience A] and [audience B]. Should I:
+> "This seems like it needs to work for both [audience A] and [audience B].
+> Should I:
 >
 > - Prioritize one (which?)
 > - Balance both
 > - Generate separate versions for each audience"
 
-**Series Check:**
-If piece seems part of a series:
+**Series Check:** If piece seems part of a series:
 
-> "Is this part of a series? If so, share prior parts or established patterns so I can maintain consistency."
+> "Is this part of a series? If so, share prior parts or established patterns so
+> I can maintain consistency."
 
-**Derivative Work Check:**
-If continuing or expanding existing content:
+**Derivative Work Check:** If continuing or expanding existing content:
 
-> "To match your existing content closely, please share what you've already written. I'll analyze it alongside your DNA document."
+> "To match your existing content closely, please share what you've already
+> written. I'll analyze it alongside your DNA document."
 
-**Tone Modifier Check:**
-If user requests a deviation:
+**Tone Modifier Check:** If user requests a deviation:
 
-> "You said 'more urgent than usual'—I'll layer that on top of your DNA patterns. I'll note where I adjusted."
+> "You said 'more urgent than usual'—I'll layer that on top of your DNA
+> patterns. I'll note where I adjusted."
 
 ---
 
@@ -126,7 +129,8 @@ If user requests a deviation:
 > - **Moderate:** [dimensions with decent coverage]
 > - **Light:** [dimensions with minimal or no coverage]
 >
-> I'll be most confident in Strong areas. Any specific guidance for the Light areas?"
+> I'll be most confident in Strong areas. Any specific guidance for the Light
+> areas?"
 
 **Purpose:** Set expectations and catch gaps before drafting.
 
@@ -151,11 +155,14 @@ If user requests a deviation:
 
 Examples:
 
-> "One concern: Your DNA shows a casual tone, but this topic might need some authority. I'll try to balance, but review carefully."
+> "One concern: Your DNA shows a casual tone, but this topic might need some
+> authority. I'll try to balance, but review carefully."
 
-> "Note: The research doesn't include counterarguments. Want me to address them speculatively, or skip that angle?"
+> "Note: The research doesn't include counterarguments. Want me to address them
+> speculatively, or skip that angle?"
 
-> "This is a long piece (~2,500 words). Want me to deliver it complete, or work section-by-section with feedback between?"
+> "This is a long piece (~2,500 words). Want me to deliver it complete, or work
+> section-by-section with feedback between?"
 
 ### Step 2.4: Confirm Readiness
 
@@ -265,7 +272,8 @@ Examples:
 
 If feedback is vague, ask for specifics:
 
-> "When you say it felt 'off'—was it the word choice, the tone, the structure, or something else?"
+> "When you say it felt 'off'—was it the word choice, the tone, the structure,
+> or something else?"
 
 ---
 
@@ -295,7 +303,8 @@ If feedback is vague, ask for specifics:
 >
 > - [Decision rule]
 >
-> You can apply these yourself or run a refinement session with the writing-dna-discovery skill."
+> You can apply these yourself or run a refinement session with the
+> writing-dna-discovery skill."
 
 ### Step 6.2: Be Specific
 
@@ -324,8 +333,10 @@ If feedback is vague, ask for specifics:
 
 **When revising:**
 
-- If notes are unclear, ask: "You said 'punchier'—can you point to specific lines that need it?"
-- Offer perspective: "I can shorten it, but you might lose [X]. Worth the trade-off?"
+- If notes are unclear, ask: "You said 'punchier'—can you point to specific
+  lines that need it?"
+- Offer perspective: "I can shorten it, but you might lose [X]. Worth the
+  trade-off?"
 - Maintain voice consistency across versions
 - Track what changed for context
 
@@ -335,7 +346,8 @@ If feedback is vague, ask for specifics:
 
 - User explicitly says they're satisfied
 - User says they'll revise themselves
-- Multiple iterations without progress (ask: "Are we getting closer, or should we try a different approach?")
+- Multiple iterations without progress (ask: "Are we getting closer, or should
+  we try a different approach?")
 
 ---
 

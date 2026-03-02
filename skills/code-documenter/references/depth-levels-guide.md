@@ -6,16 +6,17 @@ Guide to choosing between **Standard** and **Deep** documentation depth.
 
 The skill offers two documentation depth levels:
 
-| Level | Word Count | Coverage | Use When |
-|-------|-----------|----------|----------|
-| **Standard** | 4,000-7,000 | Public surface + essentials | Most projects, balanced coverage |
-| **Deep** | 8,000-12,000 | Public + internals + advanced | Complex projects, teaching-focused |
+| Level        | Word Count   | Coverage                      | Use When                           |
+| ------------ | ------------ | ----------------------------- | ---------------------------------- |
+| **Standard** | 4,000-7,000  | Public surface + essentials   | Most projects, balanced coverage   |
+| **Deep**     | 8,000-12,000 | Public + internals + advanced | Complex projects, teaching-focused |
 
 ## Standard Depth
 
 ### What's Included
 
 ✅ **Core Documentation:**
+
 - README with quick start
 - Installation guide
 - API/CLI/Component reference
@@ -25,17 +26,20 @@ The skill offers two documentation depth levels:
 - Contributing guide (for open source)
 
 ✅ **Coverage:**
+
 - All public APIs documented
 - Key configuration options
 - Main user flows
 - Common error scenarios
 
 ✅ **Examples:**
+
 - 1-2 examples per major feature
 - Basic usage patterns
 - Common configurations
 
 **NOT included:**
+
 - Internal implementation details
 - Advanced edge cases
 - Performance tuning deep dives
@@ -84,6 +88,7 @@ Total: ~6,000 words
 ### What's Included
 
 ✅ **Everything from Standard, plus:**
+
 - Internal architecture deep dive
 - Design pattern explanations
 - Performance considerations
@@ -95,6 +100,7 @@ Total: ~6,000 words
 - Security considerations
 
 ✅ **Coverage:**
+
 - Public APIs fully documented
 - Internal implementation patterns explained
 - Edge cases and gotchas
@@ -102,12 +108,14 @@ Total: ~6,000 words
 - Advanced configuration
 
 ✅ **Examples:**
+
 - 3-5 examples per major feature
 - Progressive examples (basic → advanced)
 - Real-world scenarios
 - Anti-pattern warnings
 
 **Includes:**
+
 - Why decisions were made (ADRs)
 - How things work internally
 - When to use advanced features
@@ -183,12 +191,14 @@ Total: ~11,000 words
 ### REST API
 
 **Standard:**
+
 - Document all endpoints
 - Basic architecture
 - Standard deployment
 - ~5-7 examples
 
 **Deep:**
+
 - All endpoints with internals
 - Request lifecycle explained
 - Database design details
@@ -201,12 +211,14 @@ Total: ~11,000 words
 ### CLI Tool
 
 **Standard:**
+
 - All commands documented
 - Installation for main platforms
 - Configuration basics
 - ~5-8 examples
 
 **Deep:**
+
 - Commands + internal architecture
 - Plugin system explained
 - Advanced configuration
@@ -219,12 +231,14 @@ Total: ~11,000 words
 ### JavaScript Library
 
 **Standard:**
+
 - Public API documented
 - Basic usage patterns
 - Installation
 - ~5-7 examples
 
 **Deep:**
+
 - Public API + internals
 - How the library works
 - Extension points
@@ -238,6 +252,7 @@ Total: ~11,000 words
 ### Web Application
 
 **Standard:**
+
 - User guide
 - Developer setup
 - Component overview
@@ -245,6 +260,7 @@ Total: ~11,000 words
 - ~6-8 examples
 
 **Deep:**
+
 - User guide + internals
 - State management explained
 - Component architecture
@@ -260,18 +276,21 @@ Total: ~11,000 words
 ### Choose **Standard** if:
 
 ✓ Your project has:
+
 - Straightforward architecture
 - Well-defined public API
 - Standard patterns
 - Documentation mainly for usage
 
 ✓ Your users need to:
+
 - Use the product effectively
 - Understand what it does
 - Get started quickly
 - Troubleshoot common issues
 
 ✓ Your goal is:
+
 - Get docs shipped quickly
 - Cover the essentials well
 - Maintain minimal docs
@@ -279,18 +298,21 @@ Total: ~11,000 words
 ### Choose **Deep** if:
 
 ✓ Your project has:
+
 - Complex architecture
 - Non-obvious design decisions
 - Novel approaches
 - Extension points
 
 ✓ Your users need to:
+
 - Understand how it works internally
 - Extend or modify the system
 - Contribute code
 - Optimize performance
 
 ✓ Your goal is:
+
 - Comprehensive knowledge transfer
 - Enable advanced usage
 - Support contributors
@@ -305,6 +327,7 @@ Total: ~11,000 words
 **Project:** Simple REST API for task management
 
 **Documentation includes:**
+
 - Quick start (create task via API)
 - All 8 endpoints documented
 - Basic architecture (Express + Postgres)
@@ -312,6 +335,7 @@ Total: ~11,000 words
 - 6 examples (CRUD operations)
 
 **What's excluded:**
+
 - How middleware chain works
 - Why Postgres over MongoDB (not complex)
 - Performance optimization (not needed yet)
@@ -326,6 +350,7 @@ Total: ~11,000 words
 **Project:** Multi-tenant SaaS API platform
 
 **Documentation includes:**
+
 - Everything from Standard, plus:
 - How tenant isolation works
 - Database sharding explained
@@ -345,6 +370,7 @@ Total: ~11,000 words
 ### Starting Standard, Going Deep Later
 
 Common path:
+
 1. **Launch:** Start with Standard depth
 2. **Users ask questions:** Identify gaps in understanding
 3. **Contributors appear:** Need deeper architecture knowledge
@@ -354,6 +380,7 @@ Common path:
 ### When to Upgrade
 
 Signals it's time for Deep documentation:
+
 - Contributors struggle to understand codebase
 - Same architectural questions asked repeatedly
 - Performance optimization needed
@@ -367,6 +394,7 @@ Signals it's time for Deep documentation:
 ### Why Word Counts?
 
 Word counts provide concrete boundaries:
+
 - Forces prioritization
 - Prevents endless expansion
 - Creates consistency across projects
@@ -374,12 +402,14 @@ Word counts provide concrete boundaries:
 ### Word Count Includes
 
 Counted:
+
 - All prose in documentation files
 - Code comments within examples
 - Table content
 - List items
 
 Not counted:
+
 - Code examples themselves
 - Mermaid diagram code
 - Markdown formatting
@@ -387,6 +417,7 @@ Not counted:
 ### Flexibility
 
 Targets are guides, not hard limits:
+
 - Simple projects may be under target
 - Complex projects may exceed slightly
 - Quality matters more than hitting exact count
@@ -398,18 +429,21 @@ Targets are guides, not hard limits:
 **Start with Standard** unless you're certain you need Deep.
 
 **Reasons:**
+
 - Faster to produce and maintain
 - Sufficient for most projects
 - You can always go deeper later
 - Over-documentation is burden
 
 **Deep is investment:**
+
 - Takes longer to create
 - More to maintain
 - Only worth it if users need it
 - Better to start lean, expand as needed
 
 **When uncertain:** Ask yourself:
+
 - "Will users need to understand internals?"
 - "Is this architecture novel or complex?"
 - "Do I expect contributors?"

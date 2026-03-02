@@ -1,6 +1,9 @@
 # Proof Burden Mapping
 
-Different claims require different levels of evidence. A claim that's intuitively obvious needs almost none. A claim that contradicts the reader's deeply held beliefs needs overwhelming proof. Misjudging proof burden is a structural failure.
+Different claims require different levels of evidence. A claim that's
+intuitively obvious needs almost none. A claim that contradicts the reader's
+deeply held beliefs needs overwhelming proof. Misjudging proof burden is a
+structural failure.
 
 ## The Core Principle
 
@@ -30,15 +33,18 @@ Difficulty comes from:
 - "Most people struggle with focus."
 - "Clear communication matters in relationships."
 
-**Architectural Note:** Don't over-prove these. Over-evidencing obvious claims insults the reader's intelligence and wastes their time.
+**Architectural Note:** Don't over-prove these. Over-evidencing obvious claims
+insults the reader's intelligence and wastes their time.
 
 ---
 
 ### Level 2: Light Evidence
 
-**Claim Type:** Plausible but not universally held. Reader might nod but could question.
+**Claim Type:** Plausible but not universally held. Reader might nod but could
+question.
 
-**What It Needs:** A supporting example, brief reference to research, or logical argument.
+**What It Needs:** A supporting example, brief reference to research, or logical
+argument.
 
 **Example Claims:**
 
@@ -46,15 +52,18 @@ Difficulty comes from:
 - "First impressions form within seconds."
 - "Companies with diverse leadership perform better."
 
-**Architectural Note:** One good study or compelling example usually suffices. Don't stack evidence—it signals insecurity.
+**Architectural Note:** One good study or compelling example usually suffices.
+Don't stack evidence—it signals insecurity.
 
 ---
 
 ### Level 3: Substantial Evidence
 
-**Claim Type:** Counterintuitive or challenges common practice. Reader's initial reaction is doubt.
+**Claim Type:** Counterintuitive or challenges common practice. Reader's initial
+reaction is doubt.
 
-**What It Needs:** Multiple sources, varied evidence types (study + example + logical argument), acknowledgment of complexity.
+**What It Needs:** Multiple sources, varied evidence types (study + example +
+logical argument), acknowledgment of complexity.
 
 **Example Claims:**
 
@@ -62,15 +71,19 @@ Difficulty comes from:
 - "Praise can undermine motivation."
 - "Your intuitions about risk are systematically wrong."
 
-**Architectural Note:** Build the case. Layer evidence. Acknowledge this goes against common belief. Give the reader time to adjust.
+**Architectural Note:** Build the case. Layer evidence. Acknowledge this goes
+against common belief. Give the reader time to adjust.
 
 ---
 
 ### Level 4: Heavy Evidence
 
-**Claim Type:** Strongly counterintuitive, contradicts expert consensus, or challenges industry orthodoxy.
+**Claim Type:** Strongly counterintuitive, contradicts expert consensus, or
+challenges industry orthodoxy.
 
-**What It Needs:** Extensive evidence from multiple sources, anticipation and response to objections, acknowledgment of limitations, credible authorities cited.
+**What It Needs:** Extensive evidence from multiple sources, anticipation and
+response to objections, acknowledgment of limitations, credible authorities
+cited.
 
 **Example Claims:**
 
@@ -78,15 +91,18 @@ Difficulty comes from:
 - "The standard advice about [Y] does more harm than good."
 - "Everything you've been taught about [Z] is wrong."
 
-**Architectural Note:** This is where books succeed or fail. If you can't meet the burden, soften the claim. Reader trust is at stake.
+**Architectural Note:** This is where books succeed or fail. If you can't meet
+the burden, soften the claim. Reader trust is at stake.
 
 ---
 
 ### Level 5: Extraordinary Evidence
 
-**Claim Type:** Threatens reader's identity, professional practice, or worldview. Accepting it costs them something real.
+**Claim Type:** Threatens reader's identity, professional practice, or
+worldview. Accepting it costs them something real.
 
-**What It Needs:** Everything from Level 4, plus emotional safety, acknowledgment of the cost of acceptance, time and space to process.
+**What It Needs:** Everything from Level 4, plus emotional safety,
+acknowledgment of the cost of acceptance, time and space to process.
 
 **Example Claims:**
 
@@ -95,7 +111,10 @@ Difficulty comes from:
 - "Your expertise may be holding you back."
 - "What you believe about yourself isn't true."
 
-**Architectural Note:** Evidence alone won't work. You need to create psychological safety. "This isn't your fault. The system was designed this way." Identity-threatening claims require emotional architecture, not just intellectual proof.
+**Architectural Note:** Evidence alone won't work. You need to create
+psychological safety. "This isn't your fault. The system was designed this way."
+Identity-threatening claims require emotional architecture, not just
+intellectual proof.
 
 ---
 
@@ -109,8 +128,8 @@ Different evidence serves different purposes. Mix them for strong proof:
 - Statistics and data
 - Experiments
 
-**Strengths:** Objective, credible, hard to argue with.
-**Limits:** Can feel cold, may not resonate emotionally.
+**Strengths:** Objective, credible, hard to argue with. **Limits:** Can feel
+cold, may not resonate emotionally.
 
 ### Case Studies / Examples
 
@@ -118,8 +137,8 @@ Different evidence serves different purposes. Mix them for strong proof:
 - Named individuals or companies
 - Detailed narratives
 
-**Strengths:** Memorable, relatable, bring ideas to life.
-**Limits:** Cherry-picking concerns, "that's just one case."
+**Strengths:** Memorable, relatable, bring ideas to life. **Limits:**
+Cherry-picking concerns, "that's just one case."
 
 ### Logical Argument
 
@@ -127,8 +146,8 @@ Different evidence serves different purposes. Mix them for strong proof:
 - First principles analysis
 - Logical implications
 
-**Strengths:** Rigorous, can build from shared premises.
-**Limits:** Abstract, requires reader to follow reasoning.
+**Strengths:** Rigorous, can build from shared premises. **Limits:** Abstract,
+requires reader to follow reasoning.
 
 ### Authority / Expert Testimony
 
@@ -136,8 +155,8 @@ Different evidence serves different purposes. Mix them for strong proof:
 - References to established authorities
 - Endorsements
 
-**Strengths:** Borrowed credibility, social proof.
-**Limits:** Appeals to authority can backfire, experts can be wrong.
+**Strengths:** Borrowed credibility, social proof. **Limits:** Appeals to
+authority can backfire, experts can be wrong.
 
 ### Personal Experience
 
@@ -145,16 +164,16 @@ Different evidence serves different purposes. Mix them for strong proof:
 - First-hand observation
 - Lessons learned
 
-**Strengths:** Authentic, vulnerable, builds connection.
-**Limits:** "That's just you," limited generalizability.
+**Strengths:** Authentic, vulnerable, builds connection. **Limits:** "That's
+just you," limited generalizability.
 
 ### Analogies and Metaphors
 
 - Comparison to familiar domains
 - Mental models
 
-**Strengths:** Make abstract concrete, aid understanding.
-**Limits:** All analogies break down, can mislead.
+**Strengths:** Make abstract concrete, aid understanding. **Limits:** All
+analogies break down, can mislead.
 
 ---
 
@@ -193,7 +212,8 @@ Do you have (or can you find) evidence that meets the burden?
 
 ### Step 5: Map to Architecture
 
-Where in the book does each claim appear? Is the evidence in place BEFORE the reader needs to accept the claim?
+Where in the book does each claim appear? Is the evidence in place BEFORE the
+reader needs to accept the claim?
 
 ---
 

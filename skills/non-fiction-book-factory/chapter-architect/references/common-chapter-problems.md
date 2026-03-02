@@ -1,8 +1,12 @@
 # Common Chapter Problems Reference
 
-A diagnostic checklist for stress-testing chapter outlines before finalizing. These are patterns that cause chapters to fail—even when the individual beats are good.
+A diagnostic checklist for stress-testing chapter outlines before finalizing.
+These are patterns that cause chapters to fail—even when the individual beats
+are good.
 
-**How to use this document:** During Phase 5 (Review), walk through these problems as a checklist. If any are present, address them before finalizing the outline.
+**How to use this document:** During Phase 5 (Review), walk through these
+problems as a checklist. If any are present, address them before finalizing the
+outline.
 
 ---
 
@@ -10,36 +14,45 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 1. Too Many Concepts (Reader Overwhelm)
 
-**The symptom:** The chapter introduces 5, 6, 7+ distinct concepts or frameworks. Each is valuable, but together they exceed the reader's cognitive capacity.
+**The symptom:** The chapter introduces 5, 6, 7+ distinct concepts or
+frameworks. Each is valuable, but together they exceed the reader's cognitive
+capacity.
 
-**Why it fails:** Working memory has limits. When too much is introduced, nothing sticks. The reader finishes the chapter feeling vaguely informed but unable to articulate what they learned.
+**Why it fails:** Working memory has limits. When too much is introduced,
+nothing sticks. The reader finishes the chapter feeling vaguely informed but
+unable to articulate what they learned.
 
 **Diagnostic questions:**
 
 - How many new terms or concepts does this chapter introduce?
 - Could a reader explain the chapter's main point in one sentence after reading?
-- Are any concepts present only because they're related, not because they're essential?
+- Are any concepts present only because they're related, not because they're
+  essential?
 
 **Fixes:**
 
 - Split the chapter
 - Subordinate secondary concepts (brief mention, not full treatment)
 - Cut concepts that aren't load-bearing
-- Increase integration—show how concepts connect rather than presenting them serially
+- Increase integration—show how concepts connect rather than presenting them
+  serially
 
 ---
 
 ### 2. Missing the "So What" (No Clear Destination)
 
-**The symptom:** The chapter presents interesting content, but the reader is left wondering why it matters or what to do with it.
+**The symptom:** The chapter presents interesting content, but the reader is
+left wondering why it matters or what to do with it.
 
-**Why it fails:** Information without purpose doesn't transform. The reader may learn facts but experiences no change in understanding, belief, or capability.
+**Why it fails:** Information without purpose doesn't transform. The reader may
+learn facts but experiences no change in understanding, belief, or capability.
 
 **Diagnostic questions:**
 
 - Can you articulate the reader destination in one clear sentence?
 - Does the closing beat explicitly land the "so what"?
-- If you removed this chapter, would the reader's journey be substantively different?
+- If you removed this chapter, would the reader's journey be substantively
+  different?
 
 **Fixes:**
 
@@ -51,9 +64,12 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 3. Reader Resistance Unaddressed
 
-**The symptom:** The chapter makes claims or arguments the reader is likely to resist, but never acknowledges or engages that resistance.
+**The symptom:** The chapter makes claims or arguments the reader is likely to
+resist, but never acknowledges or engages that resistance.
 
-**Why it fails:** Readers with unaddressed objections stop trusting the author. They're arguing in their heads instead of receiving the content. Even if they finish the chapter, they haven't been transformed.
+**Why it fails:** Readers with unaddressed objections stop trusting the author.
+They're arguing in their heads instead of receiving the content. Even if they
+finish the chapter, they haven't been transformed.
 
 **Diagnostic questions:**
 
@@ -71,9 +87,11 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 4. No Emotional Variety (Monotone)
 
-**The symptom:** The chapter operates at a single emotional register throughout. All serious. All urgent. All gentle. No variation.
+**The symptom:** The chapter operates at a single emotional register throughout.
+All serious. All urgent. All gentle. No variation.
 
-**Why it fails:** Emotional monotony leads to fatigue and disengagement. The reader checks out even if the content is valuable. Contrast creates interest.
+**Why it fails:** Emotional monotony leads to fatigue and disengagement. The
+reader checks out even if the content is valuable. Contrast creates interest.
 
 **Diagnostic questions:**
 
@@ -91,9 +109,12 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 5. Front-Loaded or Back-Loaded Pacing
 
-**The symptom:** All the good content is crammed at the beginning (reader bored by middle) or all saved for the end (reader gives up before reaching it).
+**The symptom:** All the good content is crammed at the beginning (reader bored
+by middle) or all saved for the end (reader gives up before reaching it).
 
-**Why it fails:** Reader engagement follows the content. Front-loading creates a downhill slope of interest. Back-loading asks the reader to trust through too much setup.
+**Why it fails:** Reader engagement follows the content. Front-loading creates a
+downhill slope of interest. Back-loading asks the reader to trust through too
+much setup.
 
 **Diagnostic questions:**
 
@@ -111,15 +132,18 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 6. Missing Bridge (Disconnected from Book)
 
-**The symptom:** The chapter makes sense in isolation but feels disconnected from what came before or what comes after.
+**The symptom:** The chapter makes sense in isolation but feels disconnected
+from what came before or what comes after.
 
-**Why it fails:** A book is a journey, not a collection of essays. Disconnected chapters break the reader's momentum and make the book feel fragmented.
+**Why it fails:** A book is a journey, not a collection of essays. Disconnected
+chapters break the reader's momentum and make the book feel fragmented.
 
 **Diagnostic questions:**
 
 - How does the opening connect to the previous chapter's ending?
 - Does the closing set up the next chapter?
-- Could you read this chapter without having read the previous one? (If yes, is that a problem or intentional?)
+- Could you read this chapter without having read the previous one? (If yes, is
+  that a problem or intentional?)
 
 **Fixes:**
 
@@ -133,9 +157,12 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 7. Assertion Without Support
 
-**The symptom:** The chapter makes claims but doesn't back them up with evidence, examples, or reasoning.
+**The symptom:** The chapter makes claims but doesn't back them up with
+evidence, examples, or reasoning.
 
-**Why it fails:** Unsupported claims don't persuade—they only reinforce existing beliefs. Skeptical readers become more skeptical. Even agreeable readers don't internalize deeply.
+**Why it fails:** Unsupported claims don't persuade—they only reinforce existing
+beliefs. Skeptical readers become more skeptical. Even agreeable readers don't
+internalize deeply.
 
 **Diagnostic questions:**
 
@@ -153,9 +180,11 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 8. Evidence Without Insight
 
-**The symptom:** The chapter presents research, examples, or data but doesn't extract meaning from them.
+**The symptom:** The chapter presents research, examples, or data but doesn't
+extract meaning from them.
 
-**Why it fails:** Information isn't transformation. The reader needs to understand what the evidence _means_, not just that it exists.
+**Why it fails:** Information isn't transformation. The reader needs to
+understand what the evidence _means_, not just that it exists.
 
 **Diagnostic questions:**
 
@@ -173,9 +202,12 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 9. Abstraction Without Grounding
 
-**The symptom:** The chapter deals in ideas, principles, and frameworks but never brings them to earth with concrete examples.
+**The symptom:** The chapter deals in ideas, principles, and frameworks but
+never brings them to earth with concrete examples.
 
-**Why it fails:** Abstraction is hard to retain and apply. Without concrete grounding, readers understand in the moment but can't remember or use the ideas later.
+**Why it fails:** Abstraction is hard to retain and apply. Without concrete
+grounding, readers understand in the moment but can't remember or use the ideas
+later.
 
 **Diagnostic questions:**
 
@@ -193,9 +225,12 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 10. All Grounding, No Principle
 
-**The symptom:** The chapter tells stories or presents examples but never extracts the generalizable insight.
+**The symptom:** The chapter tells stories or presents examples but never
+extracts the generalizable insight.
 
-**Why it fails:** Stories are memorable but don't transfer to new situations unless the reader understands the underlying principle. The chapter entertains but doesn't teach.
+**Why it fails:** Stories are memorable but don't transfer to new situations
+unless the reader understands the underlying principle. The chapter entertains
+but doesn't teach.
 
 **Diagnostic questions:**
 
@@ -215,9 +250,11 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 11. Unclear Opening Contract
 
-**The symptom:** The reader doesn't know what the chapter will deliver or why they should keep reading.
+**The symptom:** The reader doesn't know what the chapter will deliver or why
+they should keep reading.
 
-**Why it fails:** Without a clear contract, readers feel unmoored. They're not sure what to pay attention to or whether this is worth their time.
+**Why it fails:** Without a clear contract, readers feel unmoored. They're not
+sure what to pay attention to or whether this is worth their time.
 
 **Diagnostic questions:**
 
@@ -235,9 +272,11 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 12. Failing to Deliver on the Promise
 
-**The symptom:** The opening sets an expectation that the chapter doesn't fulfill.
+**The symptom:** The opening sets an expectation that the chapter doesn't
+fulfill.
 
-**Why it fails:** Broken promises destroy trust. The reader feels cheated or confused. Even good content feels disappointing if it's not what was promised.
+**Why it fails:** Broken promises destroy trust. The reader feels cheated or
+confused. Even good content feels disappointing if it's not what was promised.
 
 **Diagnostic questions:**
 
@@ -255,9 +294,12 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 13. Premature Complexity
 
-**The symptom:** The chapter introduces nuance, complications, or advanced ideas before the reader has the foundation to receive them.
+**The symptom:** The chapter introduces nuance, complications, or advanced ideas
+before the reader has the foundation to receive them.
 
-**Why it fails:** Complexity before foundation creates confusion, not sophistication. The reader can't appreciate nuance if they don't yet understand the basics.
+**Why it fails:** Complexity before foundation creates confusion, not
+sophistication. The reader can't appreciate nuance if they don't yet understand
+the basics.
 
 **Diagnostic questions:**
 
@@ -275,9 +317,11 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 ### 14. Unnecessary Repetition
 
-**The symptom:** The chapter says the same thing multiple times without adding new value each time.
+**The symptom:** The chapter says the same thing multiple times without adding
+new value each time.
 
-**Why it fails:** Repetition without purpose wastes reader time and signals lack of confidence. Readers notice and disengage.
+**Why it fails:** Repetition without purpose wastes reader time and signals lack
+of confidence. Readers notice and disengage.
 
 **Diagnostic questions:**
 
@@ -289,15 +333,19 @@ A diagnostic checklist for stress-testing chapter outlines before finalizing. Th
 
 - Identify redundant beats
 - Cut or consolidate
-- If repetition is intentional (reinforcement), ensure each instance adds a new angle
+- If repetition is intentional (reinforcement), ensure each instance adds a new
+  angle
 
 ---
 
 ### 15. Wrong Ending Type
 
-**The symptom:** The closing strategy doesn't match the chapter's content or arc.
+**The symptom:** The closing strategy doesn't match the chapter's content or
+arc.
 
-**Why it fails:** Endings set the final taste. A practical chapter ending with vague inspiration feels incomplete. A philosophical chapter ending with a checklist feels reductive.
+**Why it fails:** Endings set the final taste. A practical chapter ending with
+vague inspiration feels incomplete. A philosophical chapter ending with a
+checklist feels reductive.
 
 **Diagnostic questions:**
 

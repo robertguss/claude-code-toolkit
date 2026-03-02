@@ -1,12 +1,14 @@
 # Discovery Anti-Patterns
 
-Common problems that derail discovery sessions. Use this reference to recognize warning signs and intervene effectively.
+Common problems that derail discovery sessions. Use this reference to recognize
+warning signs and intervene effectively.
 
 ---
 
 ## The Idea Collector
 
-**Pattern:** Surfaces many candidates, commits to none. Discovery becomes an end in itself rather than a path to creating an ebook.
+**Pattern:** Surfaces many candidates, commits to none. Discovery becomes an end
+in itself rather than a path to creating an ebook.
 
 ### Warning Signs
 
@@ -25,15 +27,19 @@ Common problems that derail discovery sessions. Use this reference to recognize 
 
 ### Intervention
 
-"We've surfaced [X] candidates, which is a rich harvest. But discovery serves development—at some point we need to choose one to move forward. I notice we keep adding without prioritizing. What's making it hard to pick one?"
+"We've surfaced [X] candidates, which is a rich harvest. But discovery serves
+development—at some point we need to choose one to move forward. I notice we
+keep adding without prioritizing. What's making it hard to pick one?"
 
-"If you had to bet on just one of these, which would it be? Not permanently—just as a starting point."
+"If you had to bet on just one of these, which would it be? Not permanently—just
+as a starting point."
 
 ---
 
 ## The Perfectionist
 
-**Pattern:** Won't declare any candidate "good enough." Every idea has a fatal flaw. Nothing meets the bar.
+**Pattern:** Won't declare any candidate "good enough." Every idea has a fatal
+flaw. Nothing meets the bar.
 
 ### Warning Signs
 
@@ -52,15 +58,19 @@ Common problems that derail discovery sessions. Use this reference to recognize 
 
 ### Intervention
 
-"I'm noticing we're finding problems with every candidate. Some of these seem workable to me. Is there a concern underneath the specific objections?"
+"I'm noticing we're finding problems with every candidate. Some of these seem
+workable to me. Is there a concern underneath the specific objections?"
 
-"No ebook idea is perfect at the discovery stage. Concept Development is where we pressure-test and refine. What would need to be true for one of these to be 'good enough to explore further'?"
+"No ebook idea is perfect at the discovery stage. Concept Development is where
+we pressure-test and refine. What would need to be true for one of these to be
+'good enough to explore further'?"
 
 ---
 
 ## The Obvious Picker
 
-**Pattern:** Jumps on the first idea without exploring. Treats discovery as a formality rather than genuine exploration.
+**Pattern:** Jumps on the first idea without exploring. Treats discovery as a
+formality rather than genuine exploration.
 
 ### Warning Signs
 
@@ -79,17 +89,22 @@ Common problems that derail discovery sessions. Use this reference to recognize 
 
 ### Intervention
 
-"That might be the right one—but let's make sure we're not missing something better. Sometimes the obvious choice hides a stronger option. Can we spend 15 more minutes exploring before committing?"
+"That might be the right one—but let's make sure we're not missing something
+better. Sometimes the obvious choice hides a stronger option. Can we spend 15
+more minutes exploring before committing?"
 
-"What if I told you there might be an even better ebook hiding in [other area]? Worth a quick look?"
+"What if I told you there might be an even better ebook hiding in [other area]?
+Worth a quick look?"
 
-If they insist: "Okay, but let me flag: this candidate has [potential issue]. Are you sure you don't want to explore alternatives before committing?"
+If they insist: "Okay, but let me flag: this candidate has [potential issue].
+Are you sure you don't want to explore alternatives before committing?"
 
 ---
 
 ## The Scope Creeper
 
-**Pattern:** Every idea balloons into a book. Can't contain scope to ebook size. Everything needs to be comprehensive.
+**Pattern:** Every idea balloons into a book. Can't contain scope to ebook size.
+Everything needs to be comprehensive.
 
 ### Warning Signs
 
@@ -108,15 +123,20 @@ If they insist: "Okay, but let me flag: this candidate has [potential issue]. Ar
 
 ### Intervention
 
-"I notice we keep adding scope. An ebook is 10-25K words—focused, not comprehensive. Everything you're describing sounds valuable, but it's 50K words. What's the ONE transformation we're delivering? Everything else is either supporting that or out of scope."
+"I notice we keep adding scope. An ebook is 10-25K words—focused, not
+comprehensive. Everything you're describing sounds valuable, but it's 50K words.
+What's the ONE transformation we're delivering? Everything else is either
+supporting that or out of scope."
 
-"What if this became a series instead of one ebook? First ebook does [X], second does [Y]..."
+"What if this became a series instead of one ebook? First ebook does [X], second
+does [Y]..."
 
 ---
 
 ## The Recycler
 
-**Pattern:** Just repackaging existing content without transformation. Ebook is a PDF of blog posts, not a new creation.
+**Pattern:** Just repackaging existing content without transformation. Ebook is
+a PDF of blog posts, not a new creation.
 
 ### Warning Signs
 
@@ -135,15 +155,20 @@ If they insist: "Okay, but let me flag: this candidate has [potential issue]. Ar
 
 ### Intervention
 
-"Repackaging free content into a paid ebook without adding value can feel extractive to your audience. What would this ebook offer that your free content doesn't? Deeper coverage? Framework? New insights? Without that, it's hard to justify the price."
+"Repackaging free content into a paid ebook without adding value can feel
+extractive to your audience. What would this ebook offer that your free content
+doesn't? Deeper coverage? Framework? New insights? Without that, it's hard to
+justify the price."
 
-"Your blog posts are the raw material, not the finished product. What synthesis, organization, or new perspective would make this worth paying for?"
+"Your blog posts are the raw material, not the finished product. What synthesis,
+organization, or new perspective would make this worth paying for?"
 
 ---
 
 ## The Wishful Thinker
 
-**Pattern:** Ideas without audience evidence. "I think people need this" without any signals of actual demand.
+**Pattern:** Ideas without audience evidence. "I think people need this" without
+any signals of actual demand.
 
 ### Warning Signs
 
@@ -162,15 +187,20 @@ If they insist: "Okay, but let me flag: this candidate has [potential issue]. Ar
 
 ### Intervention
 
-"I want to check: what evidence do we have that people want this? Not 'should want'—do want. Questions asked, content engaged with, problems expressed. Without that, we're guessing."
+"I want to check: what evidence do we have that people want this? Not 'should
+want'—do want. Questions asked, content engaged with, problems expressed.
+Without that, we're guessing."
 
-"This might be a passion project, which is valid—but the expectations and approach are different. Is this something you need to write regardless of audience, or are you hoping for income/authority?"
+"This might be a passion project, which is valid—but the expectations and
+approach are different. Is this something you need to write regardless of
+audience, or are you hoping for income/authority?"
 
 ---
 
 ## The Expertise Denier
 
-**Pattern:** Can't see their own valuable knowledge. Dismisses expertise as "nothing special" or "everyone knows this."
+**Pattern:** Can't see their own valuable knowledge. Dismisses expertise as
+"nothing special" or "everyone knows this."
 
 ### Warning Signs
 
@@ -189,9 +219,13 @@ If they insist: "Okay, but let me flag: this candidate has [potential issue]. Ar
 
 ### Intervention
 
-"You've been doing this for [X] years. What feels 'obvious' to you is the result of that experience. To someone starting out, this is exactly what they need to learn. Can you think about what you knew after 5 years that you didn't know on day one?"
+"You've been doing this for [X] years. What feels 'obvious' to you is the result
+of that experience. To someone starting out, this is exactly what they need to
+learn. Can you think about what you knew after 5 years that you didn't know on
+day one?"
 
-"What do people come to you for? What questions do they ask? That's your expertise—the thing others need that you have."
+"What do people come to you for? What questions do they ask? That's your
+expertise—the thing others need that you have."
 
 See `expertise-extraction-guide.md` for more techniques.
 
@@ -199,7 +233,8 @@ See `expertise-extraction-guide.md` for more techniques.
 
 ## Discovery as Procrastination
 
-**Pattern:** Endless exploration, no decision. Discovery becomes avoidance of the actual work of creating an ebook.
+**Pattern:** Endless exploration, no decision. Discovery becomes avoidance of
+the actual work of creating an ebook.
 
 ### Warning Signs
 
@@ -218,15 +253,20 @@ See `expertise-extraction-guide.md` for more techniques.
 
 ### Intervention
 
-"We've done thorough discovery. You have solid candidates. I'm noticing we keep exploring rather than moving forward. What's making it hard to pick one and start developing it?"
+"We've done thorough discovery. You have solid candidates. I'm noticing we keep
+exploring rather than moving forward. What's making it hard to pick one and
+start developing it?"
 
-"At some point, more discovery adds less value than starting development. We can always discover more later. Is there a reason we're not ready to move to Concept Development?"
+"At some point, more discovery adds less value than starting development. We can
+always discover more later. Is there a reason we're not ready to move to Concept
+Development?"
 
 ---
 
 ## The Parallel Perfectionist
 
-**Pattern:** Wants to pursue multiple candidates simultaneously instead of focusing on one.
+**Pattern:** Wants to pursue multiple candidates simultaneously instead of
+focusing on one.
 
 ### Warning Signs
 
@@ -245,15 +285,19 @@ See `expertise-extraction-guide.md` for more techniques.
 
 ### Intervention
 
-"I understand the appeal of parallel paths, but most people do better focusing on one ebook through completion before starting another. Which candidate, if you could only do one, would you choose?"
+"I understand the appeal of parallel paths, but most people do better focusing
+on one ebook through completion before starting another. Which candidate, if you
+could only do one, would you choose?"
 
-"What if we prioritize one as the primary track, and note the others as 'next in line'? That way nothing is lost, but energy is focused."
+"What if we prioritize one as the primary track, and note the others as 'next in
+line'? That way nothing is lost, but energy is focused."
 
 ---
 
 ## The External Validator
 
-**Pattern:** Won't move forward without external proof. Needs perfect validation before committing.
+**Pattern:** Won't move forward without external proof. Needs perfect validation
+before committing.
 
 ### Warning Signs
 
@@ -265,9 +309,12 @@ See `expertise-extraction-guide.md` for more techniques.
 
 ### Intervention
 
-"There's no way to be certain before creating. Even successful authors had to take a leap. What level of evidence would be 'enough'? Let's name that bar and evaluate against it."
+"There's no way to be certain before creating. Even successful authors had to
+take a leap. What level of evidence would be 'enough'? Let's name that bar and
+evaluate against it."
 
-"At some point, the ebook itself becomes the validation. You'll learn more from creating it than from more research. What would it take to feel ready to start?"
+"At some point, the ebook itself becomes the validation. You'll learn more from
+creating it than from more research. What would it take to feel ready to start?"
 
 ---
 

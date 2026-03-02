@@ -8,7 +8,9 @@
 
 ## Purpose
 
-Tracks objections to each claim—who makes them, how strong they are, and whether the book addresses them. Becomes a checklist: have you dealt with each serious objection?
+Tracks objections to each claim—who makes them, how strong they are, and whether
+the book addresses them. Becomes a checklist: have you dealt with each serious
+objection?
 
 ---
 

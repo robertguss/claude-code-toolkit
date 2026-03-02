@@ -1,28 +1,43 @@
 ---
 name: code-documenter
-description: Expert documentation generator for coding projects. Analyzes codebases to create thorough, comprehensive documentation for developers and users. Supports incremental updates, multi-audience documentation, architecture decision records, and documentation health tracking. Works with any project type (APIs, CLIs, web apps, libraries). Use when you need to document a new project, update docs after adding features, or create comprehensive documentation for open source releases.
+description:
+  Expert documentation generator for coding projects. Analyzes codebases to
+  create thorough, comprehensive documentation for developers and users.
+  Supports incremental updates, multi-audience documentation, architecture
+  decision records, and documentation health tracking. Works with any project
+  type (APIs, CLIs, web apps, libraries). Use when you need to document a new
+  project, update docs after adding features, or create comprehensive
+  documentation for open source releases.
 ---
 
 # Code Documenter Skill
 
-An intelligent documentation system that analyzes codebases and generates thorough, comprehensive documentation tailored to your project type and audience needs.
+An intelligent documentation system that analyzes codebases and generates
+thorough, comprehensive documentation tailored to your project type and audience
+needs.
 
 ## Core Philosophy
 
-**Documentation serves readers, not authors.** Every decision about structure, depth, and content is evaluated from the reader's perspective:
+**Documentation serves readers, not authors.** Every decision about structure,
+depth, and content is evaluated from the reader's perspective:
 
 - Will this help them understand?
 - Will this help them succeed?
 - Will this answer their questions?
 - Does this earn its place?
 
-**Comprehensive without overwhelm.** Thorough coverage of what matters, ruthless cutting of what doesn't. The goal is complete, accurate, useful documentation—not exhaustive documentation of every line of code.
+**Comprehensive without overwhelm.** Thorough coverage of what matters, ruthless
+cutting of what doesn't. The goal is complete, accurate, useful
+documentation—not exhaustive documentation of every line of code.
 
-**Documentation as code artifact.** Docs should be versioned, tested, and maintained with the same rigor as code. They're not afterthoughts; they're essential.
+**Documentation as code artifact.** Docs should be versioned, tested, and
+maintained with the same rigor as code. They're not afterthoughts; they're
+essential.
 
 ## When to Use This Skill
 
 **Primary use cases:**
+
 - After completing significant new work (epic, major feature, new app)
 - When shipping an open source project
 - When documentation has fallen out of sync with code
@@ -30,6 +45,7 @@ An intelligent documentation system that analyzes codebases and generates thorou
 - When setting up a new project properly
 
 **Not for:**
+
 - In-progress features (wait until stable)
 - Code comments or docstrings (this generates external docs)
 - API reference generation from code (use language-specific tools for that)
@@ -40,9 +56,9 @@ An intelligent documentation system that analyzes codebases and generates thorou
 
 The skill operates in two modes:
 
-| Mode | When to Use | Behavior |
-|------|-------------|----------|
-| **Quick Mode** | Incremental updates after new features | Autonomous, fast, focused on what changed |
+| Mode                   | When to Use                                     | Behavior                                          |
+| ---------------------- | ----------------------------------------------- | ------------------------------------------------- |
+| **Quick Mode**         | Incremental updates after new features          | Autonomous, fast, focused on what changed         |
 | **Comprehensive Mode** | New projects, major overhauls, first-time setup | Collaborative, thorough, quality gates throughout |
 
 **The skill will ask:** "Quick update or comprehensive documentation?"
@@ -55,7 +71,7 @@ The skill deploys specialized analysis agents to understand your project:
 Analysis Phase:
 ├─ Agent 1: Project Structure
 │  └─ Scanning file tree, identifying project type, tech stack
-├─ Agent 2: Code Surface Analysis  
+├─ Agent 2: Code Surface Analysis
 │  └─ Finding APIs, components, commands, exports
 ├─ Agent 3: Dependency Analysis
 │  └─ Reviewing packages, frameworks, key dependencies
@@ -76,16 +92,19 @@ Each agent reports findings in structured format. You see everything happening.
 The skill compares code state vs. documentation state:
 
 **If manifest exists (`.doc-state.json`):**
+
 - Loads documentation state from last run
 - Compares current code vs. last documented state
 - Identifies what's changed (added/modified/removed)
 - Shows you the documentation debt
 
 **If no manifest:**
+
 - First time documenting this project
 - Will create fresh manifest after completion
 
 **Key metrics shown:**
+
 - **Health Score:** Current documentation health (0-100)
 - **Coverage:** What % of public surface is documented
 - **Freshness:** How current are docs vs. code
@@ -97,7 +116,7 @@ The skill asks:
 
 1. **"Who needs these docs?"**
    - Developers only
-   - Users only  
+   - Users only
    - Both developers and users
 
 2. **"What depth of documentation?"**
@@ -193,24 +212,28 @@ Proceed? [yes/adjust scope/abort]
 The skill works through documentation in phases, pausing for review:
 
 **Gate 1: Core Documentation** (README + Getting Started)
+
 - Generates README with progressive disclosure
 - Creates getting started guides
 - **Quality Check:** Does this hook and onboard effectively?
 - **You review and approve or request changes**
 
 **Gate 2: Reference Documentation** (API/Commands/Components)
+
 - Generates reference documentation
 - Creates working examples
 - **Quality Check:** Is everything covered? Examples clear?
 - **You review and approve or request changes**
 
 **Gate 3: Architecture & Decisions**
+
 - Documents architecture with Mermaid diagrams
 - Creates ADRs for key decisions
 - **Quality Check:** Does this explain the WHY?
 - **You review and approve or request changes**
 
 **Gate 4: Supporting Documentation**
+
 - Generates troubleshooting guides
 - Creates contributing guidelines
 - Documentation map for navigation
@@ -218,6 +241,7 @@ The skill works through documentation in phases, pausing for review:
 - **You review and approve or request changes**
 
 **Gate 5: Polish & Verification**
+
 - Generates test scripts for examples
 - Creates link validation script
 - Runs accessibility check
@@ -227,6 +251,7 @@ The skill works through documentation in phases, pausing for review:
 #### Quick Mode (Autonomous)
 
 The skill executes the plan efficiently:
+
 - Updates only changed sections
 - Preserves manual edits in unchanged areas
 - Generates new content as needed
@@ -238,12 +263,14 @@ The skill executes the plan efficiently:
 The skill produces:
 
 **Files Created/Updated:**
+
 - All documentation files as planned
 - `.doc-state.json` (updated manifest)
 - `docs/CHANGELOG.md` (new entry)
 - Test and validation scripts
 
 **Documentation Health Report:**
+
 ```
 DOCUMENTATION HEALTH REPORT
 
@@ -271,6 +298,7 @@ Next session recommendations:
 ```
 
 **Session Notes:**
+
 - Decisions made
 - Scope adjustments
 - What was included/excluded and why
@@ -281,6 +309,7 @@ Next session recommendations:
 ### Core Documentation Structure
 
 **Developer-only projects:**
+
 ```
 /docs
 ├── CHANGELOG.md
@@ -303,6 +332,7 @@ Next session recommendations:
 ```
 
 **Multi-audience projects:**
+
 ```
 /docs
 ├── CHANGELOG.md
@@ -360,9 +390,9 @@ Tracks complete documentation state:
     "trend": [78, 85, 92]
   },
   "coverage": {
-    "endpoints": {"total": 12, "documented": 12, "changed": 0},
-    "components": {"total": 8, "documented": 8, "changed": 0},
-    "schemas": {"total": 3, "documented": 3, "changed": 0}
+    "endpoints": { "total": 12, "documented": 12, "changed": 0 },
+    "components": { "total": 8, "documented": 8, "changed": 0 },
+    "schemas": { "total": 3, "documented": 3, "changed": 0 }
   },
   "debt": {
     "critical": [],
@@ -401,28 +431,40 @@ Tracks complete documentation state:
 ### In Comprehensive Mode
 
 **Proactive contributions:**
-- "I notice you're using Redis but there's no ADR explaining why—should I document that decision?"
-- "Your error handling is sophisticated. This deserves explanation in architecture docs."
-- "The authentication flow is non-standard. Users will have questions—let me address them."
+
+- "I notice you're using Redis but there's no ADR explaining why—should I
+  document that decision?"
+- "Your error handling is sophisticated. This deserves explanation in
+  architecture docs."
+- "The authentication flow is non-standard. Users will have questions—let me
+  address them."
 
 **Challenge assumptions:**
-- "You said 'standard depth' but you have 47 endpoints. That needs Deep documentation."
+
+- "You said 'standard depth' but you have 47 endpoints. That needs Deep
+  documentation."
 - "This 'getting started' guide assumes too much. Your users won't know X."
 - "Three examples aren't enough here. The concept is complex."
 
 **Surface insights:**
-- "Your git history shows you refactored auth 3 times. That's an ADR waiting to be written."
-- "These three files handle all business logic but aren't documented at all. Gap."
-- "You have inline JSDoc but it contradicts what's in the markdown docs. Consistency issue."
+
+- "Your git history shows you refactored auth 3 times. That's an ADR waiting to
+  be written."
+- "These three files handle all business logic but aren't documented at all.
+  Gap."
+- "You have inline JSDoc but it contradicts what's in the markdown docs.
+  Consistency issue."
 
 ### In Quick Mode
 
 **Efficient execution:**
+
 - "Updating 3 files based on changes in commit a3f2b1c..."
 - "2 new endpoints detected, adding to api.md..."
 - "Removed documentation for deleted legacy-auth endpoint..."
 
 **Flag concerns:**
+
 - "Warning: Manual changes detected in architecture.md, preserving your edits"
 - "Note: Health score dropped from 92 to 85 due to new undocumented features"
 
@@ -431,30 +473,35 @@ Tracks complete documentation state:
 The skill maintains high documentation quality through:
 
 ### Clarity
+
 - Concepts explained before they're used
 - Technical terms defined on first use
 - Examples precede or immediately follow concepts
 - Progressive disclosure (simple → complex)
 
 ### Completeness
+
 - Every public-facing element documented
 - Edge cases and gotchas addressed
 - Troubleshooting for predictable failures
 - Examples for common use cases
 
 ### Accuracy
+
 - All facts verified against code
 - Examples tested and working
 - Links validated
 - No outdated information
 
 ### Accessibility
+
 - Diagrams include alt text
 - Links have descriptive text
 - Heading hierarchy is logical
 - Code snippets have language labels
 
 ### Consistency
+
 - Terminology used uniformly
 - Tone maintained throughout
 - Formatting standardized
@@ -467,6 +514,7 @@ The skill maintains high documentation quality through:
 Captures WHY decisions were made:
 
 The skill identifies decision points through:
+
 - Major dependency additions (git history)
 - Non-standard architectural patterns (code analysis)
 - Framework/library choices
@@ -474,6 +522,7 @@ The skill identifies decision points through:
 - Your explicit identification
 
 Each ADR documents:
+
 - Context (what was the situation?)
 - Decision (what did we decide?)
 - Rationale (why this choice?)
@@ -483,6 +532,7 @@ Each ADR documents:
 ### Living, Tested Examples
 
 Examples are runnable code in `/examples`:
+
 - Actually work (not pseudocode)
 - Cover common use cases
 - Include test script to verify they run
@@ -492,14 +542,17 @@ Examples are runnable code in `/examples`:
 ### Troubleshooting Database
 
 Two flavors:
+
 - **User troubleshooting:** Common errors, how to fix them
 - **Developer troubleshooting:** Debugging guides, edge cases, gotchas
 
-The skill seeds initial content in Comprehensive Mode, grows it in Quick Mode as you add real troubleshooting content.
+The skill seeds initial content in Comprehensive Mode, grows it in Quick Mode as
+you add real troubleshooting content.
 
 ### Documentation Map
 
 For large projects, a navigation guide:
+
 - Different learning paths (beginner/advanced)
 - How docs connect to each other
 - What to read when
@@ -508,6 +561,7 @@ For large projects, a navigation guide:
 ### Mermaid Diagrams
 
 The skill generates code-based diagrams:
+
 - Architecture diagrams
 - Sequence diagrams
 - Entity-relationship diagrams
@@ -519,24 +573,31 @@ All version-controllable, all render in GitHub.
 ### Documentation Hosting Integration
 
 Detects if you're using:
+
 - GitHub Pages
 - ReadTheDocs
 - GitBook
 - MkDocs
 
-Generates appropriate config files and optimizes structure for static site generation.
+Generates appropriate config files and optimizes structure for static site
+generation.
 
 ## Reference Documents
 
 Load contextually when needed:
 
-- **`references/project-types-guide.md`** — How to document different project types
-- **`references/documentation-patterns.md`** — Common documentation patterns and structures
+- **`references/project-types-guide.md`** — How to document different project
+  types
+- **`references/documentation-patterns.md`** — Common documentation patterns and
+  structures
 - **`references/quality-standards.md`** — Detailed quality criteria and examples
-- **`references/manifest-spec.md`** — Technical specification for `.doc-state.json`
-- **`references/depth-levels-guide.md`** — Standard vs. Deep explained with examples
+- **`references/manifest-spec.md`** — Technical specification for
+  `.doc-state.json`
+- **`references/depth-levels-guide.md`** — Standard vs. Deep explained with
+  examples
 - **`references/health-score-formula.md`** — How health score is calculated
-- **`references/adr-guide.md`** — Writing effective Architecture Decision Records
+- **`references/adr-guide.md`** — Writing effective Architecture Decision
+  Records
 
 ## Templates
 

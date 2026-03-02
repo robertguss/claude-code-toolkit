@@ -1,6 +1,7 @@
 # Research Output Format Standard
 
-Standard format for deep research outputs to ensure consistency, usability, and quality across Claude and Gemini research sessions.
+Standard format for deep research outputs to ensure consistency, usability, and
+quality across Claude and Gemini research sessions.
 
 ---
 
@@ -89,7 +90,8 @@ Include these sections when relevant content exists:
 
 - **Gap ID:** CH03-GAP-02
 - **Gap Title:** Historical origins of the Zettelkasten method
-- **Research Question:** When and how did the Zettelkasten method originate? Who developed it and what were their goals?
+- **Research Question:** When and how did the Zettelkasten method originate? Who
+  developed it and what were their goals?
 ```
 
 ---
@@ -135,14 +137,12 @@ Include these sections when relevant content exists:
 ```markdown
 ## Key Evidence
 
-1. **[Finding in bold]**
-   [Brief explanation if needed]
+1. **[Finding in bold]** [Brief explanation if needed]
    - Source: [Full Chicago citation]
    - Verification: [Retrieved/Training]
    - Strength: [Direct/Tangential/Context]
 
-2. **[Finding in bold]**
-   [Brief explanation if needed]
+2. **[Finding in bold]** [Brief explanation if needed]
    - Source: [Full Chicago citation]
    - Verification: [Retrieved/Training]
    - Strength: [Direct/Tangential/Context]
@@ -166,9 +166,13 @@ Include these sections when relevant content exists:
 ```markdown
 ## Source List
 
-- Blair, Ann. "Note Taking as an Art of Transmission." _Critical Inquiry_ 31, no. 1 (2004): 85-107. [Retrieved]
-- Luhmann, Niklas. "Kommunikation mit Zettelkästen." In _Öffentliche Meinung und sozialer Wandel_, edited by H. Baier et al., 222-228. Opladen: Westdeutscher Verlag, 1981. [Retrieved]
-- Schmidt, Johannes F.K. "Niklas Luhmann's Card Index." _Sociologica_ 12, no. 1 (2018): 53-60. [Retrieved]
+- Blair, Ann. "Note Taking as an Art of Transmission." _Critical Inquiry_ 31,
+  no. 1 (2004): 85-107. [Retrieved]
+- Luhmann, Niklas. "Kommunikation mit Zettelkästen." In _Öffentliche Meinung und
+  sozialer Wandel_, edited by H. Baier et al., 222-228. Opladen: Westdeutscher
+  Verlag, 1981. [Retrieved]
+- Schmidt, Johannes F.K. "Niklas Luhmann's Card Index." _Sociologica_ 12, no. 1
+  (2018): 53-60. [Retrieved]
 ```
 
 ---
@@ -197,9 +201,12 @@ Include these sections when relevant content exists:
 
 **Confidence Level Definitions:**
 
-- **High:** Multiple strong sources agree; primary sources accessed; well-documented area
-- **Medium:** Adequate sources but some limitations; reliance on secondary sources; some gaps
-- **Low:** Limited sources; heavily reliant on training knowledge; significant uncertainty
+- **High:** Multiple strong sources agree; primary sources accessed;
+  well-documented area
+- **Medium:** Adequate sources but some limitations; reliance on secondary
+  sources; some gaps
+- **Low:** Limited sources; heavily reliant on training knowledge; significant
+  uncertainty
 
 ---
 
@@ -218,7 +225,8 @@ Include these sections when relevant content exists:
 ```markdown
 ## Synthesis Statement
 
-[2-3 sentences capturing the bottom line. What does the research tell us? What's the answer to the question?]
+[2-3 sentences capturing the bottom line. What does the research tell us? What's
+the answer to the question?]
 ```
 
 ---
@@ -295,13 +303,11 @@ Or as prose with clear attribution for each data point.
 ```markdown
 ## Expert Quotes
 
-> "[Exact quote]"
-> — [Name], [Credentials/Role], [Context]
-> Source: [Full citation]
-> _Quotability: [Assessment — e.g., "Highly quotable—captures concept memorably"]_
+> "[Exact quote]" — [Name], [Credentials/Role], [Context] Source: [Full
+> citation] _Quotability: [Assessment — e.g., "Highly quotable—captures concept
+> memorably"]_
 
-> "[Exact quote]"
-> ...
+> "[Exact quote]" ...
 ```
 
 ---
@@ -352,10 +358,9 @@ Or as prose with clear attribution for each data point.
 
 ### [Counterargument 1]
 
-**The Objection:** [Stated fairly and strongly]
-**Supporting Evidence:** [What supports this objection]
-**Strength:** [Strong/Moderate/Weak]
-**Source:** [Citation]
+**The Objection:** [Stated fairly and strongly] **Supporting Evidence:** [What
+supports this objection] **Strength:** [Strong/Moderate/Weak] **Source:**
+[Citation]
 
 ### [Counterargument 2]
 
@@ -381,10 +386,10 @@ Or as prose with clear attribution for each data point.
 
 ### [Topic of Disagreement]
 
-**Source A claims:** [Position with citation]
-**Source B claims:** [Position with citation]
-**Nature of conflict:** [Factual/Interpretive/Methodological/etc.]
-**Resolution status:** [Unresolved — presented for author decision]
+**Source A claims:** [Position with citation] **Source B claims:** [Position
+with citation] **Nature of conflict:**
+[Factual/Interpretive/Methodological/etc.] **Resolution status:** [Unresolved —
+presented for author decision]
 ```
 
 ---
@@ -404,7 +409,8 @@ Or as prose with clear attribution for each data point.
 ```markdown
 ## Unexpected Discoveries
 
-- **[Discovery]:** [Brief description] — May be relevant to [chapter/topic]. Source: [Citation]
+- **[Discovery]:** [Brief description] — May be relevant to [chapter/topic].
+  Source: [Citation]
 ```
 
 ---
@@ -490,10 +496,12 @@ Before considering research output complete:
 
 ## See Also
 
-- `assets/templates/research-output-format-example.md` — Full example of a properly formatted output
+- `assets/templates/research-output-format-example.md` — Full example of a
+  properly formatted output
 - `references/citation-standards.md` — Citation format details
 - `references/source-evaluation-guide.md` — How to assess source quality
 
 ---
 
-_Include output format specifications in research prompts. Use this standard when validating whether returned research meets format requirements._
+_Include output format specifications in research prompts. Use this standard
+when validating whether returned research meets format requirements._

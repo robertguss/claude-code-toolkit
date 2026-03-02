@@ -1,12 +1,16 @@
 # The Question Chain
 
-At every moment, the reader has a question in their head—sometimes conscious, sometimes not. Great architecture sequences these questions deliberately, creating a gravitational pull that carries the reader through the book.
+At every moment, the reader has a question in their head—sometimes conscious,
+sometimes not. Great architecture sequences these questions deliberately,
+creating a gravitational pull that carries the reader through the book.
 
 ## The Core Principle
 
-**Each chapter answers the question the previous chapter raised, and poses the question the next chapter answers.**
+**Each chapter answers the question the previous chapter raised, and poses the
+question the next chapter answers.**
 
-This creates an interlocking chain of curiosity. The reader is never without a reason to keep reading.
+This creates an interlocking chain of curiosity. The reader is never without a
+reason to keep reading.
 
 ---
 
@@ -24,7 +28,8 @@ As readers engage with your book, they're constantly generating questions:
 - "What happens next?"
 - "How does this connect to what you said earlier?"
 
-Your architecture either answers these questions (satisfying) or ignores them (frustrating).
+Your architecture either answers these questions (satisfying) or ignores them
+(frustrating).
 
 ### Questions as Architecture
 
@@ -34,7 +39,8 @@ Questions aren't just rhetorical devices—they're structural elements:
 2. **Chapter Question:** What is this chapter fundamentally answering?
 3. **Exit Question:** What new question does this chapter raise?
 
-A chapter that answers a question the reader isn't asking feels irrelevant. A chapter that ignores a question the reader IS asking feels evasive.
+A chapter that answers a question the reader isn't asking feels irrelevant. A
+chapter that ignores a question the reader IS asking feels evasive.
 
 ---
 
@@ -53,7 +59,8 @@ The book has an overarching question chain:
 7. **Sustain Question:** How do I maintain this?
 8. **Closing Question:** What does this mean for my life going forward?
 
-Not every book follows this exact sequence, but most readers move through some version of this arc.
+Not every book follows this exact sequence, but most readers move through some
+version of this arc.
 
 ### Chapter-Level Chain
 
@@ -74,8 +81,8 @@ Each chapter has its own micro-chain:
 - "How does this work?"
 - "What happened?"
 
-**Creates:** Intellectual pull, desire to understand.
-**Satisfied by:** Explanation, information, revelation.
+**Creates:** Intellectual pull, desire to understand. **Satisfied by:**
+Explanation, information, revelation.
 
 ### Stakes Questions
 
@@ -83,8 +90,8 @@ Each chapter has its own micro-chain:
 - "What's at risk?"
 - "What happens if I don't act?"
 
-**Creates:** Emotional investment, urgency.
-**Satisfied by:** Consequences, implications, costs of inaction.
+**Creates:** Emotional investment, urgency. **Satisfied by:** Consequences,
+implications, costs of inaction.
 
 ### Objection Questions
 
@@ -92,8 +99,8 @@ Each chapter has its own micro-chain:
 - "Isn't that contradicted by Y?"
 - "How do you explain Z?"
 
-**Creates:** Skeptical engagement (good—they're thinking).
-**Satisfied by:** Direct address, evidence, acknowledgment.
+**Creates:** Skeptical engagement (good—they're thinking). **Satisfied by:**
+Direct address, evidence, acknowledgment.
 
 ### Application Questions
 
@@ -101,8 +108,8 @@ Each chapter has its own micro-chain:
 - "What's the first step?"
 - "What does this look like in practice?"
 
-**Creates:** Practical hunger, readiness to act.
-**Satisfied by:** Instruction, examples, concrete guidance.
+**Creates:** Practical hunger, readiness to act. **Satisfied by:** Instruction,
+examples, concrete guidance.
 
 ### Narrative Questions
 
@@ -110,8 +117,8 @@ Each chapter has its own micro-chain:
 - "How does this end?"
 - "What did they discover?"
 
-**Creates:** Story-driven pull.
-**Satisfied by:** Continuation of narrative, resolution.
+**Creates:** Story-driven pull. **Satisfied by:** Continuation of narrative,
+resolution.
 
 ### Identity Questions
 
@@ -119,8 +126,8 @@ Each chapter has its own micro-chain:
 - "Am I the kind of person who does this?"
 - "What do I have to give up?"
 
-**Creates:** Deep personal engagement, sometimes resistance.
-**Satisfied by:** Reflection, permission, reassurance.
+**Creates:** Deep personal engagement, sometimes resistance. **Satisfied by:**
+Reflection, permission, reassurance.
 
 ---
 
@@ -171,7 +178,8 @@ Check for:
 
 ### Beginning of Chapter
 
-The reader should know within the first page why they're reading this chapter. Either:
+The reader should know within the first page why they're reading this chapter.
+Either:
 
 - Explicitly state the question
 - Make it implicit through setup
@@ -196,7 +204,8 @@ The new question should be clear—either:
 
 ## The Aha Chain
 
-Beyond questions, track "aha moments"—points where something clicks for the reader.
+Beyond questions, track "aha moments"—points where something clicks for the
+reader.
 
 ### Designing Ahas
 
@@ -267,13 +276,14 @@ In architecture, note:
 
 ### The Unanswered Question
 
-Reader is asking something you never address. They feel ignored.
-**Fix:** Find where the question arises, either answer it or acknowledge and defer.
+Reader is asking something you never address. They feel ignored. **Fix:** Find
+where the question arises, either answer it or acknowledge and defer.
 
 ### The Premature Answer
 
-You answer a question before the reader is asking it. The answer feels irrelevant.
-**Fix:** Build curiosity first. Create the question before providing the answer.
+You answer a question before the reader is asking it. The answer feels
+irrelevant. **Fix:** Build curiosity first. Create the question before providing
+the answer.
 
 ### The Dropped Thread
 
@@ -282,13 +292,13 @@ Question raised early, never resolved. Reader waits for payoff that never comes.
 
 ### The Non-Sequitur Jump
 
-Chapter 5 answers a question, but Chapter 6's question doesn't follow from Chapter 5's answer.
-**Fix:** Add bridging material or reorder chapters.
+Chapter 5 answers a question, but Chapter 6's question doesn't follow from
+Chapter 5's answer. **Fix:** Add bridging material or reorder chapters.
 
 ### The Question Pileup
 
-Too many open questions create anxiety and confusion.
-**Fix:** Resolve questions before opening new ones. Don't carry more than 2-3 open threads.
+Too many open questions create anxiety and confusion. **Fix:** Resolve questions
+before opening new ones. Don't carry more than 2-3 open threads.
 
 ---
 
@@ -320,6 +330,5 @@ Too many open questions create anxiety and confusion.
 ### Aha Inventory
 
 1. [Aha moment 1] - Chapter X
-2. [Aha moment 2] - Chapter Y
-   ...
+2. [Aha moment 2] - Chapter Y ...
 ```

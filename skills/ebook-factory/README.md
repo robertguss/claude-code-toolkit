@@ -1,18 +1,22 @@
 # The Ebook Factory
 
-A suite of Claude skills designed specifically for ebook creation—shorter, concentrated solutions optimized for speed-to-value.
+A suite of Claude skills designed specifically for ebook creation—shorter,
+concentrated solutions optimized for speed-to-value.
 
-📚 **[View Full Documentation](https://robertguss.github.io/claude-skills/skills/ebook-factory/)**
+📚
+**[View Full Documentation](https://robertguss.github.io/claude-skills/skills/ebook-factory/)**
 
 ---
 
 ## Reference Guide
 
-**Purpose:** This document captures the complete vision, philosophy, and specifications for a suite of Claude skills designed specifically for ebook creation. Use this to brief future Claude sessions when building individual skills.
+**Purpose:** This document captures the complete vision, philosophy, and
+specifications for a suite of Claude skills designed specifically for ebook
+creation. Use this to brief future Claude sessions when building individual
+skills.
 
-**Author:** Robert Guss
-**Created:** December 30, 2024
-**Last Updated:** December 31, 2024
+**Author:** Robert Guss **Created:** December 30, 2024 **Last Updated:**
+December 31, 2024
 
 ---
 
@@ -37,13 +41,19 @@ A suite of Claude skills designed specifically for ebook creation—shorter, con
 
 ### The Core Insight
 
-Ebooks are not compressed books — they are a distinct format optimized for speed-to-value.
+Ebooks are not compressed books — they are a distinct format optimized for
+speed-to-value.
 
-The constraint of being shorter makes ebooks _harder_ to write well, not easier. Every sentence must earn its place. There's no room to meander, over-explain, or pad. The discipline required is higher than for full-length books.
+The constraint of being shorter makes ebooks _harder_ to write well, not easier.
+Every sentence must earn its place. There's no room to meander, over-explain, or
+pad. The discipline required is higher than for full-length books.
 
-The reader who buys a short read is saying: "I value my time. I have a specific problem. I want the answer without wading through filler, backstory, or the author proving how much they know."
+The reader who buys a short read is saying: "I value my time. I have a specific
+problem. I want the answer without wading through filler, backstory, or the
+author proving how much they know."
 
-This is a _more demanding_ reader. They'll notice fluff immediately. They'll feel cheated by padding. They expect density.
+This is a _more demanding_ reader. They'll notice fluff immediately. They'll
+feel cheated by padding. They expect density.
 
 ### The Mindset Shift
 
@@ -57,7 +67,10 @@ The quality bar per page is actually _higher_ for ebooks:
 
 ### Why a Separate Pipeline?
 
-The Book Factory was designed for 50,000-80,000 word nonfiction books with multi-month timelines. Its thoroughness is appropriate for that scale. But applying that same process to a 10,000-20,000 word ebook creates unnecessary overhead.
+The Book Factory was designed for 50,000-80,000 word nonfiction books with
+multi-month timelines. Its thoroughness is appropriate for that scale. But
+applying that same process to a 10,000-20,000 word ebook creates unnecessary
+overhead.
 
 The Ebook Factory is:
 
@@ -68,7 +81,8 @@ The Ebook Factory is:
 
 ### Relationship to the Book Factory
 
-The Ebook Factory borrows wisdom from the Book Factory but adapts it for the format:
+The Ebook Factory borrows wisdom from the Book Factory but adapts it for the
+format:
 
 **What We Keep:**
 
@@ -156,11 +170,16 @@ The Ebook Factory borrows wisdom from the Book Factory but adapts it for the for
 
 ### Pipeline Characteristics
 
-- **Linear but flexible** — Skills flow in sequence, but some may be compressed or skipped based on ebook needs
-- **Single-session default** — Each skill designed to complete in one focused session
-- **Chapter-by-chapter option** — Outlining and drafting can work chapter-by-chapter with review points
-- **Research is conditional** — Not every ebook needs dedicated research; the skill starts with a "do you need this?" gate
-- **Discovery is optional** — Users with existing ideas can skip straight to Concept Development
+- **Linear but flexible** — Skills flow in sequence, but some may be compressed
+  or skipped based on ebook needs
+- **Single-session default** — Each skill designed to complete in one focused
+  session
+- **Chapter-by-chapter option** — Outlining and drafting can work
+  chapter-by-chapter with review points
+- **Research is conditional** — Not every ebook needs dedicated research; the
+  skill starts with a "do you need this?" gate
+- **Discovery is optional** — Users with existing ideas can skip straight to
+  Concept Development
 
 ---
 
@@ -168,11 +187,14 @@ The Ebook Factory borrows wisdom from the Book Factory but adapts it for the for
 
 ### 1. Single Document Per Skill
 
-Each skill produces one working document rather than multiple separate files. This document may have clear sections that serve different purposes, but it's one artifact to track and pass forward.
+Each skill produces one working document rather than multiple separate files.
+This document may have clear sections that serve different purposes, but it's
+one artifact to track and pass forward.
 
 ### 2. Embedded References
 
-Essential guidance is embedded in the skill itself rather than split across many reference files. Reference files are limited to:
+Essential guidance is embedded in the skill itself rather than split across many
+reference files. Reference files are limited to:
 
 - Catalogs that would bloat the main skill (e.g., AI-isms to avoid)
 - Templates that need to be filled in
@@ -180,11 +202,14 @@ Essential guidance is embedded in the skill itself rather than split across many
 
 ### 3. Single-Session Default
 
-Skills are designed to complete in one focused session. Multi-session work is the exception, not the assumption. This creates momentum and prevents projects from stalling.
+Skills are designed to complete in one focused session. Multi-session work is
+the exception, not the assumption. This creates momentum and prevents projects
+from stalling.
 
 ### 4. Reader-First, Always
 
-Every decision — structural, stylistic, content — is evaluated from the reader's perspective:
+Every decision — structural, stylistic, content — is evaluated from the reader's
+perspective:
 
 - Will this help the reader understand?
 - Will this keep the reader engaged?
@@ -193,7 +218,8 @@ Every decision — structural, stylistic, content — is evaluated from the read
 
 ### 5. Claude as True Collaborator
 
-Claude is not an assistant waiting for instructions. Claude is an intellectual partner who:
+Claude is not an assistant waiting for instructions. Claude is an intellectual
+partner who:
 
 - Contributes ideas proactively
 - Pushes back on weak thinking
@@ -205,11 +231,15 @@ The human decides, but Claude contributes fully.
 
 ### 6. Brutal Honesty Over Ego Protection
 
-The skills exist to surface problems early — when they're cheap to fix. Better to kill a weak idea now than finish a weak ebook later. Claude tells the truth even when it's uncomfortable.
+The skills exist to surface problems early — when they're cheap to fix. Better
+to kill a weak idea now than finish a weak ebook later. Claude tells the truth
+even when it's uncomfortable.
 
 ### 7. Quality Through Constraint
 
-Brevity is the discipline. The constraint of being shorter forces higher quality per page. "Less is more" is not about doing less work — it's about more rigorous selection of what earns space.
+Brevity is the discipline. The constraint of being shorter forces higher quality
+per page. "Less is more" is not about doing less work — it's about more rigorous
+selection of what earns space.
 
 ---
 
@@ -219,17 +249,23 @@ Brevity is the discipline. The constraint of being shorter forces higher quality
 
 ### Purpose
 
-Surface ebook ideas you didn't know you had. This is the optional "upstream" skill that feeds into Concept Development. Use when you want to explore what ebooks might be hiding in your content, expertise, or thinking.
+Surface ebook ideas you didn't know you had. This is the optional "upstream"
+skill that feeds into Concept Development. Use when you want to explore what
+ebooks might be hiding in your content, expertise, or thinking.
 
 ### Core Philosophy
 
-This is divergent/generative discovery ("what's here?") rather than convergent development ("is this right?"). Claude is an active intellectual partner who contributes ideas, not just a facilitator who asks questions.
+This is divergent/generative discovery ("what's here?") rather than convergent
+development ("is this right?"). Claude is an active intellectual partner who
+contributes ideas, not just a facilitator who asks questions.
 
 ### Two Starting Paths
 
-**Path A: Content Audit** — For those with published content (blog posts, videos, newsletters, podcasts, teaching materials)
+**Path A: Content Audit** — For those with published content (blog posts,
+videos, newsletters, podcasts, teaching materials)
 
-**Path B: Expertise Extraction** — For those with unpublished expertise (tacit knowledge that feels obvious to you but valuable to others)
+**Path B: Expertise Extraction** — For those with unpublished expertise (tacit
+knowledge that feels obvious to you but valuable to others)
 
 Both paths are equally valid. Claude recommends with reasoning, user decides.
 
@@ -239,11 +275,13 @@ Both paths are equally valid. Claude recommends with reasoning, user decides.
 
 **Audience-Based:** Repeated Questions Analysis
 
-**Knowledge-Based:** Expertise Extraction, Contrarian Positions, Translation Bridges, Personal Systems
+**Knowledge-Based:** Expertise Extraction, Contrarian Positions, Translation
+Bridges, Personal Systems
 
 **Archive-Based:** Zettelkasten Mining, Parking Lot Review, Deep Archive Mining
 
-Modes are introduced progressively through guided exploration, not presented as a menu.
+Modes are introduced progressively through guided exploration, not presented as
+a menu.
 
 ### Output
 
@@ -273,11 +311,16 @@ A candidate is ready when:
 
 ### Purpose
 
-Develop raw ideas into structured ebook concepts through guided exploration. This skill sits at the entry point of the pipeline, transforming a seed (existing content, vague idea, identified opportunity) into a clear concept ready for architecture.
+Develop raw ideas into structured ebook concepts through guided exploration.
+This skill sits at the entry point of the pipeline, transforming a seed
+(existing content, vague idea, identified opportunity) into a clear concept
+ready for architecture.
 
 ### Core Philosophy
 
-Not every idea is an ebook. Not every ebook is worth writing. This skill helps distinguish between ideas worth pursuing and ideas to park or kill. It also shapes viable ideas into clear concepts with defined scope.
+Not every idea is an ebook. Not every ebook is worth writing. This skill helps
+distinguish between ideas worth pursuing and ideas to park or kill. It also
+shapes viable ideas into clear concepts with defined scope.
 
 ### The Ebook Elements
 
@@ -328,7 +371,8 @@ Not every idea is an ebook. Not every ebook is worth writing. This skill helps d
 
 ### Session Flow
 
-1. **What do we have?** — Understand the raw material (idea, existing content, opportunity)
+1. **What do we have?** — Understand the raw material (idea, existing content,
+   opportunity)
 2. **Work through core elements** — Not as interrogation but as exploration
 3. **Surface situational elements** — Determine if Value Gap and/or Enemy apply
 4. **Scope calibration** — Pressure-test that this is ebook-sized
@@ -363,33 +407,48 @@ The concept is ready for architecture when:
 
 ### Purpose
 
-Design the reader's journey and create a structural blueprint for the ebook. This skill transforms a concept into a plan — determining what chapters exist, what order they come in, how they connect, and what the reader experiences along the way.
+Design the reader's journey and create a structural blueprint for the ebook.
+This skill transforms a concept into a plan — determining what chapters exist,
+what order they come in, how they connect, and what the reader experiences along
+the way.
 
 ### Core Philosophy
 
-Architecture is about the reader's experience, not the author's organization preferences. The question is never "how should I organize my ideas?" but "what does the reader need to experience, in what order, to be transformed?"
+Architecture is about the reader's experience, not the author's organization
+preferences. The question is never "how should I organize my ideas?" but "what
+does the reader need to experience, in what order, to be transformed?"
 
 ### Essential Jobs
 
 The architecture skill does three things:
 
-1. **Map the reader journey** — Entry state to exit state, what happens emotionally and intellectually along the way
-2. **Define the chapter sequence** — What chapters exist, what each one's job is, how they connect
-3. **Identify what's needed** — Research gaps, visual asset needs, examples to find
+1. **Map the reader journey** — Entry state to exit state, what happens
+   emotionally and intellectually along the way
+2. **Define the chapter sequence** — What chapters exist, what each one's job
+   is, how they connect
+3. **Identify what's needed** — Research gaps, visual asset needs, examples to
+   find
 
 ### Ebook-Specific Architecture Concerns
 
 #### Pacing and Chunk Size
 
-Ebooks are often read on phones, in shorter sessions. Chapter length matters differently than in print. A 3,000-word chapter that works in a book might feel like a slog in an ebook. Architecture should explicitly consider: how long should chapters be for this ebook and this reader?
+Ebooks are often read on phones, in shorter sessions. Chapter length matters
+differently than in print. A 3,000-word chapter that works in a book might feel
+like a slog in an ebook. Architecture should explicitly consider: how long
+should chapters be for this ebook and this reader?
 
 #### Quick Wins Early
 
-Full books can build slowly. Ebooks need to deliver felt value fast — readers are more likely to abandon, and they paid less so they're quicker to judge. The architecture must ensure the reader feels "this was worth it" within the first 20% of the ebook.
+Full books can build slowly. Ebooks need to deliver felt value fast — readers
+are more likely to abandon, and they paid less so they're quicker to judge. The
+architecture must ensure the reader feels "this was worth it" within the first
+20% of the ebook.
 
 #### Reference-ability
 
-Many ebooks (especially how-to) are meant to be returned to, not just read once linearly. Architecture should consider:
+Many ebooks (especially how-to) are meant to be returned to, not just read once
+linearly. Architecture should consider:
 
 - Can someone find what they need without re-reading everything?
 - Do chapter titles work as navigation?
@@ -397,74 +456,109 @@ Many ebooks (especially how-to) are meant to be returned to, not just read once 
 
 #### End Matter and Next Steps
 
-Where does this ebook lead? Another product? An email list? A full book? A course? The ending isn't just the conclusion of content — it's a bridge to what's next. This should be architected, not tacked on.
+Where does this ebook lead? Another product? An email list? A full book? A
+course? The ending isn't just the conclusion of content — it's a bridge to
+what's next. This should be architected, not tacked on.
 
 #### Scope Discipline
 
-Ebooks fail when they're a good idea stretched thin OR when they're a book-sized idea crammed into ebook length. Architecture should explicitly pressure-test: is this genuinely ebook-sized? Could this be a blog post? Should this be a full book?
+Ebooks fail when they're a good idea stretched thin OR when they're a book-sized
+idea crammed into ebook length. Architecture should explicitly pressure-test: is
+this genuinely ebook-sized? Could this be a blog post? Should this be a full
+book?
 
 #### Skimmability as Design Constraint
 
-Many ebook readers skim before committing to deep reading. They flip through, scan headers, look at visuals. Architecture should ask:
+Many ebook readers skim before committing to deep reading. They flip through,
+scan headers, look at visuals. Architecture should ask:
 
-- Do chapter titles tell you what you'll get (informative) or just sound clever (useless for navigation)?
+- Do chapter titles tell you what you'll get (informative) or just sound clever
+  (useless for navigation)?
 - Could someone extract value from headers alone?
 
 #### The Sample/Preview Problem
 
-On KDP, the first 10-15% is the free sample. On Gumroad, the sales page does that work. Architecture must ensure opening chapters both hook AND deliver real value. If the best content is in chapter 7, that's a structural problem.
+On KDP, the first 10-15% is the free sample. On Gumroad, the sales page does
+that work. Architecture must ensure opening chapters both hook AND deliver real
+value. If the best content is in chapter 7, that's a structural problem.
 
 #### Visual Rhythm
 
-Beyond "what visuals do we need," the question is "where does the reader need visual relief?" Screen fatigue is real. Long text-only stretches work differently in ebooks than in print. Architecture should map where visual breaks belong.
+Beyond "what visuals do we need," the question is "where does the reader need
+visual relief?" Screen fatigue is real. Long text-only stretches work
+differently in ebooks than in print. Architecture should map where visual breaks
+belong.
 
 #### Standalone Completeness
 
-Even if the ebook leads to another product, the reader should feel "I got what I came for" when they finish. Not a teaser, not chapter 1 of something bigger. Architecture verifies: does this feel complete in itself?
+Even if the ebook leads to another product, the reader should feel "I got what I
+came for" when they finish. Not a teaser, not chapter 1 of something bigger.
+Architecture verifies: does this feel complete in itself?
 
 #### Chapter Length Balance
 
-Readers see "47% complete" on their device. If chapter 6 is suddenly three times longer than chapters 1-5, it creates a jarring experience. Architecture should consider intentional rhythm of chapter lengths — not identical, but deliberate variation.
+Readers see "47% complete" on their device. If chapter 6 is suddenly three times
+longer than chapters 1-5, it creates a jarring experience. Architecture should
+consider intentional rhythm of chapter lengths — not identical, but deliberate
+variation.
 
 #### Reorientation Hooks
 
-Ebook readers put it down and come back days later. Each chapter opening might need a light reorientation — not a full recap, but a sentence that reminds them where they are in the journey.
+Ebook readers put it down and come back days later. Each chapter opening might
+need a light reorientation — not a full recap, but a sentence that reminds them
+where they are in the journey.
 
 #### Promise-Delivery Rhythm
 
-Mini-promises create felt progress. "By the end of this chapter, you'll understand X." Then deliver X. Ebooks need tighter cycles than full books — promise, deliver, promise, deliver.
+Mini-promises create felt progress. "By the end of this chapter, you'll
+understand X." Then deliver X. Ebooks need tighter cycles than full books —
+promise, deliver, promise, deliver.
 
 #### Internal Linking Strategy
 
-Ebooks can have clickable cross-references. But when does "see chapter 7" help versus disrupt flow? Architecture should decide: is this a linear read, a modular reference, or hybrid?
+Ebooks can have clickable cross-references. But when does "see chapter 7" help
+versus disrupt flow? Architecture should decide: is this a linear read, a
+modular reference, or hybrid?
 
 #### Expertise Calibration
 
-Is the reader a beginner, intermediate, or expert? A 50-page ebook for beginners is structured completely differently than one for experts. Architecture should explicitly name the expertise level and let it shape every chapter's depth.
+Is the reader a beginner, intermediate, or expert? A 50-page ebook for beginners
+is structured completely differently than one for experts. Architecture should
+explicitly name the expertise level and let it shape every chapter's depth.
 
 #### The "Just Enough" Principle
 
-Ebooks should give readers exactly what they need to achieve the transformation — no more, no less. Knowing what to cut is as important as knowing what to include.
+Ebooks should give readers exactly what they need to achieve the transformation
+— no more, no less. Knowing what to cut is as important as knowing what to
+include.
 
 #### Series Boundaries
 
-If this ebook might be part of a series, architecture should explicitly define: what's the boundary of THIS ebook versus potential future ones?
+If this ebook might be part of a series, architecture should explicitly define:
+what's the boundary of THIS ebook versus potential future ones?
 
 #### Frontmatter Discipline
 
-Every page before chapter 1 is a barrier to the content. Introduction? How to use this guide? These need to justify their existence. Architecture should name what frontmatter exists and why it earns its place.
+Every page before chapter 1 is a barrier to the content. Introduction? How to
+use this guide? These need to justify their existence. Architecture should name
+what frontmatter exists and why it earns its place.
 
 #### End Matter Value
 
-Appendices, resources, about the author, "what's next" — each needs to serve the reader or serve a clear business goal. Architecture should explicitly list end matter and its purpose.
+Appendices, resources, about the author, "what's next" — each needs to serve the
+reader or serve a clear business goal. Architecture should explicitly list end
+matter and its purpose.
 
 #### Functional Table of Contents
 
-On Kindle, the TOC is navigation, not decoration. Readers jump using it. Chapter titles aren't just thematic — they're wayfinding. Architecture should test: if someone only saw the TOC, would they know what this ebook delivers?
+On Kindle, the TOC is navigation, not decoration. Readers jump using it. Chapter
+titles aren't just thematic — they're wayfinding. Architecture should test: if
+someone only saw the TOC, would they know what this ebook delivers?
 
 ### Session Flow
 
-1. **Review concept document** — Understand reader, transformation, promise, scope
+1. **Review concept document** — Understand reader, transformation, promise,
+   scope
 2. **Map transformation arc** — What stages does the reader move through?
 3. **Generate chapter candidates** — What chapters might exist?
 4. **Sequence and debate** — What order? Why?
@@ -510,11 +604,15 @@ Architecture is ready for outlining when:
 
 ### Purpose
 
-Transform each chapter's specification from architecture into a beat-level outline that guides drafting. This skill works at the level of individual moves within a chapter, ensuring each beat earns its place and serves the reader.
+Transform each chapter's specification from architecture into a beat-level
+outline that guides drafting. This skill works at the level of individual moves
+within a chapter, ensuring each beat earns its place and serves the reader.
 
 ### Core Philosophy
 
-Ebook chapters are short (often 1,500-2,500 words). Every paragraph matters. Outlining at the beat level — where each beat is a distinct move that advances the reader — prevents bloat and ensures density.
+Ebook chapters are short (often 1,500-2,500 words). Every paragraph matters.
+Outlining at the beat level — where each beat is a distinct move that advances
+the reader — prevents bloat and ensures density.
 
 Less is more. High signal, high quality, no fluff.
 
@@ -522,11 +620,14 @@ Less is more. High signal, high quality, no fluff.
 
 **No throat-clearing openings** — Get to the point in the first paragraph.
 
-**No redundant beats** — If two beats make the same point with different examples, merge or cut.
+**No redundant beats** — If two beats make the same point with different
+examples, merge or cut.
 
-**Merge setup beats** — If a beat is just setup for another beat, they should probably combine.
+**Merge setup beats** — If a beat is just setup for another beat, they should
+probably combine.
 
-**Minimal transitions** — Readers can handle jumps. "Now let's look at..." is usually unnecessary.
+**Minimal transitions** — Readers can handle jumps. "Now let's look at..." is
+usually unnecessary.
 
 ### Beat-Level Thinking
 
@@ -539,11 +640,15 @@ One perfect example beats three decent ones.
 
 ### Word Budget as Forcing Function
 
-Assign rough word count to each beat during outlining. Total must fit the chapter's budget. This forces hard choices about what earns space before drafting begins, not during.
+Assign rough word count to each beat during outlining. Total must fit the
+chapter's budget. This forces hard choices about what earns space before
+drafting begins, not during.
 
 ### The Earned Opening Principle
 
-Full books can have scene-setting openings, evocative anecdotes, slow builds. Ebook chapters should open with value — the reader should feel "yes, this is what I came for" immediately.
+Full books can have scene-setting openings, evocative anecdotes, slow builds.
+Ebook chapters should open with value — the reader should feel "yes, this is
+what I came for" immediately.
 
 Hooks matter, but hooks that delay value don't work in this format.
 
@@ -551,75 +656,104 @@ Hooks matter, but hooks that delay value don't work in this format.
 
 #### Minimum Viable Chapter
 
-Instead of asking "what could this chapter include?", start with "what's the absolute minimum this chapter needs to do its job?" Then add only what genuinely improves it.
+Instead of asking "what could this chapter include?", start with "what's the
+absolute minimum this chapter needs to do its job?" Then add only what genuinely
+improves it.
 
 #### Front-Load the Insight
 
-Academic writing: setup → evidence → conclusion. Ebook chapters might flip this: insight first → supporting evidence → application. Readers want the payoff early.
+Academic writing: setup → evidence → conclusion. Ebook chapters might flip this:
+insight first → supporting evidence → application. Readers want the payoff
+early.
 
 #### Density Without Overwhelm
 
-You need to pack value in, but if every sentence is "important," readers have no breathing room. Even short chapters need rhythm — moments of intensity and moments of relief.
+You need to pack value in, but if every sentence is "important," readers have no
+breathing room. Even short chapters need rhythm — moments of intensity and
+moments of relief.
 
 #### Scannable Structure
 
-Many readers scan before committing to deep reading. Subheadings should work as value preview. Someone should be able to read ONLY the subheadings and know what the chapter delivers.
+Many readers scan before committing to deep reading. Subheadings should work as
+value preview. Someone should be able to read ONLY the subheadings and know what
+the chapter delivers.
 
 #### Subheadings as Promises
 
-Each subheading makes a mini-promise. The outline should test: can we actually deliver what this subheading promises in this space?
+Each subheading makes a mini-promise. The outline should test: can we actually
+deliver what this subheading promises in this space?
 
 #### The "One Screenful" Awareness
 
-On a phone, readers see 100-150 words at a time. Long paragraphs spanning multiple screens feel exhausting. The outline should consider natural visual breaks.
+On a phone, readers see 100-150 words at a time. Long paragraphs spanning
+multiple screens feel exhausting. The outline should consider natural visual
+breaks.
 
 #### Entry Velocity
 
-How many words until the reader knows what this chapter is about and why they should care? Ebook chapters might need to do this in two sentences.
+How many words until the reader knows what this chapter is about and why they
+should care? Ebook chapters might need to do this in two sentences.
 
 #### The "Delete the First Paragraph" Anticipation
 
-Most first drafts have throat-clearing opening paragraphs. The outline should note: "chapter opens at the point, not before it."
+Most first drafts have throat-clearing opening paragraphs. The outline should
+note: "chapter opens at the point, not before it."
 
 #### Exit Momentum
 
-Chapter endings are decision points: keep reading or put it down? The close needs pull — not a cliffhanger, but a sense of "and there's more good stuff coming."
+Chapter endings are decision points: keep reading or put it down? The close
+needs pull — not a cliffhanger, but a sense of "and there's more good stuff
+coming."
 
 #### Teach One Thing Well
 
-Ebook chapters should probably teach ONE thing deeply rather than three things adequately. If a chapter has three main points, maybe it should be three chapters.
+Ebook chapters should probably teach ONE thing deeply rather than three things
+adequately. If a chapter has three main points, maybe it should be three
+chapters.
 
 #### Examples as Evidence, Not Padding
 
-Every example needs to earn its place. Test: if you removed this example, would the point still land? If yes, cut it.
+Every example needs to earn its place. Test: if you removed this example, would
+the point still land? If yes, cut it.
 
 #### Actionability as Design Choice
 
-Does this chapter end with something the reader can DO? Not every chapter needs a call to action, but ebooks are often practical. The outline should decide: is this a "understand" chapter or a "do" chapter?
+Does this chapter end with something the reader can DO? Not every chapter needs
+a call to action, but ebooks are often practical. The outline should decide: is
+this a "understand" chapter or a "do" chapter?
 
 #### Visual Integration as Structural
 
-Not "we'll add images later" but "this beat needs a diagram because the concept is spatial/sequential/comparative." Visual needs should emerge from outlining.
+Not "we'll add images later" but "this beat needs a diagram because the concept
+is spatial/sequential/comparative." Visual needs should emerge from outlining.
 
 #### Anti-Sameness
 
-If every chapter follows the same structure (concept → example → application), it becomes monotonous. Variation in chapter shape keeps readers engaged.
+If every chapter follows the same structure (concept → example → application),
+it becomes monotonous. Variation in chapter shape keeps readers engaged.
 
 #### Cognitive Load Budgeting
 
-How much new information can the reader absorb in this chapter? If introducing a new concept, maybe examples need to be familiar. If using a complex example, maybe the concept needs to be simple.
+How much new information can the reader absorb in this chapter? If introducing a
+new concept, maybe examples need to be familiar. If using a complex example,
+maybe the concept needs to be simple.
 
 #### The "Stuck Reader" Anticipation
 
-If someone gets confused in this chapter, where will they get stuck? Identify likely confusion points and decide: clarification, example, visual, or accept that some will re-read?
+If someone gets confused in this chapter, where will they get stuck? Identify
+likely confusion points and decide: clarification, example, visual, or accept
+that some will re-read?
 
 #### The "Why This Chapter, Why Here" Test
 
-Every chapter should answer: why does this exist as its own chapter (vs. merged) and why does it come at this point? If the outline can't answer clearly, it's a structural problem.
+Every chapter should answer: why does this exist as its own chapter (vs. merged)
+and why does it come at this point? If the outline can't answer clearly, it's a
+structural problem.
 
 ### Subheading Consideration
 
-Subheadings should be suggested during outlining as "first draft suggestions" that later phases can revise. They're structural decisions, not just formatting.
+Subheadings should be suggested during outlining as "first draft suggestions"
+that later phases can revise. They're structural decisions, not just formatting.
 
 ### Session Flow
 
@@ -667,24 +801,32 @@ Chapter outline is ready for drafting when:
 
 ### Purpose
 
-Plan, execute, and organize research to fill gaps identified during architecture and outlining. This skill does everything around research — identifying what's needed, generating prompts, organizing findings — while actual research execution happens via search, deep research tools, or external sources.
+Plan, execute, and organize research to fill gaps identified during architecture
+and outlining. This skill does everything around research — identifying what's
+needed, generating prompts, organizing findings — while actual research
+execution happens via search, deep research tools, or external sources.
 
 ### Core Philosophy
 
-Not every ebook needs research. Many creator-led ebooks are built from existing knowledge and experience. The skill starts by assessing: is research actually needed, or is this about organizing what you already know?
+Not every ebook needs research. Many creator-led ebooks are built from existing
+knowledge and experience. The skill starts by assessing: is research actually
+needed, or is this about organizing what you already know?
 
-When research IS needed, the goal is "just enough" — research that materially improves the ebook, not comprehensive academic coverage.
+When research IS needed, the goal is "just enough" — research that materially
+improves the ebook, not comprehensive academic coverage.
 
 ### The "Do You Need Research?" Gate
 
 Before diving into research planning, assess:
 
 - Is this ebook based on the author's direct experience and expertise?
-- Has the content already been validated through other formats (video, teaching, etc.)?
+- Has the content already been validated through other formats (video, teaching,
+  etc.)?
 - What specific gaps exist that external research could fill?
 - Would the ebook be 95% as good without this research?
 
-Sometimes the "research" phase is really an "organize what's in your head" phase.
+Sometimes the "research" phase is really an "organize what's in your head"
+phase.
 
 ### Research Modes
 
@@ -698,17 +840,21 @@ Not all research is the same:
 | **Example**      | "I need illustrations" — finding case studies, stories, data  | Story/example hunting   |
 | **Visual**       | "I need images/diagrams to reference or model"                | Asset gathering         |
 
-The skill should identify which mode each gap falls into. They require different approaches and different amounts of effort.
+The skill should identify which mode each gap falls into. They require different
+approaches and different amounts of effort.
 
 ### Ebook-Specific Research Concerns
 
 #### Just Enough Research
 
-Full books need comprehensive evidence bases. Ebooks need sufficient evidence. The question isn't "what could we research?" but "what research would materially change the ebook's quality?"
+Full books need comprehensive evidence bases. Ebooks need sufficient evidence.
+The question isn't "what could we research?" but "what research would materially
+change the ebook's quality?"
 
 #### Research as Procrastination Risk
 
-Research feels productive. It can become an excuse to not write. The skill should push toward "good enough to draft" rather than "perfectly researched."
+Research feels productive. It can become an excuse to not write. The skill
+should push toward "good enough to draft" rather than "perfectly researched."
 
 #### Citation Density Calibration
 
@@ -720,7 +866,9 @@ How heavily cited does this ebook need to be?
 
 #### Personal Experience as Primary Source
 
-For creator-led ebooks, your experience IS the research. You've done the thing. You've taught the thing. The skill should help inventory and validate what you already know.
+For creator-led ebooks, your experience IS the research. You've done the thing.
+You've taught the thing. The skill should help inventory and validate what you
+already know.
 
 #### The "Already in Your Head" Audit
 
@@ -744,42 +892,55 @@ Focus research on low-confidence claims that readers might challenge.
 
 #### The "What Will Readers Google?" Anticipation
 
-If you make a claim, what's the first thing a skeptical reader will search? Research should verify that when they do, they'll find confirmation, not contradiction.
+If you make a claim, what's the first thing a skeptical reader will search?
+Research should verify that when they do, they'll find confirmation, not
+contradiction.
 
 #### Expert Quotes as Concentrated Value
 
-Sometimes one great quote from a respected authority adds more credibility than three paragraphs of explanation. Research should consider: where would an outside voice strengthen this?
+Sometimes one great quote from a respected authority adds more credibility than
+three paragraphs of explanation. Research should consider: where would an
+outside voice strengthen this?
 
 #### Competitive Research
 
-Not "is there a market?" but "what do other ebooks on this topic do well that I can learn from?" and "what do they miss that I should cover?"
+Not "is there a market?" but "what do other ebooks on this topic do well that I
+can learn from?" and "what do they miss that I should cover?"
 
 #### Research That Enables Cutting
 
-Sometimes research reveals you don't need a section because someone else already covered it perfectly. "For more on X, see [authoritative source]" lets you skip a chapter.
+Sometimes research reveals you don't need a section because someone else already
+covered it perfectly. "For more on X, see [authoritative source]" lets you skip
+a chapter.
 
 #### The Diminishing Returns Awareness
 
-First hour of research yields 80% of value. Second hour yields 15%. Third hour yields 4%. Know when you've hit "good enough."
+First hour of research yields 80% of value. Second hour yields 15%. Third hour
+yields 4%. Know when you've hit "good enough."
 
 #### Research Debt as Explicit Tracking
 
-If you decide to skip researching something for speed, log it as "verify before publish" debt. Consciously deferred, not ignored.
+If you decide to skip researching something for speed, log it as "verify before
+publish" debt. Consciously deferred, not ignored.
 
 #### Organizing for Drafting
 
-The output of research isn't "here's what I found." It's "here's what I found, tagged to exactly where you'll use it in the ebook."
+The output of research isn't "here's what I found." It's "here's what I found,
+tagged to exactly where you'll use it in the ebook."
 
 #### When Research Reveals Problems
 
-Sometimes research surfaces that your premise is wrong, your approach is outdated, or someone else already wrote this ebook better. The skill should have a path for "research killed this project" or "research requires a pivot."
+Sometimes research surfaces that your premise is wrong, your approach is
+outdated, or someone else already wrote this ebook better. The skill should have
+a path for "research killed this project" or "research requires a pivot."
 
 ### Session Flow
 
 1. **Research gate** — Does this ebook actually need research? What kind?
 2. **Inventory existing knowledge** — What do you already know?
 3. **Identify gaps by chapter** — What's missing where?
-4. **Categorize gaps by mode** — Discovery, verification, citation, example, visual?
+4. **Categorize gaps by mode** — Discovery, verification, citation, example,
+   visual?
 5. **Generate research prompts** — What specifically to look for?
 6. **Execute research** — Via search tools, deep research, external sources
 7. **Organize findings** — By chapter, ready for drafting
@@ -814,21 +975,27 @@ Research is ready to support drafting when:
 
 ### Purpose
 
-Produce the complete first draft of the ebook. In this skill, AI is the primary drafter — writing chapter by chapter following the outlines, maintaining voice consistency, and producing prose ready for human review and editing.
+Produce the complete first draft of the ebook. In this skill, AI is the primary
+drafter — writing chapter by chapter following the outlines, maintaining voice
+consistency, and producing prose ready for human review and editing.
 
 ### Core Philosophy
 
-The AI drafts. The human reviews and revises. This division of labor lets the human focus on judgment and refinement rather than blank-page creation.
+The AI drafts. The human reviews and revises. This division of labor lets the
+human focus on judgment and refinement rather than blank-page creation.
 
-The draft should sound like the author wrote it, not like AI generated it. Voice capture and consistency are paramount.
+The draft should sound like the author wrote it, not like AI generated it. Voice
+capture and consistency are paramount.
 
 ### The Drafting Model
 
 **AI leads:** AI writes the draft following outlines and research.
 
-**Chapter-by-chapter:** Draft one chapter, human reviews and approves (or adjusts), then next chapter. This prevents drift and allows course-correction.
+**Chapter-by-chapter:** Draft one chapter, human reviews and approves (or
+adjusts), then next chapter. This prevents drift and allows course-correction.
 
-**Outline fidelity:** AI follows the outline closely. Deviations are flagged, not silently made.
+**Outline fidelity:** AI follows the outline closely. Deviations are flagged,
+not silently made.
 
 **Voice consistency:** The draft sounds like one person throughout — the author.
 
@@ -846,7 +1013,8 @@ Before drafting chapter 1, establish voice parameters:
 - **Words/phrases that sound like you**
 - **Sample paragraphs that exemplify your voice**
 
-For creator-led ebooks, existing content (YouTube scripts, blog posts, previous writing) serves as voice training material.
+For creator-led ebooks, existing content (YouTube scripts, blog posts, previous
+writing) serves as voice training material.
 
 ### The "Invisible AI" Standard
 
@@ -855,7 +1023,8 @@ The draft should read like the author wrote it. No AI tells:
 - No hollow transitions ("Let's dive in," "Moving on to")
 - No filler phrases ("It's important to note that," "It's worth mentioning")
 - No hedge words ("somewhat," "arguably," "it could be said")
-- No overused AI words ("delve," "crucial," "comprehensive," "myriad," "leverage")
+- No overused AI words ("delve," "crucial," "comprehensive," "myriad,"
+  "leverage")
 - No sycophantic openings
 - No formulaic structures
 - No unnecessary summarization
@@ -876,11 +1045,13 @@ Ebook prose is different from print prose:
 
 #### Word Budget Targeting
 
-Draft to the word budget specified in the outline. Not exactly, but within range. A 2,000-word chapter target shouldn't produce 800 or 4,000 words.
+Draft to the word budget specified in the outline. Not exactly, but within
+range. A 2,000-word chapter target shouldn't produce 800 or 4,000 words.
 
 #### Beat-to-Prose Execution
 
-Each beat in the outline becomes prose. Track progress: "I'm executing beat 3 of 7 now."
+Each beat in the outline becomes prose. Track progress: "I'm executing beat 3 of
+7 now."
 
 #### Subheading Placement
 
@@ -888,7 +1059,8 @@ Use the subheadings from the outline, adjusting wording if needed for flow.
 
 #### Visual Placeholders
 
-Where visuals are specified, write around them: "[FIGURE: Diagram showing the numbering system]" and ensure prose references the visual naturally.
+Where visuals are specified, write around them: "[FIGURE: Diagram showing the
+numbering system]" and ensure prose references the visual naturally.
 
 #### Research Integration
 
@@ -896,19 +1068,23 @@ Weave research in naturally as supporting evidence, not as information dumps.
 
 #### Specificity Over Generality
 
-Not "many people struggle with this" but "you've probably stared at a blank card wondering where to start."
+Not "many people struggle with this" but "you've probably stared at a blank card
+wondering where to start."
 
 #### Directive Confidence
 
-"Do this" not "you might want to consider doing this." Readers paid for guidance. Guide them.
+"Do this" not "you might want to consider doing this." Readers paid for
+guidance. Guide them.
 
 #### Action-Oriented Prose
 
-Favor imperative mood: "Write your first card" not "The first card should be written."
+Favor imperative mood: "Write your first card" not "The first card should be
+written."
 
 #### Assumed Success Framing
 
-Write as if the reader will succeed: "When you complete your first card..." not "If you manage to..."
+Write as if the reader will succeed: "When you complete your first card..." not
+"If you manage to..."
 
 #### One Idea Per Paragraph
 
@@ -920,7 +1096,8 @@ Vary sentence length rhythmically. All short feels choppy. All long exhausts.
 
 #### Strong Verbs
 
-"She sprinted" not "she ran quickly." Strong verbs over adverb-propped weak verbs.
+"She sprinted" not "she ran quickly." Strong verbs over adverb-propped weak
+verbs.
 
 ### Chapter Completion Checklist
 
@@ -971,18 +1148,23 @@ After every 3-4 chapters, do a consistency check:
 
 - Conclusion: Synthesize transformation, celebrate progress, no new content
 - Resources: Curated list with brief annotations
-- What's next: Bridge to other products — this is marketing copy, different register
+- What's next: Bridge to other products — this is marketing copy, different
+  register
 - About the author: Often better written by human
 
 ### When Things Go Wrong
 
-**Outline doesn't work:** Draft best attempt, flag with `[STRUCTURE CONCERN: explanation]`, continue.
+**Outline doesn't work:** Draft best attempt, flag with
+`[STRUCTURE CONCERN: explanation]`, continue.
 
-**Research is thin:** Write around it, insert `[RESEARCH NEEDED: specific gap]`, continue.
+**Research is thin:** Write around it, insert `[RESEARCH NEEDED: specific gap]`,
+continue.
 
-**Voice drifting:** Pause, recalibrate against voice sample, revise recent section.
+**Voice drifting:** Pause, recalibrate against voice sample, revise recent
+section.
 
-**Chapter isn't coming together:** Flag it: "I'm not confident this chapter is working. Here's what I'm struggling with..."
+**Chapter isn't coming together:** Flag it: "I'm not confident this chapter is
+working. Here's what I'm struggling with..."
 
 ### Draft Quality Self-Assessment
 
@@ -1032,11 +1214,15 @@ Draft is ready for editing when:
 
 ### Purpose
 
-Refine the draft into a polished final manuscript through collaborative editing. Unlike drafting where AI leads, editing is collaborative — AI identifies issues and suggests fixes, human decides and approves.
+Refine the draft into a polished final manuscript through collaborative editing.
+Unlike drafting where AI leads, editing is collaborative — AI identifies issues
+and suggests fixes, human decides and approves.
 
 ### Core Philosophy
 
-Editing is where the human gets hands-on. AI serves as an expert editor who surfaces problems, suggests solutions, and maintains quality standards — but the human makes final decisions.
+Editing is where the human gets hands-on. AI serves as an expert editor who
+surfaces problems, suggests solutions, and maintains quality standards — but the
+human makes final decisions.
 
 Two passes maximum for most ebooks. Thoroughness through focus, not repetition.
 
@@ -1058,29 +1244,37 @@ Two passes maximum for most ebooks. Thoroughness through focus, not repetition.
 
 #### The "Read It Cold" Test
 
-Before any editing, read the entire draft straight through without stopping to fix things. Experience it as a reader would. Note reactions, but don't edit yet. This reveals: does this ebook _work_?
+Before any editing, read the entire draft straight through without stopping to
+fix things. Experience it as a reader would. Note reactions, but don't edit yet.
+This reveals: does this ebook _work_?
 
 #### Structural Concerns to Assess
 
 **Transformation delivery:** Did the ebook deliver the transformation promised?
 
-**Reader journey:** Track intellectual and emotional state chapter by chapter. Where might readers get confused? Bored? Frustrated?
+**Reader journey:** Track intellectual and emotional state chapter by chapter.
+Where might readers get confused? Bored? Frustrated?
 
-**Necessary and sufficient:** For each chapter — is this necessary? Is it sufficient?
+**Necessary and sufficient:** For each chapter — is this necessary? Is it
+sufficient?
 
 **Chapter order:** Could chapters be reordered? Is there a better sequence?
 
-**Opening autopsy:** Does the first 10% hook AND deliver value? Would you keep reading?
+**Opening autopsy:** Does the first 10% hook AND deliver value? Would you keep
+reading?
 
-**Ending autopsy:** Does it feel complete? Does it celebrate transformation? Any new content introduced (shouldn't be)?
+**Ending autopsy:** Does it feel complete? Does it celebrate transformation? Any
+new content introduced (shouldn't be)?
 
 **Pacing diagnosis:** Where does it drag? Where does it rush?
 
 **Redundancy detection:** Same point made twice? Redundant examples?
 
-**Gap detection:** Anything missing? Assumed knowledge that shouldn't be assumed?
+**Gap detection:** Anything missing? Assumed knowledge that shouldn't be
+assumed?
 
-**The "skip" detector:** Which sections would readers skip? This reveals low-value content.
+**The "skip" detector:** Which sections would readers skip? This reveals
+low-value content.
 
 #### Voice Concerns to Assess
 
@@ -1108,13 +1302,15 @@ After Pass 1, you should have:
 
 #### Signal-to-Noise
 
-Every sentence must add signal. For each paragraph: what would be lost if I cut this sentence? If "nothing," cut it.
+Every sentence must add signal. For each paragraph: what would be lost if I cut
+this sentence? If "nothing," cut it.
 
 #### Line-Level Concerns to Assess
 
 **Paragraph purpose:** What is this paragraph's job? One paragraph, one job.
 
-**Opening sentences:** First sentence of each paragraph carries weight. Are they strong?
+**Opening sentences:** First sentence of each paragraph carries weight. Are they
+strong?
 
 **Closing sentences:** Last sentence of each section creates pull. Do they?
 
@@ -1124,7 +1320,8 @@ Every sentence must add signal. For each paragraph: what would be lost if I cut 
 
 **Adjective skepticism:** Stacked adjectives dilute. Pick the one that matters.
 
-**Filler elimination:** "In order to" → "to." "Due to the fact that" → "because."
+**Filler elimination:** "In order to" → "to." "Due to the fact that" →
+"because."
 
 **"Very" and "really" audit:** These almost never strengthen.
 
@@ -1177,11 +1374,14 @@ When AI flags issues:
 
 #### The "Your Call" Category
 
-Some edits are objective (typos, errors). Others are subjective (word choice, style). AI should distinguish: "This is wrong" vs. "This is a style choice — here's an alternative."
+Some edits are objective (typos, errors). Others are subjective (word choice,
+style). AI should distinguish: "This is wrong" vs. "This is a style choice —
+here's an alternative."
 
 ### Ebook-Specific Editing Concerns
 
-**Screen reading optimization:** Paragraphs short enough? Subheadings frequent enough?
+**Screen reading optimization:** Paragraphs short enough? Subheadings frequent
+enough?
 
 **Preview optimization:** First 10-15% doing its sales job?
 
@@ -1256,7 +1456,9 @@ Manuscript is ready to publish when:
 
 ## Reference Documents
 
-Each skill benefits from focused reference documents. Unlike the Book Factory's extensive reference library, ebook skills embed most guidance directly and use references only for content that would bloat the main skill.
+Each skill benefits from focused reference documents. Unlike the Book Factory's
+extensive reference library, ebook skills embed most guidance directly and use
+references only for content that would bloat the main skill.
 
 ### For Drafting Skill
 
@@ -1454,20 +1656,26 @@ Clear handoffs prevent gaps and ensure continuity.
 
 This mindset should permeate every skill in the pipeline:
 
-**Ebooks are not lesser books.** They're a distinct format serving readers who value their time.
+**Ebooks are not lesser books.** They're a distinct format serving readers who
+value their time.
 
 **The constraint makes it harder.** Less room means higher standards per page.
 
-**Density is not overwhelm.** Pack value in while maintaining rhythm and breathing room.
+**Density is not overwhelm.** Pack value in while maintaining rhythm and
+breathing room.
 
-**Every element earns its place.** Chapters, paragraphs, sentences, words — all must justify their existence.
+**Every element earns its place.** Chapters, paragraphs, sentences, words — all
+must justify their existence.
 
-**Speed-to-value is the metric.** How quickly does the reader feel "this was worth it"?
+**Speed-to-value is the metric.** How quickly does the reader feel "this was
+worth it"?
 
-**Completion is satisfaction.** The reader should feel "I got what I came for" at the end.
+**Completion is satisfaction.** The reader should feel "I got what I came for"
+at the end.
 
 **Quality through constraint.** The discipline of brevity produces better work.
 
 ---
 
-_This document should be updated as skills are built and the Ebook Factory evolves._
+_This document should be updated as skills are built and the Ebook Factory
+evolves._

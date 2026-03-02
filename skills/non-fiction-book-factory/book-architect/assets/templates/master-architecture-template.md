@@ -18,8 +18,8 @@
 
 ### Book Promise
 
-_After reading this book, the reader will:_
-[One sentence describing the transformation/outcome]
+_After reading this book, the reader will:_ [One sentence describing the
+transformation/outcome]
 
 ### Core Thesis
 
@@ -37,8 +37,7 @@ _After reading this book, the reader will:_
 
 _Not demographics—their situation, beliefs, and struggles:_
 
-**Who they are:**
-[Specific description of the reader]
+**Who they are:** [Specific description of the reader]
 
 **Where they're starting:**
 
@@ -47,8 +46,7 @@ _Not demographics—their situation, beliefs, and struggles:_
 - They're struggling with: [Specific struggles]
 - They want: [What they're seeking]
 
-**What they don't know yet:**
-[Key gaps in understanding or awareness]
+**What they don't know yet:** [Key gaps in understanding or awareness]
 
 ### Transformation Arc
 
@@ -69,11 +67,11 @@ _Not demographics—their situation, beliefs, and struggles:_
 
 **Primary Framework:** [Framework name]
 
-**Why this framework:**
-[Explanation of why this structure serves this reader and this content]
+**Why this framework:** [Explanation of why this structure serves this reader
+and this content]
 
-**Secondary Framework (if hybrid):** [Framework name]
-[Brief explanation of how frameworks combine]
+**Secondary Framework (if hybrid):** [Framework name] [Brief explanation of how
+frameworks combine]
 
 ### Section Overview
 
@@ -100,7 +98,8 @@ Section 2: [Type]
 
 **Reading Mode:** Linear / Modular / Hybrid
 
-[Explanation: Must chapters be read in order? Can readers skip ahead? What dependencies exist?]
+[Explanation: Must chapters be read in order? Can readers skip ahead? What
+dependencies exist?]
 
 ---
 

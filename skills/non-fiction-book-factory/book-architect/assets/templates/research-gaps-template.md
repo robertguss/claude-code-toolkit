@@ -8,7 +8,9 @@
 
 ## How to Use This Document
 
-Each gap includes a ready-to-use prompt for deep research. Copy the prompt into Claude, ChatGPT, Perplexity, or any research tool. Paste findings back into the relevant section blueprint under the chapter's content notes.
+Each gap includes a ready-to-use prompt for deep research. Copy the prompt into
+Claude, ChatGPT, Perplexity, or any research tool. Paste findings back into the
+relevant section blueprint under the chapter's content notes.
 
 **Priority Levels:**
 

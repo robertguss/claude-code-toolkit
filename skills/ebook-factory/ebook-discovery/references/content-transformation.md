@@ -1,6 +1,7 @@
 # Content Transformation Guide
 
-How different types of source content become ebooks. Use this reference when evaluating candidates with existing content.
+How different types of source content become ebooks. Use this reference when
+evaluating candidates with existing content.
 
 ---
 
@@ -111,7 +112,8 @@ Videos are free—why pay for an ebook?
 
 ### Transformation Effort: Moderate
 
-Better raw material than blog posts because of consistent voice and relationship.
+Better raw material than blog posts because of consistent voice and
+relationship.
 
 ### Red Flags
 
@@ -320,7 +322,8 @@ Structure exists but format translation is significant.
 
 ### Value Consideration
 
-Teaching materials represent refined thinking about how to explain something—valuable foundation.
+Teaching materials represent refined thinking about how to explain
+something—valuable foundation.
 
 ---
 
@@ -339,7 +342,8 @@ Putting existing content in a PDF is not an ebook. Transformation means:
 
 ### Format Change ≠ Value Add
 
-Different format (video → text) alone isn't enough for paid content if original is free. Need:
+Different format (video → text) alone isn't enough for paid content if original
+is free. Need:
 
 - Deeper treatment
 - New content
@@ -348,7 +352,8 @@ Different format (video → text) alone isn't enough for paid content if origina
 
 ### Existing Content = Head Start
 
-Content is foundation, not finished product. It reduces work but doesn't eliminate it. Budget 30-70% new creation depending on source type.
+Content is foundation, not finished product. It reduces work but doesn't
+eliminate it. Budget 30-70% new creation depending on source type.
 
 ### Match Effort to Reward
 

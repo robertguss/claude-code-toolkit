@@ -1,6 +1,8 @@
 # Voice Dimension Catalog
 
-A comprehensive framework for analyzing and documenting a writer's voice. Each dimension includes what to look for in samples, questions to surface it, and examples of strong vs. weak capture.
+A comprehensive framework for analyzing and documenting a writer's voice. Each
+dimension includes what to look for in samples, questions to surface it, and
+examples of strong vs. weak capture.
 
 ---
 
@@ -17,7 +19,8 @@ Voice dimensions are organized into levels:
 7. **Anti-Pattern Level** — What they never do
 8. **Register-Specific** — Mode-dependent patterns
 
-Not all dimensions apply equally to all writers. Focus on what's most distinctive.
+Not all dimensions apply equally to all writers. Focus on what's most
+distinctive.
 
 ---
 
@@ -25,8 +28,8 @@ Not all dimensions apply equally to all writers. Focus on what's most distinctiv
 
 ### 1.1 Rhythm & Architecture
 
-**What It Captures:**
-The music of their prose—how sentences flow, where emphasis lands, the relationship between sentence lengths.
+**What It Captures:** The music of their prose—how sentences flow, where
+emphasis lands, the relationship between sentence lengths.
 
 **What to Look for in Samples:**
 
@@ -51,7 +54,10 @@ The music of their prose—how sentences flow, where emphasis lands, the relatio
 
 **Strong Capture Example:**
 
-> "Favors medium-length sentences (12-20 words) punctuated by occasional single-clause punches (4-7 words) for emphasis. End-weighted structure—saves the key word for the final position. Rarely uses compound sentences with 'and'; prefers sequences of shorter sentences."
+> "Favors medium-length sentences (12-20 words) punctuated by occasional
+> single-clause punches (4-7 words) for emphasis. End-weighted structure—saves
+> the key word for the final position. Rarely uses compound sentences with
+> 'and'; prefers sequences of shorter sentences."
 
 **Weak Capture Example:**
 
@@ -61,12 +67,13 @@ The music of their prose—how sentences flow, where emphasis lands, the relatio
 
 ### 1.2 Punctuation Personality
 
-**What It Captures:**
-Their relationship with punctuation—which marks they favor, avoid, and how they deploy them.
+**What It Captures:** Their relationship with punctuation—which marks they
+favor, avoid, and how they deploy them.
 
 **What to Look for in Samples:**
 
-- Em-dash frequency and usage (parenthetical, dramatic pause, substitutes for colons)
+- Em-dash frequency and usage (parenthetical, dramatic pause, substitutes for
+  colons)
 - Semicolon presence (formal/academic marker)
 - Colon usage (explanatory, dramatic)
 - Parenthetical asides (frequent, rare, never)
@@ -91,7 +98,10 @@ Their relationship with punctuation—which marks they favor, avoid, and how the
 
 **Strong Capture Example:**
 
-> "Heavy em-dash user—deploys them for parenthetical insertions (pairs) and dramatic pivots (singles). Never uses semicolons. Light comma usage; prefers shorter sentences to heavy comma-separated clauses. Exclamation points only in dialogue, never in prose."
+> "Heavy em-dash user—deploys them for parenthetical insertions (pairs) and
+> dramatic pivots (singles). Never uses semicolons. Light comma usage; prefers
+> shorter sentences to heavy comma-separated clauses. Exclamation points only in
+> dialogue, never in prose."
 
 **Weak Capture Example:**
 
@@ -101,8 +111,8 @@ Their relationship with punctuation—which marks they favor, avoid, and how the
 
 ### 1.3 Opening Word Tendencies
 
-**What It Captures:**
-How they begin sentences—a subtle but distinctive fingerprint.
+**What It Captures:** How they begin sentences—a subtle but distinctive
+fingerprint.
 
 **What to Look for in Samples:**
 
@@ -128,7 +138,10 @@ How they begin sentences—a subtle but distinctive fingerprint.
 
 **Strong Capture Example:**
 
-> "Rarely starts with 'I' (less than 5% of sentences). Frequently uses 'And' to begin sentences for rhythm. Avoids formal transitions ('However,' 'Moreover')—prefers 'But' for contrast. Often opens with concrete nouns or action verbs."
+> "Rarely starts with 'I' (less than 5% of sentences). Frequently uses 'And' to
+> begin sentences for rhythm. Avoids formal transitions ('However,'
+> 'Moreover')—prefers 'But' for contrast. Often opens with concrete nouns or
+> action verbs."
 
 ---
 
@@ -136,8 +149,8 @@ How they begin sentences—a subtle but distinctive fingerprint.
 
 ### 2.1 Paragraph Construction
 
-**What It Captures:**
-How they build paragraphs—length, internal logic, topic sentence placement.
+**What It Captures:** How they build paragraphs—length, internal logic, topic
+sentence placement.
 
 **What to Look for in Samples:**
 
@@ -155,14 +168,16 @@ How they build paragraphs—length, internal logic, topic sentence placement.
 
 **Strong Capture Example:**
 
-> "Short paragraphs (2-4 sentences typical). Topic sentence usually first, but occasionally saves the point for a punchline ending. Uses single-sentence paragraphs liberally for emphasis—often follows a longer paragraph with a one-liner that lands the point."
+> "Short paragraphs (2-4 sentences typical). Topic sentence usually first, but
+> occasionally saves the point for a punchline ending. Uses single-sentence
+> paragraphs liberally for emphasis—often follows a longer paragraph with a
+> one-liner that lands the point."
 
 ---
 
 ### 2.2 Transitional Patterns
 
-**What It Captures:**
-How they move between ideas and sections.
+**What It Captures:** How they move between ideas and sections.
 
 **What to Look for in Samples:**
 
@@ -180,14 +195,16 @@ How they move between ideas and sections.
 
 **Strong Capture Example:**
 
-> "Avoids formal transitions entirely—no 'However,' 'Moreover,' 'Furthermore.' Creates flow through repeated concepts and question-answer patterns. Uses paragraph breaks liberally rather than transitional phrases. Occasionally deploys 'But' for sharp contrast."
+> "Avoids formal transitions entirely—no 'However,' 'Moreover,' 'Furthermore.'
+> Creates flow through repeated concepts and question-answer patterns. Uses
+> paragraph breaks liberally rather than transitional phrases. Occasionally
+> deploys 'But' for sharp contrast."
 
 ---
 
 ### 2.3 Opening Moves
 
-**What It Captures:**
-How they begin pieces—the hook, the first impression.
+**What It Captures:** How they begin pieces—the hook, the first impression.
 
 **What to Look for in Samples:**
 
@@ -206,14 +223,15 @@ How they begin pieces—the hook, the first impression.
 
 **Strong Capture Example:**
 
-> "Opens with concrete action or image—never with context-setting or throat-clearing. First sentence is always short (under 10 words). Avoids questions as openers. Anecdotes are rare; prefers observation or assertion."
+> "Opens with concrete action or image—never with context-setting or
+> throat-clearing. First sentence is always short (under 10 words). Avoids
+> questions as openers. Anecdotes are rare; prefers observation or assertion."
 
 ---
 
 ### 2.4 Closing Moves
 
-**What It Captures:**
-How they end pieces—the last impression.
+**What It Captures:** How they end pieces—the last impression.
 
 **What to Look for in Samples:**
 
@@ -232,7 +250,10 @@ How they end pieces—the last impression.
 
 **Strong Capture Example:**
 
-> "Ends with concrete image or action, not abstraction. Never summarizes or restates the point. Occasional callbacks to opening for structural satisfaction. Avoids calls to action except in explicitly promotional content."
+> "Ends with concrete image or action, not abstraction. Never summarizes or
+> restates the point. Occasional callbacks to opening for structural
+> satisfaction. Avoids calls to action except in explicitly promotional
+> content."
 
 ---
 
@@ -240,12 +261,13 @@ How they end pieces—the last impression.
 
 ### 3.1 Vocabulary Character
 
-**What It Captures:**
-The flavor of their word choices—simple or complex, concrete or abstract, narrow or wide.
+**What It Captures:** The flavor of their word choices—simple or complex,
+concrete or abstract, narrow or wide.
 
 **What to Look for in Samples:**
 
-- Anglo-Saxon vs. Latinate balance ("help" vs. "assistance," "start" vs. "commence")
+- Anglo-Saxon vs. Latinate balance ("help" vs. "assistance," "start" vs.
+  "commence")
 - Average word length
 - Vocabulary breadth (narrow/precise vs. wide/varied)
 - Concrete vs. abstract tendency
@@ -259,14 +281,17 @@ The flavor of their word choices—simple or complex, concrete or abstract, narr
 
 **Strong Capture Example:**
 
-> "Strongly Anglo-Saxon—prefers 'start' to 'commence,' 'help' to 'facilitate,' 'end' to 'terminate.' Concrete and specific: names things precisely rather than using generic terms. Vocabulary is narrow but intentional—repeats key words rather than synonym-swapping."
+> "Strongly Anglo-Saxon—prefers 'start' to 'commence,' 'help' to 'facilitate,'
+> 'end' to 'terminate.' Concrete and specific: names things precisely rather
+> than using generic terms. Vocabulary is narrow but intentional—repeats key
+> words rather than synonym-swapping."
 
 ---
 
 ### 3.2 Favorite Words & Phrases
 
-**What It Captures:**
-Their verbal fingerprints—words and phrases they return to.
+**What It Captures:** Their verbal fingerprints—words and phrases they return
+to.
 
 **What to Look for in Samples:**
 
@@ -283,14 +308,16 @@ Their verbal fingerprints—words and phrases they return to.
 
 **Strong Capture Example:**
 
-> "Returns to: 'actually,' 'genuinely,' 'the thing is.' Uses 'look' as a paragraph opener when being direct. Favors 'but' over 'however,' 'so' over 'therefore.' Characteristic construction: 'The point isn't X, it's Y.'"
+> "Returns to: 'actually,' 'genuinely,' 'the thing is.' Uses 'look' as a
+> paragraph opener when being direct. Favors 'but' over 'however,' 'so' over
+> 'therefore.' Characteristic construction: 'The point isn't X, it's Y.'"
 
 ---
 
 ### 3.3 Avoided Words
 
-**What It Captures:**
-Words they consciously or unconsciously avoid—often more distinctive than favorites.
+**What It Captures:** Words they consciously or unconsciously avoid—often more
+distinctive than favorites.
 
 **What to Look for in Samples:**
 
@@ -307,14 +334,15 @@ Words they consciously or unconsciously avoid—often more distinctive than favo
 
 **Strong Capture Example:**
 
-> "Never uses: 'utilize' (always 'use'), 'leverage' (too corporate), 'impactful' (fake word), 'learnings' (plural that shouldn't exist). Avoids: 'very' (too vague), 'really' (unless in dialogue), 'just' (weakens statements)."
+> "Never uses: 'utilize' (always 'use'), 'leverage' (too corporate), 'impactful'
+> (fake word), 'learnings' (plural that shouldn't exist). Avoids: 'very' (too
+> vague), 'really' (unless in dialogue), 'just' (weakens statements)."
 
 ---
 
 ### 3.4 Contraction Philosophy
 
-**What It Captures:**
-Their use of contractions—a major tone indicator.
+**What It Captures:** Their use of contractions—a major tone indicator.
 
 **What to Look for in Samples:**
 
@@ -331,7 +359,10 @@ Their use of contractions—a major tone indicator.
 
 **Strong Capture Example:**
 
-> "Heavy contraction user—'don't,' 'won't,' 'isn't,' 'I'm,' 'you're' throughout. Never uses 'cannot' (always 'can't'). Exception: avoids contractions in formal argument moments for emphasis ('This is not acceptable' vs. 'This isn't acceptable')."
+> "Heavy contraction user—'don't,' 'won't,' 'isn't,' 'I'm,' 'you're' throughout.
+> Never uses 'cannot' (always 'can't'). Exception: avoids contractions in formal
+> argument moments for emphasis ('This is not acceptable' vs. 'This isn't
+> acceptable')."
 
 ---
 
@@ -339,13 +370,14 @@ Their use of contractions—a major tone indicator.
 
 ### 4.1 Emotional Temperature
 
-**What It Captures:**
-The warmth or coolness of their prose—their baseline emotional register.
+**What It Captures:** The warmth or coolness of their prose—their baseline
+emotional register.
 
 **What to Look for in Samples:**
 
 - Warm markers: personal anecdotes, "I/you" language, emotional words
-- Cool markers: impersonal constructions, analytical distance, neutral vocabulary
+- Cool markers: impersonal constructions, analytical distance, neutral
+  vocabulary
 - Where do they show enthusiasm or passion?
 - Where do they remain detached?
 
@@ -357,14 +389,16 @@ The warmth or coolness of their prose—their baseline emotional register.
 
 **Strong Capture Example:**
 
-> "Warm but measured. Personal anecdotes appear once or twice per piece. Uses 'I' comfortably but not excessively. Shows enthusiasm through specific detail rather than exclamation. Avoids sentimentality; prefers understated emotion."
+> "Warm but measured. Personal anecdotes appear once or twice per piece. Uses
+> 'I' comfortably but not excessively. Shows enthusiasm through specific detail
+> rather than exclamation. Avoids sentimentality; prefers understated emotion."
 
 ---
 
 ### 4.2 Confidence Style
 
-**What It Captures:**
-How they assert vs. hedge—their relationship with uncertainty.
+**What It Captures:** How they assert vs. hedge—their relationship with
+uncertainty.
 
 **What to Look for in Samples:**
 
@@ -381,14 +415,16 @@ How they assert vs. hedge—their relationship with uncertainty.
 
 **Strong Capture Example:**
 
-> "States opinions directly without 'I think' qualifiers. Hedges only on genuinely uncertain claims. Never uses 'arguably' or 'somewhat.' Uses 'might' sparingly and specifically. Certainty comes through assertion, not through words like 'clearly' or 'obviously.'"
+> "States opinions directly without 'I think' qualifiers. Hedges only on
+> genuinely uncertain claims. Never uses 'arguably' or 'somewhat.' Uses 'might'
+> sparingly and specifically. Certainty comes through assertion, not through
+> words like 'clearly' or 'obviously.'"
 
 ---
 
 ### 4.3 Formality Level
 
-**What It Captures:**
-Where they sit on the formal-casual spectrum.
+**What It Captures:** Where they sit on the formal-casual spectrum.
 
 **What to Look for in Samples:**
 
@@ -406,14 +442,15 @@ Where they sit on the formal-casual spectrum.
 
 **Strong Capture Example:**
 
-> "Conversational but not sloppy. Uses contractions freely, addresses reader directly, but avoids slang. Sentences are clear and accessible, never academic. Would never write 'heretofore' but also wouldn't write 'gonna.'"
+> "Conversational but not sloppy. Uses contractions freely, addresses reader
+> directly, but avoids slang. Sentences are clear and accessible, never
+> academic. Would never write 'heretofore' but also wouldn't write 'gonna.'"
 
 ---
 
 ### 4.4 Humor Approach
 
-**What It Captures:**
-If and how they use humor.
+**What It Captures:** If and how they use humor.
 
 **What to Look for in Samples:**
 
@@ -430,14 +467,16 @@ If and how they use humor.
 
 **Strong Capture Example:**
 
-> "Dry wit appears in parenthetical asides, never as the main focus. Self-deprecating when sharing personal failures. Avoids puns and wordplay. Humor is always in service of a point, never just for laughs. Sarcasm is rare and subtle."
+> "Dry wit appears in parenthetical asides, never as the main focus.
+> Self-deprecating when sharing personal failures. Avoids puns and wordplay.
+> Humor is always in service of a point, never just for laughs. Sarcasm is rare
+> and subtle."
 
 ---
 
 ### 4.5 Authority Stance
 
-**What It Captures:**
-How they position themselves relative to the reader.
+**What It Captures:** How they position themselves relative to the reader.
 
 **What to Look for in Samples:**
 
@@ -454,7 +493,10 @@ How they position themselves relative to the reader.
 
 **Strong Capture Example:**
 
-> "Guide stance—more experienced than the reader but not lecturing from above. Shares personal mistakes freely. Uses 'we' to include reader in shared challenges. Authoritative on specific claims but humble about broader questions."
+> "Guide stance—more experienced than the reader but not lecturing from above.
+> Shares personal mistakes freely. Uses 'we' to include reader in shared
+> challenges. Authoritative on specific claims but humble about broader
+> questions."
 
 ---
 
@@ -462,8 +504,7 @@ How they position themselves relative to the reader.
 
 ### 5.1 First Person Presence
 
-**What It Captures:**
-How much "I" shows up and in what contexts.
+**What It Captures:** How much "I" shows up and in what contexts.
 
 **What to Look for in Samples:**
 
@@ -480,14 +521,16 @@ How much "I" shows up and in what contexts.
 
 **Strong Capture Example:**
 
-> "Moderate 'I' usage—present but not dominant. Uses 'I' for experiences and specific opinions, not for obvious observations ('I think the sky is blue'). Occasionally writes 'we' to include reader. Never uses impersonal constructions ('one might argue') as 'I' substitute."
+> "Moderate 'I' usage—present but not dominant. Uses 'I' for experiences and
+> specific opinions, not for obvious observations ('I think the sky is blue').
+> Occasionally writes 'we' to include reader. Never uses impersonal
+> constructions ('one might argue') as 'I' substitute."
 
 ---
 
 ### 5.2 Second Person Usage
 
-**What It Captures:**
-Their direct address of the reader.
+**What It Captures:** Their direct address of the reader.
 
 **What to Look for in Samples:**
 
@@ -504,14 +547,16 @@ Their direct address of the reader.
 
 **Strong Capture Example:**
 
-> "Direct 'you' address throughout—conversational relationship with reader. Occasional imperatives ('Consider...', 'Notice...') but not bossy. Asks rhetorical questions to engage reader thinking. Never uses 'one' as formal 'you' substitute."
+> "Direct 'you' address throughout—conversational relationship with reader.
+> Occasional imperatives ('Consider...', 'Notice...') but not bossy. Asks
+> rhetorical questions to engage reader thinking. Never uses 'one' as formal
+> 'you' substitute."
 
 ---
 
 ### 5.3 Reader Assumptions
 
-**What It Captures:**
-What they assume readers know—the implicit contract.
+**What It Captures:** What they assume readers know—the implicit contract.
 
 **What to Look for in Samples:**
 
@@ -528,7 +573,10 @@ What they assume readers know—the implicit contract.
 
 **Strong Capture Example:**
 
-> "Assumes reader is intelligent but not expert. Explains industry jargon on first use but doesn't over-explain common concepts. References (books, ideas, people) are often unexplained—trusts reader to look them up if curious. Doesn't talk down."
+> "Assumes reader is intelligent but not expert. Explains industry jargon on
+> first use but doesn't over-explain common concepts. References (books, ideas,
+> people) are often unexplained—trusts reader to look them up if curious.
+> Doesn't talk down."
 
 ---
 
@@ -536,8 +584,8 @@ What they assume readers know—the implicit contract.
 
 ### 6.1 Distinctive Moves
 
-**What It Captures:**
-Things they do that are recognizably theirs—their fingerprints.
+**What It Captures:** Things they do that are recognizably theirs—their
+fingerprints.
 
 **What to Look for in Samples:**
 
@@ -554,14 +602,16 @@ Things they do that are recognizably theirs—their fingerprints.
 
 **Strong Capture Example:**
 
-> "Ends paragraphs with concrete images, not abstractions. Uses em-dashes as rhythm tool, not parenthetical. Opens sections with single-word sentences. Makes lists in running prose rather than bullet points. Tendency to build arguments through negation: 'It's not X. It's not Y. It's Z.'"
+> "Ends paragraphs with concrete images, not abstractions. Uses em-dashes as
+> rhythm tool, not parenthetical. Opens sections with single-word sentences.
+> Makes lists in running prose rather than bullet points. Tendency to build
+> arguments through negation: 'It's not X. It's not Y. It's Z.'"
 
 ---
 
 ### 6.2 Pet Phrases
 
-**What It Captures:**
-Phrases they return to repeatedly—verbal habits.
+**What It Captures:** Phrases they return to repeatedly—verbal habits.
 
 **What to Look for in Samples:**
 
@@ -572,14 +622,17 @@ Phrases they return to repeatedly—verbal habits.
 
 **Strong Capture Example:**
 
-> "'The thing is...' (to introduce key point), 'Here's what I mean' (to introduce example), 'Look' (paragraph opener for directness), 'Not to mention...' (to add secondary point), 'But here's the problem' (to introduce complication)."
+> "'The thing is...' (to introduce key point), 'Here's what I mean' (to
+> introduce example), 'Look' (paragraph opener for directness), 'Not to
+> mention...' (to add secondary point), 'But here's the problem' (to introduce
+> complication)."
 
 ---
 
 ### 6.3 Characteristic Tics
 
-**What It Captures:**
-Unconscious patterns—things they might not realize they do.
+**What It Captures:** Unconscious patterns—things they might not realize they
+do.
 
 **What to Look for in Samples:**
 
@@ -590,7 +643,9 @@ Unconscious patterns—things they might not realize they do.
 
 **Strong Capture Example:**
 
-> "Starts many sentences with 'And' or 'But' without realizing frequency. Tends toward three-beat rhythms in lists. Uses comma before 'too' at end of sentences. Puts 'actually' mid-sentence rather than at start."
+> "Starts many sentences with 'And' or 'But' without realizing frequency. Tends
+> toward three-beat rhythms in lists. Uses comma before 'too' at end of
+> sentences. Puts 'actually' mid-sentence rather than at start."
 
 ---
 
@@ -598,8 +653,8 @@ Unconscious patterns—things they might not realize they do.
 
 ### 7.1 What They Never Do
 
-**What It Captures:**
-Patterns, structures, words they avoid—as distinctive as what they do.
+**What It Captures:** Patterns, structures, words they avoid—as distinctive as
+what they do.
 
 **What to Look for:**
 
@@ -615,18 +670,24 @@ Patterns, structures, words they avoid—as distinctive as what they do.
 
 **Strong Capture Example:**
 
-> "Never uses passive voice except for specific emphasis. Never starts with 'In conclusion' or 'In summary.' Avoids semicolons entirely. Never uses 'utilize' (always 'use'). Won't write numbered lists in running prose. Never addresses reader as 'dear reader.'"
+> "Never uses passive voice except for specific emphasis. Never starts with 'In
+> conclusion' or 'In summary.' Avoids semicolons entirely. Never uses 'utilize'
+> (always 'use'). Won't write numbered lists in running prose. Never addresses
+> reader as 'dear reader.'"
 
 ---
 
 ### 7.2 What Would Feel "Off"
 
-**What It Captures:**
-Patterns that would break the spell—make readers think "that doesn't sound like them."
+**What It Captures:** Patterns that would break the spell—make readers think
+"that doesn't sound like them."
 
 **Strong Capture Example:**
 
-> "Excessive formality would feel off—'heretofore,' 'subsequently,' 'pursuant to.' Sentimental language would jar—'touched my heart,' 'brought tears to my eyes.' Corporate jargon would be wrong—'leverage,' 'synergize,' 'circle back.' Heavy hedging would feel unlike them—'arguably,' 'it might be suggested.'"
+> "Excessive formality would feel off—'heretofore,' 'subsequently,' 'pursuant
+> to.' Sentimental language would jar—'touched my heart,' 'brought tears to my
+> eyes.' Corporate jargon would be wrong—'leverage,' 'synergize,' 'circle back.'
+> Heavy hedging would feel unlike them—'arguably,' 'it might be suggested.'"
 
 ---
 
@@ -734,12 +795,17 @@ Patterns that would break the spell—make readers think "that doesn't sound lik
 
 ## Using This Catalog
 
-1. **During Discovery:** Use dimensions as a checklist for comprehensive exploration, but don't march through mechanically. Follow what's distinctive.
+1. **During Discovery:** Use dimensions as a checklist for comprehensive
+   exploration, but don't march through mechanically. Follow what's distinctive.
 
-2. **During Analysis:** Reference specific dimensions when examining samples. Look for patterns across the framework.
+2. **During Analysis:** Reference specific dimensions when examining samples.
+   Look for patterns across the framework.
 
-3. **During Documentation:** Use dimension labels in the DNA document for clarity and consistency.
+3. **During Documentation:** Use dimension labels in the DNA document for
+   clarity and consistency.
 
-4. **During Deep Dives:** When user wants to explore a specific area, use this catalog for thorough coverage of that dimension.
+4. **During Deep Dives:** When user wants to explore a specific area, use this
+   catalog for thorough coverage of that dimension.
 
-5. **During Refinement:** Reference catalog to identify gaps in existing profiles.
+5. **During Refinement:** Reference catalog to identify gaps in existing
+   profiles.

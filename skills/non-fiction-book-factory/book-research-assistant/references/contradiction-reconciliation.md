@@ -1,6 +1,7 @@
 # Contradiction Reconciliation
 
-How to handle conflicting information between sources, between Claude and Gemini outputs, and within research findings.
+How to handle conflicting information between sources, between Claude and Gemini
+outputs, and within research findings.
 
 ---
 
@@ -16,7 +17,8 @@ Sources disagree on facts: dates, numbers, names, events.
 
 Sources agree on facts but disagree on meaning or significance.
 
-**Example:** Both sources agree handwriting activates more brain regions; they disagree on whether this matters for learning.
+**Example:** Both sources agree handwriting activates more brain regions; they
+disagree on whether this matters for learning.
 
 ### 3. Methodological Contradictions
 
@@ -28,13 +30,15 @@ Different research approaches yield different conclusions.
 
 Information was true at one time but has changed.
 
-**Example:** 2015 research showed X; 2023 research contradicts with new evidence.
+**Example:** 2015 research showed X; 2023 research contradicts with new
+evidence.
 
 ### 5. Scope Contradictions
 
 Something is true in one context but not another.
 
-**Example:** Finding holds for students but not professionals; holds in US but not internationally.
+**Example:** Finding holds for students but not professionals; holds in US but
+not internationally.
 
 ### 6. Model Contradictions
 
@@ -102,14 +106,15 @@ Is this disagreement about:
 
 ### Factual Contradictions
 
-**Step 1:** Try to verify against primary/original sources
-**Step 2:** Check for transcription or citation errors
-**Step 3:** Look for more recent/authoritative sources
-**Step 4:** If unresolvable, present both with confidence assessment
+**Step 1:** Try to verify against primary/original sources **Step 2:** Check for
+transcription or citation errors **Step 3:** Look for more recent/authoritative
+sources **Step 4:** If unresolvable, present both with confidence assessment
 
 **Template for presenting:**
 
-> Sources disagree on [specific fact]. Source A ([citation]) claims [X], while Source B ([citation]) claims [Y]. Source A appears more reliable because [reason]. However, this should be verified before publication.
+> Sources disagree on [specific fact]. Source A ([citation]) claims [X], while
+> Source B ([citation]) claims [Y]. Source A appears more reliable because
+> [reason]. However, this should be verified before publication.
 
 ### Interpretive Contradictions
 
@@ -117,7 +122,10 @@ These are often legitimate differences in perspective.
 
 **Template for presenting:**
 
-> Experts disagree on the significance of [finding]. [Expert A] argues [interpretation], citing [evidence]. [Expert B] counters that [alternative interpretation], based on [their evidence]. The author should consider which interpretation better serves the book's argument.
+> Experts disagree on the significance of [finding]. [Expert A] argues
+> [interpretation], citing [evidence]. [Expert B] counters that [alternative
+> interpretation], based on [their evidence]. The author should consider which
+> interpretation better serves the book's argument.
 
 ### Methodological Contradictions
 
@@ -125,19 +133,25 @@ Different methods can yield different valid findings.
 
 **Template for presenting:**
 
-> Laboratory studies (e.g., [citation]) show [X], while field research (e.g., [citation]) shows [Y]. This discrepancy may reflect [possible explanation: artificial conditions vs. real-world complexity / different populations / different measures]. Both findings may be valid in their respective contexts.
+> Laboratory studies (e.g., [citation]) show [X], while field research (e.g.,
+> [citation]) shows [Y]. This discrepancy may reflect [possible explanation:
+> artificial conditions vs. real-world complexity / different populations /
+> different measures]. Both findings may be valid in their respective contexts.
 
 ### Temporal Contradictions
 
 More recent doesn't automatically mean more correct.
 
-**Step 1:** Understand why findings changed
-**Step 2:** Check if new research supersedes or just adds nuance
-**Step 3:** Consider if the change reflects real-world change or improved methods
+**Step 1:** Understand why findings changed **Step 2:** Check if new research
+supersedes or just adds nuance **Step 3:** Consider if the change reflects
+real-world change or improved methods
 
 **Template for presenting:**
 
-> Earlier research ([date], [citation]) found [X]. More recent work ([date], [citation]) suggests [Y]. The change appears to reflect [reason: new evidence / improved methods / changed conditions]. The author should cite [recommendation based on context].
+> Earlier research ([date], [citation]) found [X]. More recent work ([date],
+> [citation]) suggests [Y]. The change appears to reflect [reason: new evidence
+> / improved methods / changed conditions]. The author should cite
+> [recommendation based on context].
 
 ### Scope Contradictions
 
@@ -145,7 +159,9 @@ Both may be true in different contexts.
 
 **Template for presenting:**
 
-> This finding appears context-dependent. Research shows [X] in [context A] ([citation]) but [Y] in [context B] ([citation]). The author should specify which context applies to their book's audience.
+> This finding appears context-dependent. Research shows [X] in [context A]
+> ([citation]) but [Y] in [context B] ([citation]). The author should specify
+> which context applies to their book's audience.
 
 ---
 
@@ -161,7 +177,8 @@ What specifically do they disagree about? A fact? An interpretation? A source?
 
 Did they cite the same or different sources?
 
-- **Same sources, different interpretations:** Compare how each processed the source
+- **Same sources, different interpretations:** Compare how each processed the
+  source
 - **Different sources:** Evaluate source quality on each side
 
 ### Step 3: Look for Verification Flags
@@ -185,14 +202,17 @@ If unresolvable through verification:
 
 **Template:**
 
-> Claude's research indicates [X], citing [sources]. Gemini's research indicates [Y], citing [sources]. Key differences:
+> Claude's research indicates [X], citing [sources]. Gemini's research indicates
+> [Y], citing [sources]. Key differences:
 >
 > - [Difference 1]
 > - [Difference 2]
 >
-> Assessment: [Which seems more reliable and why, or acknowledgment of genuine uncertainty]
+> Assessment: [Which seems more reliable and why, or acknowledgment of genuine
+> uncertainty]
 >
-> Recommendation: [What the author should do—additional research, choose based on criteria, acknowledge uncertainty in the book]
+> Recommendation: [What the author should do—additional research, choose based
+> on criteria, acknowledge uncertainty in the book]
 
 ---
 
@@ -201,9 +221,11 @@ If unresolvable through verification:
 Escalate to the author when:
 
 1. **Both positions are defensible** — No clear winner on evidence
-2. **Contradiction affects thesis** — The book's argument depends on which is true
+2. **Contradiction affects thesis** — The book's argument depends on which is
+   true
 3. **P1 evidence is contested** — Critical claim has conflicting evidence
-4. **New information challenges assumptions** — Research contradicts what the book planned to argue
+4. **New information challenges assumptions** — Research contradicts what the
+   book planned to argue
 5. **Expert consensus doesn't exist** — Genuine ongoing debate among authorities
 
 **Template for flagging:**
@@ -212,8 +234,8 @@ Escalate to the author when:
 >
 > **Contradiction:** [Describe the conflict]
 >
-> **Position A:** [Statement with evidence and sources]
-> **Position B:** [Statement with evidence and sources]
+> **Position A:** [Statement with evidence and sources] **Position B:**
+> [Statement with evidence and sources]
 >
 > **My Assessment:** [Your analysis of relative strength]
 >
@@ -255,13 +277,15 @@ Acknowledging disagreement shows intellectual honesty:
 
 Contradictions often reveal complexity:
 
-> "In laboratory settings, [X]. In real-world conditions, [Y]. The difference suggests..."
+> "In laboratory settings, [X]. In real-world conditions, [Y]. The difference
+> suggests..."
 
 ### For Engagement
 
 Debates can be interesting:
 
-> "This remains an open question. [Expert A] argues... while [Expert B] counters..."
+> "This remains an open question. [Expert A] argues... while [Expert B]
+> counters..."
 
 ### For Positioning
 
@@ -284,4 +308,5 @@ The author can take a stance:
 
 ---
 
-_Use this guide when reviewing research that contains conflicting information, especially when Claude and Gemini outputs disagree._
+_Use this guide when reviewing research that contains conflicting information,
+especially when Claude and Gemini outputs disagree._

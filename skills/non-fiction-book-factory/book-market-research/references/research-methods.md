@@ -71,7 +71,8 @@ Assess: Is this trending up, stable, or declining?
 
 ## Quantitative Research (Human gathers, Claude analyzes)
 
-Claude cannot directly access Amazon product pages due to technical restrictions. For quantitative data, Claude:
+Claude cannot directly access Amazon product pages due to technical
+restrictions. For quantitative data, Claude:
 
 1. Identifies 5-8 key competitors from qualitative research
 2. Generates pre-filled CSV with titles and URLs

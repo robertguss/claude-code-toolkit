@@ -1,10 +1,13 @@
 # idea-validator
 
-Stress-test book concepts against existing research before committing to architecture.
+Stress-test book concepts against existing research before committing to
+architecture.
 
 ## Purpose
 
-This skill validates the **intellectual merit** of a book idea before investing significant time in structure and drafting. It surfaces weaknesses early—when they're cheap to fix or when killing the project saves months of wasted effort.
+This skill validates the **intellectual merit** of a book idea before investing
+significant time in structure and drafting. It surfaces weaknesses early—when
+they're cheap to fix or when killing the project saves months of wasted effort.
 
 **Better to kill a weak idea now than to finish a weak book later.**
 
@@ -22,14 +25,18 @@ book-ideation → idea-validator → market-research → book-architect
 ```
 
 **Inputs:** Book Concept Document from `book-ideation`  
-**Outputs:** Validation Report (Go/Revise/Kill) to `market-research` and `book-architect`
+**Outputs:** Validation Report (Go/Revise/Kill) to `market-research` and
+`book-architect`
 
 ## Core Philosophy
 
-1. **Intellectual honesty over ego validation** — The goal is truth, not encouragement
-2. **Two-layer research** — Claude does landscape scans; user runs deep research with Claude-provided prompts
+1. **Intellectual honesty over ego validation** — The goal is truth, not
+   encouragement
+2. **Two-layer research** — Claude does landscape scans; user runs deep research
+   with Claude-provided prompts
 3. **Collaborative approval** — Claude proposes, user approves, then proceed
-4. **Brutal honesty** — If a claim is weak, say so. If the whole idea should be killed, say so.
+4. **Brutal honesty** — If a claim is weak, say so. If the whole idea should be
+   killed, say so.
 
 ## Documents Produced
 
@@ -44,7 +51,8 @@ book-ideation → idea-validator → market-research → book-architect
 
 ### Optional (Based on Book Type)
 
-27 optional document types recommended based on book characteristics. See SKILL.md for full list.
+27 optional document types recommended based on book characteristics. See
+SKILL.md for full list.
 
 ## Validation Report Recommendation
 

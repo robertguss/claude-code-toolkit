@@ -1,11 +1,16 @@
 ---
 name: handoff
-description: Create a structured session handoff document for continuity across sessions. Use when ending a work session, switching contexts, or before a break. Captures decisions, progress, code changes, and next steps so a future session can pick up where you left off without losing context.
+description:
+  Create a structured session handoff document for continuity across sessions.
+  Use when ending a work session, switching contexts, or before a break.
+  Captures decisions, progress, code changes, and next steps so a future session
+  can pick up where you left off without losing context.
 ---
 
 # Session Handoff Skill
 
-Create structured documents that enable seamless continuity across Claude sessions.
+Create structured documents that enable seamless continuity across Claude
+sessions.
 
 ## When to Use
 
@@ -21,7 +26,8 @@ Create structured documents that enable seamless continuity across Claude sessio
 
 Quickly assess:
 
-1. **What phase are we in?** (exploration, planning, implementation, debugging, review)
+1. **What phase are we in?** (exploration, planning, implementation, debugging,
+   review)
 2. **What's the active task?** (what we're trying to accomplish)
 3. **How far along are we?** (just started, mid-way, almost done)
 
@@ -29,7 +35,9 @@ Quickly assess:
 
 Ask the user:
 
-> "I'll create a handoff document. Is there anything specific you want to make sure I capture? (Key decisions, code snippets, context about the problem, things you'll forget, etc.)"
+> "I'll create a handoff document. Is there anything specific you want to make
+> sure I capture? (Key decisions, code snippets, context about the problem,
+> things you'll forget, etc.)"
 
 ### Step 3: Generate Handoff Document
 
@@ -38,15 +46,14 @@ Create a structured document:
 ```markdown
 # Session Handoff: [Brief Description]
 
-**Date:** [YYYY-MM-DD]
-**Project:** [project name/path]
-**Session Duration:** [approximate]
+**Date:** [YYYY-MM-DD] **Project:** [project name/path] **Session Duration:**
+[approximate]
 
 ## Current State
 
-**Task:** [What we're working on]
-**Phase:** [exploration/planning/implementation/debugging/review]
-**Progress:** [where we are - percentage or milestone]
+**Task:** [What we're working on] **Phase:**
+[exploration/planning/implementation/debugging/review] **Progress:** [where we
+are - percentage or milestone]
 
 ## What We Did
 
@@ -64,8 +71,7 @@ Create a structured document:
 - `path/to/file.ts` — [what and why]
 - `path/to/other.ts` — [what and why]
 
-**Key code context:**
-[Critical snippets or patterns to remember]
+**Key code context:** [Critical snippets or patterns to remember]
 
 ## Open Questions
 
@@ -78,7 +84,8 @@ Create a structured document:
 
 ## Context to Remember
 
-[Important background, constraints, user preferences, domain knowledge - things that would take time to re-establish]
+[Important background, constraints, user preferences, domain knowledge - things
+that would take time to re-establish]
 
 ## Next Steps
 
@@ -97,13 +104,15 @@ Write to: `.claude/handoffs/[YYYY-MM-DD]-[brief-description].md`
 
 Confirm location with user:
 
-> "I'll save this to `.claude/handoffs/[filename].md`. Want a different location?"
+> "I'll save this to `.claude/handoffs/[filename].md`. Want a different
+> location?"
 
 ## What to Capture
 
 ### Always Include
 
-1. **Decisions with reasoning** — The "why" is often more valuable than the "what"
+1. **Decisions with reasoning** — The "why" is often more valuable than the
+   "what"
 2. **Code changes** — File paths, what changed, the intent
 3. **Current progress** — Where in the task we stopped
 4. **Next steps** — Clear, actionable items to resume with
@@ -147,26 +156,27 @@ When starting a new session, the user can:
 2. Say "Resume from this handoff: [paste or path]"
 3. Reference it with @ mention if supported
 
-The handoff should let you hit the ground running without lengthy re-explanation.
+The handoff should let you hit the ground running without lengthy
+re-explanation.
 
 ## Example Handoff
 
 ```markdown
 # Session Handoff: Auth System Implementation
 
-**Date:** 2025-01-15
-**Project:** /Users/robert/projects/my-api
-**Session Duration:** ~2 hours
+**Date:** 2025-01-15 **Project:** /Users/robert/projects/my-api **Session
+Duration:** ~2 hours
 
 ## Current State
 
-**Task:** Implementing user authentication for the API
-**Phase:** Implementation
+**Task:** Implementing user authentication for the API **Phase:** Implementation
 **Progress:** ~60% - basic flow works, need refresh tokens
 
 ## What We Did
 
-Built the core JWT authentication flow including token generation, validation middleware, and login/logout endpoints. Hit an issue with key rotation that we resolved by moving to config-based key paths.
+Built the core JWT authentication flow including token generation, validation
+middleware, and login/logout endpoints. Hit an issue with key rotation that we
+resolved by moving to config-based key paths.
 
 ## Decisions Made
 
@@ -183,8 +193,8 @@ Built the core JWT authentication flow including token generation, validation mi
 - `src/routes/auth.ts` — Login/logout endpoints
 - `config/keys/` — RSA key pair storage
 
-**Key code context:**
-Token validation uses RS256. Keys loaded from `config/keys/` based on NODE_ENV.
+**Key code context:** Token validation uses RS256. Keys loaded from
+`config/keys/` based on NODE_ENV.
 
 ## Open Questions
 

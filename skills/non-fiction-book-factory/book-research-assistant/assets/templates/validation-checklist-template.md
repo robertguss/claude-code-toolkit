@@ -1,9 +1,7 @@
 # Validation Checklist
 
-**Gap ID:** [CH##-GAP-##]
-**Gap Description:** [Brief description]
-**Chapter:** [Number] — [Title]
-**Validation Date:** [Date]
+**Gap ID:** [CH##-GAP-##] **Gap Description:** [Brief description] **Chapter:**
+[Number] — [Title] **Validation Date:** [Date]
 
 ---
 
@@ -29,11 +27,9 @@
 | ☐ Partial  | Addresses some aspects but misses key elements          |
 | ☐ Drift    | Went off-topic; question not meaningfully answered      |
 
-**Notes:**
-[Specific observations about coverage]
+**Notes:** [Specific observations about coverage]
 
-**Unaddressed Aspects:**
-[List any parts of the question that weren't covered]
+**Unaddressed Aspects:** [List any parts of the question that weren't covered]
 
 ---
 
@@ -41,7 +37,8 @@
 
 **Question:** Is there enough evidence for how the chapter will use it?
 
-**Required Depth Level:** [From prompt: e.g., "2-3 paragraphs" or "cornerstone claim"]
+**Required Depth Level:** [From prompt: e.g., "2-3 paragraphs" or "cornerstone
+claim"]
 
 | Rating         | Description                                    |
 | -------------- | ---------------------------------------------- |
@@ -50,8 +47,7 @@
 | ☐ Thin         | Usable but minimal; could be stronger          |
 | ☐ Insufficient | Not enough to support the chapter's use        |
 
-**Notes:**
-[Assessment of evidence quantity and quality]
+**Notes:** [Assessment of evidence quantity and quality]
 
 **Evidence Count:**
 
@@ -73,24 +69,21 @@
 | ☐ Mixed    | Some good sources but also questionable ones         |
 | ☐ Weak     | Poor sources, missing citations, unverifiable claims |
 
-**Primary Sources Found:** ☐ Yes / ☐ No
-[List them:]
+**Primary Sources Found:** ☐ Yes / ☐ No [List them:]
 
-**Citation Completeness:**
-| Source | Full Citation? | Verifiable? |
-|--------|---------------|-------------|
-| [Source 1] | ☐ Yes / ☐ No | ☐ Yes / ☐ No |
-| [Source 2] | ☐ Yes / ☐ No | ☐ Yes / ☐ No |
-| [Source 3] | ☐ Yes / ☐ No | ☐ Yes / ☐ No |
+**Citation Completeness:** | Source | Full Citation? | Verifiable? |
+|--------|---------------|-------------| | [Source 1] | ☐ Yes / ☐ No | ☐ Yes / ☐
+No | | [Source 2] | ☐ Yes / ☐ No | ☐ Yes / ☐ No | | [Source 3] | ☐ Yes / ☐ No |
+☐ Yes / ☐ No |
 
-**Red Flags:**
-[Note any concerning sources—unverified, biased, outdated, etc.]
+**Red Flags:** [Note any concerning sources—unverified, biased, outdated, etc.]
 
 ---
 
 ### 4. Contradiction Check
 
-**Question:** Did Claude and Gemini agree? Are there conflicts needing reconciliation?
+**Question:** Did Claude and Gemini agree? Are there conflicts needing
+reconciliation?
 
 | Rating            | Description                                    |
 | ----------------- | ---------------------------------------------- |
@@ -99,15 +92,12 @@
 | ☐ Minor Conflicts | Small disagreements, easily reconciled         |
 | ☐ Major Conflicts | Significant disagreements requiring resolution |
 
-**Areas of Agreement:**
-[What did both models confirm?]
+**Areas of Agreement:** [What did both models confirm?]
 
-**Areas of Disagreement:**
-[Where did they differ? On what specifically?]
+**Areas of Disagreement:** [Where did they differ? On what specifically?]
 
-**Reconciliation Needed:**
-☐ No — findings can be combined
-☐ Yes — specify: [What needs resolving]
+**Reconciliation Needed:** ☐ No — findings can be combined ☐ Yes — specify:
+[What needs resolving]
 
 ---
 
@@ -122,22 +112,21 @@
 | ☐ Complicates | Raises issues that need addressing |
 | ☐ Challenges  | Serious tension with core argument |
 
-**Tensions Identified:**
-[Describe any findings that complicate or contradict the book's thesis]
+**Tensions Identified:** [Describe any findings that complicate or contradict
+the book's thesis]
 
-**Severity:**
-☐ Minor — can acknowledge and move on
-☐ Moderate — needs explicit addressing in chapter
-☐ Serious — may require thesis adjustment
+**Severity:** ☐ Minor — can acknowledge and move on ☐ Moderate — needs explicit
+addressing in chapter ☐ Serious — may require thesis adjustment
 
-**Author Decision Required:** ☐ Yes / ☐ No
-[If yes, describe what needs deciding]
+**Author Decision Required:** ☐ Yes / ☐ No [If yes, describe what needs
+deciding]
 
 ---
 
 ### 6. Usability
 
-**Question:** Is this actually usable for drafting? Specific, quotable, concrete?
+**Question:** Is this actually usable for drafting? Specific, quotable,
+concrete?
 
 | Rating             | Description                                    |
 | ------------------ | ---------------------------------------------- |
@@ -154,11 +143,9 @@
 - ☐ Concrete enough to write from
 - ☐ Organized/scannable
 
-**Best Material:**
-[Highlight the most usable findings]
+**Best Material:** [Highlight the most usable findings]
 
-**Unusable Material:**
-[Note what can't be used and why]
+**Unusable Material:** [Note what can't be used and why]
 
 ---
 
@@ -204,8 +191,7 @@
 
 Research satisfies all dimensions. Gap is filled.
 
-**Strengths:**
-[What was particularly good about this research]
+**Strengths:** [What was particularly good about this research]
 
 ---
 
@@ -213,11 +199,9 @@ Research satisfies all dimensions. Gap is filled.
 
 Research fell short in specific areas.
 
-**Deficiencies:**
-[Exactly what's missing]
+**Deficiencies:** [Exactly what's missing]
 
-**Follow-up Required:**
-[What the follow-up prompt should request]
+**Follow-up Required:** [What the follow-up prompt should request]
 
 **Follow-up Prompt Created:** ☐ Yes — File: [filename]
 
@@ -227,11 +211,9 @@ Research fell short in specific areas.
 
 Serious issue requiring author decision.
 
-**Nature of Problem:**
-[Describe the issue—thesis tension, contradictions, etc.]
+**Nature of Problem:** [Describe the issue—thesis tension, contradictions, etc.]
 
-**Decision Required:**
-[What the author needs to decide]
+**Decision Required:** [What the author needs to decide]
 
 **Options:**
 

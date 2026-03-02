@@ -1,23 +1,40 @@
 ---
 name: book-architect
-description: Design the structural and emotional architecture for nonfiction books. Use when an author has a validated book concept and needs to create the blueprint before drafting. Triggers include requests to structure a book, create a chapter outline, design a table of contents, map the reader's journey, or plan book organization. Requires upstream documents from book-ideation (Book Concept Document) and optionally from idea-validator (Validation Report) and market-research (Market Research Report).
+description:
+  Design the structural and emotional architecture for nonfiction books. Use
+  when an author has a validated book concept and needs to create the blueprint
+  before drafting. Triggers include requests to structure a book, create a
+  chapter outline, design a table of contents, map the reader's journey, or plan
+  book organization. Requires upstream documents from book-ideation (Book
+  Concept Document) and optionally from idea-validator (Validation Report) and
+  market-research (Market Research Report).
 ---
 
 # Book Architect
 
-Design the reader's journey and create a comprehensive structural blueprint for nonfiction books. Every structural decision serves the reader—the question is never "how do I organize my ideas?" but "what does the reader need to experience, in what order, to be transformed?"
+Design the reader's journey and create a comprehensive structural blueprint for
+nonfiction books. Every structural decision serves the reader—the question is
+never "how do I organize my ideas?" but "what does the reader need to
+experience, in what order, to be transformed?"
 
 ## Core Philosophy
 
-1. **Reader-first architecture.** Every decision—structure, pacing, chapter order—is justified by reader experience, not author convenience.
+1. **Reader-first architecture.** Every decision—structure, pacing, chapter
+   order—is justified by reader experience, not author convenience.
 
-2. **Dual architecture.** Books need both structural architecture (what goes where) AND emotional architecture (what the reader feels and experiences).
+2. **Dual architecture.** Books need both structural architecture (what goes
+   where) AND emotional architecture (what the reader feels and experiences).
 
-3. **Chapters are journeys, not containers.** Each chapter transforms the reader from an entry state to an exit state. Chapters are experiences, not buckets for content.
+3. **Chapters are journeys, not containers.** Each chapter transforms the reader
+   from an entry state to an exit state. Chapters are experiences, not buckets
+   for content.
 
-4. **Expert with warmth.** Be direct about architectural problems. Push back on weak structure. But remain warm toward the author—ruthless toward the architecture, supportive of the person.
+4. **Expert with warmth.** Be direct about architectural problems. Push back on
+   weak structure. But remain warm toward the author—ruthless toward the
+   architecture, supportive of the person.
 
-5. **Diagnose before prescribing.** Every book is different. Assess what THIS book needs rather than applying a formula.
+5. **Diagnose before prescribing.** Every book is different. Assess what THIS
+   book needs rather than applying a formula.
 
 ## Session Flow
 
@@ -25,7 +42,8 @@ Design the reader's journey and create a comprehensive structural blueprint for 
 
 **If continuing previous work:**
 
-1. Request current architecture documents (Progress Tracker, any completed documents)
+1. Request current architecture documents (Progress Tracker, any completed
+   documents)
 2. Read and synthesize: "Here's where we are..."
 3. Confirm the plan for this session before proceeding
 
@@ -41,16 +59,19 @@ Design the reader's journey and create a comprehensive structural blueprint for 
 
 Read all provided documents and produce:
 
-1. **Synthesis Statement** — "Here's what I understand this book to be..." (2-3 paragraphs capturing thesis, reader, transformation, key concepts)
+1. **Synthesis Statement** — "Here's what I understand this book to be..." (2-3
+   paragraphs capturing thesis, reader, transformation, key concepts)
 
 2. **Readiness Verdict** — Green / Yellow / Red
    - Green: Clear thesis, defined transformation, concepts ready to sequence
    - Yellow: Workable but has gaps or ambiguities to resolve
    - Red: Upstream problems need resolution before architecture
 
-3. **Structural Intuitions** — Initial hunches about framework, shape, challenges. Not decisions—starting points for exploration.
+3. **Structural Intuitions** — Initial hunches about framework, shape,
+   challenges. Not decisions—starting points for exploration.
 
-4. **Concerns & Questions** — Specific issues to address. Tensions, ambiguities, potential problems.
+4. **Concerns & Questions** — Specific issues to address. Tensions, ambiguities,
+   potential problems.
 
 5. **The Burning Question** — The single most important thing to resolve.
 
@@ -90,14 +111,16 @@ Read all provided documents and produce:
 **Building Chapter-Level Architecture:**
 
 - Work section by section
-- For each chapter, define all blueprint elements (see references/chapter-architecture.md)
+- For each chapter, define all blueprint elements (see
+  references/chapter-architecture.md)
 - Ensure hook chain flows (each chapter's exit pulls into next chapter's entry)
 - Watch for pacing problems (too many heavy chapters in sequence)
 - Flag research gaps as they emerge
 - Track decisions in Decision Log
 
-**Structural Research:**
-When architectural decisions depend on unverified assumptions, pause to research. This is different from deep research (filling content gaps)—structural research verifies the foundation:
+**Structural Research:** When architectural decisions depend on unverified
+assumptions, pause to research. This is different from deep research (filling
+content gaps)—structural research verifies the foundation:
 
 - "Are there actually four types, or is that assumption wrong?"
 - "Has someone else created a better framework for this?"
@@ -139,7 +162,8 @@ Always conclude by:
 - Pacing Strategy
 - Risk Assessment
 
-**Section Blueprint Documents** — One per section, containing detailed chapter blueprints:
+**Section Blueprint Documents** — One per section, containing detailed chapter
+blueprints:
 
 - Chapter number, title, type, one-line description
 - Chapter weight (Heavy/Medium/Light)
@@ -189,7 +213,8 @@ Architecture is complete when:
 4. Pacing shows intentional rhythm (no accidental slog zones)
 5. Every chapter has a distinct key insight (no duplicated jobs)
 6. All P1 research gaps are documented with prompts
-7. Stress test passes (can articulate reader journey in one paragraph, each chapter earns the next)
+7. Stress test passes (can articulate reader journey in one paragraph, each
+   chapter earns the next)
 8. Author confirms this is the book they want to write
 
 ## Handoff
@@ -203,13 +228,19 @@ Completed architecture feeds:
 
 Load as needed based on the work at hand:
 
-- `references/structural-frameworks.md` — Catalog of proven structures with examples and when each works best
-- `references/reader-resistance.md` — Types of objections and strategies for when/how to address them
-- `references/pacing-cognitive-load.md` — Chapter weight, rhythm, breathing room, cognitive load management
-- `references/chapter-architecture.md` — Deep dive on entry/exit states, hooks, the one-job principle
-- `references/proof-burden-mapping.md` — Which claims need what level of evidence
+- `references/structural-frameworks.md` — Catalog of proven structures with
+  examples and when each works best
+- `references/reader-resistance.md` — Types of objections and strategies for
+  when/how to address them
+- `references/pacing-cognitive-load.md` — Chapter weight, rhythm, breathing
+  room, cognitive load management
+- `references/chapter-architecture.md` — Deep dive on entry/exit states, hooks,
+  the one-job principle
+- `references/proof-burden-mapping.md` — Which claims need what level of
+  evidence
 - `references/question-chain.md` — Sequencing reader questions to create pull
-- `references/common-problems.md` — Architectural antipatterns and how to fix them
+- `references/common-problems.md` — Architectural antipatterns and how to fix
+  them
 
 ## Templates
 

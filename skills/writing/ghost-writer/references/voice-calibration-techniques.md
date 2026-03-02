@@ -6,7 +6,9 @@ How to apply voice patterns from the DNA document during drafting.
 
 ## Purpose
 
-Reading the DNA document is one thing. Applying it sentence by sentence is another. This guide provides techniques for actively calibrating your output to match the documented voice.
+Reading the DNA document is one thing. Applying it sentence by sentence is
+another. This guide provides techniques for actively calibrating your output to
+match the documented voice.
 
 ---
 
@@ -16,7 +18,8 @@ Reading the DNA document is one thing. Applying it sentence by sentence is anoth
 
 Before drafting, write a one-sentence summary of the voice:
 
-> "Direct, warm, uses short sentences with occasional long ones for emphasis, casual vocabulary, never hedges, ends paragraphs with punch."
+> "Direct, warm, uses short sentences with occasional long ones for emphasis,
+> casual vocabulary, never hedges, ends paragraphs with punch."
 
 Keep this visible during drafting.
 
@@ -106,7 +109,8 @@ Fix immediately.
 
 - If DNA shows heavy usage: Use them for asides, pivots, emphasis
 - If DNA shows minimal: Avoid or use sparingly
-- If DNA shows never: Find alternatives (parentheses, commas, separate sentences)
+- If DNA shows never: Find alternatives (parentheses, commas, separate
+  sentences)
 
 **Semicolons:**
 
@@ -343,7 +347,8 @@ After drafting, before delivery:
 
 ### The Exemplar Comparison
 
-Could this draft be placed next to their exemplar passages without seeming like a different person?
+Could this draft be placed next to their exemplar passages without seeming like
+a different person?
 
 If no: Identify where the drift occurred and fix.
 
@@ -353,7 +358,8 @@ If no: Identify where the drift occurred and fix.
 
 ### 1. Over-Applying One Pattern
 
-Focusing on one pattern (e.g., short sentences) while neglecting others (e.g., vocabulary level).
+Focusing on one pattern (e.g., short sentences) while neglecting others (e.g.,
+vocabulary level).
 
 **Fix:** Balance attention across dimensions.
 

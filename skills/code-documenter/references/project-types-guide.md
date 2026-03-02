@@ -1,10 +1,12 @@
 # Project Types Guide
 
-This guide helps the skill adapt documentation structure and content to different project types.
+This guide helps the skill adapt documentation structure and content to
+different project types.
 
 ## Project Type Identification
 
 The skill identifies project type through:
+
 - File structure patterns
 - Package.json / requirements.txt / Cargo.toml presence
 - Framework detection
@@ -15,12 +17,14 @@ The skill identifies project type through:
 ### REST API / Web Service
 
 **Key characteristics:**
+
 - Endpoints are the primary interface
 - Request/response patterns matter
 - Authentication/authorization critical
 - Error handling needs emphasis
 
 **Documentation structure:**
+
 ```
 /docs
 ├── api.md (or per-resource files)
@@ -38,6 +42,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Every endpoint documented with method, path, parameters, response
 - Request/response examples in multiple formats
 - Authentication flow with examples
@@ -45,6 +50,7 @@ The skill identifies project type through:
 - Rate limiting and quotas
 
 **Common ADRs:**
+
 - Why this framework (Express/FastAPI/etc)?
 - Why this database?
 - Why this authentication approach?
@@ -55,12 +61,14 @@ The skill identifies project type through:
 ### Command-Line Tool (CLI)
 
 **Key characteristics:**
+
 - Commands and subcommands are the interface
 - Flags and options are critical
 - Installation and PATH setup matter
 - Help text should match docs
 
 **Documentation structure:**
+
 ```
 /docs
 ├── installation.md
@@ -78,6 +86,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Installation for multiple platforms
 - Every command with all flags/options
 - Abundant examples showing common workflows
@@ -85,6 +94,7 @@ The skill identifies project type through:
 - Shell integration (completions, aliases)
 
 **Common ADRs:**
+
 - Why this CLI framework?
 - Why this config format (YAML/JSON/TOML)?
 - Plugin architecture decisions
@@ -94,12 +104,14 @@ The skill identifies project type through:
 ### JavaScript/TypeScript Library
 
 **Key characteristics:**
+
 - API surface is functions/classes/types
 - Installation from npm/yarn
 - Import patterns matter
 - TypeScript types are documentation
 
 **Documentation structure:**
+
 ```
 /docs
 ├── getting-started.md
@@ -118,6 +130,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Installation command and import patterns
 - Function signatures with parameter descriptions
 - Return values and types
@@ -125,6 +138,7 @@ The skill identifies project type through:
 - Browser vs Node differences (if applicable)
 
 **Common ADRs:**
+
 - Why these peer dependencies?
 - Why this module format (ESM/CommonJS)?
 - Tree-shaking considerations
@@ -134,12 +148,14 @@ The skill identifies project type through:
 ### Web Application (React/Vue/etc)
 
 **Key characteristics:**
+
 - UI is the interface
 - Component hierarchy matters
 - State management needs explanation
 - Deployment varies widely
 
 **Documentation structure:**
+
 ```
 /docs
 ├── users/ (if public-facing)
@@ -156,6 +172,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Architecture overview (data flow, state, routing)
 - Component organization and patterns
 - Environment variables and configuration
@@ -163,6 +180,7 @@ The skill identifies project type through:
 - Development setup
 
 **Common ADRs:**
+
 - Why this framework?
 - Why this state management approach?
 - Why this styling solution?
@@ -173,12 +191,14 @@ The skill identifies project type through:
 ### Python Package
 
 **Key characteristics:**
+
 - Installable via pip
 - Modules and classes are API
 - Python version support matters
 - Virtual environments standard
 
 **Documentation structure:**
+
 ```
 /docs
 ├── installation.md
@@ -194,6 +214,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Python version requirements
 - Installation via pip
 - Import patterns
@@ -201,6 +222,7 @@ The skill identifies project type through:
 - Type hints as part of API
 
 **Common ADRs:**
+
 - Why these dependencies?
 - Why this project structure?
 - Python version support decisions
@@ -210,12 +232,14 @@ The skill identifies project type through:
 ### Database / Data Store
 
 **Key characteristics:**
+
 - Schema/data model is primary
 - Queries and operations are interface
 - Performance characteristics matter
 - Migration strategy critical
 
 **Documentation structure:**
+
 ```
 /docs
 ├── getting-started.md
@@ -232,6 +256,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Data model with diagrams
 - Query patterns and examples
 - Indexing strategy
@@ -239,6 +264,7 @@ The skill identifies project type through:
 - Backup and restore
 
 **Common ADRs:**
+
 - Why this database technology?
 - Schema design decisions
 - Normalization choices
@@ -249,12 +275,14 @@ The skill identifies project type through:
 ### Monorepo / Multi-Package
 
 **Key characteristics:**
+
 - Multiple projects in one repo
 - Shared dependencies and tooling
 - Workspace management
 - Package relationships
 
 **Documentation structure:**
+
 ```
 /docs
 ├── overview.md
@@ -269,6 +297,7 @@ The skill identifies project type through:
 ```
 
 **What to emphasize:**
+
 - Overall architecture
 - How packages relate
 - Shared dependencies management
@@ -276,6 +305,7 @@ The skill identifies project type through:
 - Publishing workflow
 
 **Common ADRs:**
+
 - Why monorepo approach?
 - Why this workspace tool?
 - Versioning strategy
@@ -288,6 +318,7 @@ The skill identifies project type through:
 ### Small Projects (<1000 lines)
 
 Keep it simple:
+
 - Single comprehensive README
 - Maybe 1-2 additional docs if needed
 - Inline code comments sufficient
@@ -295,6 +326,7 @@ Keep it simple:
 ### Medium Projects (1000-10000 lines)
 
 Structured documentation:
+
 - README for overview
 - /docs with 5-10 focused files
 - Examples directory
@@ -303,6 +335,7 @@ Structured documentation:
 ### Large Projects (>10000 lines)
 
 Full documentation suite:
+
 - Comprehensive README
 - Structured /docs with subsections
 - Documentation map
@@ -312,30 +345,35 @@ Full documentation suite:
 ## Framework-Specific Considerations
 
 ### Express.js
+
 - Route organization
 - Middleware chain
 - Error handling middleware
 - Request/response lifecycle
 
 ### React
+
 - Component patterns
 - State management (Context/Redux/Zustand)
 - Hook usage
 - Rendering optimization
 
 ### FastAPI
+
 - Automatic OpenAPI docs
 - Pydantic models
 - Dependency injection
 - Async patterns
 
 ### Next.js
+
 - App vs Pages router
 - Server vs Client components
 - Data fetching patterns
 - Deployment options
 
 ### Django
+
 - Apps structure
 - Models and migrations
 - Views and templates
@@ -344,16 +382,19 @@ Full documentation suite:
 ## Documentation Depth by Project Maturity
 
 ### Proof of Concept
+
 - Minimal docs, README sufficient
 - Focus on "what is this" and "how to run it"
 
 ### Internal Tool
+
 - Installation and usage
 - Configuration options
 - Common workflows
 - Troubleshooting
 
 ### Public Open Source
+
 - Comprehensive getting started
 - Full API reference
 - Contributing guide
@@ -362,6 +403,7 @@ Full documentation suite:
 - Examples and guides
 
 ### Production Service
+
 - All of open source, plus:
 - SLA documentation
 - Incident response
@@ -371,7 +413,9 @@ Full documentation suite:
 ## Special Considerations
 
 ### Microservices
+
 Document each service AND the system:
+
 - System architecture overview
 - Service boundaries and responsibilities
 - Inter-service communication
@@ -379,6 +423,7 @@ Document each service AND the system:
 - Deployment orchestration
 
 ### Serverless
+
 - Function documentation
 - Event triggers
 - Environment variables
@@ -386,12 +431,14 @@ Document each service AND the system:
 - Cost implications
 
 ### Mobile Apps
+
 - Platform-specific setup (iOS/Android)
 - Build and deployment
 - App Store submission
 - Testing on devices
 
 ### Browser Extensions
+
 - Installation from store
 - Development mode setup
 - Permissions explanation
@@ -400,21 +447,27 @@ Document each service AND the system:
 ## Integration Points
 
 ### CI/CD
+
 Document:
+
 - Build process
 - Test execution
 - Deployment pipeline
 - Environment promotion
 
 ### Third-Party Services
+
 Document:
+
 - API keys and configuration
 - Rate limits and quotas
 - Error handling
 - Webhook setup
 
 ### Authentication Providers
+
 Document:
+
 - Setup process
 - Configuration
 - User flows

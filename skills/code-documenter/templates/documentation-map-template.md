@@ -57,16 +57,19 @@ Start your journey here:
 ### Reference Materials
 
 **API/Components:**
+
 - [API Reference](./api.md) - All endpoints/functions
 - [Component Reference](./components.md) - UI components
 - [CLI Reference](./commands.md) - Command-line interface
 
 **Architecture:**
+
 - [System Architecture](./architecture.md) - High-level design
 - [Database Schema](./database.md) - Data model
 - [ADRs](./adr/) - Architecture decisions
 
 **Development:**
+
 - [Development Guide](./development.md) - Local development
 - [Testing Strategy](./testing.md) - How we test
 - [Deployment](./deployment.md) - Deploy and operate
@@ -115,12 +118,14 @@ Start your journey here:
 ### End Users
 
 **Start Here:**
+
 1. [What is this?](../README.md#what-is-this)
 2. [Installation](./installation.md)
 3. [Getting Started](./getting-started.md)
 4. [Features](./features.md)
 
 **When You Need Help:**
+
 - [Troubleshooting](./troubleshooting.md)
 - [FAQ](./faq.md)
 - [Support](./support.md)
@@ -128,11 +133,13 @@ Start your journey here:
 ### Developers Using This Project
 
 **Start Here:**
+
 1. [Installation](./installation.md)
 2. [API Reference](./api.md) or [CLI Reference](./commands.md)
 3. [Examples](./examples/)
 
 **Deep Dive:**
+
 - [Architecture](./architecture.md)
 - [Configuration](./configuration.md)
 - [Best Practices](./best-practices.md)
@@ -140,11 +147,13 @@ Start your journey here:
 ### Contributors
 
 **Start Here:**
+
 1. [Contributing Guide](./contributing.md)
 2. [Code Organization](./code-organization.md)
 3. [Development Guide](./development.md)
 
 **Important Context:**
+
 - [Architecture](./architecture.md)
 - [ADRs](./adr/)
 - [Testing](./testing.md)
@@ -152,11 +161,13 @@ Start your journey here:
 ### Operators/DevOps
 
 **Start Here:**
+
 1. [Deployment Guide](./deployment.md)
 2. [Configuration Reference](./configuration.md)
 3. [Monitoring](./monitoring.md)
 
 **Operations:**
+
 - [Backup & Recovery](./backup.md)
 - [Troubleshooting](./troubleshooting.md)
 - [Scaling Guide](./scaling.md)
@@ -226,6 +237,7 @@ Start your journey here:
 ### Finding What You Need
 
 **By File Name:**
+
 - `getting-started.md` - First-time setup
 - `api.md` / `commands.md` - Reference docs
 - `architecture.md` - System design
@@ -233,6 +245,7 @@ Start your journey here:
 - `contributing.md` - How to contribute
 
 **By Directory:**
+
 - `/guides/` - Step-by-step tutorials
 - `/examples/` - Working code samples
 - `/adr/` - Architecture decisions
@@ -288,12 +301,14 @@ Found a typo? Think something could be clearer?
 ## Quick Reference Card
 
 **Most Common Tasks:**
+
 - Install: `[command]`
 - Run: `[command]`
 - Test: `[command]`
 - Deploy: See [Deployment Guide](./deployment.md)
 
 **Most Common Questions:**
+
 - "How do I...?" → [Quick Start](./quick-start.md)
 - "Why isn't X working?" → [Troubleshooting](./troubleshooting.md)
 - "How does Y work?" → [Architecture](./architecture.md)

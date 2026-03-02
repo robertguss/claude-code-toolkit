@@ -24,23 +24,27 @@ Thank you for your interest in contributing!
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone [url]
    cd [project-name]
    ```
 
 2. **Install dependencies:**
+
    ```bash
    [package manager install command]
    ```
 
 3. **Set up environment:**
+
    ```bash
    cp .env.example .env
    # Edit .env with your settings
    ```
 
 4. **Initialize database:**
+
    ```bash
    [database setup commands]
    ```
@@ -55,6 +59,7 @@ Thank you for your interest in contributing!
 ### Creating a Branch
 
 Branch naming convention:
+
 - `feature/feature-name` - New features
 - `fix/bug-description` - Bug fixes
 - `docs/what-changed` - Documentation
@@ -84,16 +89,19 @@ Access at: `[local URL]`
 ### Testing
 
 #### Run all tests:
+
 ```bash
 [command to run all tests]
 ```
 
 #### Run specific tests:
+
 ```bash
 [command for specific tests]
 ```
 
 #### Test coverage:
+
 ```bash
 [coverage command]
 ```
@@ -105,16 +113,19 @@ Target: >80% coverage for new code
 We use [linter/formatter name]:
 
 **Format code:**
+
 ```bash
 [format command]
 ```
 
 **Lint code:**
+
 ```bash
 [lint command]
 ```
 
 **Fix auto-fixable issues:**
+
 ```bash
 [auto-fix command]
 ```
@@ -132,6 +143,7 @@ footer (optional)
 ```
 
 **Types:**
+
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation only
@@ -141,6 +153,7 @@ footer (optional)
 - `chore`: Updating build tasks, package manager configs, etc.
 
 **Examples:**
+
 ```
 feat(auth): add JWT token refresh
 
@@ -164,6 +177,7 @@ docs(readme): update installation instructions
 ### Submitting
 
 1. **Push your branch:**
+
    ```bash
    git push origin feature/your-feature
    ```
@@ -227,6 +241,7 @@ Closes #[issue number]
 ### Good First Issues
 
 Look for issues labeled `good first issue`:
+
 - Small, well-defined
 - Good for newcomers
 - Clear acceptance criteria
@@ -255,6 +270,7 @@ Found a bug?
 ### Documentation
 
 Improving docs is always welcome:
+
 - Fix typos
 - Clarify explanations
 - Add examples
@@ -263,6 +279,7 @@ Improving docs is always welcome:
 ## Code Review Guidelines
 
 When reviewing others' PRs:
+
 - Be respectful and constructive
 - Focus on the code, not the person
 - Suggest improvements, don't demand
@@ -286,11 +303,13 @@ When reviewing others' PRs:
 
 ## Code of Conduct
 
-We follow the [Contributor Covenant Code of Conduct](link). Please read and follow it.
+We follow the [Contributor Covenant Code of Conduct](link). Please read and
+follow it.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under [License Name].
+By contributing, you agree that your contributions will be licensed under
+[License Name].
 
 ## Getting Help
 
@@ -304,6 +323,7 @@ Stuck? Have questions?
 ## Recognition
 
 Contributors are recognized in:
+
 - CONTRIBUTORS.md file
 - GitHub contributors page
 - Release notes (for significant contributions)

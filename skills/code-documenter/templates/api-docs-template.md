@@ -23,10 +23,12 @@ See [Authentication Guide](./authentication.md) for details.
 [Rate limit policy]
 
 **Limits:**
+
 - Requests per hour: [number]
 - Requests per day: [number]
 
 **Headers:**
+
 ```http
 X-RateLimit-Limit: 1000
 X-RateLimit-Remaining: 742
@@ -45,12 +47,12 @@ Retrieves a paginated list of [resources].
 
 **Query Parameters:**
 
-| Parameter | Type | Required | Default | Description |
-|-----------|------|----------|---------|-------------|
-| page | integer | No | 1 | Page number |
-| limit | integer | No | 20 | Items per page |
-| sort | string | No | created_at | Sort field |
-| order | string | No | desc | Sort order (asc/desc) |
+| Parameter | Type    | Required | Default    | Description           |
+| --------- | ------- | -------- | ---------- | --------------------- |
+| page      | integer | No       | 1          | Page number           |
+| limit     | integer | No       | 20         | Items per page        |
+| sort      | string  | No       | created_at | Sort field            |
+| order     | string  | No       | desc       | Sort order (asc/desc) |
 
 **Response:** `200 OK`
 
@@ -78,6 +80,7 @@ curl -H "Authorization: Bearer TOKEN" \
 ```
 
 **Errors:**
+
 - `401 Unauthorized`: Invalid or missing token
 - `429 Too Many Requests`: Rate limit exceeded
 
@@ -90,6 +93,7 @@ curl -H "Authorization: Bearer TOKEN" \
 Retrieves a single [resource] by ID.
 
 **Path Parameters:**
+
 - `id` (required): Resource ID
 
 **Response:** `200 OK`
@@ -110,6 +114,7 @@ curl -H "Authorization: Bearer TOKEN" \
 ```
 
 **Errors:**
+
 - `401 Unauthorized`: Invalid or missing token
 - `404 Not Found`: Resource does not exist
 
@@ -132,10 +137,10 @@ Creates a new [resource].
 
 **Fields:**
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| field1 | string | Yes | Description |
-| field2 | integer | No | Description |
+| Field  | Type    | Required | Description |
+| ------ | ------- | -------- | ----------- |
+| field1 | string  | Yes      | Description |
+| field2 | integer | No       | Description |
 
 **Response:** `201 Created`
 
@@ -159,6 +164,7 @@ curl -X POST \
 ```
 
 **Errors:**
+
 - `400 Bad Request`: Invalid request body
 - `401 Unauthorized`: Invalid or missing token
 - `422 Unprocessable Entity`: Validation failed
@@ -172,6 +178,7 @@ curl -X POST \
 Updates an existing [resource].
 
 **Path Parameters:**
+
 - `id` (required): Resource ID
 
 **Request Body:**
@@ -203,6 +210,7 @@ curl -X PATCH \
 ```
 
 **Errors:**
+
 - `400 Bad Request`: Invalid request body
 - `401 Unauthorized`: Invalid or missing token
 - `404 Not Found`: Resource does not exist
@@ -217,6 +225,7 @@ curl -X PATCH \
 Deletes a [resource].
 
 **Path Parameters:**
+
 - `id` (required): Resource ID
 
 **Response:** `204 No Content`
@@ -230,6 +239,7 @@ curl -X DELETE \
 ```
 
 **Errors:**
+
 - `401 Unauthorized`: Invalid or missing token
 - `404 Not Found`: Resource does not exist
 
@@ -253,14 +263,14 @@ All error responses follow this format:
 
 ### Error Codes
 
-| Code | HTTP Status | Description |
-|------|-------------|-------------|
-| UNAUTHORIZED | 401 | Invalid or missing authentication |
-| FORBIDDEN | 403 | Insufficient permissions |
-| NOT_FOUND | 404 | Resource not found |
-| VALIDATION_ERROR | 422 | Request validation failed |
-| RATE_LIMIT | 429 | Too many requests |
-| SERVER_ERROR | 500 | Internal server error |
+| Code             | HTTP Status | Description                       |
+| ---------------- | ----------- | --------------------------------- |
+| UNAUTHORIZED     | 401         | Invalid or missing authentication |
+| FORBIDDEN        | 403         | Insufficient permissions          |
+| NOT_FOUND        | 404         | Resource not found                |
+| VALIDATION_ERROR | 422         | Request validation failed         |
+| RATE_LIMIT       | 429         | Too many requests                 |
+| SERVER_ERROR     | 500         | Internal server error             |
 
 ## Webhooks
 

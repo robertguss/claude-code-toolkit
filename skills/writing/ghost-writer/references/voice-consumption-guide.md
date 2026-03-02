@@ -6,24 +6,29 @@ How to read, internalize, and apply a Voice DNA Document.
 
 ## Purpose
 
-This guide explains how to consume a Voice DNA Document effectively so you can produce drafts that authentically match the writer's voice. The DNA document is your source of truth for what makes this writer distinctive.
+This guide explains how to consume a Voice DNA Document effectively so you can
+produce drafts that authentically match the writer's voice. The DNA document is
+your source of truth for what makes this writer distinctive.
 
 ---
 
 ## Document Structure Overview
 
-A Voice DNA Document contains these sections, in order of operational importance:
+A Voice DNA Document contains these sections, in order of operational
+importance:
 
 ### Priority 1: Quick Reference
 
 The 30-second snapshot. Contains:
 
-- **Core Temperature** — The emotional register (warm, cool, enthusiastic, measured)
+- **Core Temperature** — The emotional register (warm, cool, enthusiastic,
+  measured)
 - **Sentence Signature** — The defining rhythm pattern
 - **Distinctive Moves** — 2-3 most recognizable patterns
 - **Never Does** — Key anti-patterns
 
-**Use this for:** Quick orientation before drafting, mid-draft course correction, quick pattern checks.
+**Use this for:** Quick orientation before drafting, mid-draft course
+correction, quick pattern checks.
 
 ### Priority 2: Ghost Writer Briefing
 
@@ -36,7 +41,8 @@ The actionable instructions section. Contains:
 - **Sentence-Level Guidance** — Metrics and patterns for sentences
 - **Structural Guidance** — Paragraph, transition, opening, closing patterns
 
-**Use this for:** Primary drafting guidance, decision-making, pattern application.
+**Use this for:** Primary drafting guidance, decision-making, pattern
+application.
 
 ### Priority 3: Anti-Patterns
 
@@ -55,7 +61,8 @@ Annotated quotes that demonstrate voice in action. Contains:
 - Actual excerpts from the writer's work
 - Pattern annotations explaining what each demonstrates
 
-**Use this for:** Voice calibration, seeing patterns in context, understanding how elements combine.
+**Use this for:** Voice calibration, seeing patterns in context, understanding
+how elements combine.
 
 ### Priority 5: Voice Profile
 
@@ -113,7 +120,8 @@ Read in this order:
 2. **Quick Reference** — Get the core fingerprint
 3. **Voice Essence** (in Ghost Writer Briefing) — Internalize the north star
 
-After this, you should be able to state in one sentence what makes this writer's voice distinctive.
+After this, you should be able to state in one sentence what makes this writer's
+voice distinctive.
 
 ### Step 2: Operational Internalization (2-3 minutes)
 
@@ -135,7 +143,8 @@ Read based on the task:
 1. **Exemplar Passages** — To hear the voice in action
 2. **Voice Profile dimensions** — For specific guidance
 
-Focus on dimensions with "Strong" or "Developed" status. Be more conservative with "Emerging" or "Not Assessed" dimensions.
+Focus on dimensions with "Strong" or "Developed" status. Be more conservative
+with "Emerging" or "Not Assessed" dimensions.
 
 ### Step 4: Context Check
 
@@ -153,7 +162,8 @@ Before drafting, you should have internalized:
 
 ### The Voice Fingerprint
 
-Ask yourself: "If I read 100 unlabeled pieces of writing, what would let me identify this writer's work?"
+Ask yourself: "If I read 100 unlabeled pieces of writing, what would let me
+identify this writer's work?"
 
 The answer should come from:
 
@@ -407,7 +417,8 @@ If you can't answer these, re-read the document.
 
 When drafting and you need a quick check:
 
-1. **"Does this sentence feel right?"** → Check Sentence Signature, Exemplar Passages
+1. **"Does this sentence feel right?"** → Check Sentence Signature, Exemplar
+   Passages
 2. **"Would they use this word?"** → Check Word Choice, Avoided Words
 3. **"Is this too formal/casual?"** → Check Tone & Attitude
 4. **"How would they start/end this?"** → Check Opening & Closing Moves
@@ -425,4 +436,5 @@ The Voice DNA Document is your guide, not your constraint. Use it to:
 4. **Infer** reasonably where documentation is thin
 5. **Flag** where you're uncertain
 
-The goal is 80% accuracy—writing that feels like them. The human adds the final 20%.
+The goal is 80% accuracy—writing that feels like them. The human adds the final
+20%.

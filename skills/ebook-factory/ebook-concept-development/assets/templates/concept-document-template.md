@@ -6,13 +6,15 @@
 
 **Version:** v1  
 **Last Updated:** YYYY-MM-DD  
-**Status:** [Early Development / In Progress / Stress Testing / Ready for Architecture]
+**Status:** [Early Development / In Progress / Stress Testing / Ready for
+Architecture]
 
 ---
 
 ## Author's Intent
 
-**Primary goal:** [Income / Authority / Audience Service / Lead Generation / Passion Project]
+**Primary goal:** [Income / Authority / Audience Service / Lead Generation /
+Passion Project]
 
 **Additional context:** [Any relevant notes about why this ebook, why now]
 
@@ -25,7 +27,8 @@
 **Status:** [Not addressed / In progress / Developed]
 
 **Description:**  
-[Who specifically is this for? Their situation, problem, what they've tried, what's blocking them.]
+[Who specifically is this for? Their situation, problem, what they've tried,
+what's blocking them.]
 
 **Key decisions:**
 
@@ -38,7 +41,8 @@
 **Status:** [Not addressed / In progress / Developed]
 
 **Before state:**  
-[Where is the reader when they start? What do they believe, feel, know, struggle with?]
+[Where is the reader when they start? What do they believe, feel, know, struggle
+with?]
 
 **After state:**  
 [Where are they when they finish? What has changed?]
@@ -66,10 +70,12 @@
 
 **Status:** [Not addressed / In progress / Developed]
 
-**Source type:** [Original creation / Repurposed content / Extracted from larger work / Hybrid]
+**Source type:** [Original creation / Repurposed content / Extracted from larger
+work / Hybrid]
 
 **Existing material:**  
-[What content already exists? YouTube videos, blog posts, newsletter issues, book chapters, etc.]
+[What content already exists? YouTube videos, blog posts, newsletter issues,
+book chapters, etc.]
 
 **Gaps to fill:**  
 [What needs to be created new?]
@@ -86,7 +92,8 @@
 
 **Target length:** [Word count range]
 
-**Format:** [Prose chapters / Workbook / Template collection / Guide / Hybrid / Other]
+**Format:** [Prose chapters / Workbook / Template collection / Guide / Hybrid /
+Other]
 
 **Platform:** [KDP / Gumroad / Both / Other]
 
@@ -111,7 +118,8 @@
 **Applies:** [Yes / No / Not yet determined]
 
 **If yes:**  
-[Why should someone pay for this when they already got value from free content? What's the paid version offering?]
+[Why should someone pay for this when they already got value from free content?
+What's the paid version offering?]
 
 ---
 

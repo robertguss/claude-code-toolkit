@@ -1,31 +1,51 @@
 ---
 name: book-market-research
-description: Assess commercial viability of book concepts for Amazon KDP self-publishing. Use when the user has a Book Concept Document and wants to understand market demand, competition, pricing, and positioning before committing to write. Produces a Market Research Report with viability scorecard and Go/No-Go recommendation. Works standalone (commercial analysis only) or after idea-validator (integrated assessment). Nonfiction only.
+description:
+  Assess commercial viability of book concepts for Amazon KDP self-publishing.
+  Use when the user has a Book Concept Document and wants to understand market
+  demand, competition, pricing, and positioning before committing to write.
+  Produces a Market Research Report with viability scorecard and Go/No-Go
+  recommendation. Works standalone (commercial analysis only) or after
+  idea-validator (integrated assessment). Nonfiction only.
 ---
 
 # Market Research
 
-Determine if a book is worth writing from a business perspective, specifically for Amazon KDP self-publishing.
+Determine if a book is worth writing from a business perspective, specifically
+for Amazon KDP self-publishing.
 
 ## Core Philosophy
 
-**Commercial viability is separate from intellectual merit.** A brilliant idea can fail commercially. A mediocre idea can succeed. This skill assesses the market, not the idea itself.
+**Commercial viability is separate from intellectual merit.** A brilliant idea
+can fail commercially. A mediocre idea can succeed. This skill assesses the
+market, not the idea itself.
 
-**Better to know the odds now.** Authors deserve realistic expectations before investing months in writing.
+**Better to know the odds now.** Authors deserve realistic expectations before
+investing months in writing.
 
-**Author intent shapes interpretation.** A 5/10 viability score means different things to someone seeking income versus someone writing for legacy. Same data, different recommendations.
+**Author intent shapes interpretation.** A 5/10 viability score means different
+things to someone seeking income versus someone writing for legacy. Same data,
+different recommendations.
 
-**Claude does the analysis; human gathers the data Claude can't access.** Claude performs qualitative research via web search. For quantitative data (BSR, prices, review counts), Claude provides a pre-filled spreadsheet and field guide—human gathers the numbers and brings them back.
+**Claude does the analysis; human gathers the data Claude can't access.** Claude
+performs qualitative research via web search. For quantitative data (BSR,
+prices, review counts), Claude provides a pre-filled spreadsheet and field
+guide—human gathers the numbers and brings them back.
 
 ## Dependency Model
 
-**Standalone Mode:** Book Concept Document only → pure commercial analysis. Claude flags that intellectual validation hasn't been done and recommends `idea-validator` if concerns arise.
+**Standalone Mode:** Book Concept Document only → pure commercial analysis.
+Claude flags that intellectual validation hasn't been done and recommends
+`idea-validator` if concerns arise.
 
-**Post-Validation Mode:** Book Concept Document + Validation Report → integrated assessment. Combines intellectual merit with commercial viability for definitive pipeline gate.
+**Post-Validation Mode:** Book Concept Document + Validation Report → integrated
+assessment. Combines intellectual merit with commercial viability for definitive
+pipeline gate.
 
 ## Author Intent
 
-**Ask before researching.** Author intent determines how to interpret the viability score.
+**Ask before researching.** Author intent determines how to interpret the
+viability score.
 
 | Intent               | Description                              | Score Interpretation                               |
 | -------------------- | ---------------------------------------- | -------------------------------------------------- |
@@ -43,7 +63,8 @@ Determine if a book is worth writing from a business perspective, specifically f
 - Identifies competitors, positioning gaps, review themes
 - Produces preliminary viability assessment
 - No manual data gathering required
-- Best for: early-stage filtering, passion/legacy authors, authors with KDP experience
+- Best for: early-stage filtering, passion/legacy authors, authors with KDP
+  experience
 
 **Deep Dive (multi-session):**
 
@@ -51,9 +72,11 @@ Determine if a book is worth writing from a business perspective, specifically f
 - Claude provides pre-filled CSV with competitor URLs
 - Human gathers BSR, prices, review counts from Amazon
 - Claude analyzes completed data for full scorecard
-- Best for: income-focused authors, competitive categories, first-time KDP authors
+- Best for: income-focused authors, competitive categories, first-time KDP
+  authors
 
-**Claude recommends mode** based on author intent, validation status, category competitiveness, and KDP experience.
+**Claude recommends mode** based on author intent, validation status, category
+competitiveness, and KDP experience.
 
 ## Session Flow
 
@@ -148,7 +171,8 @@ Determine if a book is worth writing from a business perspective, specifically f
 
 ## Research Methods
 
-Claude performs qualitative research via web search. See `references/research-methods.md` for detailed methodology.
+Claude performs qualitative research via web search. See
+`references/research-methods.md` for detailed methodology.
 
 **What Claude CAN assess via search:**
 
@@ -168,7 +192,8 @@ Claude performs qualitative research via web search. See `references/research-me
 - Kindle Unlimited status
 - Category rankings
 
-For human data gathering, Claude provides a pre-filled CSV and the Amazon Field Guide from `references/amazon-field-guide.md`.
+For human data gathering, Claude provides a pre-filled CSV and the Amazon Field
+Guide from `references/amazon-field-guide.md`.
 
 ## Market Research Report Structure
 
@@ -213,4 +238,6 @@ This skill assesses **commercial viability**, not:
 - Book structure (that's `book-architect`)
 - Writing quality (that's the editing pipeline)
 
-Commercial viability is necessary but not sufficient. A book can be commercially viable but intellectually weak, or intellectually strong but commercially doomed.
+Commercial viability is necessary but not sufficient. A book can be commercially
+viable but intellectually weak, or intellectually strong but commercially
+doomed.

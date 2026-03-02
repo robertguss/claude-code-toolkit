@@ -12,12 +12,16 @@
 
 ## User Profile
 
-- **Content inventory:** [what published content exists — blog posts, videos, newsletters, podcasts, courses]
+- **Content inventory:** [what published content exists — blog posts, videos,
+  newsletters, podcasts, courses]
 - **Archives/systems:** [Zettelkasten, Notion, Obsidian, drafts folders, etc.]
 - **Audience:** [who they reach, size, engagement level, platforms]
-- **Expertise areas:** [domains of knowledge, professional background, unique intersections]
-- **Ebook intent:** [income / authority / audience service / lead generation / passion project]
-- **Constraints:** [topics to avoid, time constraints, length preferences, other limitations]
+- **Expertise areas:** [domains of knowledge, professional background, unique
+  intersections]
+- **Ebook intent:** [income / authority / audience service / lead generation /
+  passion project]
+- **Constraints:** [topics to avoid, time constraints, length preferences, other
+  limitations]
 
 ---
 
@@ -27,8 +31,8 @@
 | ---- | ------ | ----- | ------------ | ---- |
 |      |        |       |              |      |
 
-**Status options:** Not started, In progress, Complete, Skipped (N/A)
-**Depth options:** Light scan, Moderate, Deep dive, Exhaustive
+**Status options:** Not started, In progress, Complete, Skipped (N/A) **Depth
+options:** Light scan, Moderate, Deep dive, Exhaustive
 
 ---
 
@@ -39,7 +43,8 @@
 - **Description:** [1-2 sentences describing the core ebook idea]
 - **Source:** [entry mode] — [specific content/conversation that surfaced this]
 - **Why this rating:** [reasoning for the viability assessment]
-- **Validation signals:** [audience engagement, questions asked, views, comments — if any]
+- **Validation signals:** [audience engagement, questions asked, views, comments
+  — if any]
 - **Concerns:** [risks, questions, things that could make this fail]
 - **Time-sensitive?:** [yes/no — if yes, why and what's the window]
 - **Next step:** [develop / park / kill / needs research]

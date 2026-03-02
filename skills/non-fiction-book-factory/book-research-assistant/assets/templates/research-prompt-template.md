@@ -1,8 +1,7 @@
 # Research Prompt: [Gap ID] — [Short Description]
 
-**Generated:** [Date]
-**Priority:** [P1 / P2 / P3]
-**Chapter:** [Number] — [Title]
+**Generated:** [Date] **Priority:** [P1 / P2 / P3] **Chapter:** [Number] —
+[Title]
 
 ---
 
@@ -16,9 +15,11 @@
 
 **Transformation:** [Where the reader starts → where they end up after reading]
 
-**Author Angle:** [Why this author is the one to write this—experience, expertise, perspective]
+**Author Angle:** [Why this author is the one to write this—experience,
+expertise, perspective]
 
-**The Enemy:** [What this book argues against—the mindset, practice, or conventional wisdom being challenged]
+**The Enemy:** [What this book argues against—the mindset, practice, or
+conventional wisdom being challenged]
 
 ---
 
@@ -28,7 +29,8 @@
 
 **Chapter Title:** [Title]
 
-**Position in Arc:** [Where this chapter sits—early/middle/late, what comes before and after]
+**Position in Arc:** [Where this chapter sits—early/middle/late, what comes
+before and after]
 
 **Chapter Purpose:** [What job this chapter does for the reader]
 
@@ -52,20 +54,21 @@
 
 **The Question:** [Clear, specific statement of what we need to find out]
 
-**Why This Matters:** [How this gap connects to the chapter's purpose and the book's thesis]
+**Why This Matters:** [How this gap connects to the chapter's purpose and the
+book's thesis]
 
 ---
 
 ## 4. Author's Existing Position
 
-**What I Already Know/Believe:**
-[Brief summary of the author's current understanding of this topic]
+**What I Already Know/Believe:** [Brief summary of the author's current
+understanding of this topic]
 
-**What Is Genuinely Unknown:**
-[What the author doesn't know and needs research to discover]
+**What Is Genuinely Unknown:** [What the author doesn't know and needs research
+to discover]
 
-**What Needs Evidence:**
-[Claims the author believes but needs supporting evidence for]
+**What Needs Evidence:** [Claims the author believes but needs supporting
+evidence for]
 
 ---
 
@@ -77,7 +80,8 @@ Check all that apply and note specifics:
 - [ ] **Case Studies** — [Specify: what kind of examples, from what domains]
 - [ ] **Expert Quotes** — [Specify: what fields, what perspectives]
 - [ ] **Historical Examples** — [Specify: what time period, what context]
-- [ ] **Experimental/Research Findings** — [Specify: what disciplines, what methodologies]
+- [ ] **Experimental/Research Findings** — [Specify: what disciplines, what
+      methodologies]
 - [ ] **Anecdotal/Illustrative** — [Specify: what kind of stories]
 - [ ] **Counterarguments** — [Specify: what objections need addressing]
 
@@ -87,24 +91,26 @@ Check all that apply and note specifics:
 
 ## 6. Scope & Boundaries
 
-**Depth Calibration:**
-[How much is enough? E.g., "Enough to support 2-3 paragraphs" or "Cornerstone claim requiring substantial evidence from multiple sources"]
+**Depth Calibration:** [How much is enough? E.g., "Enough to support 2-3
+paragraphs" or "Cornerstone claim requiring substantial evidence from multiple
+sources"]
 
-**Recency Requirements:**
-[E.g., "Last 2-3 years critical" or "Historical depth needed back to origins" or "Timeless—recency less important"]
+**Recency Requirements:** [E.g., "Last 2-3 years critical" or "Historical depth
+needed back to origins" or "Timeless—recency less important"]
 
-**Geographic/Cultural Scope:**
-[E.g., "Global perspective" or "Western/US focus" or "Cross-cultural comparison needed"]
+**Geographic/Cultural Scope:** [E.g., "Global perspective" or "Western/US focus"
+or "Cross-cultural comparison needed"]
 
-**What NOT to Include:**
-[Tangents to avoid, topics covered elsewhere in the book, common rabbit holes]
+**What NOT to Include:** [Tangents to avoid, topics covered elsewhere in the
+book, common rabbit holes]
 
 ---
 
 ## 7. Source Requirements
 
-**Bibliographic Standard:**
-All sources must include: Author name(s), title, publication/publisher, date, page numbers (if applicable), DOI or URL. Use Chicago citation format.
+**Bibliographic Standard:** All sources must include: Author name(s), title,
+publication/publisher, date, page numbers (if applicable), DOI or URL. Use
+Chicago citation format.
 
 **Source Hierarchy (prioritize in this order):**
 
@@ -116,23 +122,28 @@ All sources must include: Author name(s), title, publication/publisher, date, pa
 
 **Required Distinctions:**
 
-- **Primary vs. Secondary:** Flag whether each source is the original research/statement or someone citing it
-- **Verification Confidence:** Distinguish between sources actually retrieved and read vs. sources known from training data
-- **Source Strength:** Rate how directly each source supports the claim (Directly supports / Tangentially related / Provides context)
-- **Accessibility:** Note if paywalled, freely available, or requires special access
+- **Primary vs. Secondary:** Flag whether each source is the original
+  research/statement or someone citing it
+- **Verification Confidence:** Distinguish between sources actually retrieved
+  and read vs. sources known from training data
+- **Source Strength:** Rate how directly each source supports the claim
+  (Directly supports / Tangentially related / Provides context)
+- **Accessibility:** Note if paywalled, freely available, or requires special
+  access
 
-**Conflicting Sources:**
-If sources disagree, note the conflict explicitly rather than resolving it. Present both positions with their evidence.
+**Conflicting Sources:** If sources disagree, note the conflict explicitly
+rather than resolving it. Present both positions with their evidence.
 
 ---
 
 ## 8. Quality Criteria
 
-**What "Good Enough" Looks Like:**
-[Specific description of minimum acceptable research for this gap]
+**What "Good Enough" Looks Like:** [Specific description of minimum acceptable
+research for this gap]
 
-**Minimum Threshold:**
-[E.g., "At least 2-3 concrete examples with full citations" or "Data from 2+ independent studies" or "Expert perspective from recognized authority in the field"]
+**Minimum Threshold:** [E.g., "At least 2-3 concrete examples with full
+citations" or "Data from 2+ independent studies" or "Expert perspective from
+recognized authority in the field"]
 
 **Red Flags to Avoid:**
 
@@ -146,39 +157,40 @@ If sources disagree, note the conflict explicitly rather than resolving it. Pres
 
 ## 9. Search Guidance
 
-**Suggested Angles:**
-[2-3 different approaches to researching this question]
+**Suggested Angles:** [2-3 different approaches to researching this question]
 
-**Search Terms to Try:**
-[Specific keywords, phrases, Boolean combinations]
+**Search Terms to Try:** [Specific keywords, phrases, Boolean combinations]
 
-**Source Types to Prioritize:**
-[E.g., academic journals, industry reports, government data, specific publications]
+**Source Types to Prioritize:** [E.g., academic journals, industry reports,
+government data, specific publications]
 
-**Experts/Authors to Look For:**
-[Names of known authorities in this area, if any]
+**Experts/Authors to Look For:** [Names of known authorities in this area, if
+any]
 
-**Domains to Explore:**
-[Specific websites, databases, archives that might have relevant material]
+**Domains to Explore:** [Specific websites, databases, archives that might have
+relevant material]
 
 ---
 
 ## 10. Special Requests
 
-**Quotability:**
-Find exact quotes with full attribution that could be used directly in the manuscript. Prioritize memorable, well-phrased statements from credible sources.
+**Quotability:** Find exact quotes with full attribution that could be used
+directly in the manuscript. Prioritize memorable, well-phrased statements from
+credible sources.
 
-**Steelman:**
-Identify and present the strongest counterarguments to this claim or position. What would a thoughtful critic say? What evidence supports the opposing view?
+**Steelman:** Identify and present the strongest counterarguments to this claim
+or position. What would a thoughtful critic say? What evidence supports the
+opposing view?
 
-**Expert Identification:**
-Beyond sources, who are the leading voices on this topic? Names to potentially cite, quote, or research further.
+**Expert Identification:** Beyond sources, who are the leading voices on this
+topic? Names to potentially cite, quote, or research further.
 
-**Visual/Data Opportunities:**
-Flag any data, statistics, or comparisons that could become a table, chart, or figure in the book.
+**Visual/Data Opportunities:** Flag any data, statistics, or comparisons that
+could become a table, chart, or figure in the book.
 
-**Connection Flags:**
-If you find anything relevant to other chapters or topics in the book, note it separately at the end. Specifically watch for connections to: [list any relevant chapters or themes]
+**Connection Flags:** If you find anything relevant to other chapters or topics
+in the book, note it separately at the end. Specifically watch for connections
+to: [list any relevant chapters or themes]
 
 ---
 
@@ -188,15 +200,18 @@ Structure your response as follows:
 
 ### Summary of Findings
 
-2-3 paragraphs synthesizing what was discovered. Lead with the most important findings.
+2-3 paragraphs synthesizing what was discovered. Lead with the most important
+findings.
 
 ### Key Evidence
 
-The "gold"—the strongest, most usable findings. Present as discrete items with full citations.
+The "gold"—the strongest, most usable findings. Present as discrete items with
+full citations.
 
 ### Case Studies / Examples
 
-[If applicable] Real-world examples with sufficient detail to be usable in the manuscript.
+[If applicable] Real-world examples with sufficient detail to be usable in the
+manuscript.
 
 ### Statistics / Data
 
@@ -204,11 +219,13 @@ The "gold"—the strongest, most usable findings. Present as discrete items with
 
 ### Expert Quotes
 
-[If applicable] Direct quotations with full attribution, ready for potential use.
+[If applicable] Direct quotations with full attribution, ready for potential
+use.
 
 ### Counterarguments & Tensions
 
-What challenges this position? How strong are the objections? What evidence supports them?
+What challenges this position? How strong are the objections? What evidence
+supports them?
 
 ### Source Evaluation
 
@@ -222,7 +239,8 @@ For each major source used:
 
 ### Contradictions & Uncertainties
 
-Where do sources disagree? What remains uncertain? What caveats should the author keep in mind?
+Where do sources disagree? What remains uncertain? What caveats should the
+author keep in mind?
 
 ### Unexpected Discoveries
 
@@ -238,12 +256,15 @@ Anything surprising that emerged, even if tangential to the main question.
 
 ### Confidence Assessment
 
-Overall, how solid is this research? What level of confidence should the author have in these findings?
+Overall, how solid is this research? What level of confidence should the author
+have in these findings?
 
 ### Synthesis Statement
 
-In 2-3 sentences, what is the bottom line? If you had to summarize the state of knowledge on this question, what would you say?
+In 2-3 sentences, what is the bottom line? If you had to summarize the state of
+knowledge on this question, what would you say?
 
 ---
 
-_This prompt is self-contained. It includes all context needed to conduct quality research without follow-up questions._
+_This prompt is self-contained. It includes all context needed to conduct
+quality research without follow-up questions._

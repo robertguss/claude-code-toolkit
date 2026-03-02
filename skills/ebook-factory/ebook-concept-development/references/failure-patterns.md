@@ -1,6 +1,7 @@
 # Ebook Failure Patterns
 
-Anti-patterns and warning signs to surface during concept development. Better to kill a weak concept early than finish a weak ebook later.
+Anti-patterns and warning signs to surface during concept development. Better to
+kill a weak concept early than finish a weak ebook later.
 
 ---
 
@@ -8,7 +9,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 ### The Bloated Ebook
 
-**Pattern:** Concept keeps expanding. "We should also cover..." Energy for adding, resistance to cutting.
+**Pattern:** Concept keeps expanding. "We should also cover..." Energy for
+adding, resistance to cutting.
 
 **Warning signs:**
 
@@ -17,9 +19,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - "Comprehensive" used as a goal
 - Key topics list exceeds 10 items
 
-**Why it fails:** Ebooks are concentrated solutions. Bloat dilutes value and exhausts readers.
+**Why it fails:** Ebooks are concentrated solutions. Bloat dilutes value and
+exhausts readers.
 
-**Intervention:** "What's the ONE transformation? Everything else is either supporting that or out of scope."
+**Intervention:** "What's the ONE transformation? Everything else is either
+supporting that or out of scope."
 
 ---
 
@@ -36,13 +40,15 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Readers feel cheated. Value doesn't justify purchase.
 
-**Intervention:** "Is this genuinely ebook-sized? Could this be a blog post? What would need to be true for this to be worth $9.99?"
+**Intervention:** "Is this genuinely ebook-sized? Could this be a blog post?
+What would need to be true for this to be worth $9.99?"
 
 ---
 
 ### The Disguised Book
 
-**Pattern:** Concept is actually a 50,000-word book forced into ebook constraints.
+**Pattern:** Concept is actually a 50,000-word book forced into ebook
+constraints.
 
 **Warning signs:**
 
@@ -51,9 +57,12 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - "Introduction to" framing for a deep topic
 - Uncomfortable about what's left out
 
-**Why it fails:** Either the ebook is frustratingly incomplete, or scope discipline breaks down.
+**Why it fails:** Either the ebook is frustratingly incomplete, or scope
+discipline breaks down.
 
-**Intervention:** "This sounds like a full book that deserves full treatment. Is there a genuine subset that stands alone? Or should we set this aside for the book pipeline?"
+**Intervention:** "This sounds like a full book that deserves full treatment. Is
+there a genuine subset that stands alone? Or should we set this aside for the
+book pipeline?"
 
 ---
 
@@ -61,7 +70,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 ### The Category Reader
 
-**Pattern:** Reader defined by demographics or labels, not situations and struggles.
+**Pattern:** Reader defined by demographics or labels, not situations and
+struggles.
 
 **Warning signs:**
 
@@ -72,7 +82,9 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Can't make content decisions. Everything could be relevant.
 
-**Intervention:** "Can you picture one specific person who would buy this? What's their name? What happened last Tuesday that made them think 'I need help with this'?"
+**Intervention:** "Can you picture one specific person who would buy this?
+What's their name? What happened last Tuesday that made them think 'I need help
+with this'?"
 
 ---
 
@@ -87,9 +99,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Describes ideal customer, not realistic one
 - Transformation starts from a surprisingly advanced place
 
-**Why it fails:** Content misses actual readers. They bounce because it's not for them.
+**Why it fails:** Content misses actual readers. They bounce because it's not
+for them.
 
-**Intervention:** "Who will ACTUALLY find and buy this? Not who you want — who will? What do they search for? What do they click on?"
+**Intervention:** "Who will ACTUALLY find and buy this? Not who you want — who
+will? What do they search for? What do they click on?"
 
 ---
 
@@ -104,9 +118,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Blind spots about what's actually hard for beginners
 - Expert knowledge assumed without realizing it
 
-**Why it fails:** Author can't see the actual struggle. Content talks over readers' heads.
+**Why it fails:** Author can't see the actual struggle. Content talks over
+readers' heads.
 
-**Intervention:** "What's obvious to you now that wasn't when you started? What questions do beginners ask that surprise you?"
+**Intervention:** "What's obvious to you now that wasn't when you started? What
+questions do beginners ask that surprise you?"
 
 ---
 
@@ -114,7 +130,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 ### The Knowledge Dump
 
-**Pattern:** "After: They know about X" — information transfer without capability change.
+**Pattern:** "After: They know about X" — information transfer without
+capability change.
 
 **Warning signs:**
 
@@ -123,9 +140,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Can't describe what reader DOES differently
 - Promise is access to information
 
-**Why it fails:** Information alone doesn't transform. Readers finish knowing more but unable to act.
+**Why it fails:** Information alone doesn't transform. Readers finish knowing
+more but unable to act.
 
-**Intervention:** "What can they DO after reading that they couldn't do before? If I watched them for a week, what would I see differently?"
+**Intervention:** "What can they DO after reading that they couldn't do before?
+If I watched them for a week, what would I see differently?"
 
 ---
 
@@ -142,7 +161,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Readers feel manipulated or disappointed. Trust is broken.
 
-**Intervention:** "Is this achievable for someone who reads this ebook once? What's the realistic scope of change in 2-3 hours of reading?"
+**Intervention:** "Is this achievable for someone who reads this ebook once?
+What's the realistic scope of change in 2-3 hours of reading?"
 
 ---
 
@@ -157,9 +177,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Before and after sound similar
 - Struggles with concrete examples
 
-**Why it fails:** Without clear transformation, content has no compass. No way to know what to include.
+**Why it fails:** Without clear transformation, content has no compass. No way
+to know what to include.
 
-**Intervention:** "Complete this sentence: Before reading, they **_. After reading, they _**. Both blanks need to be observable, not just felt."
+**Intervention:** "Complete this sentence: Before reading, they **_. After
+reading, they _**. Both blanks need to be observable, not just felt."
 
 ---
 
@@ -178,7 +200,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Readers buy outcomes, not products.
 
-**Intervention:** "I don't want to know what the ebook covers. What does the READER get? Why would they care?"
+**Intervention:** "I don't want to know what the ebook covers. What does the
+READER get? Why would they care?"
 
 ---
 
@@ -195,7 +218,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Doesn't stand out. Doesn't feel real. Easy to ignore.
 
-**Intervention:** "Make this specific. What's the concrete outcome someone can picture? Give me a number, a timeframe, or a specific change."
+**Intervention:** "Make this specific. What's the concrete outcome someone can
+picture? Give me a number, a timeframe, or a specific change."
 
 ---
 
@@ -212,9 +236,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Just reorganized, not enhanced
 - Convenience is the only value-add
 
-**Why it fails:** Audience feels exploited. Free felt generous; paid feels extractive.
+**Why it fails:** Audience feels exploited. Free felt generous; paid feels
+extractive.
 
-**Intervention:** "What's in this ebook that's NOT in the free content? If someone consumed all your free stuff, why would they still want this?"
+**Intervention:** "What's in this ebook that's NOT in the free content? If
+someone consumed all your free stuff, why would they still want this?"
 
 ---
 
@@ -231,7 +257,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Erodes trust. Audience feels nickel-and-dimed.
 
-**Intervention:** "Does the free content feel complete in itself? Is the ebook genuinely additive, or are you creating artificial scarcity?"
+**Intervention:** "Does the free content feel complete in itself? Is the ebook
+genuinely additive, or are you creating artificial scarcity?"
 
 ---
 
@@ -250,7 +277,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Readers sense the manipulation. Argument lacks credibility.
 
-**Intervention:** "Who actually believes this? Can you name a smart person who holds this view? If not, you might be strawmanning."
+**Intervention:** "Who actually believes this? Can you name a smart person who
+holds this view? If not, you might be strawmanning."
 
 ---
 
@@ -265,9 +293,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Worried about alienating people
 - Thesis is bland because conflict is avoided
 
-**Why it fails:** Loses argumentative power. Becomes vague "alternative perspective."
+**Why it fails:** Loses argumentative power. Becomes vague "alternative
+perspective."
 
-**Intervention:** "What specifically are you pushing back against? If you're not willing to name the enemy, is this actually an argument-driven ebook?"
+**Intervention:** "What specifically are you pushing back against? If you're not
+willing to name the enemy, is this actually an argument-driven ebook?"
 
 ---
 
@@ -286,7 +316,8 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 **Why it fails:** Months of work for something no one buys.
 
-**Intervention:** "What evidence do you have that people want this? Can you test it before committing fully?"
+**Intervention:** "What evidence do you have that people want this? Can you test
+it before committing fully?"
 
 ---
 
@@ -301,9 +332,11 @@ Anti-patterns and warning signs to surface during concept development. Better to
 - Written version feels flat
 - "Had to see it" moments don't translate
 
-**Why it fails:** Format mismatch. Readers don't get what made the original good.
+**Why it fails:** Format mismatch. Readers don't get what made the original
+good.
 
-**Intervention:** "What made the original content work? Can that be preserved in ebook form? Or is this forcing a square peg into a round hole?"
+**Intervention:** "What made the original content work? Can that be preserved in
+ebook form? Or is this forcing a square peg into a round hole?"
 
 ---
 
@@ -311,9 +344,13 @@ Anti-patterns and warning signs to surface during concept development. Better to
 
 During concept development:
 
-1. **Pattern matching** — Does this concept show warning signs of any failure pattern?
-2. **Direct naming** — "I'm seeing signs of the Bloated Ebook pattern. Here's what I notice..."
+1. **Pattern matching** — Does this concept show warning signs of any failure
+   pattern?
+2. **Direct naming** — "I'm seeing signs of the Bloated Ebook pattern. Here's
+   what I notice..."
 3. **Intervention prompts** — Use the intervention questions to redirect
-4. **During stress test** — Review patterns as a checklist before declaring readiness
+4. **During stress test** — Review patterns as a checklist before declaring
+   readiness
 
-**The goal is not to be critical. It's to surface problems while they're cheap to fix.**
+**The goal is not to be critical. It's to surface problems while they're cheap
+to fix.**

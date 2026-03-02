@@ -1,14 +1,17 @@
 # Opening Strategies
 
-How to begin pieces effectively. Match the strategy to the writer's DNA and the task.
+How to begin pieces effectively. Match the strategy to the writer's DNA and the
+task.
 
 ---
 
 ## Purpose
 
-Strong openings hook readers immediately. This reference provides 18 opening strategies with examples and guidance on when to use each.
+Strong openings hook readers immediately. This reference provides 18 opening
+strategies with examples and guidance on when to use each.
 
-**Priority:** If the DNA document specifies opening patterns, follow those. Use this reference when DNA is silent or for generating variety between drafts.
+**Priority:** If the DNA document specifies opening patterns, follow those. Use
+this reference when DNA is silent or for generating variety between drafts.
 
 ---
 
@@ -16,8 +19,7 @@ Strong openings hook readers immediately. This reference provides 18 opening str
 
 ### 1. Bold Statement
 
-**What It Is:**
-Lead with a provocative, definitive claim.
+**What It Is:** Lead with a provocative, definitive claim.
 
 **Example:**
 
@@ -39,12 +41,12 @@ Lead with a provocative, definitive claim.
 
 ### 2. Specific Anecdote
 
-**What It Is:**
-Start with a particular moment or scene.
+**What It Is:** Start with a particular moment or scene.
 
 **Example:**
 
-> "At 3 a.m. on a Tuesday, I found myself debugging a script I'd written three years ago. I had no memory of writing it."
+> "At 3 a.m. on a Tuesday, I found myself debugging a script I'd written three
+> years ago. I had no memory of writing it."
 
 **When to Use:**
 
@@ -62,8 +64,7 @@ Start with a particular moment or scene.
 
 ### 3. Question Hook
 
-**What It Is:**
-Open with a question that captures the core tension.
+**What It Is:** Open with a question that captures the core tension.
 
 **Example:**
 
@@ -77,19 +78,20 @@ Open with a question that captures the core tension.
 
 **When to Avoid:**
 
-- If DNA specifically avoids question openings (some writers see this as clickbait)
+- If DNA specifically avoids question openings (some writers see this as
+  clickbait)
 - When the question is obvious or rhetorical
 
 ---
 
 ### 4. Startling Statistic
 
-**What It Is:**
-Lead with a number that surprises or reframes.
+**What It Is:** Lead with a number that surprises or reframes.
 
 **Example:**
 
-> "Seventy percent of startups fail within two years. I've been in three of them."
+> "Seventy percent of startups fail within two years. I've been in three of
+> them."
 
 **When to Use:**
 
@@ -107,8 +109,7 @@ Lead with a number that surprises or reframes.
 
 ### 5. Contradiction
 
-**What It Is:**
-Open by juxtaposing two ideas that seem incompatible.
+**What It Is:** Open by juxtaposing two ideas that seem incompatible.
 
 **Example:**
 
@@ -129,12 +130,12 @@ Open by juxtaposing two ideas that seem incompatible.
 
 ### 6. In Media Res
 
-**What It Is:**
-Drop the reader into the middle of action.
+**What It Is:** Drop the reader into the middle of action.
 
 **Example:**
 
-> "The server crashed at 5:47 p.m. on Christmas Eve. Three engineers stared at terminals, coffee going cold."
+> "The server crashed at 5:47 p.m. on Christmas Eve. Three engineers stared at
+> terminals, coffee going cold."
 
 **When to Use:**
 
@@ -152,8 +153,7 @@ Drop the reader into the middle of action.
 
 ### 7. Definition Challenge
 
-**What It Is:**
-Question or redefine a common term.
+**What It Is:** Question or redefine a common term.
 
 **Example:**
 
@@ -174,8 +174,7 @@ Question or redefine a common term.
 
 ### 8. Time Shift
 
-**What It Is:**
-Establish temporal contrast or journey.
+**What It Is:** Establish temporal contrast or journey.
 
 **Example:**
 
@@ -196,8 +195,7 @@ Establish temporal contrast or journey.
 
 ### 9. Confession
 
-**What It Is:**
-Open with an admission, vulnerability, or mistake.
+**What It Is:** Open with an admission, vulnerability, or mistake.
 
 **Example:**
 
@@ -219,12 +217,12 @@ Open with an admission, vulnerability, or mistake.
 
 ### 10. Dialogue
 
-**What It Is:**
-Start with a quoted conversation.
+**What It Is:** Start with a quoted conversation.
 
 **Example:**
 
-> "'You can't do that,' my boss said. 'It's never been done.' Six months later, it was done."
+> "'You can't do that,' my boss said. 'It's never been done.' Six months later,
+> it was done."
 
 **When to Use:**
 
@@ -242,12 +240,12 @@ Start with a quoted conversation.
 
 ### 11. Imagery
 
-**What It Is:**
-Open with a sensory description.
+**What It Is:** Open with a sensory description.
 
 **Example:**
 
-> "The office smelled like burnt coffee and regret. Fluorescent lights hummed their endless drone."
+> "The office smelled like burnt coffee and regret. Fluorescent lights hummed
+> their endless drone."
 
 **When to Use:**
 
@@ -265,8 +263,7 @@ Open with a sensory description.
 
 ### 12. Direct Address
 
-**What It Is:**
-Speak directly to the reader.
+**What It Is:** Speak directly to the reader.
 
 **Example:**
 
@@ -288,12 +285,12 @@ Speak directly to the reader.
 
 ### 13. List Launch
 
-**What It Is:**
-Open with a quick series of items.
+**What It Is:** Open with a quick series of items.
 
 **Example:**
 
-> "Docker. Kubernetes. Terraform. CI/CD pipelines. None of them will save you if your fundamentals are broken."
+> "Docker. Kubernetes. Terraform. CI/CD pipelines. None of them will save you if
+> your fundamentals are broken."
 
 **When to Use:**
 
@@ -311,8 +308,7 @@ Open with a quick series of items.
 
 ### 14. The Pivot
 
-**What It Is:**
-Set up one expectation, then pivot.
+**What It Is:** Set up one expectation, then pivot.
 
 **Example:**
 
@@ -334,12 +330,12 @@ Set up one expectation, then pivot.
 
 ### 15. Quotation
 
-**What It Is:**
-Open with someone else's words.
+**What It Is:** Open with someone else's words.
 
 **Example:**
 
-> "'The best time to plant a tree was twenty years ago. The second best time is now.' I'm planting trees."
+> "'The best time to plant a tree was twenty years ago. The second best time is
+> now.' I'm planting trees."
 
 **When to Use:**
 
@@ -357,12 +353,12 @@ Open with someone else's words.
 
 ### 16. Problem Statement
 
-**What It Is:**
-Directly state the issue you'll address.
+**What It Is:** Directly state the issue you'll address.
 
 **Example:**
 
-> "Teams waste 40% of their time in meetings that accomplish nothing. Here's how to fix it."
+> "Teams waste 40% of their time in meetings that accomplish nothing. Here's how
+> to fix it."
 
 **When to Use:**
 
@@ -380,12 +376,12 @@ Directly state the issue you'll address.
 
 ### 17. Scene Setting
 
-**What It Is:**
-Establish context before action.
+**What It Is:** Establish context before action.
 
 **Example:**
 
-> "It's 2008. The iPhone is a year old. Nobody knows what an 'app' is yet. I'm about to find out."
+> "It's 2008. The iPhone is a year old. Nobody knows what an 'app' is yet. I'm
+> about to find out."
 
 **When to Use:**
 
@@ -403,8 +399,7 @@ Establish context before action.
 
 ### 18. Thesis First
 
-**What It Is:**
-State your main argument immediately.
+**What It Is:** State your main argument immediately.
 
 **Example:**
 
@@ -464,14 +459,12 @@ This creates meaningful difference between drafts.
 
 **Throat-clearing:**
 
-> "In today's fast-paced world..."
-> "When it comes to X..."
-> "Many people believe..."
+> "In today's fast-paced world..." "When it comes to X..." "Many people
+> believe..."
 
 **Meta-commentary:**
 
-> "In this article, I will..."
-> "Let me tell you about..."
+> "In this article, I will..." "Let me tell you about..."
 
 **Dictionary definition:**
 
@@ -479,8 +472,7 @@ This creates meaningful difference between drafts.
 
 **Obvious statements:**
 
-> "Communication is important."
-> "Technology has changed everything."
+> "Communication is important." "Technology has changed everything."
 
 **Unearned drama:**
 
@@ -514,4 +506,5 @@ Consider how the opening might connect to the closing:
 | Imagery        | Same image, transformed                    |
 | Time Shift     | Full circle, or projection forward         |
 
-Creating opening/closing resonance makes pieces feel complete. Note this in draft notes when you use it.
+Creating opening/closing resonance makes pieces feel complete. Note this in
+draft notes when you use it.

@@ -1,25 +1,47 @@
 ---
 name: book-research-assistant
-description: Plan, orchestrate, and validate deep research for nonfiction books. Use when an author has completed book architecture and needs to fill research gaps before outlining chapters. Triggers include requests to plan research, generate research prompts, validate research quality, or prepare for drafting. This skill does everything around deep research—planning, prompting, validating, synthesizing—but the actual research execution happens externally via Claude and Gemini deep research. Requires upstream documents from book-architect (Research Gaps Document, Master Architecture Document, Section Blueprints) and book-ideation (Book Concept Document).
+description:
+  Plan, orchestrate, and validate deep research for nonfiction books. Use when
+  an author has completed book architecture and needs to fill research gaps
+  before outlining chapters. Triggers include requests to plan research,
+  generate research prompts, validate research quality, or prepare for drafting.
+  This skill does everything around deep research—planning, prompting,
+  validating, synthesizing—but the actual research execution happens externally
+  via Claude and Gemini deep research. Requires upstream documents from
+  book-architect (Research Gaps Document, Master Architecture Document, Section
+  Blueprints) and book-ideation (Book Concept Document).
 ---
 
 # Research Assistant
 
-Plan, orchestrate, and validate deep research for nonfiction books. This skill is the research quality gate—it does everything around the research (planning, prompting, validating, organizing, certifying readiness) while you execute the actual deep research using Claude and Gemini.
+Plan, orchestrate, and validate deep research for nonfiction books. This skill
+is the research quality gate—it does everything around the research (planning,
+prompting, validating, organizing, certifying readiness) while you execute the
+actual deep research using Claude and Gemini.
 
 ## Core Philosophy
 
-1. **Reader-first research.** Every gap filled, every source vetted, every question asked serves the reader's transformation. Research isn't academic exercise—it's ammunition for changing someone's mind.
+1. **Reader-first research.** Every gap filled, every source vetted, every
+   question asked serves the reader's transformation. Research isn't academic
+   exercise—it's ammunition for changing someone's mind.
 
-2. **Expert directness.** Be honest about weak evidence, thesis tensions, and gaps that aren't filled. No coddling, no hedging, no ego protection. Adults serving readers.
+2. **Expert directness.** Be honest about weak evidence, thesis tensions, and
+   gaps that aren't filled. No coddling, no hedging, no ego protection. Adults
+   serving readers.
 
-3. **Precision over speed.** Research is foundation. A book built on shaky evidence fails readers. Take the time to get it right, one gap at a time.
+3. **Precision over speed.** Research is foundation. A book built on shaky
+   evidence fails readers. Take the time to get it right, one gap at a time.
 
-4. **Truth over thesis.** If research contradicts the book's argument, surface it immediately. Better to know now than publish a book that falls apart under scrutiny.
+4. **Truth over thesis.** If research contradicts the book's argument, surface
+   it immediately. Better to know now than publish a book that falls apart under
+   scrutiny.
 
-5. **Systematic rigor.** Follow the process. Every gap validated against all dimensions. Every chapter completed before moving on. Discipline protects quality.
+5. **Systematic rigor.** Follow the process. Every gap validated against all
+   dimensions. Every chapter completed before moving on. Discipline protects
+   quality.
 
-6. **Verify everything.** LLM research can hallucinate. Sources need checking. Confidence flags matter. Skepticism serves accuracy.
+6. **Verify everything.** LLM research can hallucinate. Sources need checking.
+   Confidence flags matter. Skepticism serves accuracy.
 
 ## Two Phases
 
@@ -44,7 +66,8 @@ This skill operates in two distinct phases:
 
 Guide the user to the right entry point through conversational triage.
 
-**Question 1:** "Are you starting fresh on a new book's research, or continuing work already in progress?"
+**Question 1:** "Are you starting fresh on a new book's research, or continuing
+work already in progress?"
 
 **If starting fresh:**
 
@@ -60,7 +83,8 @@ Guide the user to the right entry point through conversational triage.
 
 - Request Book-Level Research Tracker
 - Read status and determine where things stand
-- Ask: "Do you have research to review, or are you picking up where we left off?"
+- Ask: "Do you have research to review, or are you picking up where we left
+  off?"
 
 **Smart routing based on context:**
 
@@ -80,7 +104,8 @@ Guide the user to the right entry point through conversational triage.
 | Research audit/status briefing | Book-Level Tracker                                    | Provide status overview                       |
 | Final synthesis                | All Chapter Summaries + Book-Level Tracker            | Produce Final Research Synthesis              |
 
-Always tell the user what documents to upload based on their situation. If they don't have something, help them understand what's needed and how to proceed.
+Always tell the user what documents to upload based on their situation. If they
+don't have something, help them understand what's needed and how to proceed.
 
 ### Phase 1: Research Planning
 
@@ -90,7 +115,8 @@ Load `references/research-question-formulation.md` as needed.
 
 - Read the Research Gaps Document from book-architect
 - Assess each gap: Is it well-formed? Specific enough? Missing anything?
-- Identify gaps architect may have missed (cross-reference thesis, proof burdens, key claims)
+- Identify gaps architect may have missed (cross-reference thesis, proof
+  burdens, key claims)
 - Note where gaps need splitting into multiple questions
 
 **Step 2: Expand and Enhance Gaps**
@@ -100,7 +126,8 @@ For each gap, determine:
 - What TYPE of evidence is needed? (Load `references/evidence-types-catalog.md`)
 - What's the proof burden? (Load `references/proof-burden-matching.md`)
 - How much is enough for this chapter's use?
-- What sources should be prioritized? (Load `references/source-evaluation-guide.md`)
+- What sources should be prioritized? (Load
+  `references/source-evaluation-guide.md`)
 
 **Step 3: Initialize Chapter Research Tracker**
 
@@ -118,21 +145,32 @@ Create tracker with all gaps:
 
 **Step 4: Generate Research Prompts**
 
-Load `references/deep-research-prompting.md` and `references/research-output-format.md`.
+Load `references/deep-research-prompting.md` and
+`references/research-output-format.md`.
 
-For each gap, create a self-contained prompt file following `assets/templates/research-prompt-template.md`:
+For each gap, create a self-contained prompt file following
+`assets/templates/research-prompt-template.md`:
 
-1. **Book Context** — Thesis, reader, transformation, author angle, enemy (condensed)
-2. **Chapter Context** — Number, title, position in arc, purpose, entry/exit states, key insight
+1. **Book Context** — Thesis, reader, transformation, author angle, enemy
+   (condensed)
+2. **Chapter Context** — Number, title, position in arc, purpose, entry/exit
+   states, key insight
 3. **The Research Gap** — Gap ID, priority, clear statement, why it matters
 4. **Author's Existing Position** — What's known, what's genuinely unknown
-5. **Evidence Type Needed** — Statistics, case studies, quotes, examples, counterarguments
-6. **Scope & Boundaries** — Depth calibration, recency requirements, geographic scope, what NOT to include
-7. **Source Requirements** — Full bibliographic info, Chicago format, primary vs. secondary distinction, verification confidence flags, source strength assessment, accessibility notes, conflicting sources flagged
-8. **Quality Criteria** — What "good enough" looks like, minimum threshold, source hierarchy
+5. **Evidence Type Needed** — Statistics, case studies, quotes, examples,
+   counterarguments
+6. **Scope & Boundaries** — Depth calibration, recency requirements, geographic
+   scope, what NOT to include
+7. **Source Requirements** — Full bibliographic info, Chicago format, primary
+   vs. secondary distinction, verification confidence flags, source strength
+   assessment, accessibility notes, conflicting sources flagged
+8. **Quality Criteria** — What "good enough" looks like, minimum threshold,
+   source hierarchy
 9. **Search Guidance** — Angles, terms, source types, experts to find
-10. **Special Requests** — Quotability, steelman, expert identification, visual opportunities, connection flags
-11. **Output Format** — Required structure per `references/research-output-format.md`
+10. **Special Requests** — Quotability, steelman, expert identification, visual
+    opportunities, connection flags
+11. **Output Format** — Required structure per
+    `references/research-output-format.md`
 
 Save each prompt as individual file: `chapter-XX-gap-XX-[short-description].md`
 
@@ -158,9 +196,11 @@ Ask user to attach:
 
 **Step 3: Thorough Review**
 
-Load `references/source-evaluation-guide.md` and `references/contradiction-reconciliation.md` as needed.
+Load `references/source-evaluation-guide.md` and
+`references/contradiction-reconciliation.md` as needed.
 
-Assess against seven dimensions (use `assets/templates/validation-checklist-template.md`):
+Assess against seven dimensions (use
+`assets/templates/validation-checklist-template.md`):
 
 | Dimension           | Question                                                            |
 | ------------------- | ------------------------------------------------------------------- |
@@ -176,9 +216,11 @@ Assess against seven dimensions (use `assets/templates/validation-checklist-temp
 
 **Complete:** Research satisfies all dimensions. Gap is filled.
 
-**Needs More:** Research fell short. Specify what's missing. Generate follow-up prompt using `assets/templates/follow-up-prompt-template.md`.
+**Needs More:** Research fell short. Specify what's missing. Generate follow-up
+prompt using `assets/templates/follow-up-prompt-template.md`.
 
-**Problematic:** Thesis tension or serious issue requiring author decision. Surface clearly. Do not proceed until resolved.
+**Problematic:** Thesis tension or serious issue requiring author decision.
+Surface clearly. Do not proceed until resolved.
 
 **Step 5: Update Chapter Tracker**
 
@@ -208,19 +250,20 @@ When all gaps for a chapter are validated, check readiness criteria:
 
 **If criteria met:**
 
-1. Produce Chapter Research Summary (see `assets/templates/chapter-research-summary-template.md`)
+1. Produce Chapter Research Summary (see
+   `assets/templates/chapter-research-summary-template.md`)
 2. Update Book-Level Tracker to show chapter Complete
 3. Announce readiness for next chapter
 
-**If criteria not met:**
-Identify what's missing and guide user to resolution.
+**If criteria not met:** Identify what's missing and guide user to resolution.
 
 ### Book Completion
 
 When all chapters show Complete on Book-Level Tracker:
 
 1. Gather all Chapter Research Summaries
-2. Produce Final Research Synthesis (see `assets/templates/final-research-synthesis-template.md`)
+2. Produce Final Research Synthesis (see
+   `assets/templates/final-research-synthesis-template.md`)
 3. Extract and consolidate Architecture Feedback across all chapters
 4. Render final readiness verdict for handoff to chapter-outline skill
 
@@ -265,11 +308,13 @@ Always conclude by:
 
 **Validation Phase:**
 
-- Chapter Research Summary — Distillation of findings, includes Architecture Feedback section
+- Chapter Research Summary — Distillation of findings, includes Architecture
+  Feedback section
 
 **Final Outputs:**
 
-- Final Research Synthesis — Book-wide synthesis, consolidated architecture feedback, readiness certification
+- Final Research Synthesis — Book-wide synthesis, consolidated architecture
+  feedback, readiness certification
 
 ## Readiness Criteria
 
@@ -302,15 +347,24 @@ Research phase is complete when:
 
 Load as needed based on the work at hand:
 
-- `references/source-evaluation-guide.md` — Assessing source quality, hierarchy, red flags
-- `references/evidence-types-catalog.md` — Types of evidence and when each is appropriate
-- `references/research-question-formulation.md` — Turning gaps into sharp, researchable questions
-- `references/citation-standards.md` — Chicago format, complete bibliographic requirements
-- `references/deep-research-prompting.md` — Best practices for Claude and Gemini deep research
-- `references/contradiction-reconciliation.md` — Handling conflicts between sources and models
-- `references/proof-burden-matching.md` — What evidence level different claims require
-- `references/synthesis-best-practices.md` — Distilling research into useful summaries
-- `references/contrarian-research-strategies.md` — Researching claims against conventional wisdom
+- `references/source-evaluation-guide.md` — Assessing source quality, hierarchy,
+  red flags
+- `references/evidence-types-catalog.md` — Types of evidence and when each is
+  appropriate
+- `references/research-question-formulation.md` — Turning gaps into sharp,
+  researchable questions
+- `references/citation-standards.md` — Chicago format, complete bibliographic
+  requirements
+- `references/deep-research-prompting.md` — Best practices for Claude and Gemini
+  deep research
+- `references/contradiction-reconciliation.md` — Handling conflicts between
+  sources and models
+- `references/proof-burden-matching.md` — What evidence level different claims
+  require
+- `references/synthesis-best-practices.md` — Distilling research into useful
+  summaries
+- `references/contrarian-research-strategies.md` — Researching claims against
+  conventional wisdom
 - `references/research-output-format.md` — Standard format for research outputs
 
 ## Templates

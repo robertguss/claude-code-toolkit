@@ -8,7 +8,8 @@
 
 ## Purpose
 
-Maps the reader's emotional journey—not just what they'll think, but how they'll feel. The book-architect uses this to design pacing and structure.
+Maps the reader's emotional journey—not just what they'll think, but how they'll
+feel. The book-architect uses this to design pacing and structure.
 
 ---
 

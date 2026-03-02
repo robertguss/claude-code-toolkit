@@ -1,6 +1,8 @@
 # Structural Frameworks for Nonfiction
 
-Frameworks are not templates to fill—they are solved problems. Each framework addresses a specific challenge in guiding readers through transformation. Ask: "What problem does my book face, and which framework solves it?"
+Frameworks are not templates to fill—they are solved problems. Each framework
+addresses a specific challenge in guiding readers through transformation. Ask:
+"What problem does my book face, and which framework solves it?"
 
 ## How to Use This Reference
 
@@ -16,7 +18,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 
 ### Paradigm Shift
 
-**The Problem It Solves:** Reader holds a wrong mental model that blocks transformation. You can't build new understanding on a faulty foundation.
+**The Problem It Solves:** Reader holds a wrong mental model that blocks
+transformation. You can't build new understanding on a faulty foundation.
 
 **The Structure:**
 
@@ -27,7 +30,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 5. Rebuild understanding on new foundation
 6. Apply and extend
 
-**Reader Experience:** "Everything I thought I knew was wrong—but now I see clearly."
+**Reader Experience:** "Everything I thought I knew was wrong—but now I see
+clearly."
 
 **Best For:**
 
@@ -42,13 +46,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Must earn trust before dismantling beliefs
 - Need overwhelming evidence, not just assertions
 
-**Pacing Notes:** Front-load the paradigm establishment and dissonance. The dismantling section is emotionally heavy—build in breathing room. The rebuild should feel like relief.
+**Pacing Notes:** Front-load the paradigm establishment and dissonance. The
+dismantling section is emotionally heavy—build in breathing room. The rebuild
+should feel like relief.
 
 ---
 
 ### Cumulative Capability
 
-**The Problem It Solves:** Reader needs to build skills that depend on each other. Can't do Step 5 without mastering Steps 1-4.
+**The Problem It Solves:** Reader needs to build skills that depend on each
+other. Can't do Step 5 without mastering Steps 1-4.
 
 **The Structure:**
 
@@ -59,7 +66,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 5. Integration (put it all together)
 6. Advanced applications
 
-**Reader Experience:** "I built this skill piece by piece, and now I can do something I couldn't before."
+**Reader Experience:** "I built this skill piece by piece, and now I can do
+something I couldn't before."
 
 **Best For:**
 
@@ -74,13 +82,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Readers may skip ahead and get lost
 - Requires very clear dependencies
 
-**Pacing Notes:** Early chapters are lighter (foundational). Weight increases as capabilities stack. Include practice/application chapters between heavy instruction chapters.
+**Pacing Notes:** Early chapters are lighter (foundational). Weight increases as
+capabilities stack. Include practice/application chapters between heavy
+instruction chapters.
 
 ---
 
 ### Case Study Constellation
 
-**The Problem It Solves:** Abstract principle needs concrete proof from multiple angles. One example isn't enough; patterns must emerge.
+**The Problem It Solves:** Abstract principle needs concrete proof from multiple
+angles. One example isn't enough; patterns must emerge.
 
 **The Structure:**
 
@@ -92,7 +103,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 6. Synthesis (the principle in full, proven by evidence)
 7. Application to reader
 
-**Reader Experience:** "I see the same principle playing out everywhere—it must be true."
+**Reader Experience:** "I see the same principle playing out everywhere—it must
+be true."
 
 **Best For:**
 
@@ -107,13 +119,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Reader may get lost in stories and miss the principle
 - Selection bias concerns (cherry-picked examples)
 
-**Pacing Notes:** Vary case study length and depth. Include at least one counterexample or failure case for credibility. The synthesis chapter should feel like earned insight, not repetition.
+**Pacing Notes:** Vary case study length and depth. Include at least one
+counterexample or failure case for credibility. The synthesis chapter should
+feel like earned insight, not repetition.
 
 ---
 
 ### Concentric Deepening
 
-**The Problem It Solves:** The idea is simple on the surface but profound underneath. Quick explanation isn't enough; reader needs to sit with it.
+**The Problem It Solves:** The idea is simple on the surface but profound
+underneath. Quick explanation isn't enough; reader needs to sit with it.
 
 **The Structure:**
 
@@ -124,7 +139,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 5. Practical application at each level
 6. Integration (the idea in full depth)
 
-**Reader Experience:** "I thought I understood this at first—but it goes so much deeper than I realized."
+**Reader Experience:** "I thought I understood this at first—but it goes so much
+deeper than I realized."
 
 **Best For:**
 
@@ -139,13 +155,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Reader may think they "got it" early and disengage
 - Requires genuinely deep idea (shallow ideas exposed)
 
-**Pacing Notes:** Each layer should deliver genuine new insight—not just restatement. Use stories and examples to make abstract layers concrete. Allow breathing room between layers.
+**Pacing Notes:** Each layer should deliver genuine new insight—not just
+restatement. Use stories and examples to make abstract layers concrete. Allow
+breathing room between layers.
 
 ---
 
 ### Problem → Solution
 
-**The Problem It Solves:** Reader has a specific pain point and wants relief. They don't need theory—they need answers.
+**The Problem It Solves:** Reader has a specific pain point and wants relief.
+They don't need theory—they need answers.
 
 **The Structure:**
 
@@ -172,13 +191,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Solution must genuinely work
 - Reader skepticism if problem is oversimplified
 
-**Pacing Notes:** Don't rush past the problem—reader needs to feel understood. The solution reveal is a pivot point; build to it. Implementation chapters are often heavier; break into digestible pieces.
+**Pacing Notes:** Don't rush past the problem—reader needs to feel understood.
+The solution reveal is a pivot point; build to it. Implementation chapters are
+often heavier; break into digestible pieces.
 
 ---
 
 ### The Quest / Narrative Journey
 
-**The Problem It Solves:** Information alone isn't compelling. Reader needs to be carried through by story.
+**The Problem It Solves:** Information alone isn't compelling. Reader needs to
+be carried through by story.
 
 **The Structure:**
 
@@ -190,7 +212,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 6. Resolution and meaning
 7. Implications for the reader
 
-**Reader Experience:** "I went on a journey with the author and discovered something important."
+**Reader Experience:** "I went on a journey with the author and discovered
+something important."
 
 **Best For:**
 
@@ -205,13 +228,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Requires genuine narrative (can't be manufactured)
 - Reader may not see themselves in author's journey
 
-**Pacing Notes:** Follow narrative arc principles—rising action, climax, resolution. Ideas should emerge from story, not be imposed on it. Balance scene and reflection.
+**Pacing Notes:** Follow narrative arc principles—rising action, climax,
+resolution. Ideas should emerge from story, not be imposed on it. Balance scene
+and reflection.
 
 ---
 
 ### Myth and Counter-Myth
 
-**The Problem It Solves:** Reader believes things that aren't true. Each false belief is a barrier to transformation.
+**The Problem It Solves:** Reader believes things that aren't true. Each false
+belief is a barrier to transformation.
 
 **The Structure:**
 
@@ -222,7 +248,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 5. The integrated truth (what emerges when myths are cleared)
 6. Living the truth (application)
 
-**Reader Experience:** "My assumptions have been systematically shattered—and I see more clearly now."
+**Reader Experience:** "My assumptions have been systematically shattered—and I
+see more clearly now."
 
 **Best For:**
 
@@ -237,13 +264,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Reader may hold myths as identity (resistance)
 - Need constructive replacement, not just demolition
 
-**Pacing Notes:** Myth-busting is heavy work. Vary myth chapter lengths. Include "wins" where reader's existing beliefs are validated. The constructive replacement must be as compelling as the destruction.
+**Pacing Notes:** Myth-busting is heavy work. Vary myth chapter lengths. Include
+"wins" where reader's existing beliefs are validated. The constructive
+replacement must be as compelling as the destruction.
 
 ---
 
 ### Diagnostic → Prescription
 
-**The Problem It Solves:** Reader doesn't know they have the problem you're solving. They need to recognize themselves before accepting solutions.
+**The Problem It Solves:** Reader doesn't know they have the problem you're
+solving. They need to recognize themselves before accepting solutions.
 
 **The Structure:**
 
@@ -255,7 +285,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 6. Your recommended approach
 7. Implementation and maintenance
 
-**Reader Experience:** "I didn't know I had this problem—but now I see it, and I know what to do."
+**Reader Experience:** "I didn't know I had this problem—but now I see it, and I
+know what to do."
 
 **Best For:**
 
@@ -270,13 +301,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Can feel clinical or pathologizing
 - Prescription must be accessible
 
-**Pacing Notes:** Diagnostic section is critical—reader must see themselves. Use multiple symptom profiles to capture different manifestations. Prescription chapters should feel hopeful, not overwhelming.
+**Pacing Notes:** Diagnostic section is critical—reader must see themselves. Use
+multiple symptom profiles to capture different manifestations. Prescription
+chapters should feel hopeful, not overwhelming.
 
 ---
 
 ### Modular / Reference
 
-**The Problem It Solves:** Reader doesn't need to read linearly. They need to find what they need when they need it.
+**The Problem It Solves:** Reader doesn't need to read linearly. They need to
+find what they need when they need it.
 
 **The Structure:**
 
@@ -303,13 +337,16 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Reader may never read most of book
 - Modules must truly stand alone
 
-**Pacing Notes:** Each module should have consistent internal structure. Orientation chapter is crucial—don't skip. Cross-reference between modules to show connections.
+**Pacing Notes:** Each module should have consistent internal structure.
+Orientation chapter is crucial—don't skip. Cross-reference between modules to
+show connections.
 
 ---
 
 ### Dialectical
 
-**The Problem It Solves:** The truth isn't simple. Reader needs to hold tension between competing ideas to reach synthesis.
+**The Problem It Solves:** The truth isn't simple. Reader needs to hold tension
+between competing ideas to reach synthesis.
 
 **The Structure:**
 
@@ -320,7 +357,8 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 5. Implications of the synthesis
 6. Application
 
-**Reader Experience:** "I held two opposing ideas in tension and arrived at deeper understanding."
+**Reader Experience:** "I held two opposing ideas in tension and arrived at
+deeper understanding."
 
 **Best For:**
 
@@ -335,7 +373,9 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 - Synthesis must be genuine (not just compromise)
 - Requires intellectual stamina from reader
 
-**Pacing Notes:** Thesis and antithesis deserve equal treatment. Tension chapter is emotionally difficult—reader is uncomfortable. Synthesis should feel like breakthrough, not cop-out.
+**Pacing Notes:** Thesis and antithesis deserve equal treatment. Tension chapter
+is emotionally difficult—reader is uncomfortable. Synthesis should feel like
+breakthrough, not cop-out.
 
 ---
 
@@ -343,15 +383,18 @@ Frameworks are not templates to fill—they are solved problems. Each framework 
 
 Most successful nonfiction combines frameworks. Common combinations:
 
-**Problem-Solution + Case Studies:** Establish problem, show solution, prove with cases.
+**Problem-Solution + Case Studies:** Establish problem, show solution, prove
+with cases.
 
-**Paradigm Shift + Cumulative Capability:** Dismantle old model, then build new skills on new foundation.
+**Paradigm Shift + Cumulative Capability:** Dismantle old model, then build new
+skills on new foundation.
 
 **Narrative + Principle Extraction:** Tell the story, extract the lessons.
 
 **Myth-Busting + Prescription:** Clear false beliefs, then provide path forward.
 
-When combining, identify the PRIMARY framework (overall shape) and SECONDARY framework (within sections).
+When combining, identify the PRIMARY framework (overall shape) and SECONDARY
+framework (within sections).
 
 ---
 
@@ -360,10 +403,15 @@ When combining, identify the PRIMARY framework (overall shape) and SECONDARY fra
 Use these to identify the right framework:
 
 1. Does my reader know they have a problem? (If no → Diagnostic)
-2. Does my reader hold false beliefs that block progress? (If yes → Paradigm Shift or Myth/Counter-Myth)
-3. Am I teaching skills that build on each other? (If yes → Cumulative Capability)
-4. Is my evidence primarily stories and examples? (If yes → Case Study or Narrative)
+2. Does my reader hold false beliefs that block progress? (If yes → Paradigm
+   Shift or Myth/Counter-Myth)
+3. Am I teaching skills that build on each other? (If yes → Cumulative
+   Capability)
+4. Is my evidence primarily stories and examples? (If yes → Case Study or
+   Narrative)
 5. Is my idea simple but deep? (If yes → Concentric Deepening)
 6. Will readers use this book as ongoing reference? (If yes → Modular)
-7. Am I navigating genuine complexity with no easy answers? (If yes → Dialectical)
-8. Is this a straightforward problem with a clear solution? (If yes → Problem-Solution)
+7. Am I navigating genuine complexity with no easy answers? (If yes →
+   Dialectical)
+8. Is this a straightforward problem with a clear solution? (If yes →
+   Problem-Solution)

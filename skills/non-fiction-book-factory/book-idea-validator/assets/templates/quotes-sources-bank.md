@@ -8,7 +8,8 @@
 
 ## Purpose
 
-Captures powerful quotes with full citations during research. When drafting, the material is already organized and ready.
+Captures powerful quotes with full citations during research. When drafting, the
+material is already organized and ready.
 
 ---
 

@@ -1,8 +1,12 @@
 # Beat Vocabulary Reference
 
-A beat is a single unit of the reader's experience—a moment where something shifts in their understanding, feeling, or engagement. This reference provides a vocabulary of common beat types to draw from during brainstorming.
+A beat is a single unit of the reader's experience—a moment where something
+shifts in their understanding, feeling, or engagement. This reference provides a
+vocabulary of common beat types to draw from during brainstorming.
 
-**How to use this document:** During Phase 2 (Brainstorm Beats), review these categories to generate ideas. Not every chapter needs every type. Use this as a menu, not a checklist.
+**How to use this document:** During Phase 2 (Brainstorm Beats), review these
+categories to generate ideas. Not every chapter needs every type. Use this as a
+menu, not a checklist.
 
 ---
 
@@ -143,7 +147,8 @@ During brainstorming:
 
 1. Review the categories that seem relevant to your chapter
 2. Generate candidate beats without sequencing
-3. Use the vocabulary to spot gaps: "Do we have any evidence beats? Any tension beats?"
+3. Use the vocabulary to spot gaps: "Do we have any evidence beats? Any tension
+   beats?"
 4. Don't force beats that don't serve the reader
 
 During sequencing:
@@ -152,4 +157,6 @@ During sequencing:
 2. Watch for monotony—too many of the same type in a row
 3. Ensure emotional variety alongside intellectual progression
 
-Remember: This vocabulary describes what beats _do_, not what they must contain. A "hook" beat might be a question, a story, a statistic, or a provocative claim—the execution is the ghostwriter's creative domain.
+Remember: This vocabulary describes what beats _do_, not what they must contain.
+A "hook" beat might be a question, a story, a statistic, or a provocative
+claim—the execution is the ghostwriter's creative domain.

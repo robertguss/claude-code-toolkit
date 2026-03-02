@@ -39,10 +39,9 @@ Every ghost writer output follows this structure:
 ```markdown
 ## Confidence Assessment
 
-**Profile Readiness:** [Minimum Viable / Solid / Strong]
-**Profile Freshness:** Created [Month Year], [X months] ago
-**Estimated Accuracy:** ~[X]%
-**Key Uncertainties:** [List specific dimensions or patterns where you had to infer]
+**Profile Readiness:** [Minimum Viable / Solid / Strong] **Profile Freshness:**
+Created [Month Year], [X months] ago **Estimated Accuracy:** ~[X]% **Key
+Uncertainties:** [List specific dimensions or patterns where you had to infer]
 ```
 
 ### Content Guidelines
@@ -80,10 +79,10 @@ Every ghost writer output follows this structure:
 ```markdown
 ## Confidence Assessment
 
-**Profile Readiness:** Solid
-**Profile Freshness:** Created August 2024, 4 months ago
-**Estimated Accuracy:** ~80%
-**Key Uncertainties:** Humor placement (Emerging status), technical jargon density (not addressed in DNA), closing style for this format (limited examples)
+**Profile Readiness:** Solid **Profile Freshness:** Created August 2024, 4
+months ago **Estimated Accuracy:** ~80% **Key Uncertainties:** Humor placement
+(Emerging status), technical jargon density (not addressed in DNA), closing
+style for this format (limited examples)
 ```
 
 ---
@@ -113,7 +112,8 @@ Every ghost writer output follows this structure:
 **Brief Descriptor**
 
 - 2-5 words describing the approach
-- Examples: "Analytical Deep-Dive," "Personal Narrative," "Direct & Punchy," "Exploratory Essay"
+- Examples: "Analytical Deep-Dive," "Personal Narrative," "Direct & Punchy,"
+  "Exploratory Essay"
 
 **Headlines**
 
@@ -127,7 +127,8 @@ Every ghost writer output follows this structure:
 **Content**
 
 - Clean, uninterrupted prose
-- No bracketed comments unless research placeholders: `[STAT: specific data needed]`
+- No bracketed comments unless research placeholders:
+  `[STAT: specific data needed]`
 - Fully readable as a standalone piece
 - Complete—don't trail off or abbreviate
 
@@ -192,23 +193,29 @@ Every ghost writer output follows this structure:
 ```markdown
 ## Draft A Notes
 
-**Approach:** Leads with the personal angle, building to the analytical point. Emphasizes conversational warmth.
+**Approach:** Leads with the personal angle, building to the analytical point.
+Emphasizes conversational warmth.
 
 **Patterns Applied:**
 
-- Short sentences (avg 14 words): "The code worked. Then it didn't. Three hours later, I found the bug hiding in plain sight."
-- Direct address ("you"): Used frequently as per DNA, e.g., "You've probably seen this yourself."
-- Anglo-Saxon vocabulary: Chose "start" over "commence," "help" over "facilitate"
+- Short sentences (avg 14 words): "The code worked. Then it didn't. Three hours
+  later, I found the bug hiding in plain sight."
+- Direct address ("you"): Used frequently as per DNA, e.g., "You've probably
+  seen this yourself."
+- Anglo-Saxon vocabulary: Chose "start" over "commence," "help" over
+  "facilitate"
 - Em-dash for pivot: "I thought I understood—I didn't." — _inferred frequency_
 
 **Decisions Made:**
 
-- Opening with anecdote: DNA shows preference for scene-setting; chose personal story over thesis-first
+- Opening with anecdote: DNA shows preference for scene-setting; chose personal
+  story over thesis-first
 - Length: Erred toward abundance (~1,400 words) per general guidance
 
 **Uncertainties:**
 
-- Technical jargon: DNA doesn't specify. Used sparingly with brief explanations. Review if too much/little.
+- Technical jargon: DNA doesn't specify. Used sparingly with brief explanations.
+  Review if too much/little.
 - Closing: Limited examples in DNA. Ended with question callback to opening.
 ```
 
@@ -241,7 +248,8 @@ Same as Draft A:
 **Brief Descriptor**
 
 - Should contrast with Draft A
-- Make the difference clear: "Analytical & Direct" vs. Draft A's "Personal Narrative"
+- Make the difference clear: "Analytical & Direct" vs. Draft A's "Personal
+  Narrative"
 
 **Headlines**
 
@@ -269,14 +277,11 @@ Same structure as Draft A Notes, but emphasize differences:
 
 **Approach:** [How this differs from Draft A]
 
-**Patterns Applied:**
-[Same structure—note any patterns emphasized differently]
+**Patterns Applied:** [Same structure—note any patterns emphasized differently]
 
-**Decisions Made:**
-[Same structure—note different choices]
+**Decisions Made:** [Same structure—note different choices]
 
-**Uncertainties:**
-[Same structure—may share some with A, may have unique ones]
+**Uncertainties:** [Same structure—may share some with A, may have unique ones]
 ```
 
 ---
@@ -290,13 +295,14 @@ Same structure as Draft A Notes, but emphasize differences:
 ```markdown
 ## Comparison
 
-**Draft A emphasizes:** [Aspects of voice, approach, or topic]
-**Draft B emphasizes:** [Aspects of voice, approach, or topic]
+**Draft A emphasizes:** [Aspects of voice, approach, or topic] **Draft B
+emphasizes:** [Aspects of voice, approach, or topic]
 
-**When to use A:** [Situations, audiences, or goals where A fits better]
-**When to use B:** [Situations, audiences, or goals where B fits better]
+**When to use A:** [Situations, audiences, or goals where A fits better] **When
+to use B:** [Situations, audiences, or goals where B fits better]
 
-**Observations:** [Honest perspective—concerns, suggestions, tensions you noticed]
+**Observations:** [Honest perspective—concerns, suggestions, tensions you
+noticed]
 ```
 
 ### Content Guidelines
@@ -319,20 +325,26 @@ Same structure as Draft A Notes, but emphasize differences:
 - This is where you share perspective even if not asked
 - Honest concerns: "Both drafts may be too long for mobile readers"
 - Suggestions: "You might combine A's opening with B's structure"
-- Tensions: "The topic pushed toward formality; your voice is casual—I leaned casual but review carefully"
+- Tensions: "The topic pushed toward formality; your voice is casual—I leaned
+  casual but review carefully"
 
 ### Example
 
 ```markdown
 ## Comparison
 
-**Draft A emphasizes:** Warmth and personal connection. Opens with story, builds analytical point gradually.
-**Draft B emphasizes:** Authority and directness. Opens with thesis, supports with evidence, personal touches woven in.
+**Draft A emphasizes:** Warmth and personal connection. Opens with story, builds
+analytical point gradually. **Draft B emphasizes:** Authority and directness.
+Opens with thesis, supports with evidence, personal touches woven in.
 
-**When to use A:** If your audience values connection over efficiency. Blog context. Readers with time.
-**When to use B:** If readers want the point fast. Newsletter or LinkedIn. Busy professionals.
+**When to use A:** If your audience values connection over efficiency. Blog
+context. Readers with time. **When to use B:** If readers want the point fast.
+Newsletter or LinkedIn. Busy professionals.
 
-**Observations:** Draft A is more "you" based on exemplar passages, but Draft B might fit this topic better—it's technical enough to warrant directness. Consider A's opening with B's structure. Also, both are ~1,400 words—if length is a concern, let me know and I'll trim.
+**Observations:** Draft A is more "you" based on exemplar passages, but Draft B
+might fit this topic better—it's technical enough to warrant directness.
+Consider A's opening with B's structure. Also, both are ~1,400 words—if length
+is a concern, let me know and I'll trim.
 ```
 
 ---

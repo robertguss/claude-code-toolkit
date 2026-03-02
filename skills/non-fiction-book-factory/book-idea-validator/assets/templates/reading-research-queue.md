@@ -8,7 +8,8 @@
 
 ## Purpose
 
-Prioritized list of books and sources the author should engage with before or during drafting. Keeps focus when sitting down to do deep work.
+Prioritized list of books and sources the author should engage with before or
+during drafting. Keeps focus when sitting down to do deep work.
 
 ---
 

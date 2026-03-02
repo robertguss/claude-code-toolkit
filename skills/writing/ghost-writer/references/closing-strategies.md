@@ -1,14 +1,18 @@
 # Closing Strategies
 
-How to end pieces with impact. Match the closing to the opening, the writer's DNA, and the task.
+How to end pieces with impact. Match the closing to the opening, the writer's
+DNA, and the task.
 
 ---
 
 ## Purpose
 
-Strong closings create lasting impressions. They resolve tension, land the argument, or leave readers thinking. This reference provides 15 closing strategies with examples and guidance.
+Strong closings create lasting impressions. They resolve tension, land the
+argument, or leave readers thinking. This reference provides 15 closing
+strategies with examples and guidance.
 
-**Priority:** If the DNA document specifies closing patterns, follow those. Use this reference when DNA is silent or for generating variety between drafts.
+**Priority:** If the DNA document specifies closing patterns, follow those. Use
+this reference when DNA is silent or for generating variety between drafts.
 
 ---
 
@@ -16,12 +20,12 @@ Strong closings create lasting impressions. They resolve tension, land the argum
 
 ### 1. The Callback
 
-**What It Is:**
-Return to an image, phrase, or scene from the opening.
+**What It Is:** Return to an image, phrase, or scene from the opening.
 
 **Example:**
 
-> Opening: "At 3 a.m. on a Tuesday, I found myself debugging a script I'd written three years ago."
+> Opening: "At 3 a.m. on a Tuesday, I found myself debugging a script I'd
+> written three years ago."
 >
 > Closing: "It's 3 a.m. again. This time, I know exactly what I'm doing."
 
@@ -31,19 +35,19 @@ Return to an image, phrase, or scene from the opening.
 - When opening established a strong image
 - Pieces with emotional arcs
 
-**Effect:**
-Creates completeness, shows change.
+**Effect:** Creates completeness, shows change.
 
 ---
 
 ### 2. The Resonant Image
 
-**What It Is:**
-End with a concrete, evocative image that captures the piece's essence.
+**What It Is:** End with a concrete, evocative image that captures the piece's
+essence.
 
 **Example:**
 
-> "I close my laptop and step outside. The streetlights are flickering on, one by one."
+> "I close my laptop and step outside. The streetlights are flickering on, one
+> by one."
 
 **When to Use:**
 
@@ -51,15 +55,13 @@ End with a concrete, evocative image that captures the piece's essence.
 - Narrative pieces
 - When mood matters
 
-**Effect:**
-Leaves readers with something to visualize.
+**Effect:** Leaves readers with something to visualize.
 
 ---
 
 ### 3. The Kicker
 
-**What It Is:**
-End with a punchy, memorable line—often short.
+**What It Is:** End with a punchy, memorable line—often short.
 
 **Example:**
 
@@ -71,15 +73,13 @@ End with a punchy, memorable line—often short.
 - When confidence is earned
 - Short-form content
 
-**Effect:**
-Lands with impact, memorable.
+**Effect:** Lands with impact, memorable.
 
 ---
 
 ### 4. The Question
 
-**What It Is:**
-End by posing a question for the reader to consider.
+**What It Is:** End by posing a question for the reader to consider.
 
 **Example:**
 
@@ -95,21 +95,20 @@ End by posing a question for the reader to consider.
 - Exploratory pieces
 - Invitations to action
 
-**Caution:**
-Don't use if it feels like avoiding commitment.
+**Caution:** Don't use if it feels like avoiding commitment.
 
 ---
 
 ### 5. The Circle Close
 
-**What It Is:**
-End where you began, but with new meaning.
+**What It Is:** End where you began, but with new meaning.
 
 **Example:**
 
 > Opening: "Everyone told me to follow my passion."
 >
-> Closing: "Everyone told me to follow my passion. Now I understand what they really meant."
+> Closing: "Everyone told me to follow my passion. Now I understand what they
+> really meant."
 
 **When to Use:**
 
@@ -117,15 +116,13 @@ End where you began, but with new meaning.
 - Pieces where meaning evolved
 - After a journey
 
-**Effect:**
-Same words, different resonance.
+**Effect:** Same words, different resonance.
 
 ---
 
 ### 6. The Look Forward
 
-**What It Is:**
-Project into the future—what comes next.
+**What It Is:** Project into the future—what comes next.
 
 **Example:**
 
@@ -137,15 +134,13 @@ Project into the future—what comes next.
 - After establishing current state
 - When future matters
 
-**Effect:**
-Opens possibility, creates momentum.
+**Effect:** Opens possibility, creates momentum.
 
 ---
 
 ### 7. The Quiet Landing
 
-**What It Is:**
-End softly, without drama—a gentle conclusion.
+**What It Is:** End softly, without drama—a gentle conclusion.
 
 **Example:**
 
@@ -157,15 +152,13 @@ End softly, without drama—a gentle conclusion.
 - When understatement fits
 - Personal, reflective pieces
 
-**Effect:**
-Peaceful, contemplative.
+**Effect:** Peaceful, contemplative.
 
 ---
 
 ### 8. The Definitive Statement
 
-**What It Is:**
-End with a clear, confident assertion.
+**What It Is:** End with a clear, confident assertion.
 
 **Example:**
 
@@ -177,15 +170,13 @@ End with a clear, confident assertion.
 - When conviction is the point
 - After building the case
 
-**Effect:**
-Authoritative, conclusive.
+**Effect:** Authoritative, conclusive.
 
 ---
 
 ### 9. The Call to Action
 
-**What It Is:**
-Directly ask the reader to do something.
+**What It Is:** Directly ask the reader to do something.
 
 **Example:**
 
@@ -197,19 +188,18 @@ Directly ask the reader to do something.
 - Advice pieces
 - When next step matters
 
-**Caution:**
-Can feel pushy if not earned. Match to DNA.
+**Caution:** Can feel pushy if not earned. Match to DNA.
 
 ---
 
 ### 10. The Expansion
 
-**What It Is:**
-Zoom out from the specific to the universal.
+**What It Is:** Zoom out from the specific to the universal.
 
 **Example:**
 
-> "This isn't just about code reviews. It's about how we treat each other's work—how we build trust, one comment at a time."
+> "This isn't just about code reviews. It's about how we treat each other's
+> work—how we build trust, one comment at a time."
 
 **When to Use:**
 
@@ -217,15 +207,13 @@ Zoom out from the specific to the universal.
 - When larger theme applies
 - Pieces with philosophical undercurrent
 
-**Effect:**
-Elevates stakes, connects to bigger picture.
+**Effect:** Elevates stakes, connects to bigger picture.
 
 ---
 
 ### 11. The Admission
 
-**What It Is:**
-End with an honest acknowledgment of limits or uncertainty.
+**What It Is:** End with an honest acknowledgment of limits or uncertainty.
 
 **Example:**
 
@@ -237,19 +225,18 @@ End with an honest acknowledgment of limits or uncertainty.
 - When humility fits
 - Personal essays
 
-**Effect:**
-Builds trust through honesty.
+**Effect:** Builds trust through honesty.
 
 ---
 
 ### 12. The Reversal
 
-**What It Is:**
-Subvert expectations in the final line.
+**What It Is:** Subvert expectations in the final line.
 
 **Example:**
 
-> "I spent years trying to be productive. Then I realized: I just wanted to be happy."
+> "I spent years trying to be productive. Then I realized: I just wanted to be
+> happy."
 
 **When to Use:**
 
@@ -257,19 +244,18 @@ Subvert expectations in the final line.
 - Pieces building to insight
 - After conventional setup
 
-**Effect:**
-Surprise, reframing.
+**Effect:** Surprise, reframing.
 
 ---
 
 ### 13. The Quotation
 
-**What It Is:**
-End with someone else's words that encapsulate the piece.
+**What It Is:** End with someone else's words that encapsulate the piece.
 
 **Example:**
 
-> "As Hemingway said, 'There is nothing to writing. All you do is sit down at a typewriter and bleed.'"
+> "As Hemingway said, 'There is nothing to writing. All you do is sit down at a
+> typewriter and bleed.'"
 
 **When to Use:**
 
@@ -277,15 +263,13 @@ End with someone else's words that encapsulate the piece.
 - Academic or literary essays
 - When authority adds weight
 
-**Caution:**
-Don't end with a quote that does your work for you.
+**Caution:** Don't end with a quote that does your work for you.
 
 ---
 
 ### 14. The Invitation
 
-**What It Is:**
-Welcome the reader into continued engagement.
+**What It Is:** Welcome the reader into continued engagement.
 
 **Example:**
 
@@ -297,15 +281,13 @@ Welcome the reader into continued engagement.
 - When dialogue matters
 - Newsletters, blogs with engagement focus
 
-**Effect:**
-Opens relationship, invites response.
+**Effect:** Opens relationship, invites response.
 
 ---
 
 ### 15. The Simple Truth
 
-**What It Is:**
-State the core insight plainly.
+**What It Is:** State the core insight plainly.
 
 **Example:**
 
@@ -317,14 +299,14 @@ State the core insight plainly.
 - When simplicity is powerful
 - Pieces that could overcomplicate
 
-**Effect:**
-Clarity, groundedness.
+**Effect:** Clarity, groundedness.
 
 ---
 
 ## Matching Closing to Opening
 
-Strong pieces have opening/closing resonance. The closing should feel like it belongs with the opening.
+Strong pieces have opening/closing resonance. The closing should feel like it
+belongs with the opening.
 
 | Opening Type      | Complementary Closings                                |
 | ----------------- | ----------------------------------------------------- |
@@ -342,30 +324,25 @@ Strong pieces have opening/closing resonance. The closing should feel like it be
 
 **The Summary:**
 
-> "In conclusion, we have seen that..."
-> "To summarize..."
-> "In summary..."
+> "In conclusion, we have seen that..." "To summarize..." "In summary..."
 
 These signal you don't trust your reader to have followed.
 
 **The Apology:**
 
-> "I know this was long, but..."
-> "Sorry if this didn't make sense..."
+> "I know this was long, but..." "Sorry if this didn't make sense..."
 
 Undermines the piece.
 
 **The Fizzle:**
 
-> "Anyway, that's just what I think."
-> "So yeah, that's pretty much it."
+> "Anyway, that's just what I think." "So yeah, that's pretty much it."
 
 Anticlimactic, suggests you lost interest.
 
 **The Overpromise:**
 
-> "This will change everything."
-> "And the world was never the same."
+> "This will change everything." "And the world was never the same."
 
 Unless truly earned, this is empty drama.
 
@@ -421,22 +398,18 @@ The final sentence carries disproportionate weight. Make it:
 
 **Short when possible:**
 
-> "That's what matters."
-> "I'm still learning."
-> "We begin again."
+> "That's what matters." "I'm still learning." "We begin again."
 
 **Concrete rather than abstract:**
 
-> Not: "And so the journey continues toward self-actualization."
-> Better: "Tomorrow, I'll try again."
+> Not: "And so the journey continues toward self-actualization." Better:
+> "Tomorrow, I'll try again."
 
 **Active rather than passive:**
 
-> Not: "The lesson was learned."
-> Better: "I learned."
+> Not: "The lesson was learned." Better: "I learned."
 
-**Complete:**
-The reader should know the piece is over. No trailing off.
+**Complete:** The reader should know the piece is over. No trailing off.
 
 ---
 

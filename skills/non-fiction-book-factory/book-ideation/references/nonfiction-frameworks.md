@@ -1,6 +1,7 @@
 # Nonfiction Structural Frameworks
 
-Reference for previewing potential book structures during ideation. Full structural decisions belong to `book-architect`—this is for early orientation.
+Reference for previewing potential book structures during ideation. Full
+structural decisions belong to `book-architect`—this is for early orientation.
 
 ## Framework Overview
 
@@ -23,25 +24,29 @@ Reference for previewing potential book structures during ideation. Full structu
 
 ### Problem → Solution
 
-**Structure:** Define the problem → Explain why it exists → Present the solution → Show implementation
+**Structure:** Define the problem → Explain why it exists → Present the solution
+→ Show implementation
 
 **Works when:** Reader has a clear pain point and wants practical resolution
 
 **Example:** _Getting Things Done_ by David Allen
 
-**Key insight:** The problem definition must resonate deeply before the solution feels relevant.
+**Key insight:** The problem definition must resonate deeply before the solution
+feels relevant.
 
 ---
 
 ### Transformation Arc
 
-**Structure:** Reader's starting state → Catalyst for change → Journey through stages → Arrival at new state
+**Structure:** Reader's starting state → Catalyst for change → Journey through
+stages → Arrival at new state
 
 **Works when:** The goal is internal change, not just information transfer
 
 **Example:** _Atomic Habits_ by James Clear
 
-**Key insight:** Each chapter should move the reader measurably closer to the end state.
+**Key insight:** Each chapter should move the reader measurably closer to the
+end state.
 
 ---
 
@@ -53,13 +58,15 @@ Reference for previewing potential book structures during ideation. Full structu
 
 **Example:** _The Elements of Style_ by Strunk & White
 
-**Key insight:** Never introduce a concept before its prerequisites are established.
+**Key insight:** Never introduce a concept before its prerequisites are
+established.
 
 ---
 
 ### Concentric Circles
 
-**Structure:** Surface understanding → Deeper layer → Deeper still → Core insight
+**Structure:** Surface understanding → Deeper layer → Deeper still → Core
+insight
 
 **Works when:** The idea has depth that rewards repeated examination
 
@@ -73,17 +80,20 @@ Reference for previewing potential book structures during ideation. Full structu
 
 **Structure:** Principle → Case 1 → Case 2 → Case 3 → Synthesis
 
-**Works when:** Abstract principles need concrete grounding; diversity of examples strengthens the argument
+**Works when:** Abstract principles need concrete grounding; diversity of
+examples strengthens the argument
 
 **Example:** _Good to Great_ by Jim Collins
 
-**Key insight:** Cases should differ enough to prove the principle's generality, not just repeat it.
+**Key insight:** Cases should differ enough to prove the principle's generality,
+not just repeat it.
 
 ---
 
 ### Before/During/After
 
-**Structure:** What happens before (preparation) → What happens during (execution) → What happens after (integration)
+**Structure:** What happens before (preparation) → What happens during
+(execution) → What happens after (integration)
 
 **Works when:** The reader faces a discrete event or transition
 
@@ -95,25 +105,30 @@ Reference for previewing potential book structures during ideation. Full structu
 
 ### Myth & Counter-Myth
 
-**Structure:** Conventional wisdom → Why it's wrong → The real truth → Implications
+**Structure:** Conventional wisdom → Why it's wrong → The real truth →
+Implications
 
 **Works when:** You're making a contrarian argument against established beliefs
 
 **Example:** _The 4-Hour Workweek_ by Tim Ferriss
 
-**Key insight:** The myth must be genuinely believed by the reader for the counter-myth to land.
+**Key insight:** The myth must be genuinely believed by the reader for the
+counter-myth to land.
 
 ---
 
 ### The Quest
 
-**Structure:** A journey (literal or metaphorical) that takes both author and reader somewhere
+**Structure:** A journey (literal or metaphorical) that takes both author and
+reader somewhere
 
-**Works when:** Narrative carries the ideas; the author's experience IS the content
+**Works when:** Narrative carries the ideas; the author's experience IS the
+content
 
 **Example:** _Into the Wild_ by Jon Krakauer (narrative nonfiction)
 
-**Key insight:** The reader must want to follow the author; voice and story matter as much as ideas.
+**Key insight:** The reader must want to follow the author; voice and story
+matter as much as ideas.
 
 ---
 
@@ -121,19 +136,23 @@ Reference for previewing potential book structures during ideation. Full structu
 
 **Structure:** Self-contained sections organized by topic, usable in any order
 
-**Works when:** Readers will dip in and out; not meant for cover-to-cover reading
+**Works when:** Readers will dip in and out; not meant for cover-to-cover
+reading
 
 **Example:** _The Chicago Manual of Style_
 
-**Key insight:** Navigation and structure are paramount; each module must stand alone.
+**Key insight:** Navigation and structure are paramount; each module must stand
+alone.
 
 ---
 
 ### Dialectical
 
-**Structure:** Thesis → Antithesis → Synthesis (possibly repeated at deeper levels)
+**Structure:** Thesis → Antithesis → Synthesis (possibly repeated at deeper
+levels)
 
-**Works when:** The topic involves genuine tensions that can't be resolved by picking a side
+**Works when:** The topic involves genuine tensions that can't be resolved by
+picking a side
 
 **Example:** _The Righteous Mind_ by Jonathan Haidt
 
@@ -145,16 +164,23 @@ Reference for previewing potential book structures during ideation. Full structu
 
 Most successful nonfiction books combine frameworks:
 
-- **Transformation Arc + Teaching Progression:** Reader changes by learning skills sequentially
-- **Problem → Solution + Case Study Mosaic:** Problem defined, solution illustrated through multiple cases
-- **Myth & Counter-Myth + Dialectical:** Destroy the myth, acknowledge what it got right, synthesize a better view
+- **Transformation Arc + Teaching Progression:** Reader changes by learning
+  skills sequentially
+- **Problem → Solution + Case Study Mosaic:** Problem defined, solution
+  illustrated through multiple cases
+- **Myth & Counter-Myth + Dialectical:** Destroy the myth, acknowledge what it
+  got right, synthesize a better view
 
 ## Framework Selection Questions
 
 Ask during ideation to hint at the right structure:
 
-1. Is this primarily about **what to do** (Teaching Progression) or **who to become** (Transformation Arc)?
-2. Does the reader have a **specific problem** (Problem → Solution) or a **general curiosity** (Concentric Circles)?
-3. Is my argument **contrarian** (Myth & Counter-Myth) or **additive** (Teaching Progression)?
+1. Is this primarily about **what to do** (Teaching Progression) or **who to
+   become** (Transformation Arc)?
+2. Does the reader have a **specific problem** (Problem → Solution) or a
+   **general curiosity** (Concentric Circles)?
+3. Is my argument **contrarian** (Myth & Counter-Myth) or **additive** (Teaching
+   Progression)?
 4. Is **narrative** central to the value (The Quest) or secondary (Modular)?
-5. Are there **cases/examples** that carry the weight (Case Study Mosaic) or is it **principle-first** (Concentric Circles)?
+5. Are there **cases/examples** that carry the weight (Case Study Mosaic) or is
+   it **principle-first** (Concentric Circles)?

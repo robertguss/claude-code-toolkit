@@ -1,8 +1,12 @@
 # Special Chapter Types Guide
 
-Some chapters have unique structural demands that differ from standard chapters. This guide provides adaptations to the chapter architecture workflow for these special cases.
+Some chapters have unique structural demands that differ from standard chapters.
+This guide provides adaptations to the chapter architecture workflow for these
+special cases.
 
-**How to use this document:** During Phase 1 (Orient), identify if the chapter is a special type. If so, consult the relevant section for adapted guidance throughout the workflow.
+**How to use this document:** During Phase 1 (Orient), identify if the chapter
+is a special type. If so, consult the relevant section for adapted guidance
+throughout the workflow.
 
 ---
 
@@ -10,7 +14,8 @@ Some chapters have unique structural demands that differ from standard chapters.
 
 ### What Makes Introductions Different
 
-An introduction isn't just "Chapter 1"—it has distinct jobs that regular chapters don't:
+An introduction isn't just "Chapter 1"—it has distinct jobs that regular
+chapters don't:
 
 1. **Sell the book** — Convince the reader this book is worth their time
 2. **Establish the author** — Build credibility and connection
@@ -54,10 +59,14 @@ An introduction isn't just "Chapter 1"—it has distinct jobs that regular chapt
 
 ### Introduction-Specific Considerations
 
-- **Length:** Introductions are often shorter than body chapters. Get the reader into the content.
-- **Voice:** This is where the author's voice is established. The ghostwriter should nail the tone here.
-- **The "skim test":** Many readers skim introductions. Key messages should survive skimming.
-- **Optional vs. essential:** Some readers skip introductions. The book should still work if they do (but reward those who don't skip).
+- **Length:** Introductions are often shorter than body chapters. Get the reader
+  into the content.
+- **Voice:** This is where the author's voice is established. The ghostwriter
+  should nail the tone here.
+- **The "skim test":** Many readers skim introductions. Key messages should
+  survive skimming.
+- **Optional vs. essential:** Some readers skip introductions. The book should
+  still work if they do (but reward those who don't skip).
 
 ### Reader Exit State for Introductions
 
@@ -76,7 +85,8 @@ The reader should leave the introduction:
 
 A conclusion doesn't just end the last topic—it ends the entire book:
 
-1. **Land the transformation** — The book's total promise, not just the last chapter's
+1. **Land the transformation** — The book's total promise, not just the last
+   chapter's
 2. **Create completion** — The reader finished something meaningful
 3. **Synthesize the journey** — Tie threads together
 4. **Send the reader forward** — Into life, with what they've gained
@@ -124,9 +134,11 @@ A conclusion doesn't just end the last topic—it ends the entire book:
 
 ### Conclusion-Specific Considerations
 
-- **Avoid introducing new ideas:** The conclusion synthesizes, not adds. New content confuses.
+- **Avoid introducing new ideas:** The conclusion synthesizes, not adds. New
+  content confuses.
 - **Honor the journey:** Acknowledge what the reader has gone through.
-- **Emotional landing:** The conclusion often carries the most emotional weight. Don't rush it.
+- **Emotional landing:** The conclusion often carries the most emotional weight.
+  Don't rush it.
 - **Length:** Conclusions can be shorter. The work is done; this is the landing.
 
 ### Reader Exit State for Conclusions
@@ -144,7 +156,8 @@ The reader should leave the conclusion:
 
 ### What Makes Case Studies Different
 
-A case study chapter is structured around an extended example rather than an argument:
+A case study chapter is structured around an extended example rather than an
+argument:
 
 1. **Story as structure** — The case provides the skeleton, not the concepts
 2. **Inductive reasoning** — Insight emerges from the case, not before it
@@ -187,10 +200,13 @@ A case study chapter is structured around an extended example rather than an arg
 
 ### Case Study-Specific Considerations
 
-- **Case selection:** The case must genuinely illuminate the chapter's point—not just be interesting.
+- **Case selection:** The case must genuinely illuminate the chapter's point—not
+  just be interesting.
 - **Detail level:** Enough to be vivid, not so much to lose the reader.
-- **The "so what":** Don't let the story do all the work. Explicit analysis is still needed.
-- **Transferability:** Make clear how the specific case connects to the reader's situation.
+- **The "so what":** Don't let the story do all the work. Explicit analysis is
+  still needed.
+- **Transferability:** Make clear how the specific case connects to the reader's
+  situation.
 
 ---
 
@@ -243,8 +259,10 @@ These chapters teach a skill or process:
 
 - **Clarity over elegance:** Instructions must be unambiguous.
 - **Testing:** Can someone actually follow these steps?
-- **Visuals:** Consider whether diagrams, screenshots, or illustrations are needed (note for production).
-- **Skill level:** Calibrate to the reader—don't over-explain basics or assume advanced knowledge.
+- **Visuals:** Consider whether diagrams, screenshots, or illustrations are
+  needed (note for production).
+- **Skill level:** Calibrate to the reader—don't over-explain basics or assume
+  advanced knowledge.
 
 ---
 
@@ -273,7 +291,8 @@ Q&A chapters replace traditional beats with Q&A pairs:
 
 ### Q&A Considerations
 
-- **Question selection:** Questions must be genuine reader questions, not manufactured.
+- **Question selection:** Questions must be genuine reader questions, not
+  manufactured.
 - **Question sequence:** Order should flow logically or build.
 - **Answer depth:** Each answer should be satisfying—not just a sentence.
 - **Integration:** Q&A chapter should still connect to the book's larger arc.
@@ -288,7 +307,8 @@ Short chapters between major sections that provide transition:
 
 1. **Breathing room** — Give the reader space between intense sections
 2. **Transition** — Bridge from one major section to another
-3. **Orientation** — Help reader understand where they've been and where they're going
+3. **Orientation** — Help reader understand where they've been and where they're
+   going
 4. **Emotional reset** — Shift gears for what comes next
 
 ### Interlude Patterns
@@ -315,7 +335,8 @@ Short chapters between major sections that provide transition:
 
 - **Length:** Short. Interludes that run long defeat their purpose.
 - **Tone:** Often lighter or more personal than main chapters.
-- **Non-essential:** The book should work if someone skips interludes, but reward those who read them.
+- **Non-essential:** The book should work if someone skips interludes, but
+  reward those who read them.
 
 ---
 
@@ -323,10 +344,13 @@ Short chapters between major sections that provide transition:
 
 When architecting a special chapter:
 
-1. **Orient phase:** Identify the chapter type and consult the relevant section above
+1. **Orient phase:** Identify the chapter type and consult the relevant section
+   above
 2. **Brainstorm phase:** Use the adapted beat structure as your starting point
 3. **Sequence phase:** Follow the patterns typical for this chapter type
 4. **Flesh out phase:** Ensure beats serve the special chapter's unique jobs
-5. **Review phase:** Stress-test against both general and type-specific success criteria
+5. **Review phase:** Stress-test against both general and type-specific success
+   criteria
 
-The output document (Chapter Outline) should note the chapter type and any type-specific considerations for the ghostwriter.
+The output document (Chapter Outline) should note the chapter type and any
+type-specific considerations for the ghostwriter.

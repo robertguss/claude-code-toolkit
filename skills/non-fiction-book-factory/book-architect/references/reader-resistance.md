@@ -1,14 +1,18 @@
 # Reader Resistance: Objections and How to Handle Them
 
-Readers are not passive recipients. They argue back, question claims, resist conclusions, and disengage when the book fails to address their concerns. Anticipating and strategically handling resistance is architectural work.
+Readers are not passive recipients. They argue back, question claims, resist
+conclusions, and disengage when the book fails to address their concerns.
+Anticipating and strategically handling resistance is architectural work.
 
 ## Types of Resistance
 
 ### 1. Logical Objections
 
-**What It Sounds Like:** "But what about X? Doesn't that contradict what you're saying?"
+**What It Sounds Like:** "But what about X? Doesn't that contradict what you're
+saying?"
 
-**Nature:** Rational counterarguments to claims, evidence, or reasoning. The reader spots what they perceive as a flaw in the argument.
+**Nature:** Rational counterarguments to claims, evidence, or reasoning. The
+reader spots what they perceive as a flaw in the argument.
 
 **Examples:**
 
@@ -19,7 +23,8 @@ Readers are not passive recipients. They argue back, question claims, resist con
 
 **How to Address:**
 
-- Pre-empt with acknowledgment: "You might be wondering about X—and that's a fair question."
+- Pre-empt with acknowledgment: "You might be wondering about X—and that's a
+  fair question."
 - Provide evidence directly addressing the objection
 - Acknowledge legitimate limitations of your argument
 - Distinguish between objections that matter and those that don't
@@ -28,9 +33,11 @@ Readers are not passive recipients. They argue back, question claims, resist con
 
 ### 2. Practical Objections
 
-**What It Sounds Like:** "That sounds nice in theory, but it won't work in my situation."
+**What It Sounds Like:** "That sounds nice in theory, but it won't work in my
+situation."
 
-**Nature:** Implementation concerns. Reader may accept the idea but doubt they can apply it.
+**Nature:** Implementation concerns. Reader may accept the idea but doubt they
+can apply it.
 
 **Examples:**
 
@@ -51,9 +58,11 @@ Readers are not passive recipients. They argue back, question claims, resist con
 
 ### 3. Ideological Objections
 
-**What It Sounds Like:** "I fundamentally disagree with your premise because I believe..."
+**What It Sounds Like:** "I fundamentally disagree with your premise because I
+believe..."
 
-**Nature:** Worldview conflicts. Reader's core beliefs clash with your argument's foundation.
+**Nature:** Worldview conflicts. Reader's core beliefs clash with your
+argument's foundation.
 
 **Examples:**
 
@@ -76,7 +85,8 @@ Readers are not passive recipients. They argue back, question claims, resist con
 
 **What It Sounds Like:** (Often unspoken) "I don't WANT this to be true."
 
-**Nature:** Ego, identity, sunk cost. Your argument threatens something the reader has invested in.
+**Nature:** Ego, identity, sunk cost. Your argument threatens something the
+reader has invested in.
 
 **Examples:**
 
@@ -114,7 +124,8 @@ Readers are not passive recipients. They argue back, question claims, resist con
 - Let evidence speak—show don't tell
 - Acknowledge limitations of your perspective
 - Leverage other credible sources
-- Turn outsider status into asset when possible: "Precisely because I'm not an insider, I could see..."
+- Turn outsider status into asset when possible: "Precisely because I'm not an
+  insider, I could see..."
 
 ---
 
@@ -122,7 +133,8 @@ Readers are not passive recipients. They argue back, question claims, resist con
 
 **What It Sounds Like:** (Reader puts book down)
 
-**Nature:** Not intellectual objection—just loss of engagement. Boredom, overwhelm, confusion.
+**Nature:** Not intellectual objection—just loss of engagement. Boredom,
+overwhelm, confusion.
 
 **Examples:**
 
@@ -195,7 +207,8 @@ When you address objections matters as much as how.
 
 ### Steelman and Dismantle
 
-**What It Is:** Present the strongest version of the opposing view, then systematically take it apart.
+**What It Is:** Present the strongest version of the opposing view, then
+systematically take it apart.
 
 **When to Use:**
 
@@ -220,7 +233,8 @@ When you address objections matters as much as how.
 
 ### Concede and Reframe
 
-**What It Is:** Acknowledge the objection has merit, then show why it doesn't undermine your core argument.
+**What It Is:** Acknowledge the objection has merit, then show why it doesn't
+undermine your core argument.
 
 **When to Use:**
 
@@ -255,7 +269,8 @@ When you address objections matters as much as how.
 **How to Execute:**
 
 - Simply don't mention it
-- Or: "There are other objections we won't address here. This book is focused on..."
+- Or: "There are other objections we won't address here. This book is focused
+  on..."
 
 **Risks:**
 
@@ -271,7 +286,8 @@ For each major claim or chapter:
 
 1. **List potential objections** — What might a skeptical reader think?
 2. **Categorize** — Logical? Practical? Emotional? Credibility?
-3. **Prioritize** — Which objections are most common? Most damaging if unaddressed?
+3. **Prioritize** — Which objections are most common? Most damaging if
+   unaddressed?
 4. **Assign strategy** — Pre-empt? Delay? Steelman? Concede? Silence?
 5. **Place in architecture** — Which chapter handles it? Where in the chapter?
 
@@ -293,6 +309,9 @@ Your architecture has resistance problems if:
 
 ## The Meta-Principle
 
-Resistance is information. Every objection reveals what the reader needs to accept your argument. Architectural skill is sequencing those needs: What must they accept first? What evidence creates openness to the next claim? What emotional safety do they need before you challenge their identity?
+Resistance is information. Every objection reveals what the reader needs to
+accept your argument. Architectural skill is sequencing those needs: What must
+they accept first? What evidence creates openness to the next claim? What
+emotional safety do they need before you challenge their identity?
 
 Objection handling isn't defense—it's architecture.

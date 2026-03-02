@@ -1,6 +1,7 @@
 # Candidate Assessment Guide
 
-How to evaluate ebook candidates during discovery. Use this reference when assessing viability and making triage decisions.
+How to evaluate ebook candidates during discovery. Use this reference when
+assessing viability and making triage decisions.
 
 ## Table of Contents
 
@@ -50,8 +51,8 @@ A viable ebook candidate should pass these checks:
 - Stretching to fill pages would mean padding
 - Less than 8,000 words seems natural
 
-**The test:**
-"If you started writing this, would you run out of things to say before hitting 10,000 words?"
+**The test:** "If you started writing this, would you run out of things to say
+before hitting 10,000 words?"
 
 **What to do:**
 
@@ -69,8 +70,8 @@ A viable ebook candidate should pass these checks:
 - Cutting scope feels like losing essential content
 - Readers would need months to implement
 
-**The test:**
-"Could someone realistically achieve this transformation from an ebook, or does this require book-length treatment?"
+**The test:** "Could someone realistically achieve this transformation from an
+ebook, or does this require book-length treatment?"
 
 **What to do:**
 
@@ -88,8 +89,8 @@ A viable ebook candidate should pass these checks:
 - Could be read in 1-3 sessions
 - Delivers clear value without padding or rushing
 
-**The test:**
-"Does this have enough substance to justify $9.99-$19.99 but not so much that it becomes a slog?"
+**The test:** "Does this have enough substance to justify $9.99-$19.99 but not
+so much that it becomes a slog?"
 
 ---
 
@@ -99,7 +100,9 @@ A viable ebook candidate should pass these checks:
 
 **Example 1: The Specific Process**
 
-> "A guide to writing YouTube video scripts that hook viewers in the first 5 seconds. Based on my analysis of 200+ videos and what I've learned writing scripts for my 50K-subscriber channel."
+> "A guide to writing YouTube video scripts that hook viewers in the first 5
+> seconds. Based on my analysis of 200+ videos and what I've learned writing
+> scripts for my 50K-subscriber channel."
 
 **Why it's strong:**
 
@@ -110,7 +113,8 @@ A viable ebook candidate should pass these checks:
 
 **Example 2: The Hard-Won Lesson**
 
-> "What I learned from losing $50K to a business partner and how to structure partnerships that protect you. Includes the exact contract clauses I now use."
+> "What I learned from losing $50K to a business partner and how to structure
+> partnerships that protect you. Includes the exact contract clauses I now use."
 
 **Why it's strong:**
 
@@ -121,7 +125,8 @@ A viable ebook candidate should pass these checks:
 
 **Example 3: The Translation Bridge**
 
-> "Explaining technical debt to non-technical executives: How to get buy-in for necessary refactoring work without using jargon."
+> "Explaining technical debt to non-technical executives: How to get buy-in for
+> necessary refactoring work without using jargon."
 
 **Why it's strong:**
 
@@ -143,7 +148,8 @@ A viable ebook candidate should pass these checks:
 - Too broad (productivity how? for whom? in what context?)
 - No unique angle apparent
 
-**Fix path:** Find the specific slice. "Productivity for remote software developers with ADHD" is much stronger.
+**Fix path:** Find the specific slice. "Productivity for remote software
+developers with ADHD" is much stronger.
 
 **Example 2: The Thin Insight**
 
@@ -155,19 +161,23 @@ A viable ebook candidate should pass these checks:
 - Single insight, not enough for ebook
 - No transformation beyond the purchase decision
 
-**Fix path:** Kill as ebook. Make it a blog post, or find the broader system it fits into.
+**Fix path:** Kill as ebook. Make it a blog post, or find the broader system it
+fits into.
 
 **Example 3: The Disguised Book**
 
-> "A complete guide to starting and running a successful podcast, from idea to monetization."
+> "A complete guide to starting and running a successful podcast, from idea to
+> monetization."
 
 **Why it's weak:**
 
 - Too broad for ebook format
-- Multiple sequential transformations (starting → producing → growing → monetizing)
+- Multiple sequential transformations (starting → producing → growing →
+  monetizing)
 - Each section could be its own ebook
 
-**Fix path:** Extract one section. "How to launch your first 10 podcast episodes" is ebook-sized.
+**Fix path:** Extract one section. "How to launch your first 10 podcast
+episodes" is ebook-sized.
 
 **Example 4: The Repackage Without Value**
 
@@ -179,7 +189,8 @@ A viable ebook candidate should pass these checks:
 - No value gap from free content
 - Readers can already get this for free
 
-**Fix path:** If pursuing this path, need significant new value: synthesis, framework, new content, updated perspectives.
+**Fix path:** If pursuing this path, need significant new value: synthesis,
+framework, new content, updated perspectives.
 
 ---
 
@@ -230,48 +241,45 @@ Before committing to an ebook, consider testing interest:
 
 ### Low-Effort Tests
 
-**Newsletter poll:**
-"I'm considering writing an ebook on [topic]. Would this interest you?"
+**Newsletter poll:** "I'm considering writing an ebook on [topic]. Would this
+interest you?"
 
 - Quick signal
 - Biased toward yes (people want to be supportive)
 
-**Blog post test:**
-Write a substantial post on the topic, measure engagement vs. baseline
+**Blog post test:** Write a substantial post on the topic, measure engagement
+vs. baseline
 
 - Real behavior signal
 - Doesn't test purchase intent
 
-**Social media thread:**
-Share key insights from the potential ebook, track response
+**Social media thread:** Share key insights from the potential ebook, track
+response
 
 - Quick feedback
 - Platform-dependent engagement
 
 ### Medium-Effort Tests
 
-**Landing page:**
-Create a simple page describing the ebook, collect email signups
+**Landing page:** Create a simple page describing the ebook, collect email
+signups
 
 - Tests enough interest to take action
 - Doesn't test payment
 
-**Waitlist with price:**
-"Sign up to be notified when [ebook] launches at [$X]"
+**Waitlist with price:** "Sign up to be notified when [ebook] launches at [$X]"
 
 - Closer to purchase intent
 - Still not actual payment
 
 ### Higher-Effort Tests
 
-**Pre-sale:**
-Offer pre-orders at a discount before the ebook exists
+**Pre-sale:** Offer pre-orders at a discount before the ebook exists
 
 - Real purchase intent signal
 - Requires confidence and commitment
 
-**Workshop test:**
-Teach the content live, gauge response and refine
+**Workshop test:** Teach the content live, gauge response and refine
 
 - Tests content quality
 - Different format, but validates ideas

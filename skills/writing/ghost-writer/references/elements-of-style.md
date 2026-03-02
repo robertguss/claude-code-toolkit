@@ -6,9 +6,12 @@ Core principles from Strunk & White's classic, distilled for ghost writing.
 
 ## Purpose
 
-These principles provide a craft foundation when the DNA document doesn't give specific guidance. They represent widely-accepted standards of clear, effective prose.
+These principles provide a craft foundation when the DNA document doesn't give
+specific guidance. They represent widely-accepted standards of clear, effective
+prose.
 
-**Important:** The DNA document takes precedence. If a writer's documented voice violates these principles (e.g., they love adverbs), follow the DNA.
+**Important:** The DNA document takes precedence. If a writer's documented voice
+violates these principles (e.g., they love adverbs), follow the DNA.
 
 ---
 
@@ -45,8 +48,8 @@ Vigorous writing is concise. Every word should do work.
 
 **Example:**
 
-> Wordy: "He is the kind of person who is always looking for ways in which he can improve himself."
-> Concise: "He always seeks self-improvement."
+> Wordy: "He is the kind of person who is always looking for ways in which he
+> can improve himself." Concise: "He always seeks self-improvement."
 
 ---
 
@@ -69,8 +72,7 @@ Active voice is direct and vigorous. Passive voice is indirect and often weak.
 - When the actor is unimportant: "The data was collected over three years"
 - When passive matches the DNA document
 
-**Detection:**
-Forms of "to be" + past participle often signal passive:
+**Detection:** Forms of "to be" + past participle often signal passive:
 
 - was decided
 - is being considered
@@ -95,17 +97,17 @@ Make definite assertions. Avoid weak, evasive, or noncommittal language.
 | did not pay attention                     | ignored                                  |
 | did not have much confidence in           | distrusted                               |
 
-**"Not" as Evasion:**
-Using "not" often shows unwillingness to commit:
+**"Not" as Evasion:** Using "not" often shows unwillingness to commit:
 
-> Weak: "The report was not inaccurate."
-> Strong: "The report was accurate." (or was it?)
+> Weak: "The report was not inaccurate." Strong: "The report was accurate." (or
+> was it?)
 
 ---
 
 ### 4. Use Definite, Specific, Concrete Language
 
-Prefer the specific to the general, the definite to the vague, the concrete to the abstract.
+Prefer the specific to the general, the definite to the vague, the concrete to
+the abstract.
 
 **Abstract vs. Concrete:**
 
@@ -131,15 +133,16 @@ Prefer the specific to the general, the definite to the vague, the concrete to t
 
 Variety in sentence structure prevents monotony.
 
-**Loose Sentences:**
-A loose sentence states its main point and then adds modifying elements:
+**Loose Sentences:** A loose sentence states its main point and then adds
+modifying elements:
 
-> "The sun set, casting long shadows across the field, turning the sky orange and pink."
+> "The sun set, casting long shadows across the field, turning the sky orange
+> and pink."
 
-**Problem:**
-Stringing together loose sentences creates a mechanical rhythm:
+**Problem:** Stringing together loose sentences creates a mechanical rhythm:
 
-> "The sun set. The shadows grew long. The sky turned colors. The birds returned to their nests."
+> "The sun set. The shadows grew long. The sky turned colors. The birds returned
+> to their nests."
 
 **Solution:**
 
@@ -187,18 +190,17 @@ Subjects and verbs, verbs and objects, modifiers and modified—keep them close.
 
 **Muddled:**
 
-> "He noticed a large stain in the rug that was right in the center."
-> (Is the stain or the rug in the center?)
+> "He noticed a large stain in the rug that was right in the center." (Is the
+> stain or the rug in the center?)
 
 **Clear:**
 
 > "He noticed a large stain right in the center of the rug."
 
-**Modifiers:**
-Place modifiers as close as possible to the words they modify:
+**Modifiers:** Place modifiers as close as possible to the words they modify:
 
-> Confusing: "I only drink coffee in the morning."
-> Clear: "I drink coffee only in the morning." (or "I drink only coffee in the morning.")
+> Confusing: "I only drink coffee in the morning." Clear: "I drink coffee only
+> in the morning." (or "I drink only coffee in the morning.")
 
 ---
 
@@ -219,14 +221,15 @@ Confused words weaken prose.
 | unique    | one of a kind                        | very unique (no degrees) |
 | nauseous  | causing nausea                       | nauseated (feeling sick) |
 
-**When in Doubt:**
-Use the simpler word. "Use" beats "utilize." "Start" beats "commence." "Help" beats "facilitate."
+**When in Doubt:** Use the simpler word. "Use" beats "utilize." "Start" beats
+"commence." "Help" beats "facilitate."
 
 ---
 
 ### 9. Write with Nouns and Verbs
 
-Nouns and verbs are the essential parts of speech. Adjectives and adverbs add color but can weaken.
+Nouns and verbs are the essential parts of speech. Adjectives and adverbs add
+color but can weaken.
 
 **Adverb Crutches:**
 
@@ -245,8 +248,8 @@ Nouns and verbs are the essential parts of speech. Adjectives and adverbs add co
 | completely unique          | unique                              |
 | extremely crucial          | crucial                             |
 
-**The Test:**
-Can the sentence work without the adjective/adverb? If yes, cut it.
+**The Test:** Can the sentence work without the adjective/adverb? If yes, cut
+it.
 
 ---
 
@@ -277,7 +280,8 @@ Use these principles as defaults:
 
 ### When DNA Document Contradicts
 
-Follow the DNA. If the writer loves adverbs, use adverbs. If they prefer passive voice in certain contexts, match that. Voice fidelity trumps general rules.
+Follow the DNA. If the writer loves adverbs, use adverbs. If they prefer passive
+voice in certain contexts, match that. Voice fidelity trumps general rules.
 
 ### For Self-Editing
 

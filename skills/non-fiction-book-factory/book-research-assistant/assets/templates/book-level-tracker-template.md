@@ -1,8 +1,7 @@
 # Book-Level Research Tracker
 
-**Book Title:** [Title]
-**Last Updated:** [Date]
-**Overall Status:** [Not Started / In Progress / Complete]
+**Book Title:** [Title] **Last Updated:** [Date] **Overall Status:** [Not
+Started / In Progress / Complete]
 
 ---
 
@@ -40,13 +39,15 @@
 
 ## Architecture Feedback Flags
 
-Track any structural concerns surfaced during research that need upstream review.
+Track any structural concerns surfaced during research that need upstream
+review.
 
 | Chapter | Concern Type | Description | Severity |
 | ------- | ------------ | ----------- | -------- |
 |         |              |             |          |
 
-**Concern Types:** Structural / Merge Candidate / Split Candidate / New Chapter Needed / Reorder / Thesis Tension / Proof Burden
+**Concern Types:** Structural / Merge Candidate / Split Candidate / New Chapter
+Needed / Reorder / Thesis Tension / Proof Burden
 
 **Severity:** Low / Medium / High / Critical
 

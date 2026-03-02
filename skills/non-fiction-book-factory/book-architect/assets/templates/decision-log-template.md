@@ -8,7 +8,9 @@
 
 ## How to Use This Log
 
-This log captures significant architectural decisions—choices that shape the book's structure, content, or approach. Each entry records what was decided, why, and what alternatives were considered.
+This log captures significant architectural decisions—choices that shape the
+book's structure, content, or approach. Each entry records what was decided,
+why, and what alternatives were considered.
 
 **When to log a decision:**
 
@@ -54,7 +56,8 @@ This log captures significant architectural decisions—choices that shape the b
 [Clear statement of what was decided]
 
 **Reasoning:**  
-[Why this decision was made. What factors were considered. What makes this the right choice for the reader.]
+[Why this decision was made. What factors were considered. What makes this the
+right choice for the reader.]
 
 **Alternatives Considered:**
 
@@ -70,7 +73,8 @@ This log captures significant architectural decisions—choices that shape the b
 - Affects: [Decisions #Y, #Z, or "None"]
 
 **Revisit Trigger:**  
-[Under what circumstances should this decision be reconsidered? Or "None—high confidence"]
+[Under what circumstances should this decision be reconsidered? Or "None—high
+confidence"]
 
 ---
 
@@ -140,7 +144,8 @@ _Decisions being reconsidered. Include current thinking._
 
 _Observations about decision-making for future reference:_
 
-- [Pattern observed—e.g., "Reader experience consistently trumps author preference"]
+- [Pattern observed—e.g., "Reader experience consistently trumps author
+  preference"]
 - [Pattern observed]
 
 ---

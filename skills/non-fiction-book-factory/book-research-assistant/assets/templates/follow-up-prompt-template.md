@@ -1,21 +1,20 @@
 # Follow-up Research Prompt: [Gap ID] — [Short Description]
 
-**Generated:** [Date]
-**Original Prompt Date:** [Date of first prompt]
-**Follow-up Round:** [1 / 2 / 3]
-**Chapter:** [Number] — [Title]
+**Generated:** [Date] **Original Prompt Date:** [Date of first prompt]
+**Follow-up Round:** [1 / 2 / 3] **Chapter:** [Number] — [Title]
 
 ---
 
 ## Context Reference
 
-This is a follow-up to prior research on this gap. The original research has been reviewed and found insufficient in specific areas.
+This is a follow-up to prior research on this gap. The original research has
+been reviewed and found insufficient in specific areas.
 
-**Original Gap Question:**
-[The original research question from the first prompt]
+**Original Gap Question:** [The original research question from the first
+prompt]
 
-**Original Research Summary:**
-[Brief 2-3 sentence summary of what the first round of research found]
+**Original Research Summary:** [Brief 2-3 sentence summary of what the first
+round of research found]
 
 ---
 
@@ -29,7 +28,8 @@ This is a follow-up to prior research on this gap. The original research has bee
 
 - [ ] Coverage gap: [Research didn't address X aspect of the question]
 - [ ] Depth gap: [Evidence is too thin for a P1 claim—need more sources]
-- [ ] Source quality gap: [Sources lack authority—need peer-reviewed or primary sources]
+- [ ] Source quality gap: [Sources lack authority—need peer-reviewed or primary
+      sources]
 - [ ] Recency gap: [Data is outdated—need sources from last 2-3 years]
 - [ ] Quotability gap: [No usable direct quotes—need attributable statements]
 - [ ] Counterargument gap: [Steelman not addressed—need strongest objections]
@@ -40,27 +40,26 @@ This is a follow-up to prior research on this gap. The original research has bee
 
 ## Follow-up Research Request
 
-**Focus Area:**
-[Precisely what this follow-up research should target]
+**Focus Area:** [Precisely what this follow-up research should target]
 
-**What NOT to Repeat:**
-[What was already well-covered and doesn't need more attention]
+**What NOT to Repeat:** [What was already well-covered and doesn't need more
+attention]
 
-**Specific Ask:**
-[Concrete, actionable request. E.g., "Find 2-3 peer-reviewed studies on X published after 2020" or "Locate direct quotes from recognized experts in Y field"]
+**Specific Ask:** [Concrete, actionable request. E.g., "Find 2-3 peer-reviewed
+studies on X published after 2020" or "Locate direct quotes from recognized
+experts in Y field"]
 
 ---
 
 ## Adjusted Scope
 
-**Depth Needed:**
-[More specific than original—calibrated to fill the specific gap]
+**Depth Needed:** [More specific than original—calibrated to fill the specific
+gap]
 
-**Source Requirements:**
-[Any adjustments to source priorities based on what's missing]
+**Source Requirements:** [Any adjustments to source priorities based on what's
+missing]
 
-**Quality Bar:**
-[What "sufficient" looks like for this follow-up]
+**Quality Bar:** [What "sufficient" looks like for this follow-up]
 
 ---
 
@@ -87,8 +86,10 @@ How these new findings connect to or modify the original research findings.
 
 ### Gap Status Assessment
 
-Based on original research + this follow-up, is the gap now sufficiently addressed?
+Based on original research + this follow-up, is the gap now sufficiently
+addressed?
 
 ---
 
-_This prompt focuses narrowly on what's missing. Do not repeat coverage from the original research._
+_This prompt focuses narrowly on what's missing. Do not repeat coverage from the
+original research._

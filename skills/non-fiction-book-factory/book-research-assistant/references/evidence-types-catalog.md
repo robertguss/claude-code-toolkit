@@ -1,6 +1,8 @@
 # Evidence Types Catalog
 
-Different claims require different types of evidence. This catalog describes evidence types, their strengths and limitations, and when each is most appropriate.
+Different claims require different types of evidence. This catalog describes
+evidence types, their strengths and limitations, and when each is most
+appropriate.
 
 ---
 
@@ -186,7 +188,8 @@ Different claims require different types of evidence. This catalog describes evi
 
 ### 5. Experimental Evidence
 
-**What it is:** Results from controlled experiments designed to test specific hypotheses.
+**What it is:** Results from controlled experiments designed to test specific
+hypotheses.
 
 **Subtypes:**
 
@@ -227,7 +230,8 @@ Different claims require different types of evidence. This catalog describes evi
 
 ### 6. Survey/Poll Evidence
 
-**What it is:** Systematic collection of opinions, behaviors, or characteristics from a sample.
+**What it is:** Systematic collection of opinions, behaviors, or characteristics
+from a sample.
 
 **Subtypes:**
 
@@ -268,7 +272,8 @@ Different claims require different types of evidence. This catalog describes evi
 
 ### 7. Anecdotal Evidence
 
-**What it is:** Individual stories, personal experiences, or illustrative examples.
+**What it is:** Individual stories, personal experiences, or illustrative
+examples.
 
 **Subtypes:**
 
@@ -390,7 +395,8 @@ Different claims require different types of evidence. This catalog describes evi
 
 ### 10. Comparative Evidence
 
-**What it is:** Evidence from comparing different conditions, approaches, or groups.
+**What it is:** Evidence from comparing different conditions, approaches, or
+groups.
 
 **Subtypes:**
 
@@ -467,4 +473,5 @@ Strong arguments typically combine multiple evidence types:
 
 ---
 
-_Use this catalog when specifying evidence types in research prompts and when evaluating whether returned research meets the chapter's needs._
+_Use this catalog when specifying evidence types in research prompts and when
+evaluating whether returned research meets the chapter's needs._

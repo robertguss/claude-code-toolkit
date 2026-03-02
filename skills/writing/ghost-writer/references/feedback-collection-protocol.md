@@ -1,6 +1,7 @@
 # Feedback Collection Protocol
 
-How to gather structured feedback and translate it into DNA document refinements.
+How to gather structured feedback and translate it into DNA document
+refinements.
 
 ---
 
@@ -95,25 +96,29 @@ Ask these three questions:
 
 **User says:** "It felt a little off"
 
-**Follow up:** "Can you point to specific lines or sections? Was it the word choice, tone, structure, or something else?"
+**Follow up:** "Can you point to specific lines or sections? Was it the word
+choice, tone, structure, or something else?"
 
 ### If Feedback Is About One Draft
 
 **User says:** "Draft A was better"
 
-**Follow up:** "What made A feel more like you? Anything from B worth preserving?"
+**Follow up:** "What made A feel more like you? Anything from B worth
+preserving?"
 
 ### If Feedback Is Contradictory
 
 **User says:** "It was too casual but also too stiff"
 
-**Follow up:** "Can you help me understand—which parts felt too casual, and which too stiff? Different sections, maybe?"
+**Follow up:** "Can you help me understand—which parts felt too casual, and
+which too stiff? Different sections, maybe?"
 
 ### If Feedback Introduces New Information
 
 **User says:** "I never use exclamation points"
 
-**Follow up:** "Good to know—I don't think that's in your DNA document. Noted for this piece and suggesting we add it to your profile."
+**Follow up:** "Good to know—I don't think that's in your DNA document. Noted
+for this piece and suggesting we add it to your profile."
 
 ---
 
@@ -174,7 +179,8 @@ Based on your feedback, consider these updates to your Voice DNA Document:
 
 - [decision rule that emerged from feedback]
 
-You can apply these yourself or run a refinement session with the writing-dna-discovery skill.
+You can apply these yourself or run a refinement session with the
+writing-dna-discovery skill.
 ```
 
 ### Step 3: Be Specific and Actionable
@@ -185,7 +191,8 @@ You can apply these yourself or run a refinement session with the writing-dna-di
 
 **This:**
 
-> "Add to Anti-Patterns: 'utilize' — you noted 'I always say use, never utilize'"
+> "Add to Anti-Patterns: 'utilize' — you noted 'I always say use, never
+> utilize'"
 
 **Not this:**
 
@@ -193,7 +200,8 @@ You can apply these yourself or run a refinement session with the writing-dna-di
 
 **This:**
 
-> "Strengthen in Tone & Attitude: Add that you prefer 'direct assertion over hedging' — when I hedged in paragraph 3, you flagged it as 'not you'"
+> "Strengthen in Tone & Attitude: Add that you prefer 'direct assertion over
+> hedging' — when I hedged in paragraph 3, you flagged it as 'not you'"
 
 ---
 
@@ -225,7 +233,8 @@ You can apply these yourself or run a refinement session with the writing-dna-di
 
 ### Example 3: Tone Adjustment
 
-**Feedback:** "Draft B was closer but still too measured—I'm more assertive than that"
+**Feedback:** "Draft B was closer but still too measured—I'm more assertive than
+that"
 
 **Refinement:**
 
@@ -240,7 +249,8 @@ You can apply these yourself or run a refinement session with the writing-dna-di
 
 ### Example 4: Missing Pattern Discovered
 
-**Feedback:** "You know what I do that you missed? I always end paragraphs with short sentences"
+**Feedback:** "You know what I do that you missed? I always end paragraphs with
+short sentences"
 
 **Refinement:**
 
@@ -261,7 +271,8 @@ You can apply these yourself or run a refinement session with the writing-dna-di
 If feedback contradicts the DNA document:
 
 1. Note the contradiction
-2. Ask for clarification: "Your DNA document says X, but you're saying Y—has this changed, or is it context-specific?"
+2. Ask for clarification: "Your DNA document says X, but you're saying Y—has
+   this changed, or is it context-specific?"
 3. Suggest a refinement that clarifies
 
 ### Feedback Outside Voice Scope
@@ -276,13 +287,15 @@ If feedback is about content, not voice:
 
 If user just makes edits without explaining:
 
-- "I noticed you changed [X] to [Y]—is that a pattern I should follow generally, or specific to this piece?"
+- "I noticed you changed [X] to [Y]—is that a pattern I should follow generally,
+  or specific to this piece?"
 
 ### Feedback That Reveals DNA Error
 
 If feedback shows the DNA document is wrong:
 
-> "It sounds like the DNA document may have this backwards. Should I suggest updating [dimension] to reflect what you're telling me now?"
+> "It sounds like the DNA document may have this backwards. Should I suggest
+> updating [dimension] to reflect what you're telling me now?"
 
 ---
 
@@ -329,7 +342,8 @@ Based on your feedback, consider these updates to your Voice DNA Document:
 
 ---
 
-You can apply these yourself or run a refinement session with the writing-dna-discovery skill.
+You can apply these yourself or run a refinement session with the
+writing-dna-discovery skill.
 ```
 
 ---
@@ -361,7 +375,8 @@ Apply feedback to revisions immediately:
 
 1. Deliver DNA refinement suggestions
 2. Summarize what you learned
-3. Offer: "Run a Writing DNA Discovery refinement session to formalize these updates?"
+3. Offer: "Run a Writing DNA Discovery refinement session to formalize these
+   updates?"
 
 ---
 

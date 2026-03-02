@@ -8,9 +8,12 @@
 
 ## Quick Reference
 
-**Core Temperature:** [e.g., "Warm but direct," "Cool and analytical," "Enthusiastic and conversational"]
+**Core Temperature:** [e.g., "Warm but direct," "Cool and analytical,"
+"Enthusiastic and conversational"]
 
-**Sentence Signature:** [e.g., "Short punchy sentences with occasional long unwinders," "Long flowing sentences with multiple clauses," "Varied rhythm—unpredictable"]
+**Sentence Signature:** [e.g., "Short punchy sentences with occasional long
+unwinders," "Long flowing sentences with multiple clauses," "Varied
+rhythm—unpredictable"]
 
 **Distinctive Moves:**
 
@@ -31,7 +34,8 @@
 
 **Status:** [Not Assessed / Emerging / Developed / Strong]
 
-[Analysis of sentence rhythm, length patterns, internal structure, emphasis placement]
+[Analysis of sentence rhythm, length patterns, internal structure, emphasis
+placement]
 
 **Patterns Identified:**
 
@@ -46,7 +50,8 @@
 
 **Status:** [Not Assessed / Emerging / Developed / Strong]
 
-[Analysis of punctuation usage: em-dashes, semicolons, colons, parentheses, comma density, exclamation points, ellipses]
+[Analysis of punctuation usage: em-dashes, semicolons, colons, parentheses,
+comma density, exclamation points, ellipses]
 
 | Punctuation | Usage Pattern |
 | ----------- | ------------- |
@@ -62,7 +67,8 @@
 
 **Status:** [Not Assessed / Emerging / Developed / Strong]
 
-[Analysis of paragraph construction, length patterns, transitions, section organization]
+[Analysis of paragraph construction, length patterns, transitions, section
+organization]
 
 **Paragraph Tendencies:**
 
@@ -113,7 +119,8 @@
 
 **Second Person Usage:** [Frequent "you" / Occasional / Rare / Never]
 
-**Reader Assumptions:** [Assumes expertise / Assumes basics / Explains everything]
+**Reader Assumptions:** [Assumes expertise / Assumes basics / Explains
+everything]
 
 **Authority Stance:** [Expert / Guide / Fellow traveler / Curious explorer]
 
@@ -123,16 +130,15 @@
 
 **Status:** [Not Assessed / Emerging / Developed / Strong]
 
-**How They Begin Pieces:**
-[e.g., In media res, provocative statement, question hook, scene-setting, anecdote]
+**How They Begin Pieces:** [e.g., In media res, provocative statement, question
+hook, scene-setting, anecdote]
 
-**How They End Pieces:**
-[e.g., Callback to opening, open question, definitive statement, quiet landing, call to action]
+**How They End Pieces:** [e.g., Callback to opening, open question, definitive
+statement, quiet landing, call to action]
 
 **Examples:**
 
-> Opening: "[Quote]"
-> Closing: "[Quote]"
+> Opening: "[Quote]" Closing: "[Quote]"
 
 ---
 
@@ -144,7 +150,8 @@
 
 **Type:** [Dry wit / Self-deprecation / Wordplay / Sarcasm / Absurdist / Other]
 
-**Placement:** [Woven throughout / Strategic moments / Openings/closings / Asides]
+**Placement:** [Woven throughout / Strategic moments / Openings/closings /
+Asides]
 
 ---
 
@@ -152,7 +159,8 @@
 
 **Status:** [Not Assessed / Emerging / Developed / Strong]
 
-[Distinctive moves, pet phrases, characteristic tics—things unique to this writer]
+[Distinctive moves, pet phrases, characteristic tics—things unique to this
+writer]
 
 **Distinctive Moves:**
 
@@ -171,7 +179,8 @@
 
 ### For Fiction
 
-- **Narrative Distance:** [Close third / Distant third / First person intimate / etc.]
+- **Narrative Distance:** [Close third / Distant third / First person intimate /
+  etc.]
 - **Dialogue Style:** [Tags / Beats / Dialect rendering]
 - **Description Density:** [Sparse / Rich / Varies]
 - **Interiority Access:** [Deep / Limited / External only]
@@ -180,7 +189,8 @@
 
 - **Argument Style:** [Thesis-first / Build-up / Exploratory]
 - **Evidence Handling:** [Data-driven / Anecdote-heavy / Mixed]
-- **Counterargument Approach:** [Addresses directly / Ignores / Concedes then pivots]
+- **Counterargument Approach:** [Addresses directly / Ignores / Concedes then
+  pivots]
 
 ### For Blog/Casual
 
@@ -196,7 +206,8 @@
 
 > "[Quote from their writing—a paragraph or two that exemplifies their voice]"
 >
-> — _Demonstrates: [List patterns this shows: sentence rhythm, tone, signature move, etc.]_
+> — _Demonstrates: [List patterns this shows: sentence rhythm, tone, signature
+> move, etc.]_
 
 > "[Another representative quote]"
 >
@@ -332,7 +343,8 @@
 
 [Question to sit with before next session]
 
-> "[e.g., Notice a piece of writing—yours or someone else's—that makes you think 'that's exactly how I would/wouldn't say that.' Bring it back next time.]"
+> "[e.g., Notice a piece of writing—yours or someone else's—that makes you think
+> 'that's exactly how I would/wouldn't say that.' Bring it back next time.]"
 
 ---
 

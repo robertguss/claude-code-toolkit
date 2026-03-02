@@ -8,7 +8,8 @@
 
 ## Overview
 
-This document tracks books in adjacent territory—competitors, conversation partners, and positioning opportunities.
+This document tracks books in adjacent territory—competitors, conversation
+partners, and positioning opportunities.
 
 ---
 

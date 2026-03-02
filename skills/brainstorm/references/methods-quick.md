@@ -68,4 +68,5 @@ Quick selection guide. For full explanations, see `methods-detailed.md`.
 - **"This feels risky"** → Pre-mortem, Inversion
 - **"Am I missing something?"** → Six Thinking Hats, Steelman
 - **"Is this actually valuable?"** → Jobs-to-be-Done, Audience Reality Check
-- **"What are we assuming?"** → First Principles, Assumption Surfacing, Presuppositional Analysis
+- **"What are we assuming?"** → First Principles, Assumption Surfacing,
+  Presuppositional Analysis

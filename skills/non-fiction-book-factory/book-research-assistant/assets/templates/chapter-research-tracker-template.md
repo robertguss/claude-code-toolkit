@@ -1,9 +1,8 @@
 # Chapter Research Tracker
 
-**Book Title:** [Title]
-**Chapter:** [Number] — [Title]
-**Last Updated:** [Date]
-**Chapter Status:** [Not Started / Planning / Prompts Ready / Validation In Progress / Complete]
+**Book Title:** [Title] **Chapter:** [Number] — [Title] **Last Updated:** [Date]
+**Chapter Status:** [Not Started / Planning / Prompts Ready / Validation In
+Progress / Complete]
 
 ---
 

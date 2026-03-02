@@ -8,7 +8,8 @@
 
 ## Purpose
 
-This document records key decisions made during validation, with reasoning. It ensures transparency and helps if returning after a break.
+This document records key decisions made during validation, with reasoning. It
+ensures transparency and helps if returning after a break.
 
 ---
 

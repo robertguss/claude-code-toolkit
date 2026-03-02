@@ -1,6 +1,7 @@
 # The Book Factory: Project Tracker
 
-**Purpose:** Track the development status of all skills in the Book Factory pipeline.
+**Purpose:** Track the development status of all skills in the Book Factory
+pipeline.
 
 **Last Updated:** December 30, 2025
 

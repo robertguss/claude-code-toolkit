@@ -6,18 +6,18 @@
 
 ### Props / Parameters
 
-| Prop/Parameter | Type | Required | Default | Description |
-|----------------|------|----------|---------|-------------|
-| prop1 | string | Yes | - | Description of prop1 |
-| prop2 | number | No | 0 | Description of prop2 |
-| onEvent | function | No | - | Callback when event occurs |
+| Prop/Parameter | Type     | Required | Default | Description                |
+| -------------- | -------- | -------- | ------- | -------------------------- |
+| prop1          | string   | Yes      | -       | Description of prop1       |
+| prop2          | number   | No       | 0       | Description of prop2       |
+| onEvent        | function | No       | -       | Callback when event occurs |
 
 ### Usage
 
 #### Basic Example
 
 ```[language]
-<ComponentName 
+<ComponentName
   prop1="value"
   prop2={42}
 />
@@ -26,7 +26,7 @@
 #### With All Options
 
 ```[language]
-<ComponentName 
+<ComponentName
   prop1="value"
   prop2={42}
   onEvent={(data) => console.log(data)}
@@ -56,14 +56,17 @@
 [If applicable]
 
 **CSS Classes:**
+
 - `.component-name`: Main container
 - `.component-name__element`: Sub-element
 
 **CSS Variables:**
+
 - `--component-bg`: Background color
 - `--component-border`: Border color
 
 **Example:**
+
 ```css
 .component-name {
   --component-bg: #ffffff;
@@ -84,6 +87,7 @@
 [If component has internal state]
 
 **Internal State:**
+
 - `state1`: [description]
 - `state2`: [description]
 
@@ -91,16 +95,17 @@
 
 [If component emits events]
 
-| Event | Payload | Description |
-|-------|---------|-------------|
-| event1 | {data} | When X happens |
-| event2 | {data} | When Y happens |
+| Event  | Payload | Description    |
+| ------ | ------- | -------------- |
+| event1 | {data}  | When X happens |
+| event2 | {data}  | When Y happens |
 
 ### Slots / Children
 
 [If component accepts children/slots]
 
 **Slots:**
+
 - `default`: Main content
 - `header`: Header content
 - `footer`: Footer content

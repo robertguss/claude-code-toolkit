@@ -1,8 +1,11 @@
 # Non-Fiction Book Factory
 
-A suite of Claude skills that replicate the traditional publishing infrastructure for nonfiction book creation. Each skill specializes in one phase of the book development process, handing off structured output to the next.
+A suite of Claude skills that replicate the traditional publishing
+infrastructure for nonfiction book creation. Each skill specializes in one phase
+of the book development process, handing off structured output to the next.
 
-📚 **[View Full Documentation](https://robertguss.github.io/claude-skills/skills/non-fiction-book-factory/)**
+📚
+**[View Full Documentation](https://robertguss.github.io/claude-skills/skills/non-fiction-book-factory/)**
 
 ## Pipeline Overview
 
@@ -58,9 +61,11 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 ### 1. Book Ideation
 
-**Purpose:** Transform raw ideas and brainstorm material into a structured Book Concept Document.
+**Purpose:** Transform raw ideas and brainstorm material into a structured Book
+Concept Document.
 
-**Use when:** You have a book idea, brainstorm documents to refine, or need to articulate your book's core elements before validation.
+**Use when:** You have a book idea, brainstorm documents to refine, or need to
+articulate your book's core elements before validation.
 
 **Core Elements Developed:**
 
@@ -79,9 +84,11 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 ### 2. Book Idea Validator
 
-**Purpose:** Stress-test book concepts against existing research before committing to architecture.
+**Purpose:** Stress-test book concepts against existing research before
+committing to architecture.
 
-**Use when:** You have a Book Concept Document and want to verify your thesis is defensible and understand the competitive intellectual landscape.
+**Use when:** You have a Book Concept Document and want to verify your thesis is
+defensible and understand the competitive intellectual landscape.
 
 **What it does:**
 
@@ -96,9 +103,11 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 ### 3. Book Market Research
 
-**Purpose:** Assess commercial viability of book concepts for Amazon KDP self-publishing.
+**Purpose:** Assess commercial viability of book concepts for Amazon KDP
+self-publishing.
 
-**Use when:** You have a Book Concept Document and want to understand market demand, competition, pricing, and positioning before committing to write.
+**Use when:** You have a Book Concept Document and want to understand market
+demand, competition, pricing, and positioning before committing to write.
 
 **What it does:**
 
@@ -107,15 +116,18 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 - Offers quick assessment or deep dive modes
 - Weighted viability scorecard (1-10 scale across 8 criteria)
 
-**Output:** Market Research Report with Go/Conditional Go/Revise/Kill recommendation
+**Output:** Market Research Report with Go/Conditional Go/Revise/Kill
+recommendation
 
 ---
 
 ### 4. Book Architect
 
-**Purpose:** Design the structural and emotional architecture for your book once the concept is validated.
+**Purpose:** Design the structural and emotional architecture for your book once
+the concept is validated.
 
-**Use when:** You have a validated concept and need to create the blueprint before drafting.
+**Use when:** You have a validated concept and need to create the blueprint
+before drafting.
 
 **What it does:**
 
@@ -134,9 +146,11 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 ### 5. Book Research Assistant
 
-**Purpose:** Plan, orchestrate, and validate deep research for nonfiction books before outlining chapters.
+**Purpose:** Plan, orchestrate, and validate deep research for nonfiction books
+before outlining chapters.
 
-**Use when:** You have completed book architecture and need to fill research gaps before drafting.
+**Use when:** You have completed book architecture and need to fill research
+gaps before drafting.
 
 **What it does:**
 
@@ -157,9 +171,11 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 ### 6. Chapter Architect
 
-**Purpose:** Plan and architect a single chapter at beat-level granularity before drafting.
+**Purpose:** Plan and architect a single chapter at beat-level granularity
+before drafting.
 
-**Use when:** You have a chapter from the Architecture Document and need to create a detailed outline before drafting.
+**Use when:** You have a chapter from the Architecture Document and need to
+create a detailed outline before drafting.
 
 **What it does:**
 
@@ -170,17 +186,25 @@ A suite of Claude skills that replicate the traditional publishing infrastructur
 
 **Outputs:**
 
-- Chapter Outline Document (context, reader journey, beat sequence, opening/closing deep dives)
+- Chapter Outline Document (context, reader journey, beat sequence,
+  opening/closing deep dives)
 
 ---
 
 ## Workflow
 
-1. **Start with ideation** — Run `book-ideation` to develop your raw idea into a structured concept
-2. **Validate the concept** — Run `book-idea-validator` to stress-test against research, then `book-market-research` to assess commercial viability
-3. **Make the Go/No-Go decision** — Review both reports and decide whether to proceed
-4. **Architect the book** — Run `book-architect` to design the complete structure before drafting
-5. **Conduct research** — Run `book-research-assistant` to plan research prompts, execute deep research externally, then validate findings
-6. **Plan each chapter** — Run `chapter-architect` to create beat-level outlines for individual chapters before drafting
+1. **Start with ideation** — Run `book-ideation` to develop your raw idea into a
+   structured concept
+2. **Validate the concept** — Run `book-idea-validator` to stress-test against
+   research, then `book-market-research` to assess commercial viability
+3. **Make the Go/No-Go decision** — Review both reports and decide whether to
+   proceed
+4. **Architect the book** — Run `book-architect` to design the complete
+   structure before drafting
+5. **Conduct research** — Run `book-research-assistant` to plan research
+   prompts, execute deep research externally, then validate findings
+6. **Plan each chapter** — Run `chapter-architect` to create beat-level outlines
+   for individual chapters before drafting
 
-Each skill produces documents that the next skill consumes, creating a consistent, repeatable workflow.
+Each skill produces documents that the next skill consumes, creating a
+consistent, repeatable workflow.

@@ -1,6 +1,7 @@
 # Discovery Questions
 
-Powerful questions organized by purpose. Draw from these throughout discovery sessions.
+Powerful questions organized by purpose. Draw from these throughout discovery
+sessions.
 
 ---
 
@@ -54,7 +55,8 @@ Use when helping users see knowledge they don't recognize as valuable.
 - What do you find yourself explaining over and over?
 - What questions do people bring you?
 - What do people thank you for helping them understand?
-- If someone shadowed you for a week, what would surprise them about how you work?
+- If someone shadowed you for a week, what would surprise them about how you
+  work?
 
 **The journey lens:**
 
@@ -180,7 +182,8 @@ Use when clarifying what changes for the reader.
 
 **The observable change question:**
 
-- If I watched your reader for a week after finishing, what would I see differently?
+- If I watched your reader for a week after finishing, what would I see
+  differently?
 - What behavior changes?
 - What decisions would they make differently?
 - What would they stop doing? Start doing?
@@ -286,12 +289,16 @@ Use when users doubt their value.
 
 ## Using Questions Effectively
 
-**One at a time:** Never barrage with multiple questions. Ask one, listen, follow up.
+**One at a time:** Never barrage with multiple questions. Ask one, listen,
+follow up.
 
-**Listen for signals:** The answer often contains the next question. Follow the energy.
+**Listen for signals:** The answer often contains the next question. Follow the
+energy.
 
-**Go deeper:** Surface answers need follow-up. "Tell me more about that." "What specifically?"
+**Go deeper:** Surface answers need follow-up. "Tell me more about that." "What
+specifically?"
 
-**Circle back:** Early answers often become relevant later. "Earlier you mentioned... how does that connect?"
+**Circle back:** Early answers often become relevant later. "Earlier you
+mentioned... how does that connect?"
 
 **Productive silence:** After asking, wait. Don't rush to fill silence.

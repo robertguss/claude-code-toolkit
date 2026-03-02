@@ -1,6 +1,7 @@
 # Documentation Quality Standards
 
-Concrete criteria for evaluating documentation quality. These standards guide documentation generation and assessment.
+Concrete criteria for evaluating documentation quality. These standards guide
+documentation generation and assessment.
 
 ## The Four Quality Dimensions
 
@@ -19,17 +20,18 @@ Documentation quality is measured across four dimensions:
 
 ### Scoring Criteria
 
-| Score | Coverage | Description |
-|-------|----------|-------------|
-| 90-100 | ≥95% | Nearly complete coverage |
-| 80-89 | 85-94% | Good coverage, minor gaps |
-| 70-79 | 75-84% | Adequate, noticeable gaps |
-| 60-69 | 65-74% | Partial coverage |
-| <60 | <65% | Significant gaps |
+| Score  | Coverage | Description               |
+| ------ | -------- | ------------------------- |
+| 90-100 | ≥95%     | Nearly complete coverage  |
+| 80-89  | 85-94%   | Good coverage, minor gaps |
+| 70-79  | 75-84%   | Adequate, noticeable gaps |
+| 60-69  | 65-74%   | Partial coverage          |
+| <60    | <65%     | Significant gaps          |
 
 ### What Counts as "Public Surface"
 
 **For APIs:**
+
 - Every endpoint
 - Every request parameter
 - Every response field
@@ -37,6 +39,7 @@ Documentation quality is measured across four dimensions:
 - Authentication requirements
 
 **For CLIs:**
+
 - Every command
 - Every flag/option
 - Every subcommand
@@ -44,6 +47,7 @@ Documentation quality is measured across four dimensions:
 - Environment variables
 
 **For Libraries:**
+
 - Every exported function
 - Every exported class
 - Every public method
@@ -51,6 +55,7 @@ Documentation quality is measured across four dimensions:
 - Key configuration options
 
 **For Web Apps:**
+
 - Every user-facing feature
 - Major UI components
 - Configuration options
@@ -59,12 +64,14 @@ Documentation quality is measured across four dimensions:
 ### Quality Criteria for Coverage
 
 ✅ **High Quality:**
+
 - Every public element has documentation
 - No "TODO" or placeholder sections
 - Examples provided for non-trivial elements
 - Edge cases and limitations noted
 
 ❌ **Low Quality:**
+
 - Missing documentation for key features
 - Placeholder text like "Coming soon"
 - No examples for complex features
@@ -73,26 +80,28 @@ Documentation quality is measured across four dimensions:
 ### Example: API Coverage
 
 **100% Coverage:**
+
 ```markdown
 ### GET /api/users/:id
 
 Retrieves a single user by ID.
 
 **Parameters:**
+
 - `id` (required): User ID as UUID
 
-**Response:** 200 OK
-[full response example]
+**Response:** 200 OK [full response example]
 
 **Errors:**
+
 - 401: Unauthorized
 - 404: User not found
 
-**Example:**
-[working code example]
+**Example:** [working code example]
 ```
 
 **50% Coverage:**
+
 ```markdown
 ### GET /api/users/:id
 
@@ -107,23 +116,25 @@ Gets a user.
 
 ### Scoring Criteria
 
-| Score | Freshness | Description |
-|-------|-----------|-------------|
-| 90-100 | Current | Docs match latest code |
-| 80-89 | Mostly current | 1-2 minor outdated items |
-| 70-79 | Somewhat stale | 3-5 outdated items |
-| 60-69 | Stale | 6-10 outdated items |
-| <60 | Very stale | >10 outdated items or critical stale docs |
+| Score  | Freshness      | Description                               |
+| ------ | -------------- | ----------------------------------------- |
+| 90-100 | Current        | Docs match latest code                    |
+| 80-89  | Mostly current | 1-2 minor outdated items                  |
+| 70-79  | Somewhat stale | 3-5 outdated items                        |
+| 60-69  | Stale          | 6-10 outdated items                       |
+| <60    | Very stale     | >10 outdated items or critical stale docs |
 
 ### What Makes Docs Stale
 
 **Code changed, docs didn't:**
+
 - New features undocumented
 - Changed API signatures not updated
 - Removed features still documented
 - Old examples that no longer work
 
 **Indicators of staleness:**
+
 - Git commits adding features without doc updates
 - Inline code comments contradicting docs
 - Examples using deprecated patterns
@@ -132,12 +143,14 @@ Gets a user.
 ### Quality Criteria for Freshness
 
 ✅ **High Quality:**
+
 - All recent changes documented
 - Examples tested and working
 - Breaking changes clearly noted
 - Migration guides for major changes
 
 ❌ **Low Quality:**
+
 - Examples don't run
 - References to removed features
 - Old version numbers in examples
@@ -146,6 +159,7 @@ Gets a user.
 ### Example: Fresh vs. Stale
 
 **Fresh:**
+
 ```markdown
 ### Authentication (Updated: 2025-01-10)
 
@@ -157,6 +171,7 @@ We use JWT tokens. As of v2.0, tokens expire after 1 hour.
 ```
 
 **Stale:**
+
 ```markdown
 ### Authentication
 
@@ -171,39 +186,44 @@ We use session cookies.
 
 **Definition:** How well-written and useful is the documentation?
 
-This dimension evaluates the documentation itself, not just coverage or freshness.
+This dimension evaluates the documentation itself, not just coverage or
+freshness.
 
 ### Scoring Criteria
 
-| Score | Quality Level | Description |
-|-------|---------------|-------------|
-| 90-100 | Excellent | Clear, complete, helpful, abundant examples |
-| 80-89 | Good | Clear and helpful, some examples |
-| 70-79 | Adequate | Understandable but could be better |
-| 60-69 | Poor | Confusing or minimal |
-| <60 | Very poor | Unclear, unhelpful, or misleading |
+| Score  | Quality Level | Description                                 |
+| ------ | ------------- | ------------------------------------------- |
+| 90-100 | Excellent     | Clear, complete, helpful, abundant examples |
+| 80-89  | Good          | Clear and helpful, some examples            |
+| 70-79  | Adequate      | Understandable but could be better          |
+| 60-69  | Poor          | Confusing or minimal                        |
+| <60    | Very poor     | Unclear, unhelpful, or misleading           |
 
 ### Quality Factors
 
 #### Clarity
+
 - Concepts explained before used
 - Technical terms defined
 - Logical flow of information
 - No ambiguity
 
 #### Completeness
+
 - "Why" explained, not just "what"
 - Edge cases covered
 - Limitations noted
 - Troubleshooting provided
 
 #### Examples
+
 - Working code examples
 - Multiple examples showing different use cases
 - Examples progress from simple to complex
 - Examples are realistic
 
 #### Usability
+
 - Easy to navigate
 - Good table of contents
 - Cross-references work
@@ -212,6 +232,7 @@ This dimension evaluates the documentation itself, not just coverage or freshnes
 ### Quality Criteria
 
 ✅ **High Quality:**
+
 - Multiple working examples per major feature
 - Architecture Decision Records explaining "why"
 - Troubleshooting section with real issues
@@ -219,6 +240,7 @@ This dimension evaluates the documentation itself, not just coverage or freshnes
 - Progressive disclosure (simple → complex)
 
 ❌ **Low Quality:**
+
 - No examples, or examples that don't run
 - Only "what" documented, no "why"
 - No troubleshooting
@@ -227,18 +249,20 @@ This dimension evaluates the documentation itself, not just coverage or freshnes
 
 ### Example: High Quality Section
 
-```markdown
+````markdown
 ## Rate Limiting
 
 To prevent abuse, all API endpoints are rate limited.
 
 ### How It Works
 
-Each API key gets 1000 requests per hour. This counter resets at the top of each hour (e.g., 2:00pm, 3:00pm).
+Each API key gets 1000 requests per hour. This counter resets at the top of each
+hour (e.g., 2:00pm, 3:00pm).
 
 ### Why Rate Limiting?
 
 We implement rate limiting to:
+
 - Prevent abuse and DoS attacks
 - Ensure fair resource allocation
 - Maintain service stability
@@ -254,23 +278,24 @@ X-RateLimit-Limit: 1000
 X-RateLimit-Remaining: 742
 X-RateLimit-Reset: 1641654000
 ```
+````
 
 ### Example: Handling Rate Limits
 
 ```javascript
 async function makeRequest() {
-  const response = await fetch('/api/users', {
-    headers: { 'Authorization': `Bearer ${token}` }
+  const response = await fetch("/api/users", {
+    headers: { Authorization: `Bearer ${token}` },
   });
-  
+
   if (response.status === 429) {
-    const resetTime = response.headers.get('X-RateLimit-Reset');
-    const waitMs = (resetTime * 1000) - Date.now();
+    const resetTime = response.headers.get("X-RateLimit-Reset");
+    const waitMs = resetTime * 1000 - Date.now();
     console.log(`Rate limited. Waiting ${waitMs}ms`);
     await sleep(waitMs);
     return makeRequest(); // Retry
   }
-  
+
   return response.json();
 }
 ```
@@ -280,16 +305,19 @@ async function makeRequest() {
 **Problem:** Getting 429 errors frequently
 
 **Causes:**
+
 - Making requests in tight loops
 - Multiple servers using same key
 - Burst traffic patterns
 
 **Solutions:**
+
 - Implement exponential backoff
 - Use separate API keys per server
 - Batch requests where possible
 - Cache responses
-```
+
+````
 
 ---
 
@@ -370,8 +398,9 @@ createUser(userData)
 You can make a new user like this:
 ```js
 makeNewUser({name: "John"})
-```
-```
+````
+
+````
 
 **Consistent:**
 ```markdown
@@ -381,7 +410,7 @@ Install the package:
 
 ```bash
 npm install myapp
-```
+````
 
 ## API Reference
 
@@ -390,6 +419,7 @@ npm install myapp
 Creates a new user.
 
 **Example:**
+
 ```javascript
 const user = await createUser({ name: "John" });
 ```
@@ -401,7 +431,8 @@ const user = await createUser({ name: "John" });
 ```javascript
 const user = await createUser({ name: "John" });
 ```
-```
+
+````
 
 ---
 
@@ -524,15 +555,17 @@ Good documentation is accessible:
 ```bash
 # Script to check all links
 ./docs/scripts/validate-links.sh
-```
+````
 
 **Example testing:**
+
 ```bash
 # Run all example code
 ./docs/scripts/test-examples.sh
 ```
 
 **Accessibility checking:**
+
 ```bash
 # Check heading hierarchy, alt text, etc.
 ./docs/scripts/accessibility-check.sh
@@ -545,24 +578,28 @@ Good documentation is accessible:
 When improving documentation quality:
 
 **Coverage:**
+
 - [ ] Identify undocumented public APIs
 - [ ] Add missing examples
 - [ ] Document edge cases
 - [ ] Cover error scenarios
 
 **Freshness:**
+
 - [ ] Update examples to match current code
 - [ ] Remove references to deleted features
 - [ ] Add migration guides for breaking changes
 - [ ] Update version numbers
 
 **Quality:**
+
 - [ ] Add "why" to accompany "what"
 - [ ] Create working examples
 - [ ] Add troubleshooting section
 - [ ] Create diagrams for complex concepts
 
 **Consistency:**
+
 - [ ] Standardize terminology
 - [ ] Uniform tone throughout
 - [ ] Consistent formatting
@@ -575,24 +612,28 @@ When improving documentation quality:
 ### Review Checklist
 
 **Accuracy:**
+
 - [ ] All facts verified against code
 - [ ] Examples tested and working
 - [ ] Version numbers correct
 - [ ] Links resolve
 
 **Completeness:**
+
 - [ ] All features documented
 - [ ] Configuration covered
 - [ ] Troubleshooting present
 - [ ] Examples for main use cases
 
 **Clarity:**
+
 - [ ] Understandable to target audience
 - [ ] No jargon without definition
 - [ ] Logical flow
 - [ ] Visual aids where helpful
 
 **Findability:**
+
 - [ ] Good navigation
 - [ ] Clear headings
 - [ ] Searchable terms

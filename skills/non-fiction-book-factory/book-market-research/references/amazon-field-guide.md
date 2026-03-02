@@ -44,7 +44,8 @@ How to find the data fields for competitor analysis.
 ### Finding Review Count and Rating
 
 1. Near the **top of the page**, under the title
-2. You'll see stars and a number like: ⭐⭐⭐⭐☆ 4.3 out of 5 stars · 2,847 ratings
+2. You'll see stars and a number like: ⭐⭐⭐⭐☆ 4.3 out of 5 stars · 2,847
+   ratings
 3. **Rating** = the number out of 5 (e.g., 4.3)
 4. **Reviews** = the total count (e.g., 2,847)
 
@@ -74,10 +75,12 @@ Record: **Y** (yes, in KU) or **N** (not in KU)
 
 ## Tips
 
-- **Open in new tabs**: Open all competitor URLs in separate tabs for faster data entry
+- **Open in new tabs**: Open all competitor URLs in separate tabs for faster
+  data entry
 - **Use the Kindle page**: BSR is often clearer on the Kindle edition page
 - **Ignore audiobook**: Focus on Kindle and print formats
-- **Note anomalies**: If something looks unusual (e.g., BSR of 47 for an obscure book), make a note
+- **Note anomalies**: If something looks unusual (e.g., BSR of 47 for an obscure
+  book), make a note
 
 ## Time Estimate
 

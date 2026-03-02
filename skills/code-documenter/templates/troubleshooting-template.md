@@ -18,34 +18,37 @@ Start here if you're not sure what's wrong:
 #### [Specific Issue]: [Brief Description]
 
 **Symptom:**
+
 ```
 [Error message or description of what user sees]
 ```
 
-**Cause:**
-[What causes this issue]
+**Cause:** [What causes this issue]
 
 **Solution:**
 
 **Step 1:** [First step]
+
 ```bash
 [command if applicable]
 ```
 
 **Step 2:** [Second step]
+
 ```bash
 [command if applicable]
 ```
 
 **Step 3:** [Verification]
+
 ```bash
 [command to verify fix worked]
 ```
 
-**Prevention:**
-[How to avoid this in the future]
+**Prevention:** [How to avoid this in the future]
 
 **Related:**
+
 - [Link to related docs]
 - [Link to related troubleshooting]
 
@@ -54,20 +57,20 @@ Start here if you're not sure what's wrong:
 #### [Another Specific Issue]: [Brief Description]
 
 **Symptom:**
+
 ```
 [Error message]
 ```
 
-**Cause:**
-[Root cause]
+**Cause:** [Root cause]
 
 **Quick Fix:**
+
 ```bash
 [immediate solution]
 ```
 
-**Permanent Fix:**
-[Long-term solution]
+**Permanent Fix:** [Long-term solution]
 
 ---
 
@@ -84,16 +87,19 @@ Start here if you're not sure what's wrong:
 **When it occurs:** [Context]
 
 **Common causes:**
+
 - Cause 1
 - Cause 2
 - Cause 3
 
 **Resolution:**
+
 1. Step 1
 2. Step 2
 3. Step 3
 
 **Example:**
+
 ```bash
 [example of fixing this error]
 ```
@@ -113,6 +119,7 @@ Start here if you're not sure what's wrong:
 #### [Issue specific to macOS]
 
 **Solution:**
+
 ```bash
 [macOS-specific commands]
 ```
@@ -122,6 +129,7 @@ Start here if you're not sure what's wrong:
 #### [Issue specific to Linux]
 
 **Solution:**
+
 ```bash
 [Linux-specific commands]
 ```
@@ -131,6 +139,7 @@ Start here if you're not sure what's wrong:
 #### [Issue specific to Windows]
 
 **Solution:**
+
 ```bash
 [Windows-specific commands]
 ```
@@ -144,6 +153,7 @@ Start here if you're not sure what's wrong:
 **Symptom:** [What slow behavior looks like]
 
 **Diagnosis:**
+
 ```bash
 [how to measure/confirm]
 ```
@@ -151,10 +161,12 @@ Start here if you're not sure what's wrong:
 **Solutions:**
 
 **Short-term:**
+
 - Quick fix 1
 - Quick fix 2
 
 **Long-term:**
+
 - Optimization 1
 - Optimization 2
 
@@ -165,12 +177,14 @@ Start here if you're not sure what's wrong:
 ### Cannot Connect to [Service]
 
 **Check:**
+
 1. Service is running
 2. Firewall rules
 3. Network connectivity
 4. Configuration
 
 **Commands:**
+
 ```bash
 # Check service status
 [command]
@@ -189,16 +203,19 @@ Start here if you're not sure what's wrong:
 ### [Config Issue 1]
 
 **Invalid configuration detected:**
+
 ```
 [error message]
 ```
 
 **Fix:**
+
 1. Check config file: `[path]`
 2. Verify required fields are present
 3. Validate format: `[validation command]`
 
 **Example valid config:**
+
 ```[format]
 [valid configuration example]
 ```
@@ -212,11 +229,13 @@ Start here if you're not sure what's wrong:
 **Symptom:** [What user sees]
 
 **Diagnosis:**
+
 ```sql
 [query to check status]
 ```
 
 **Solution:**
+
 ```sql
 [fix query/command]
 ```
@@ -228,16 +247,19 @@ Start here if you're not sure what's wrong:
 If you've tried the solutions above and still have problems:
 
 1. **Check the logs:**
+
    ```bash
    [command to view detailed logs]
    ```
 
 2. **Enable debug mode:**
+
    ```bash
    [how to enable verbose logging]
    ```
 
 3. **Collect diagnostic info:**
+
    ```bash
    [command to generate diagnostic report]
    ```
@@ -250,6 +272,7 @@ If you've tried the solutions above and still have problems:
 ### When Reporting Issues
 
 Please include:
+
 - Error messages (full text)
 - Steps to reproduce
 - Environment details (OS, version, etc.)
@@ -257,35 +280,40 @@ Please include:
 - Configuration (sanitized)
 
 **Template:**
+
 ```markdown
-**Describe the issue:**
-[What's wrong]
+**Describe the issue:** [What's wrong]
 
 **Steps to reproduce:**
+
 1. Step 1
 2. Step 2
 3. Step 3
 
-**Expected behavior:**
-[What should happen]
+**Expected behavior:** [What should happen]
 
-**Actual behavior:**
-[What actually happens]
+**Actual behavior:** [What actually happens]
 
 **Environment:**
-- OS: 
-- Version: 
+
+- OS:
+- Version:
 - Node/Python/etc version:
 
 **Logs:**
 ```
+
 [paste relevant logs]
+
 ```
 
 **Config (sanitized):**
 ```
+
 [paste config without secrets]
+
 ```
+
 ```
 
 ---

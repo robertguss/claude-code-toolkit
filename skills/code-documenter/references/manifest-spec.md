@@ -1,10 +1,12 @@
 # Documentation Manifest Specification
 
-Technical specification for the `.doc-state.json` file that tracks documentation state.
+Technical specification for the `.doc-state.json` file that tracks documentation
+state.
 
 ## Purpose
 
 The manifest enables:
+
 - **Incremental updates:** Know what changed since last documentation
 - **Health tracking:** Monitor documentation quality over time
 - **Debt management:** Track what needs attention
@@ -76,6 +78,7 @@ This file should be committed to version control.
 **Description:** Manifest format version. Current version is "1.0"
 
 **Example:**
+
 ```json
 "version": "1.0"
 ```
@@ -95,6 +98,7 @@ This file should be committed to version control.
 **Description:** Project name from package.json, Cargo.toml, or directory name
 
 **Example:**
+
 ```json
 "name": "express-api"
 ```
@@ -103,10 +107,12 @@ This file should be committed to version control.
 
 **Type:** String  
 **Required:** Yes  
-**Allowed values:** `rest-api`, `cli`, `library`, `web-app`, `database`, `monorepo`, `other`  
+**Allowed values:** `rest-api`, `cli`, `library`, `web-app`, `database`,
+`monorepo`, `other`  
 **Description:** Project type identified during analysis
 
 **Example:**
+
 ```json
 "type": "rest-api"
 ```
@@ -118,6 +124,7 @@ This file should be committed to version control.
 **Description:** When the project was last analyzed
 
 **Example:**
+
 ```json
 "lastScanned": "2025-01-10T14:30:00Z"
 ```
@@ -129,6 +136,7 @@ This file should be committed to version control.
 **Description:** Git commit hash at last scan. Used for delta analysis.
 
 **Example:**
+
 ```json
 "gitCommit": "a3f2b1c9d8e7f6a5b4c3d2e1f0"
 ```
@@ -149,6 +157,7 @@ This file should be committed to version control.
 **Description:** Who needs the documentation
 
 **Example:**
+
 ```json
 "audiences": ["developers", "users"]
 ```
@@ -161,6 +170,7 @@ This file should be committed to version control.
 **Description:** Documentation depth preference
 
 **Example:**
+
 ```json
 "depthLevel": "standard"
 ```
@@ -173,6 +183,7 @@ This file should be committed to version control.
 **Description:** Documentation tone/voice
 
 **Example:**
+
 ```json
 "tone": "professional"
 ```
@@ -193,11 +204,13 @@ This file should be committed to version control.
 **Description:** Weighted average of component scores
 
 **Calculation:**
+
 ```
 overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consistency * 0.10)
 ```
 
 **Example:**
+
 ```json
 "overall": 92
 ```
@@ -209,12 +222,14 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 **Description:** Individual quality dimension scores
 
 **Fields:**
+
 - `coverage`: 0-100, represents % of public surface documented
 - `freshness`: 0-100, represents how current docs are
 - `quality`: 0-100, represents documentation quality
 - `consistency`: 0-100, represents uniformity
 
 **Example:**
+
 ```json
 "components": {
   "coverage": 95,
@@ -231,6 +246,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 **Description:** Historical overall health scores (last 10)
 
 **Example:**
+
 ```json
 "trend": [65, 72, 78, 85, 92]
 ```
@@ -246,6 +262,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 **Structure:** Dynamic keys based on project type
 
 **For REST APIs:**
+
 ```json
 "coverage": {
   "endpoints": {
@@ -262,6 +279,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 ```
 
 **For CLIs:**
+
 ```json
 "coverage": {
   "commands": {
@@ -278,6 +296,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 ```
 
 **For Libraries:**
+
 ```json
 "coverage": {
   "functions": {
@@ -294,6 +313,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 ```
 
 **For Web Apps:**
+
 ```json
 "coverage": {
   "components": {
@@ -333,9 +353,11 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 
 **Type:** Array of DebtItem  
 **Required:** Yes  
-**Description:** Critical documentation issues (missing core docs, broken examples)
+**Description:** Critical documentation issues (missing core docs, broken
+examples)
 
 **Example:**
+
 ```json
 "critical": [
   {
@@ -351,9 +373,11 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 
 **Type:** Array of DebtItem  
 **Required:** Yes  
-**Description:** Important but not blocking (missing examples, incomplete guides)
+**Description:** Important but not blocking (missing examples, incomplete
+guides)
 
 **Example:**
+
 ```json
 "important": [
   {
@@ -372,6 +396,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 **Description:** Nice-to-have improvements
 
 **Example:**
+
 ```json
 "minor": [
   {
@@ -405,6 +430,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 ```
 
 **Example:**
+
 ```json
 "documentationMap": {
   "README.md": {
@@ -522,6 +548,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 ### Version History
 
 **v1.0** (Current)
+
 - Initial manifest format
 - Four quality dimensions
 - Debt prioritization
@@ -530,6 +557,7 @@ overall = (coverage * 0.40) + (freshness * 0.30) + (quality * 0.20) + (consisten
 ### Future Considerations
 
 Potential additions in future versions:
+
 - Performance metrics (doc load times)
 - User feedback integration
 - Translation tracking
@@ -542,6 +570,7 @@ Potential additions in future versions:
 ### Initial Creation
 
 On first run, the skill creates a manifest with:
+
 - Empty coverage (will be populated)
 - Initial health score of 0
 - Empty debt arrays
@@ -550,6 +579,7 @@ On first run, the skill creates a manifest with:
 ### Updates
 
 On subsequent runs, the skill:
+
 1. Loads existing manifest
 2. Compares current code state vs. manifest
 3. Identifies changes (added/modified/removed)
@@ -562,6 +592,7 @@ On subsequent runs, the skill:
 ### Git Integration
 
 If git is available:
+
 - Manifest stores current commit hash
 - Next run compares HEAD to stored commit
 - Git diff shows exactly what changed
@@ -570,6 +601,7 @@ If git is available:
 ### Manual Edits
 
 If user manually edits documentation:
+
 - Quick Mode preserves manual changes
 - Comprehensive Mode can ask to regenerate or preserve
 - Manifest tracks last update time per file
@@ -581,6 +613,7 @@ If user manually edits documentation:
 ### Missing Manifest
 
 If `.doc-state.json` doesn't exist:
+
 - Treat as first-time documentation
 - Create fresh manifest
 - No delta analysis possible
@@ -589,6 +622,7 @@ If `.doc-state.json` doesn't exist:
 ### Corrupted Manifest
 
 If manifest is invalid JSON:
+
 - Log error
 - Ask user: regenerate or fix?
 - If regenerate: back up old manifest to `.doc-state.json.bak`
@@ -597,6 +631,7 @@ If manifest is invalid JSON:
 ### Version Mismatch
 
 If manifest version doesn't match current:
+
 - Attempt migration if possible
 - Otherwise: regenerate manifest
 - Preserve what's possible from old version
@@ -608,17 +643,20 @@ If manifest version doesn't match current:
 ### Commit to Version Control
 
 The manifest should be committed because:
+
 - Team members share documentation state
 - CI/CD can check doc freshness
 - Documentation health visible in repo
 
 ### Don't Edit Manually
 
-The manifest is generated and managed by the skill. Manual edits will be overwritten.
+The manifest is generated and managed by the skill. Manual edits will be
+overwritten.
 
 ### Review Trends
 
 Health score trend shows documentation quality over time:
+
 - Upward trend: good
 - Downward trend: debt accumulating
 - Flat trend: stable but may need improvement
@@ -626,6 +664,7 @@ Health score trend shows documentation quality over time:
 ### Address Critical Debt
 
 Don't let critical debt accumulate:
+
 - Critical items block users
 - Fix before adding new features
 - Schedule time for doc maintenance

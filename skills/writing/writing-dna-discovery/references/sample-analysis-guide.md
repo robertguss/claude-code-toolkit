@@ -9,7 +9,8 @@ How to systematically analyze writing samples to extract voice DNA patterns.
 Sample analysis is the foundation, but not the whole building:
 
 1. **Samples reveal patterns** — They show what the writer does, not always why.
-2. **Interview confirms patterns** — Samples might be atypical; interview validates.
+2. **Interview confirms patterns** — Samples might be atypical; interview
+   validates.
 3. **Patterns need examples** — Always capture quotes that demonstrate patterns.
 4. **Gaps must be noted** — What can't we learn from this sample?
 
@@ -62,11 +63,13 @@ Read the sample quickly. Note immediate impressions.
 - What register/mode is this?
 - Does anything feel distinctive or unusual?
 
-**Capture gut impressions before they fade.** First reactions often identify the most distinctive patterns.
+**Capture gut impressions before they fade.** First reactions often identify the
+most distinctive patterns.
 
 **Example gut notes:**
 
-> "Short sentences. Very direct. Almost aggressive. Lots of 'But' at sentence starts. No hedging at all."
+> "Short sentences. Very direct. Almost aggressive. Lots of 'But' at sentence
+> starts. No hedging at all."
 
 ---
 
@@ -289,7 +292,8 @@ Signs the sample may not be representative:
 - Patterns wildly different from other samples
 - Patterns that match AI writing tells
 
-**When red flags appear:** Note them. Ask clarifying questions in interview. Don't assume sample represents true voice.
+**When red flags appear:** Note them. Ask clarifying questions in interview.
+Don't assume sample represents true voice.
 
 ---
 
@@ -375,14 +379,19 @@ Rate each pattern:
 
 ## Common Analysis Mistakes
 
-1. **Overgeneralizing from one sample** — Wait for confirmation before finalizing patterns.
+1. **Overgeneralizing from one sample** — Wait for confirmation before
+   finalizing patterns.
 
-2. **Missing the forest for trees** — Don't get lost in metrics. What makes this writer recognizable?
+2. **Missing the forest for trees** — Don't get lost in metrics. What makes this
+   writer recognizable?
 
-3. **Ignoring gut reactions** — First impressions often catch the most distinctive patterns.
+3. **Ignoring gut reactions** — First impressions often catch the most
+   distinctive patterns.
 
-4. **Treating absence as avoidance** — Just because something's not in the sample doesn't mean they never do it.
+4. **Treating absence as avoidance** — Just because something's not in the
+   sample doesn't mean they never do it.
 
-5. **Assuming samples are representative** — They might be unusual. Always check.
+5. **Assuming samples are representative** — They might be unusual. Always
+   check.
 
 6. **Skipping gap identification** — Know what you don't know.

@@ -1,6 +1,7 @@
 # Contrarian Research Strategies
 
-How to research claims that go against conventional wisdom—essential for books with contrarian theses that challenge what readers believe.
+How to research claims that go against conventional wisdom—essential for books
+with contrarian theses that challenge what readers believe.
 
 ---
 
@@ -8,7 +9,8 @@ How to research claims that go against conventional wisdom—essential for books
 
 Books with contrarian theses face unique research challenges:
 
-1. **Evidence may be harder to find** — Conventional wisdom often has more studies, more experts, more citations
+1. **Evidence may be harder to find** — Conventional wisdom often has more
+   studies, more experts, more citations
 2. **Selection bias temptation** — Easy to cherry-pick supporting evidence
 3. **Credibility hurdle** — Readers will be skeptical; evidence must be stronger
 4. **Strawman risk** — Easy to argue against a weak version of the opposition
@@ -22,10 +24,14 @@ A contrarian book needs _better_ research, not just _different_ research.
 
 ### What Steelmanning Means
 
-Present the **strongest** version of the argument you're challenging—not a weak version that's easy to defeat.
+Present the **strongest** version of the argument you're challenging—not a weak
+version that's easy to defeat.
 
 **Strawman:** "People who prefer digital notes are just addicted to technology."
-**Steelman:** "Digital notes offer searchability, portability, cloud backup, multimedia integration, and collaboration features that paper cannot match. Leading productivity experts like [Name] recommend digital systems, and studies show [specific benefit]."
+**Steelman:** "Digital notes offer searchability, portability, cloud backup,
+multimedia integration, and collaboration features that paper cannot match.
+Leading productivity experts like [Name] recommend digital systems, and studies
+show [specific benefit]."
 
 ### Why Steelmanning Matters
 
@@ -33,13 +39,16 @@ Present the **strongest** version of the argument you're challenging—not a wea
 2. **Persuasion:** Defeating a strong argument is more convincing
 3. **Completeness:** You may discover your position needs refinement
 4. **Trust:** Readers who hold the conventional view feel heard
-5. **Durability:** Your argument survives if you've addressed the best counterpoints
+5. **Durability:** Your argument survives if you've addressed the best
+   counterpoints
 
 ### How to Research the Steelman
 
 **Explicit prompt element:**
 
-> "Present the strongest case AGAINST my thesis. Find the best evidence, the most credible experts, and the most compelling arguments for the opposing view. Steelman, don't strawman."
+> "Present the strongest case AGAINST my thesis. Find the best evidence, the
+> most credible experts, and the most compelling arguments for the opposing
+> view. Steelman, don't strawman."
 
 **Sources to seek:**
 
@@ -62,11 +71,14 @@ Be precise about the conventional wisdom:
 
 ### Step 2: Research the Conventional View First
 
-Before researching your contrarian position, deeply understand what you're challenging:
+Before researching your contrarian position, deeply understand what you're
+challenging:
 
 **Prompt:**
 
-> "What is the strongest case for [conventional view]? What evidence supports it? Who are its most credible advocates? What would I need to believe to hold this view?"
+> "What is the strongest case for [conventional view]? What evidence supports
+> it? Who are its most credible advocates? What would I need to believe to hold
+> this view?"
 
 This prevents:
 
@@ -86,7 +98,9 @@ Look for:
 
 **Prompt:**
 
-> "What are the anomalies, dissenting views, methodological critiques, and limitations of [conventional view]? Where does the evidence not fully support it?"
+> "What are the anomalies, dissenting views, methodological critiques, and
+> limitations of [conventional view]? Where does the evidence not fully support
+> it?"
 
 ### Step 4: Build Your Contrarian Case
 
@@ -98,7 +112,8 @@ Now research your position:
 
 **Prompt:**
 
-> "What evidence supports [contrarian view]? What studies, experts, or examples suggest [conventional wisdom] is wrong or incomplete?"
+> "What evidence supports [contrarian view]? What studies, experts, or examples
+> suggest [conventional wisdom] is wrong or incomplete?"
 
 ### Step 5: Anticipate Rebuttals
 
@@ -106,7 +121,8 @@ What will defenders of conventional wisdom say to your argument?
 
 **Prompt:**
 
-> "How would a strong defender of [conventional view] respond to [contrarian evidence/argument]? What would they say to dismiss or minimize it?"
+> "How would a strong defender of [conventional view] respond to [contrarian
+> evidence/argument]? What would they say to dismiss or minimize it?"
 
 Prepare responses to likely rebuttals.
 
@@ -122,12 +138,10 @@ Contrarian claims need stronger evidence because:
 - You're going against expert consensus (if applicable)
 - You'll face skeptical reading
 
-**Proof burden escalation:**
-| Claim Type | Normal Burden | Contrarian Burden |
-|------------|---------------|-------------------|
-| Supporting point | Light | Medium |
-| Significant claim | Medium | Heavy |
-| Central thesis | Heavy | Extraordinary |
+**Proof burden escalation:** | Claim Type | Normal Burden | Contrarian Burden |
+|------------|---------------|-------------------| | Supporting point | Light |
+Medium | | Significant claim | Medium | Heavy | | Central thesis | Heavy |
+Extraordinary |
 
 ### What "Extraordinary Evidence" Looks Like
 
@@ -142,13 +156,16 @@ For core contrarian claims:
 
 ### Dealing with Evidence Asymmetry
 
-Conventional wisdom often has more studies simply because it's been studied more. Strategies:
+Conventional wisdom often has more studies simply because it's been studied
+more. Strategies:
 
 1. **Quality over quantity:** One rigorous study can outweigh ten weak ones
 2. **Question the studies:** Examine methodology of supporting research
-3. **Reframe the evidence:** Sometimes the same evidence supports a different conclusion
+3. **Reframe the evidence:** Sometimes the same evidence supports a different
+   conclusion
 4. **Identify gaps:** What hasn't been studied that would test your view?
-5. **Logical argument:** Sometimes reasoning can supplement limited empirical evidence
+5. **Logical argument:** Sometimes reasoning can supplement limited empirical
+   evidence
 
 ---
 
@@ -165,7 +182,8 @@ Look for:
 
 **Prompt:**
 
-> "Which credentialed experts or researchers have argued against [conventional view]? What are their credentials and arguments?"
+> "Which credentialed experts or researchers have argued against [conventional
+> view]? What are their credentials and arguments?"
 
 ### Methodological Critics
 
@@ -173,7 +191,8 @@ Find those who challenge the _research base_ for conventional wisdom:
 
 **Prompt:**
 
-> "What methodological critiques have been made of the research supporting [conventional view]? What are the limitations of the key studies?"
+> "What methodological critiques have been made of the research supporting
+> [conventional view]? What are the limitations of the key studies?"
 
 ### Historical Parallels
 
@@ -181,7 +200,8 @@ Past examples of overturned conventional wisdom:
 
 **Prompt:**
 
-> "What are historical examples of [similar type of] conventional wisdom that was later overturned? What allowed the new view to emerge?"
+> "What are historical examples of [similar type of] conventional wisdom that
+> was later overturned? What allowed the new view to emerge?"
 
 ### Adjacent Field Perspectives
 
@@ -189,7 +209,8 @@ Different disciplines may see the question differently:
 
 **Prompt:**
 
-> "How do experts in [related field] view [topic]? Do they agree with the conventional wisdom in [main field]?"
+> "How do experts in [related field] view [topic]? Do they agree with the
+> conventional wisdom in [main field]?"
 
 ---
 
@@ -255,27 +276,35 @@ Research shapes not just _what_ you write but _how_:
 
 **More persuasive:**
 
-> "The conventional wisdom has merit, but overlooked evidence suggests a different view. Here's what I found..."
+> "The conventional wisdom has merit, but overlooked evidence suggests a
+> different view. Here's what I found..."
 
 ---
 
 ## Specific to "A Critique of Truth"
 
-Robert's book argues that philosophy has failed because truth is a Person (Christ), not a proposition—a deeply contrarian thesis in secular philosophy.
+Robert's book argues that philosophy has failed because truth is a Person
+(Christ), not a proposition—a deeply contrarian thesis in secular philosophy.
 
 **Research considerations:**
 
-1. **Steelman secular epistemology:** Research the strongest defenses of propositional truth, correspondence theory, etc.
+1. **Steelman secular epistemology:** Research the strongest defenses of
+   propositional truth, correspondence theory, etc.
 
-2. **Find the cracks:** Where has secular epistemology struggled? (Gettier problems, epistemic regress, the problem of criterion)
+2. **Find the cracks:** Where has secular epistemology struggled? (Gettier
+   problems, epistemic regress, the problem of criterion)
 
-3. **Build from strength:** Van Til, Reformed epistemology, presuppositional apologetics—what's the best scholarly work?
+3. **Build from strength:** Van Til, Reformed epistemology, presuppositional
+   apologetics—what's the best scholarly work?
 
-4. **Anticipate objections:** "This is just theology, not philosophy" — how do Christian philosophers respond?
+4. **Anticipate objections:** "This is just theology, not philosophy" — how do
+   Christian philosophers respond?
 
-5. **Historical depth:** How did philosophy move away from truth-as-personal? What's the history of this shift?
+5. **Historical depth:** How did philosophy move away from truth-as-personal?
+   What's the history of this shift?
 
-6. **Contemporary voices:** Are there philosophers (even secular ones) questioning propositional-only accounts of truth?
+6. **Contemporary voices:** Are there philosophers (even secular ones)
+   questioning propositional-only accounts of truth?
 
 ---
 
@@ -294,4 +323,5 @@ Before finalizing contrarian chapter research, verify:
 
 ---
 
-_Use this guide when researching books with contrarian theses or chapters that challenge conventional wisdom._
+_Use this guide when researching books with contrarian theses or chapters that
+challenge conventional wisdom._

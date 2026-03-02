@@ -189,17 +189,14 @@ Organized around common questions or problems.
 
 Most effective ebooks combine formats:
 
-**Prose + Workbook:**
-Conceptual chapters followed by application exercises.
+**Prose + Workbook:** Conceptual chapters followed by application exercises.
 
-**Guide + Templates:**
-Process explanation with plug-and-play tools.
+**Guide + Templates:** Process explanation with plug-and-play tools.
 
-**Case Studies + Framework:**
-Examples that illustrate and teach a reusable approach.
+**Case Studies + Framework:** Examples that illustrate and teach a reusable
+approach.
 
-**FAQ + Deep Dives:**
-Quick answers with optional depth for those who want it.
+**FAQ + Deep Dives:** Quick answers with optional depth for those who want it.
 
 ---
 
@@ -245,4 +242,5 @@ When choosing format, consider:
 - Choosing case studies but only have 1-2 weak examples
 - Choosing FAQ but questions feel forced
 
-**The test:** Would a reader feel cheated if they expected this format and got your content? If there's any doubt, reconsider.
+**The test:** Would a reader feel cheated if they expected this format and got
+your content? If there's any doubt, reconsider.

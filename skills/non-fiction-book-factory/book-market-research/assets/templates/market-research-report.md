@@ -1,10 +1,8 @@
 # Market Research Report
 
-**Book:** [Working title from Book Concept Document]
-**Author:** [Author name]
-**Date:** [Date of report]
-**Mode:** [Quick Assessment / Deep Dive]
-**Status:** [Preliminary / Final]
+**Book:** [Working title from Book Concept Document] **Author:** [Author name]
+**Date:** [Date of report] **Mode:** [Quick Assessment / Deep Dive] **Status:**
+[Preliminary / Final]
 
 ---
 
@@ -16,10 +14,12 @@
 
 ## Author Intent & Interpretation
 
-**Stated Intent:** [Income / Authority / Passion-Legacy / Lead Generation / Audience Service]
+**Stated Intent:** [Income / Authority / Passion-Legacy / Lead Generation /
+Audience Service]
 
-**How this shapes the recommendation:**
-[Explain how the viability score should be interpreted given the author's intent. A 5.5 means something different for income vs. passion authors.]
+**How this shapes the recommendation:** [Explain how the viability score should
+be interpreted given the author's intent. A 5.5 means something different for
+income vs. passion authors.]
 
 ---
 
@@ -58,7 +58,8 @@
 
 ### Market Gaps Identified
 
-[What are readers asking for that isn't being delivered? What complaints appear repeatedly?]
+[What are readers asking for that isn't being delivered? What complaints appear
+repeatedly?]
 
 ### Positioning White Space
 
@@ -68,24 +69,24 @@
 
 ## Target Reader Analysis
 
-**Reader from Book Concept Document:**
-[Summarize the original reader definition]
+**Reader from Book Concept Document:** [Summarize the original reader
+definition]
 
-**Refined Based on Market Research:**
-[Any adjustments based on what the market reveals about who's actually buying]
+**Refined Based on Market Research:** [Any adjustments based on what the market
+reveals about who's actually buying]
 
-**Underserved Segment:**
-[Is there a specific reader segment not being well-served by current offerings?]
+**Underserved Segment:** [Is there a specific reader segment not being
+well-served by current offerings?]
 
 ---
 
 ## Positioning Recommendation
 
-**Current differentiation:**
-[How does this book differ from competitors based on the Book Concept Document?]
+**Current differentiation:** [How does this book differ from competitors based
+on the Book Concept Document?]
 
-**Recommended positioning:**
-[Based on market gaps, how should this book position itself?]
+**Recommended positioning:** [Based on market gaps, how should this book
+position itself?]
 
 **Key differentiators to emphasize:**
 
@@ -95,8 +96,7 @@
 
 ## Pricing Recommendation
 
-**Market range:** $[low] – $[high]
-**Market median:** $[median]
+**Market range:** $[low] – $[high] **Market median:** $[median]
 
 **Recommended price points:**
 
@@ -104,8 +104,7 @@
 - Paperback: $
 - Hardcover: $ (if applicable)
 
-**Rationale:**
-[Why these prices? How do they position against competitors?]
+**Rationale:** [Why these prices? How do they position against competitors?]
 
 ---
 
@@ -113,31 +112,30 @@
 
 **Current working title:** [From Book Concept Document]
 
-**Market-informed suggestions:**
-Based on what's working in this category:
+**Market-informed suggestions:** Based on what's working in this category:
 
 - [Suggestion 1]
 - [Suggestion 2]
 - [Suggestion 3]
 
-**Patterns observed:**
-[What title/subtitle patterns appear in successful competitors?]
+**Patterns observed:** [What title/subtitle patterns appear in successful
+competitors?]
 
 ---
 
 ## Platform Fit Assessment
 
-**Author's existing platform:**
-[Newsletter size, social following, podcast, speaking, etc.]
+**Author's existing platform:** [Newsletter size, social following, podcast,
+speaking, etc.]
 
-**Platform-market alignment:**
-[Does the author's audience match the book's target reader?]
+**Platform-market alignment:** [Does the author's audience match the book's
+target reader?]
 
-**Launch velocity potential:**
-[Can the author drive initial sales to trigger Amazon's algorithm?]
+**Launch velocity potential:** [Can the author drive initial sales to trigger
+Amazon's algorithm?]
 
-**Recommendation:**
-[Platform is sufficient / Platform needs building / Platform is a concern]
+**Recommendation:** [Platform is sufficient / Platform needs building / Platform
+is a concern]
 
 ---
 
@@ -149,11 +147,10 @@ Based on what's working in this category:
 - [ ] Stable evergreen
 - [ ] Declining interest
 
-**Evidence:**
-[What indicates the timing? Recent publications, cultural moments, search trends?]
+**Evidence:** [What indicates the timing? Recent publications, cultural moments,
+search trends?]
 
-**Window:**
-[Is there urgency, or is this a whenever-ready topic?]
+**Window:** [Is there urgency, or is this a whenever-ready topic?]
 
 ---
 
@@ -171,8 +168,7 @@ Based on what's working in this category:
 
 **Verdict:** [Strong Go / Conditional Go / Revise / Kill]
 
-**Reasoning:**
-[Synthesize the key factors driving this recommendation]
+**Reasoning:** [Synthesize the key factors driving this recommendation]
 
 **If Conditional Go, conditions are:**
 
@@ -180,8 +176,7 @@ Based on what's working in this category:
 - **If Revise, suggested changes:**
 
 -
-- **Next step:**
-  [What should the author do now?]
+- **Next step:** [What should the author do now?]
 
   ***
 

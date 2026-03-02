@@ -6,9 +6,14 @@ Patterns that signal AI-generated text. Actively suppress these during drafting.
 
 ## Why This Matters
 
-Large language models regress to the mean—they produce statistically likely text that sounds like the average of their training data. This creates identifiable patterns that feel generic, promotional, or formulaic. Human writing has idiosyncrasies; AI writing smooths them out.
+Large language models regress to the mean—they produce statistically likely text
+that sounds like the average of their training data. This creates identifiable
+patterns that feel generic, promotional, or formulaic. Human writing has
+idiosyncrasies; AI writing smooths them out.
 
-**Your job:** Suppress these patterns during generation. The writer's DNA document may have specific anti-patterns, but this reference provides the baseline. If something sounds "AI-ish," revise it before delivering.
+**Your job:** Suppress these patterns during generation. The writer's DNA
+document may have specific anti-patterns, but this reference provides the
+baseline. If something sounds "AI-ish," revise it before delivering.
 
 ---
 
@@ -35,8 +40,9 @@ AI tends to inflate the importance of subjects with grand, empty language.
 
 > "This approach **plays a significant role** in modern development."
 
-**Why It's a Problem:**
-Facts don't "underscore" or "highlight" anything. This is the AI narrator making unsupported claims about significance. Real writers either let importance speak for itself or argue for it explicitly.
+**Why It's a Problem:** Facts don't "underscore" or "highlight" anything. This
+is the AI narrator making unsupported claims about significance. Real writers
+either let importance speak for itself or argue for it explicitly.
 
 **How to Fix:**
 
@@ -48,7 +54,8 @@ Facts don't "underscore" or "highlight" anything. This is the AI narrator making
 
 ### 2. Superficial Analysis
 
-AI attaches shallow analytical phrases—often present participles (-ing)—to make statements seem more substantive.
+AI attaches shallow analytical phrases—often present participles (-ing)—to make
+statements seem more substantive.
 
 **Words to Watch:**
 
@@ -67,8 +74,9 @@ AI attaches shallow analytical phrases—often present participles (-ing)—to m
 
 > "This partnership **reflects the organization's commitment** to excellence."
 
-**Why It's a Problem:**
-The participle phrase adds no information—it's the AI asserting what something means rather than showing it. Human writers let readers draw conclusions or make arguments explicitly.
+**Why It's a Problem:** The participle phrase adds no information—it's the AI
+asserting what something means rather than showing it. Human writers let readers
+draw conclusions or make arguments explicitly.
 
 **How to Fix:**
 
@@ -80,7 +88,8 @@ The participle phrase adds no information—it's the AI asserting what something
 
 ### 3. Promotional Language
 
-AI trained on marketing copy produces tourism-brochure prose even for mundane subjects.
+AI trained on marketing copy produces tourism-brochure prose even for mundane
+subjects.
 
 **Words to Watch:**
 
@@ -97,12 +106,14 @@ AI trained on marketing copy produces tourism-brochure prose even for mundane su
 
 **Examples (Avoid):**
 
-> "**Nestled** within the **breathtaking** region, the town **stands as a vibrant** community with **rich cultural heritage**."
+> "**Nestled** within the **breathtaking** region, the town **stands as a
+> vibrant** community with **rich cultural heritage**."
 
 > "The company **acts as a gateway** to **diverse opportunities**."
 
-**Why It's a Problem:**
-This reads like advertising, not informative writing. The adjectives are empty calories. Real writers use specific details rather than generic enthusiasm.
+**Why It's a Problem:** This reads like advertising, not informative writing.
+The adjectives are empty calories. Real writers use specific details rather than
+generic enthusiasm.
 
 **How to Fix:**
 
@@ -124,7 +135,8 @@ AI relies on predictable templates, especially for complex topics.
 
 **The "Despite Challenges" Formula:**
 
-> "Despite its [positive attributes], [subject] faces challenges including... Despite these challenges, [subject] continues to thrive."
+> "Despite its [positive attributes], [subject] faces challenges including...
+> Despite these challenges, [subject] continues to thrive."
 
 **The Summary Conclusion:**
 
@@ -140,8 +152,9 @@ AI relies on predictable templates, especially for complex topics.
 
 > "**In conclusion**, the data suggests..."
 
-**Why It's a Problem:**
-These are templates, not thoughts. Real writers structure arguments based on specific content, not generic formulas. The "despite challenges" pattern is especially mechanical.
+**Why It's a Problem:** These are templates, not thoughts. Real writers
+structure arguments based on specific content, not generic formulas. The
+"despite challenges" pattern is especially mechanical.
 
 **How to Fix:**
 
@@ -172,12 +185,14 @@ AI uses vague quantifiers to avoid commitment.
 
 > "**Some critics argue** that the methodology has limitations."
 
-**Why It's a Problem:**
-These words carry almost no information. "Various contributions to numerous fields" could describe anyone. Real writers either specify or omit.
+**Why It's a Problem:** These words carry almost no information. "Various
+contributions to numerous fields" could describe anyone. Real writers either
+specify or omit.
 
 **How to Fix:**
 
-- Be specific: "three contributions" or "contributions to linguistics and philosophy"
+- Be specific: "three contributions" or "contributions to linguistics and
+  philosophy"
 - Commit to a claim or don't make it
 - Cut empty quantifiers entirely
 
@@ -185,14 +200,17 @@ These words carry almost no information. "Various contributions to numerous fiel
 
 ### 6. Elegant Variation (Synonym Swapping)
 
-AI has repetition penalties that cause excessive synonym use, especially for key terms.
+AI has repetition penalties that cause excessive synonym use, especially for key
+terms.
 
 **Example (Avoid):**
 
-> "**Artists** facing constraints... **non-conformist artists** expressed... **like-minded artists** shared... **Russian avant-garde artists**... **the diverse yet united front of non-conformist artists**..."
+> "**Artists** facing constraints... **non-conformist artists** expressed...
+> **like-minded artists** shared... **Russian avant-garde artists**... **the
+> diverse yet united front of non-conformist artists**..."
 
-**Why It's a Problem:**
-The constant substitution draws attention to itself. Natural repetition is less distracting than forced variation.
+**Why It's a Problem:** The constant substitution draws attention to itself.
+Natural repetition is less distracting than forced variation.
 
 **How to Fix:**
 
@@ -208,12 +226,14 @@ AI loves triple constructions, often using them to pad superficial analysis.
 
 **Examples (Avoid):**
 
-> "The event features **keynote sessions, panel discussions, and networking opportunities**."
+> "The event features **keynote sessions, panel discussions, and networking
+> opportunities**."
 
 > "His work reflects **passion, dedication, and artistic vision**."
 
-**Why It's a Problem:**
-The rule of three is a legitimate rhetorical device, but AI uses it mechanically. When every list has exactly three items, it becomes a tell.
+**Why It's a Problem:** The rule of three is a legitimate rhetorical device, but
+AI uses it mechanically. When every list has exactly three items, it becomes a
+tell.
 
 **How to Fix:**
 
@@ -229,12 +249,14 @@ AI uses "from X to Y" constructions that don't form meaningful scales.
 
 **Examples (Avoid):**
 
-> "Breakthroughs, **from** fundamental physics **to** medicine and neuroscience..."
+> "Breakthroughs, **from** fundamental physics **to** medicine and
+> neuroscience..."
 
 > "**From** problem-solving **to** artistic expression..."
 
-**Why It's a Problem:**
-Real ranges have identifiable midpoints and logical progression. "From soup to nuts" works (courses in a meal). "From problem-solving to artistic expression" has no coherent middle ground.
+**Why It's a Problem:** Real ranges have identifiable midpoints and logical
+progression. "From soup to nuts" works (courses in a meal). "From
+problem-solving to artistic expression" has no coherent middle ground.
 
 **How to Fix:**
 
@@ -254,8 +276,8 @@ AI overuses "not only... but also" and similar constructions.
 
 > "**It's not just about** efficiency; **it's** part of the larger vision."
 
-**Why It's a Problem:**
-These constructions create false drama. They imply revelation ("you might think X, but actually Y!") where none exists.
+**Why It's a Problem:** These constructions create false drama. They imply
+revelation ("you might think X, but actually Y!") where none exists.
 
 **How to Fix:**
 
@@ -288,31 +310,32 @@ Certain words appear disproportionately in AI output.
 - at its core
 - utilize (instead of "use")
 
-**Why These Words:**
-They're formal-sounding without being specific. They appear frequently in professional/academic prose that dominates training data.
+**Why These Words:** They're formal-sounding without being specific. They appear
+frequently in professional/academic prose that dominates training data.
 
 **How to Fix:**
 
 - Replace with simpler alternatives: "use" not "utilize"
-- Be specific instead of vague: "the tech industry" not "the technology landscape"
+- Be specific instead of vague: "the tech industry" not "the technology
+  landscape"
 - Cut entirely when they add nothing
 
 ---
 
 ### 11. Structural Tells
 
-**Title Case in Subheadings:**
-AI strongly prefers capitalizing all major words ("The Impact Of Technology On Society") rather than sentence case.
+**Title Case in Subheadings:** AI strongly prefers capitalizing all major words
+("The Impact Of Technology On Society") rather than sentence case.
 
-**Excessive Boldface:**
-AI trained on documentation bolds key terms mechanically.
+**Excessive Boldface:** AI trained on documentation bolds key terms
+mechanically.
 
 **Numbered Lists with Inline Headers:**
 
 > "1. **Historical Context:** The world was changing..."
 
-**Why It's a Problem:**
-These formatting choices come from specific genres (documentation, sales materials) and feel out of place in prose.
+**Why It's a Problem:** These formatting choices come from specific genres
+(documentation, sales materials) and feel out of place in prose.
 
 **How to Fix:**
 
@@ -365,7 +388,8 @@ If any appear, revise before delivering.
 
 ## DNA-Specific Anti-Patterns
 
-The writer's DNA document may have additional anti-patterns beyond this baseline. Always check:
+The writer's DNA document may have additional anti-patterns beyond this
+baseline. Always check:
 
 1. **DNA Anti-Patterns section** — Writer-specific patterns to avoid
 2. **"Don't Do This" in Briefing** — Explicit avoidances
@@ -379,9 +403,12 @@ Apply both baseline (this document) and DNA-specific anti-patterns.
 
 **This is descriptive, not prescriptive.**
 
-Some humans use these patterns genuinely. If the DNA document shows the writer actually uses "however, it should be noted" or loves em-dashes, follow their voice, not this list.
+Some humans use these patterns genuinely. If the DNA document shows the writer
+actually uses "however, it should be noted" or loves em-dashes, follow their
+voice, not this list.
 
-The DNA document captures what's authentic for _this_ writer. This reference captures what's typically artificial. When they conflict, the DNA document wins.
+The DNA document captures what's authentic for _this_ writer. This reference
+captures what's typically artificial. When they conflict, the DNA document wins.
 
 ---
 

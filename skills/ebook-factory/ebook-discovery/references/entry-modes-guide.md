@@ -1,6 +1,7 @@
 # Entry Modes Guide
 
-Comprehensive guidance for exploring each of the 11 discovery modes. Load this reference when diving deep into any mode.
+Comprehensive guidance for exploring each of the 11 discovery modes. Load this
+reference when diving deep into any mode.
 
 ## Table of Contents
 
@@ -22,9 +23,12 @@ Comprehensive guidance for exploring each of the 11 discovery modes. Load this r
 
 ## 1. Content Audit
 
-**What this mode looks for:** Patterns, clusters, and themes hiding in published content. Content that's resonated with audiences. Gaps between what exists and what audiences want.
+**What this mode looks for:** Patterns, clusters, and themes hiding in published
+content. Content that's resonated with audiences. Gaps between what exists and
+what audiences want.
 
-**Includes:** Blog posts, videos, newsletters, podcasts, teaching materials, workshop content, course outlines, talk slides.
+**Includes:** Blog posts, videos, newsletters, podcasts, teaching materials,
+workshop content, course outlines, talk slides.
 
 ### Key Questions
 
@@ -59,13 +63,17 @@ Comprehensive guidance for exploring each of the 11 discovery modes. Load this r
 
 ### If Nothing Found
 
-"Your content archive may not have obvious ebook clusters yet—that's fine. This could mean your best ebook is still in your head, not your content. Want to explore Expertise Extraction instead? Or we could look at what questions your audience keeps asking."
+"Your content archive may not have obvious ebook clusters yet—that's fine. This
+could mean your best ebook is still in your head, not your content. Want to
+explore Expertise Extraction instead? Or we could look at what questions your
+audience keeps asking."
 
 ---
 
 ## 2. Book Extraction
 
-**What this mode looks for:** Sections from larger book projects that could stand alone as ebooks. Strategic extraction opportunities.
+**What this mode looks for:** Sections from larger book projects that could
+stand alone as ebooks. Strategic extraction opportunities.
 
 ### Key Questions
 
@@ -86,24 +94,30 @@ Comprehensive guidance for exploring each of the 11 discovery modes. Load this r
 
 - **Extracting connective tissue** — Chapters that only work in context
 - **Spoiling the main book** — Giving away the core thesis
-- **Incomplete transformation** — Section that starts something but doesn't finish it
-- **Forced independence** — Making a section "stand alone" when it really doesn't
+- **Incomplete transformation** — Section that starts something but doesn't
+  finish it
+- **Forced independence** — Making a section "stand alone" when it really
+  doesn't
 
 ### When to Transition
 
-- Extraction reveals the book itself is really multiple ebooks → Stay here, map the series
+- Extraction reveals the book itself is really multiple ebooks → Stay here, map
+  the series
 - User mentions content supporting the book → Content Audit
 - Section relies on expertise not yet written → Expertise Extraction
 
 ### If Nothing Found
 
-"If your book project doesn't have natural extraction points, that's actually a sign of tight, integrated writing. We could explore other discovery modes, or discuss whether the full book is the right next step."
+"If your book project doesn't have natural extraction points, that's actually a
+sign of tight, integrated writing. We could explore other discovery modes, or
+discuss whether the full book is the right next step."
 
 ---
 
 ## 3. Failed Project Resurrection
 
-**What this mode looks for:** Abandoned drafts, stalled projects, half-written content. Projects that failed due to format, not idea quality.
+**What this mode looks for:** Abandoned drafts, stalled projects, half-written
+content. Projects that failed due to format, not idea quality.
 
 ### Key Questions
 
@@ -130,18 +144,22 @@ Comprehensive guidance for exploring each of the 11 discovery modes. Load this r
 ### When to Transition
 
 - Failed project was based on audience demand → Repeated Questions Analysis
-- Project failed because scope was unclear → might need Concept Development first
+- Project failed because scope was unclear → might need Concept Development
+  first
 - Multiple failed projects share a theme → look for the pattern
 
 ### If Nothing Found
 
-"Not having failed projects isn't a bad thing. Let's explore where your ebook ideas might come from instead—maybe from expertise you haven't tried to write about yet."
+"Not having failed projects isn't a bad thing. Let's explore where your ebook
+ideas might come from instead—maybe from expertise you haven't tried to write
+about yet."
 
 ---
 
 ## 4. Repeated Questions Analysis
 
-**What this mode looks for:** Questions your audience asks repeatedly. Patterns in comments, emails, and conversations that reveal demand.
+**What this mode looks for:** Questions your audience asks repeatedly. Patterns
+in comments, emails, and conversations that reveal demand.
 
 ### Key Questions
 
@@ -174,15 +192,19 @@ Comprehensive guidance for exploring each of the 11 discovery modes. Load this r
 
 ### If Nothing Found
 
-"If you're not getting repeated questions, you might not have enough audience exposure yet, or your content already answers the obvious questions. Let's explore what you know that you haven't shared."
+"If you're not getting repeated questions, you might not have enough audience
+exposure yet, or your content already answers the obvious questions. Let's
+explore what you know that you haven't shared."
 
 ---
 
 ## 5. Expertise Extraction
 
-**What this mode looks for:** Tacit knowledge that feels obvious to you but valuable to others. The "curse of knowledge" hiding ebook potential.
+**What this mode looks for:** Tacit knowledge that feels obvious to you but
+valuable to others. The "curse of knowledge" hiding ebook potential.
 
-**Note:** This is the harder path. See `expertise-extraction-guide.md` for comprehensive support.
+**Note:** This is the harder path. See `expertise-extraction-guide.md` for
+comprehensive support.
 
 ### Key Questions
 
@@ -215,13 +237,15 @@ Comprehensive guidance for exploring each of the 11 discovery modes. Load this r
 
 ### If Nothing Found
 
-See `expertise-extraction-guide.md` for deeper techniques. This mode often requires multiple passes and different angles.
+See `expertise-extraction-guide.md` for deeper techniques. This mode often
+requires multiple passes and different angles.
 
 ---
 
 ## 6. Contrarian Positions
 
-**What this mode looks for:** Views that push against mainstream thinking. Built-in tension that makes for compelling ebooks.
+**What this mode looks for:** Views that push against mainstream thinking.
+Built-in tension that makes for compelling ebooks.
 
 ### Key Questions
 
@@ -253,17 +277,21 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### If Nothing Found
 
-"Not having strong contrarian positions might mean you're in a field with genuine consensus, or you haven't articulated your disagreements yet. Let's explore other angles."
+"Not having strong contrarian positions might mean you're in a field with
+genuine consensus, or you haven't articulated your disagreements yet. Let's
+explore other angles."
 
 ---
 
 ## 7. Translation Bridges
 
-**What this mode looks for:** Knowledge you carry between worlds. Things you explain to one group about another group's domain.
+**What this mode looks for:** Knowledge you carry between worlds. Things you
+explain to one group about another group's domain.
 
 ### Key Questions
 
-- What different worlds do you inhabit? (professional, personal, hobby, community)
+- What different worlds do you inhabit? (professional, personal, hobby,
+  community)
 - What do you find yourself explaining between these worlds?
 - Where does your unusual combination of experience give you insight?
 - What would Group A find valuable to understand about Group B?
@@ -291,13 +319,15 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### If Nothing Found
 
-"If you don't have obvious translation bridges, you might inhabit more unified domains. Let's explore what expertise you have within your primary domain."
+"If you don't have obvious translation bridges, you might inhabit more unified
+domains. Let's explore what expertise you have within your primary domain."
 
 ---
 
 ## 8. Personal Systems
 
-**What this mode looks for:** Workflows, processes, and disciplines you've developed. Lived systems that are often more valuable than theoretical ones.
+**What this mode looks for:** Workflows, processes, and disciplines you've
+developed. Lived systems that are often more valuable than theoretical ones.
 
 ### Key Questions
 
@@ -329,13 +359,16 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### If Nothing Found
 
-"If you don't have documented personal systems, you might have intuitive processes that haven't been articulated yet. Let's explore what you do without thinking about it."
+"If you don't have documented personal systems, you might have intuitive
+processes that haven't been articulated yet. Let's explore what you do without
+thinking about it."
 
 ---
 
 ## 9. Zettelkasten Mining
 
-**What this mode looks for:** Clusters of connected notes that reveal ebook-shaped ideas. Themes emerging from your thinking archive.
+**What this mode looks for:** Clusters of connected notes that reveal
+ebook-shaped ideas. Themes emerging from your thinking archive.
 
 ### Key Questions
 
@@ -367,13 +400,16 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### If Nothing Found
 
-"If your Zettelkasten doesn't have obvious clusters, it might need more connection work, or your ebook ideas live elsewhere. Let's explore other sources."
+"If your Zettelkasten doesn't have obvious clusters, it might need more
+connection work, or your ebook ideas live elsewhere. Let's explore other
+sources."
 
 ---
 
 ## 10. Parking Lot Review
 
-**What this mode looks for:** Ideas parked during other brainstorms. Things that didn't fit larger projects but could stand alone. Cross-project intersections.
+**What this mode looks for:** Ideas parked during other brainstorms. Things that
+didn't fit larger projects but could stand alone. Cross-project intersections.
 
 ### Key Questions
 
@@ -392,7 +428,8 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### Common Pitfalls
 
-- **Parking lot as graveyard** — Ideas parked because they're weak, not because timing was wrong
+- **Parking lot as graveyard** — Ideas parked because they're weak, not because
+  timing was wrong
 - **Shiny objects** — Distractors that seem interesting but lack substance
 - **No coherence** — Collecting unrelated fragments
 - **Obligation ideas** — Things you think you "should" do
@@ -405,13 +442,17 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### If Nothing Found
 
-"An empty parking lot might mean you're good at saying no, or your ideas have found homes. Let's look at what expertise or experience hasn't found expression yet."
+"An empty parking lot might mean you're good at saying no, or your ideas have
+found homes. Let's look at what expertise or experience hasn't found expression
+yet."
 
 ---
 
 ## 11. Deep Archive Mining
 
-**What this mode looks for:** Book marginalia, reading responses, long emails, "I wish this existed" frustrations, hard lessons. The deep archive of your thinking.
+**What this mode looks for:** Book marginalia, reading responses, long emails,
+"I wish this existed" frustrations, hard lessons. The deep archive of your
+thinking.
 
 ### Key Questions
 
@@ -443,13 +484,16 @@ See `expertise-extraction-guide.md` for deeper techniques. This mode often requi
 
 ### If Nothing Found
 
-"If your deep archive isn't surfacing candidates, your ebook ideas might be more forward-looking than backward-looking. Let's explore what you want to create rather than what you've accumulated."
+"If your deep archive isn't surfacing candidates, your ebook ideas might be more
+forward-looking than backward-looking. Let's explore what you want to create
+rather than what you've accumulated."
 
 ---
 
 ## Large Archive Strategies
 
-When a user has massive content libraries (500+ blog posts, years of newsletters, large video catalogs), systematic sampling is needed:
+When a user has massive content libraries (500+ blog posts, years of
+newsletters, large video catalogs), systematic sampling is needed:
 
 ### Sampling Approaches
 
@@ -477,7 +521,8 @@ When a user has massive content libraries (500+ blog posts, years of newsletters
 
 - Don't try to review everything
 - Focus on patterns, not individual pieces
-- Use the user's memory as a filter ("what content do you remember being proud of?")
+- Use the user's memory as a filter ("what content do you remember being proud
+  of?")
 - Sample strategically, then go deep on promising areas
 
 ---
@@ -515,4 +560,5 @@ Failed Project Resurrection
 └── → Expertise Extraction (project needs expertise work)
 ```
 
-**Use these transitions to guide exploration naturally.** When a user says something that connects to another mode, suggest the transition with reasoning.
+**Use these transitions to guide exploration naturally.** When a user says
+something that connects to another mode, suggest the transition with reasoning.

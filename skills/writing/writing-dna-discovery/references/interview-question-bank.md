@@ -1,6 +1,7 @@
 # Interview Question Bank
 
-Questions organized by purpose and dimension. Use these during collaborative discovery to surface voice patterns that samples alone might not reveal.
+Questions organized by purpose and dimension. Use these during collaborative
+discovery to surface voice patterns that samples alone might not reveal.
 
 **Core Principle:** One question at a time. Never stack questions or overwhelm.
 
@@ -14,7 +15,8 @@ Use these to begin new discovery sessions.
 
 > "When you read your own writing, what makes it feel like YOU?"
 
-> "If I read something you wrote without your name on it, what would tip me off it was yours?"
+> "If I read something you wrote without your name on it, what would tip me off
+> it was yours?"
 
 > "What do people who know your writing notice about it?"
 
@@ -22,9 +24,11 @@ Use these to begin new discovery sessions.
 
 ### Understanding Their Goals
 
-> "What brings you here today? What are you hoping the ghost writer will help with?"
+> "What brings you here today? What are you hoping the ghost writer will help
+> with?"
 
-> "What kind of writing do you want to capture—blog posts, fiction, essays, something else?"
+> "What kind of writing do you want to capture—blog posts, fiction, essays,
+> something else?"
 
 > "How do you want the ghost writer's output to feel? What's the ideal result?"
 
@@ -32,7 +36,8 @@ Use these to begin new discovery sessions.
 
 > "What writers have influenced your style?"
 
-> "Is there a writer whose voice you wish you had? Whose voice you'd never want?"
+> "Is there a writer whose voice you wish you had? Whose voice you'd never
+> want?"
 
 > "When you admire someone's writing, what specifically do you admire?"
 
@@ -248,7 +253,8 @@ Use these to begin new discovery sessions.
 
 ### Violations
 
-> "If the ghost writer produced something that felt 'off,' what would it probably be doing wrong?"
+> "If the ghost writer produced something that felt 'off,' what would it
+> probably be doing wrong?"
 
 > "What would make you say 'I would never write that'?"
 
@@ -260,7 +266,8 @@ Use these to surface preferences through contrast.
 
 ### Choice Questions
 
-> "Would you write 'He walked into the room' or 'He stepped into the room' or something else?"
+> "Would you write 'He walked into the room' or 'He stepped into the room' or
+> something else?"
 
 > "Would you say 'start' or 'begin' or 'commence'?"
 
@@ -268,17 +275,21 @@ Use these to surface preferences through contrast.
 
 ### Contrast Questions
 
-> "This reads more Hemingway than David Foster Wallace. Where do you see yourself on that spectrum?"
+> "This reads more Hemingway than David Foster Wallace. Where do you see
+> yourself on that spectrum?"
 
 > "Some writers are minimalists, some are maximalists. Where do you land?"
 
-> "Some writers disappear behind their prose; others are very present. Which are you?"
+> "Some writers disappear behind their prose; others are very present. Which are
+> you?"
 
 ### Elimination Questions
 
-> "Which of these words would you NEVER use: utilize, leverage, facilitate, synergize?"
+> "Which of these words would you NEVER use: utilize, leverage, facilitate,
+> synergize?"
 
-> "Which of these openings feels wrong: 'In today's world...', 'Consider this...', 'It's important to note...'?"
+> "Which of these openings feels wrong: 'In today's world...', 'Consider
+> this...', 'It's important to note...'?"
 
 ---
 
@@ -308,7 +319,8 @@ Use these when samples raise questions.
 
 > "These two samples feel different to me—is that intentional?"
 
-> "Your description doesn't quite match what I see in the samples. Which should I trust?"
+> "Your description doesn't quite match what I see in the samples. Which should
+> I trust?"
 
 > "Is this variation context-dependent, or has your style evolved?"
 
@@ -392,7 +404,8 @@ Use these when the user has few samples.
 
 > "If you had to write one paragraph about [topic], how would you start?"
 
-> "Rewrite this AI-sounding text in your voice: 'This methodology provides a comprehensive framework for understanding the complex dynamics at play.'"
+> "Rewrite this AI-sounding text in your voice: 'This methodology provides a
+> comprehensive framework for understanding the complex dynamics at play.'"
 
 ---
 
@@ -436,12 +449,15 @@ Use these when the user has few samples.
 
 ## Using This Bank
 
-1. **Don't read questions verbatim** — Use these as starting points, then adapt to the conversation.
+1. **Don't read questions verbatim** — Use these as starting points, then adapt
+   to the conversation.
 
 2. **One at a time** — Never stack questions. Ask, listen, follow up.
 
 3. **Follow the energy** — If a question sparks insight, go deeper there.
 
-4. **Mix types** — Alternate between direct questions, comparative choices, and clarifying follow-ups.
+4. **Mix types** — Alternate between direct questions, comparative choices, and
+   clarifying follow-ups.
 
-5. **Validate findings** — Circle back: "So what I'm hearing is... Does that sound right?"
+5. **Validate findings** — Circle back: "So what I'm hearing is... Does that
+   sound right?"

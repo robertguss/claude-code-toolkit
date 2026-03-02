@@ -1,8 +1,13 @@
 # Closing Strategies Reference
 
-The closing beat lands the chapter's transformation and bridges to what comes next. A weak closing undermines everything that preceded it; a strong closing amplifies the chapter's impact and pulls the reader forward. This reference provides strategies for closing chapters effectively.
+The closing beat lands the chapter's transformation and bridges to what comes
+next. A weak closing undermines everything that preceded it; a strong closing
+amplifies the chapter's impact and pulls the reader forward. This reference
+provides strategies for closing chapters effectively.
 
-**How to use this document:** During Phase 2 (Brainstorm) and Phase 4 (Flesh Out), consult these strategies when designing the closing beat. Consider which strategy best serves this specific chapter and the book's momentum.
+**How to use this document:** During Phase 2 (Brainstorm) and Phase 4 (Flesh
+Out), consult these strategies when designing the closing beat. Consider which
+strategy best serves this specific chapter and the book's momentum.
 
 ---
 
@@ -10,9 +15,11 @@ The closing beat lands the chapter's transformation and bridges to what comes ne
 
 Every chapter closing must accomplish:
 
-1. **Land the transformation** — Reader arrives at the exit state (intellectual and emotional)
+1. **Land the transformation** — Reader arrives at the exit state (intellectual
+   and emotional)
 2. **Create completion** — Sense that the chapter delivered on its promise
-3. **Maintain momentum** — Reader wants to continue (or, for final chapter, feels satisfied)
+3. **Maintain momentum** — Reader wants to continue (or, for final chapter,
+   feels satisfied)
 4. **Bridge forward** — Connect to what comes next (unless final chapter)
 
 ---
@@ -43,7 +50,8 @@ End by crystallizing the chapter's insight into a clear, memorable formulation.
 
 End by explicitly connecting to the next chapter—creating forward pull.
 
-**Example shape:** "But understanding [X] is only half the battle. In the next chapter, we'll tackle [Y]."
+**Example shape:** "But understanding [X] is only half the battle. In the next
+chapter, we'll tackle [Y]."
 
 **When to use:**
 
@@ -63,12 +71,14 @@ End by explicitly connecting to the next chapter—creating forward pull.
 
 Return to the opening—a story, image, or question—and complete it or reframe it.
 
-**Example shape:** "Remember the 3 AM phone call? Now you understand what really happened."
+**Example shape:** "Remember the 3 AM phone call? Now you understand what really
+happened."
 
 **When to use:**
 
 - Story-driven chapters where the opening set up tension
-- When the chapter has transformed the reader's understanding of something introduced at the start
+- When the chapter has transformed the reader's understanding of something
+  introduced at the start
 - Creates satisfying structural unity
 
 **Watch out for:**
@@ -81,9 +91,11 @@ Return to the opening—a story, image, or question—and complete it or reframe
 
 ### 4. The Call to Action
 
-End by inviting the reader to do something—apply the insight, practice a skill, make a decision.
+End by inviting the reader to do something—apply the insight, practice a skill,
+make a decision.
 
-**Example shape:** "Before you move on, try this: [X]. You'll see the difference immediately."
+**Example shape:** "Before you move on, try this: [X]. You'll see the difference
+immediately."
 
 **When to use:**
 
@@ -101,9 +113,11 @@ End by inviting the reader to do something—apply the insight, practice a skill
 
 ### 5. The Expansion
 
-End by widening the lens—showing how this chapter's insight connects to something larger.
+End by widening the lens—showing how this chapter's insight connects to
+something larger.
 
-**Example shape:** "This isn't just about [X]. The same principle explains [Y], [Z], and ultimately [W]."
+**Example shape:** "This isn't just about [X]. The same principle explains [Y],
+[Z], and ultimately [W]."
 
 **When to use:**
 
@@ -123,7 +137,8 @@ End by widening the lens—showing how this chapter's insight connects to someth
 
 End with a question that the next chapter will address—curiosity pull.
 
-**Example shape:** "Now we understand [X]. But this raises a harder question: [Y]?"
+**Example shape:** "Now we understand [X]. But this raises a harder question:
+[Y]?"
 
 **When to use:**
 
@@ -141,9 +156,11 @@ End with a question that the next chapter will address—curiosity pull.
 
 ### 7. The Emotional Landing
 
-End on an emotional note—inspiration, resolution, hope, gravity—that matches the chapter's arc.
+End on an emotional note—inspiration, resolution, hope, gravity—that matches the
+chapter's arc.
 
-**Example shape:** "And that's when she finally understood: she wasn't broken. She was ready."
+**Example shape:** "And that's when she finally understood: she wasn't broken.
+She was ready."
 
 **When to use:**
 
@@ -161,9 +178,11 @@ End on an emotional note—inspiration, resolution, hope, gravity—that matches
 
 ### 8. The Practical Recap
 
-End by summarizing the key takeaways or steps—reader walks away with a clear mental list.
+End by summarizing the key takeaways or steps—reader walks away with a clear
+mental list.
 
-**Example shape:** "To put this into practice, remember these three principles: [X], [Y], [Z]."
+**Example shape:** "To put this into practice, remember these three principles:
+[X], [Y], [Z]."
 
 **When to use:**
 
@@ -181,9 +200,11 @@ End by summarizing the key takeaways or steps—reader walks away with a clear m
 
 ### 9. The Provocative Reframe
 
-End with a statement that shifts how the reader sees everything that came before—or hints at what they don't yet understand.
+End with a statement that shifts how the reader sees everything that came
+before—or hints at what they don't yet understand.
 
-**Example shape:** "But here's what I haven't told you yet: [X] isn't the real problem."
+**Example shape:** "But here's what I haven't told you yet: [X] isn't the real
+problem."
 
 **When to use:**
 
@@ -250,11 +271,13 @@ Document these answers in the Chapter Outline's Closing Deep-Dive section.
 
 ## Special Note: Final Chapter Closings
 
-The final chapter of the book has a different job than other chapter closings. It must:
+The final chapter of the book has a different job than other chapter closings.
+It must:
 
 - Land the book's _entire_ transformation, not just the chapter's
 - Create completion and satisfaction—the reader finished something
-- Leave the reader with something to carry forward (without needing a "next chapter")
+- Leave the reader with something to carry forward (without needing a "next
+  chapter")
 - Often: return to the book's opening, completing a full-book bookend
 
 See `special-chapter-types.md` for more on conclusion chapters.

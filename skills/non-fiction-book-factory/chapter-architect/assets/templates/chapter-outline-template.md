@@ -45,7 +45,10 @@
 
 ## Layer 2: Reader Journey Walkthrough
 
-[A prose narrative (1-3 paragraphs) that walks through the reader's experience from entry to exit. This captures the gestalt—the feel of the journey—before the detailed beat breakdown. The ghostwriter should read this first to understand the chapter's overall shape.]
+[A prose narrative (1-3 paragraphs) that walks through the reader's experience
+from entry to exit. This captures the gestalt—the feel of the journey—before the
+detailed beat breakdown. The ghostwriter should read this first to understand
+the chapter's overall shape.]
 
 ---
 
@@ -142,7 +145,9 @@
 
 ### Key Research for This Chapter
 
-[List the most important materials from the Research Dossier for this chapter, with brief notes on what each provides. The ghostwriter has access to the full Research Dossier, but this helps them prioritize.]
+[List the most important materials from the Research Dossier for this chapter,
+with brief notes on what each provides. The ghostwriter has access to the full
+Research Dossier, but this helps them prioritize.]
 
 | Material             | What It Provides    | Used In  |
 | -------------------- | ------------------- | -------- |
@@ -152,7 +157,8 @@
 
 ### Open Questions / Flags
 
-[Any unresolved questions, concerns, or notes for the ghostwriter to be aware of.]
+[Any unresolved questions, concerns, or notes for the ghostwriter to be aware
+of.]
 
 - [Question or flag]
 - [Question or flag]

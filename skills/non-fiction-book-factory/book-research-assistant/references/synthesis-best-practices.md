@@ -1,12 +1,15 @@
 # Synthesis Best Practices
 
-How to distill large volumes of research into useful, concise summaries that preserve what matters and discard what doesn't.
+How to distill large volumes of research into useful, concise summaries that
+preserve what matters and discard what doesn't.
 
 ---
 
 ## The Challenge of Synthesis
 
-Research generates volume. Deep research from Claude and Gemini on multiple gaps can produce dozens of pages per chapter. This raw material is valuable but unwieldy. Synthesis transforms it into something usable.
+Research generates volume. Deep research from Claude and Gemini on multiple gaps
+can produce dozens of pages per chapter. This raw material is valuable but
+unwieldy. Synthesis transforms it into something usable.
 
 **Goals of synthesis:**
 
@@ -103,11 +106,18 @@ For each category:
 
 **Before compression:**
 
-> "Luhmann published 70 books during his career. His first major work was 'Funktionen und Folgen formaler Organisation' in 1964. He went on to publish 'Trust' in 1968, 'Legitimation durch Verfahren' in 1969, and continued producing roughly two books per year throughout his career. His final work, 'Die Gesellschaft der Gesellschaft,' was published in 1997, just one year before his death. He also published over 400 articles in academic journals."
+> "Luhmann published 70 books during his career. His first major work was
+> 'Funktionen und Folgen formaler Organisation' in 1964. He went on to publish
+> 'Trust' in 1968, 'Legitimation durch Verfahren' in 1969, and continued
+> producing roughly two books per year throughout his career. His final work,
+> 'Die Gesellschaft der Gesellschaft,' was published in 1997, just one year
+> before his death. He also published over 400 articles in academic journals."
 
 **After compression:**
 
-> Luhmann published 70 books and 400+ articles during his academic career—roughly two books per year. His output is well-documented and exceptional compared to peers. [Key sources: Schmidt 2018, Becker 2016]
+> Luhmann published 70 books and 400+ articles during his academic
+> career—roughly two books per year. His output is well-documented and
+> exceptional compared to peers. [Key sources: Schmidt 2018, Becker 2016]
 
 ### Step 4: Fourth Pass — Integration
 
@@ -129,15 +139,15 @@ Add interpretive notes:
 
 ### The "What, So What, Source" Pattern
 
-**What:** [The finding in one sentence]
-**So what:** [Why it matters for this chapter]
-**Source:** [Citation for verification]
+**What:** [The finding in one sentence] **So what:** [Why it matters for this
+chapter] **Source:** [Citation for verification]
 
 **Example:**
 
-> **What:** Handwriting activates more neural regions than typing (Mueller & Oppenheimer 2014).
-> **So what:** Supports the chapter's argument for paper-based note-taking.
-> **Source:** "The Pen Is Mightier Than the Keyboard," Psychological Science, peer-reviewed.
+> **What:** Handwriting activates more neural regions than typing (Mueller &
+> Oppenheimer 2014). **So what:** Supports the chapter's argument for
+> paper-based note-taking. **Source:** "The Pen Is Mightier Than the Keyboard,"
+> Psychological Science, peer-reviewed.
 
 ### The Evidence Cluster
 
@@ -151,19 +161,23 @@ Group similar findings under one umbrella:
 
 **Write:**
 
-> Multiple peer-reviewed studies (Mueller & Oppenheimer 2014; James & Engelhardt 2012; Smoker et al. 2009) confirm X. The Mueller study is most frequently cited and has methodological advantages.
+> Multiple peer-reviewed studies (Mueller & Oppenheimer 2014; James & Engelhardt
+> 2012; Smoker et al. 2009) confirm X. The Mueller study is most frequently
+> cited and has methodological advantages.
 
 ### The Qualified Assertion
 
 Combine finding with important caveats:
 
-> Research supports X [main finding], though primarily in [specific context] with [key limitation]. The effect appears strongest for [specific condition].
+> Research supports X [main finding], though primarily in [specific context]
+> with [key limitation]. The effect appears strongest for [specific condition].
 
 ### The Tension Note
 
 Capture complexity without extended discussion:
 
-> The evidence leans toward X, but Y remains contested. [Expert] argues against; most researchers disagree but acknowledge [specific concern].
+> The evidence leans toward X, but Y remains contested. [Expert] argues against;
+> most researchers disagree but acknowledge [specific concern].
 
 ---
 
@@ -192,7 +206,8 @@ Capture complexity without extended discussion:
 
 ### For Chapter Summaries
 
-See `assets/templates/chapter-research-summary-template.md` for full structure. Key synthesis sections:
+See `assets/templates/chapter-research-summary-template.md` for full structure.
+Key synthesis sections:
 
 - **Key Findings:** Distilled answers per gap
 - **Strongest Evidence:** The "gold" preserved
@@ -202,7 +217,8 @@ See `assets/templates/chapter-research-summary-template.md` for full structure. 
 
 ### For Final Synthesis
 
-See `assets/templates/final-research-synthesis-template.md`. Book-wide synthesis includes:
+See `assets/templates/final-research-synthesis-template.md`. Book-wide synthesis
+includes:
 
 - **Thesis Strength Assessment:** Overall evidence base evaluation
 - **Cross-Chapter Themes:** Patterns across the book
@@ -254,28 +270,28 @@ Note significant disagreement:
 
 ### Over-compression
 
-❌ "Research supports this"
-✅ "Three peer-reviewed studies (citations) support this; one study (citation) contradicts but has methodological weaknesses."
+❌ "Research supports this" ✅ "Three peer-reviewed studies (citations) support
+this; one study (citation) contradicts but has methodological weaknesses."
 
 ### Under-compression
 
-❌ [Three pages of detailed methodology description]
-✅ "Multiple studies using varied methodologies converge on this finding."
+❌ [Three pages of detailed methodology description] ✅ "Multiple studies using
+varied methodologies converge on this finding."
 
 ### Losing the Gold
 
-❌ Generic summary that loses the specific quote/statistic/example
-✅ Preserve specific, concrete, usable material explicitly
+❌ Generic summary that loses the specific quote/statistic/example ✅ Preserve
+specific, concrete, usable material explicitly
 
 ### Hiding Tensions
 
-❌ "Research confirms X"
-✅ "Research leans toward X, though [specific concern] remains. Author should address in Chapter 4."
+❌ "Research confirms X" ✅ "Research leans toward X, though [specific concern]
+remains. Author should address in Chapter 4."
 
 ### Citation Loss
 
-❌ "Studies show..."
-✅ "Studies show (Smith 2020; Jones 2021; primary: Luhmann 1981)..."
+❌ "Studies show..." ✅ "Studies show (Smith 2020; Jones 2021; primary: Luhmann
+1981)..."
 
 ---
 
@@ -317,8 +333,10 @@ Think of synthesis as:
 - **Clarifying** not simplifying
 - **Preserving** the valuable while discarding the redundant
 
-The goal is: _If the raw research disappeared, would this synthesis be enough to write the chapter well?_
+The goal is: _If the raw research disappeared, would this synthesis be enough to
+write the chapter well?_
 
 ---
 
-_Use these practices when producing Chapter Research Summaries and the Final Research Synthesis._
+_Use these practices when producing Chapter Research Summaries and the Final
+Research Synthesis._

@@ -6,7 +6,8 @@
 
 ## Quick Context
 
-[2-3 sentences: What is this book about? What's the core idea? Current development status.]
+[2-3 sentences: What is this book about? What's the core idea? Current
+development status.]
 
 **Status:** [Raw Idea / Developing / Refined / Ready for Validation]
 
@@ -30,7 +31,8 @@
 
 **Who is this person?**
 
-[Describe them as a specific person, not a category. What's their situation? What are they struggling with?]
+[Describe them as a specific person, not a category. What's their situation?
+What are they struggling with?]
 
 **Current beliefs that aren't serving them:**
 
@@ -38,7 +40,8 @@
 
 - **The trigger moment** (why they pick up THIS book):
 
-[What search did they just do? What section are they browsing? What conversation did they just have?]
+[What search did they just do? What section are they browsing? What conversation
+did they just have?]
 
 ---
 
@@ -72,13 +75,15 @@
 
 [One sentence. Must be a claim someone could disagree with.]
 
-**Template check:** "Most people believe [conventional wisdom], but actually [your thesis], because [key insight]."
+**Template check:** "Most people believe [conventional wisdom], but actually
+[your thesis], because [key insight]."
 
 - Conventional wisdom being challenged:
 - Your counter-claim:
 - Key insight that supports it:
 
-**Contrarian test:** Can someone reasonably disagree? [Yes/No — if No, thesis needs work]
+**Contrarian test:** Can someone reasonably disagree? [Yes/No — if No, thesis
+needs work]
 
 ---
 
@@ -162,7 +167,8 @@
 
 **In one sentence, what does the reader get?**
 
-[Template: "This book will help [reader] achieve [transformation] by [method/insight]."]
+[Template: "This book will help [reader] achieve [transformation] by
+[method/insight]."]
 
 **Promise test:**
 

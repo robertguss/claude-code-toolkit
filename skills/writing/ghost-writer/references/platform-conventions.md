@@ -6,9 +6,11 @@ Platform-specific considerations for different publishing contexts.
 
 ## Purpose
 
-Each platform has conventions shaped by how people use it. This guide covers platform-specific adjustments while maintaining the writer's authentic voice.
+Each platform has conventions shaped by how people use it. This guide covers
+platform-specific adjustments while maintaining the writer's authentic voice.
 
-**Priority:** DNA document defines voice. Platform conventions shape format, not personality.
+**Priority:** DNA document defines voice. Platform conventions shape format, not
+personality.
 
 ---
 
@@ -24,13 +26,11 @@ Each platform has conventions shaped by how people use it. This guide covers pla
 
 ### Format Conventions
 
-**The Hook Line:**
-The first line must work before "see more":
+**The Hook Line:** The first line must work before "see more":
 
 > "I got fired yesterday. Best thing that ever happened."
 
-**Line Breaks:**
-Use generous line breaks—one sentence per line is common:
+**Line Breaks:** Use generous line breaks—one sentence per line is common:
 
 ```
 I spent 10 years chasing the wrong goal.
@@ -107,8 +107,7 @@ End with:
 - Standard issue: 600-1,000 words
 - Deep dive: 1,500-2,500 words
 
-**Structure:**
-Common patterns:
+**Structure:** Common patterns:
 
 - One big idea + exploration
 - 3-5 curated links with commentary
@@ -191,11 +190,9 @@ Consistent sign-off that becomes recognizable:
 
 > "I spent 5 years building the wrong thing. Here's what I wish I knew:"
 
-**The Thread Payoff:**
-Final tweet should land, not trail off.
+**The Thread Payoff:** Final tweet should land, not trail off.
 
-**Standalone Tweets:**
-If thread isn't needed, make a great single tweet.
+**Standalone Tweets:** If thread isn't needed, make a great single tweet.
 
 ---
 
@@ -386,7 +383,8 @@ If thread isn't needed, make a great single tweet.
 
 ### Voice Consistency Across Platforms
 
-The writer's voice should be recognizable across platforms, adapted but not transformed:
+The writer's voice should be recognizable across platforms, adapted but not
+transformed:
 
 - LinkedIn post sounds like the same person as their blog
 - Tweets are compressed, but same personality

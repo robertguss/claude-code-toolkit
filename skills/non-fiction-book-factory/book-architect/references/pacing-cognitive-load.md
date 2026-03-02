@@ -1,20 +1,25 @@
 # Pacing and Cognitive Load
 
-Readers have limited mental energy. A relentless stream of dense content exhausts them. Strategic pacing manages cognitive load across the book, ensuring readers stay engaged from first page to last.
+Readers have limited mental energy. A relentless stream of dense content
+exhausts them. Strategic pacing manages cognitive load across the book, ensuring
+readers stay engaged from first page to last.
 
 ## The Core Principle
 
 **Books need to breathe.**
 
-Dense chapter → breather chapter → dense chapter. Challenge → relief → challenge. Abstract → concrete → abstract.
+Dense chapter → breather chapter → dense chapter. Challenge → relief →
+challenge. Abstract → concrete → abstract.
 
-Pacing isn't about making books "easy"—it's about sustaining the reader's capacity to engage with your most important ideas.
+Pacing isn't about making books "easy"—it's about sustaining the reader's
+capacity to engage with your most important ideas.
 
 ---
 
 ## Chapter Weight
 
-Every chapter has a cognitive weight: how much mental energy it demands from the reader.
+Every chapter has a cognitive weight: how much mental energy it demands from the
+reader.
 
 ### Heavy Chapters
 
@@ -26,7 +31,8 @@ Every chapter has a cognitive weight: how much mental energy it demands from the
 - Complex arguments requiring close attention
 - Emotionally difficult content
 
-**Reader Experience:** Requires full attention. May need to re-read sections. Mentally tired afterward.
+**Reader Experience:** Requires full attention. May need to re-read sections.
+Mentally tired afterward.
 
 **Architectural Notes:**
 
@@ -68,7 +74,8 @@ Every chapter has a cognitive weight: how much mental energy it demands from the
 - Reader already has the framework
 - Practical and concrete
 
-**Reader Experience:** Enjoyable, even relaxing. Feels like progress. Builds confidence.
+**Reader Experience:** Enjoyable, even relaxing. Feels like progress. Builds
+confidence.
 
 **Architectural Notes:**
 
@@ -97,7 +104,8 @@ Classic alternation. Reliable but can feel predictable.
 Light → Medium → Medium → Heavy → Light (payoff)
 ```
 
-Gradually increasing intensity toward a climax. Good for arguments that need layered setup.
+Gradually increasing intensity toward a climax. Good for arguments that need
+layered setup.
 
 ---
 
@@ -107,7 +115,8 @@ Gradually increasing intensity toward a climax. Good for arguments that need lay
 Heavy → Medium → Medium → Light → Light
 ```
 
-Front-load the challenge, then reward with easier material. Works when the hard part is essential context for everything after.
+Front-load the challenge, then reward with easier material. Works when the hard
+part is essential context for everything after.
 
 ---
 
@@ -117,7 +126,8 @@ Front-load the challenge, then reward with easier material. Works when the hard 
 Medium → Heavy → Heavy → Medium → Light
 ```
 
-Bury the densest material in the middle, cushioned by more accessible chapters on either side.
+Bury the densest material in the middle, cushioned by more accessible chapters
+on either side.
 
 ---
 
@@ -137,7 +147,8 @@ Weight isn't just chapter-level. Within chapters:
 
 **Opening:** Hook first. Don't open with the hardest material. Draw them in.
 
-**Density Distribution:** Front-load the most demanding content while reader attention is highest. Back-load stories and examples.
+**Density Distribution:** Front-load the most demanding content while reader
+attention is highest. Back-load stories and examples.
 
 **Texture Variation:**
 
@@ -145,7 +156,8 @@ Weight isn't just chapter-level. Within chapters:
 - Claim → Evidence → Implication → Example
 - Problem → Analysis → Solution → Case Study
 
-**White Space:** Not literal—but moments where the reader can coast. After a difficult paragraph, a simple sentence. After abstract theory, a concrete image.
+**White Space:** Not literal—but moments where the reader can coast. After a
+difficult paragraph, a simple sentence. After abstract theory, a concrete image.
 
 **Section Breaks:** Signal "okay to pause here." Strategic breathing points.
 
@@ -186,7 +198,8 @@ Readers need a win early. Some moment where they:
 
 **Placement:** Within first 2-3 chapters for most books. Earlier is better.
 
-**Why It Matters:** A reader who wins early trusts the book to keep delivering. A reader who struggles for 5 chapters with no payoff abandons the book.
+**Why It Matters:** A reader who wins early trusts the book to keep delivering.
+A reader who struggles for 5 chapters with no payoff abandons the book.
 
 ---
 
@@ -212,7 +225,9 @@ Larger breathing points between major sections. Consider:
 
 ### Mid-Book Rest
 
-Somewhere around the midpoint, readers need acknowledgment of how far they've come. Not a full summary—but a moment of "You now understand X. That's significant."
+Somewhere around the midpoint, readers need acknowledgment of how far they've
+come. Not a full summary—but a moment of "You now understand X. That's
+significant."
 
 ---
 

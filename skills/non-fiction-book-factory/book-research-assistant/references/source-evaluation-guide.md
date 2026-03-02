@@ -1,6 +1,7 @@
 # Source Evaluation Guide
 
-How to assess source quality, recognize reliable evidence, and avoid common pitfalls in research.
+How to assess source quality, recognize reliable evidence, and avoid common
+pitfalls in research.
 
 ---
 
@@ -22,9 +23,11 @@ Prioritize sources in this order:
 - Autobiographies and memoirs (for the author's own experience)
 - Archival materials
 
-**Why they matter:** No intermediary interpretation. You're seeing the original evidence.
+**Why they matter:** No intermediary interpretation. You're seeing the original
+evidence.
 
-**Caution:** Primary sources still require evaluation—original doesn't mean unbiased.
+**Caution:** Primary sources still require evaluation—original doesn't mean
+unbiased.
 
 ---
 
@@ -39,7 +42,8 @@ Prioritize sources in this order:
 - Academic books from university presses
 - Systematic reviews and meta-analyses
 
-**Why they matter:** Expert vetting catches errors, weak methodology, and unfounded claims.
+**Why they matter:** Expert vetting catches errors, weak methodology, and
+unfounded claims.
 
 **Caution:** Peer review isn't perfect. Check:
 
@@ -62,7 +66,8 @@ Prioritize sources in this order:
 - Industry associations (with caveat about bias)
 - Major NGOs and international bodies (WHO, World Bank, etc.)
 
-**Why they matter:** Editorial standards, fact-checking, institutional reputation at stake.
+**Why they matter:** Editorial standards, fact-checking, institutional
+reputation at stake.
 
 **Caution:** Even reputable sources have:
 
@@ -315,4 +320,5 @@ Quick framework:
 
 ---
 
-_Use this guide when generating research prompts and when validating returned research._
+_Use this guide when generating research prompts and when validating returned
+research._

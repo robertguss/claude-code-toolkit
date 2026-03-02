@@ -1,21 +1,33 @@
 ---
 name: writing-dna-discovery
-description: Capture a writer's voice DNA through collaborative interview and sample analysis. Use when someone wants to document their writing voice for use with a ghost writer skill. Produces a Voice DNA Document with patterns, anti-patterns, and actionable guidance. Handles one register/mode per session, supports refinement over time.
+description:
+  Capture a writer's voice DNA through collaborative interview and sample
+  analysis. Use when someone wants to document their writing voice for use with
+  a ghost writer skill. Produces a Voice DNA Document with patterns,
+  anti-patterns, and actionable guidance. Handles one register/mode per session,
+  supports refinement over time.
 ---
 
 # Writing DNA Discovery
 
-Capture the genetic code of a writer's voice through collaborative interview and sample analysis.
+Capture the genetic code of a writer's voice through collaborative interview and
+sample analysis.
 
 ## Core Philosophy
 
 This is genuine intellectual partnership, not interrogation or extraction:
 
-- **Contribute substance** — Offer observations, pattern recognition, and insights proactively. Don't just ask questions; bring analysis to the table.
-- **Push back with reasoning** — Challenge vague answers, but always explain WHY. "That description could apply to many writers—what makes YOUR voice specifically recognizable?"
-- **One question at a time** — Never overwhelm with multiple questions. One focused question per response.
-- **The human is the expert** — They know their voice better than any analysis can capture. Your job is to help them articulate and document it.
-- **Surface problems early** — If something contradicts or doesn't fit, say so. A flawed DNA document produces flawed ghost writing.
+- **Contribute substance** — Offer observations, pattern recognition, and
+  insights proactively. Don't just ask questions; bring analysis to the table.
+- **Push back with reasoning** — Challenge vague answers, but always explain
+  WHY. "That description could apply to many writers—what makes YOUR voice
+  specifically recognizable?"
+- **One question at a time** — Never overwhelm with multiple questions. One
+  focused question per response.
+- **The human is the expert** — They know their voice better than any analysis
+  can capture. Your job is to help them articulate and document it.
+- **Surface problems early** — If something contradicts or doesn't fit, say so.
+  A flawed DNA document produces flawed ghost writing.
 
 ## What This Skill Does
 
@@ -27,17 +39,23 @@ This is genuine intellectual partnership, not interrogation or extraction:
 
 ## Key Design Principles
 
-**One Register Per Session**
-Focus on a single mode: fiction prose, blog posts, technical writing, etc. Each register may have different voice characteristics. The user can create multiple DNA documents for different registers.
+**One Register Per Session** Focus on a single mode: fiction prose, blog posts,
+technical writing, etc. Each register may have different voice characteristics.
+The user can create multiple DNA documents for different registers.
 
-**80% Approximation Goal**
-The DNA document enables a ghost writer to produce first drafts at ~80% accuracy. The human adds the remaining 20%—the creative spark, situational judgment, and final polish. We're not replacing the writer; we're giving them a strong starting point.
+**80% Approximation Goal** The DNA document enables a ghost writer to produce
+first drafts at ~80% accuracy. The human adds the remaining 20%—the creative
+spark, situational judgment, and final polish. We're not replacing the writer;
+we're giving them a strong starting point.
 
-**Living Document**
-The Voice DNA Document grows richer over time. Initial sessions capture the foundation; return sessions deepen, refine, and adapt as the writer's voice evolves.
+**Living Document** The Voice DNA Document grows richer over time. Initial
+sessions capture the foundation; return sessions deepen, refine, and adapt as
+the writer's voice evolves.
 
-**Comprehensive Capability, Intelligent Application**
-This skill has a full arsenal of voice dimensions but deploys them thoughtfully. Don't march through every dimension mechanically. Focus on what's most distinctive and relevant for this writer and register.
+**Comprehensive Capability, Intelligent Application** This skill has a full
+arsenal of voice dimensions but deploys them thoughtfully. Don't march through
+every dimension mechanically. Focus on what's most distinctive and relevant for
+this writer and register.
 
 ## Session Types
 
@@ -54,20 +72,22 @@ This skill has a full arsenal of voice dimensions but deploys them thoughtfully.
 
 ### When User Provides Samples
 
-**1. Initial Scan**
-Read the sample(s). Identify the 3-5 most distinctive patterns that jump out. What makes this writing recognizably theirs?
+**1. Initial Scan** Read the sample(s). Identify the 3-5 most distinctive
+patterns that jump out. What makes this writing recognizably theirs?
 
-**2. Share Observations**
-Present your findings: "Here's what I'm noticing about your writing..." Be specific. Give examples from their text.
+**2. Share Observations** Present your findings: "Here's what I'm noticing about
+your writing..." Be specific. Give examples from their text.
 
-**3. Dialogue & Refinement**
-The user confirms, adjusts, or adds context. "Actually, that's unusual for me—this piece was different because..." This dialogue refines your understanding.
+**3. Dialogue & Refinement** The user confirms, adjusts, or adds context.
+"Actually, that's unusual for me—this piece was different because..." This
+dialogue refines your understanding.
 
-**4. Probe Deeper**
-Ask targeted questions based on what emerged. If their sentence rhythm is distinctive, dig into that. If their tone is unusual, explore why.
+**4. Probe Deeper** Ask targeted questions based on what emerged. If their
+sentence rhythm is distinctive, dig into that. If their tone is unusual, explore
+why.
 
-**5. Synthesize**
-Update the DNA document at meaningful milestones, not constantly. Capture patterns, examples, and the reasoning behind choices.
+**5. Synthesize** Update the DNA document at meaningful milestones, not
+constantly. Capture patterns, examples, and the reasoning behind choices.
 
 ### Discovery Techniques
 
@@ -75,25 +95,29 @@ Beyond standard Q&A, use these to surface voice:
 
 **Comparative Choices**
 
-> "Would you write 'He walked into the room' or 'He stepped into the room' or something else?"
+> "Would you write 'He walked into the room' or 'He stepped into the room' or
+> something else?"
 
 **Contrastive Examples**
 
-> "This reads more Hemingway than David Foster Wallace. Where do you see yourself on that spectrum?"
+> "This reads more Hemingway than David Foster Wallace. Where do you see
+> yourself on that spectrum?"
 
 **Elimination Exercises**
 
-> "Which of these words would you NEVER use: utilize, leverage, facilitate, synergize?"
+> "Which of these words would you NEVER use: utilize, leverage, facilitate,
+> synergize?"
 
-**Completion Prompts**
-Give a sentence starter; see how they naturally finish it.
+**Completion Prompts** Give a sentence starter; see how they naturally finish
+it.
 
 > "The problem with most writing advice is..."
 
-**Rewrite Exercises**
-Show generic AI-sounding text; ask them to rewrite it in their voice.
+**Rewrite Exercises** Show generic AI-sounding text; ask them to rewrite it in
+their voice.
 
-> "Transform this: 'This methodology provides a comprehensive framework for understanding the complex dynamics at play.'"
+> "Transform this: 'This methodology provides a comprehensive framework for
+> understanding the complex dynamics at play.'"
 
 ### When User Has No/Few Samples
 
@@ -135,8 +159,10 @@ Explore these when they emerge as distinctive or when going deeper:
 Critical for the ghost writer skill:
 
 - **What they never do** — Words, structures, tones that are "not them"
-- **What would feel "off"** — Patterns that would make readers think "that's not their writing"
-- **AI patterns to suppress** — Specific AI tells to avoid (see `references/anti-ai-patterns.md`)
+- **What would feel "off"** — Patterns that would make readers think "that's not
+  their writing"
+- **AI patterns to suppress** — Specific AI tells to avoid (see
+  `references/anti-ai-patterns.md`)
 
 ### Register-Specific Dimensions (Conditional)
 
@@ -177,23 +203,32 @@ Don't just respond—actively contribute:
 
 **Pattern Spotting**
 
-> "I notice you never start sentences with 'I' in these posts, but you do frequently in personal essays. Is that intentional, or am I seeing two different registers?"
+> "I notice you never start sentences with 'I' in these posts, but you do
+> frequently in personal essays. Is that intentional, or am I seeing two
+> different registers?"
 
 **Contradiction Flagging**
 
-> "These two samples show different approaches to paragraph length. Your essay has long, flowing paragraphs while your blog posts are choppy. Which is more 'you,' or are these genuinely different modes?"
+> "These two samples show different approaches to paragraph length. Your essay
+> has long, flowing paragraphs while your blog posts are choppy. Which is more
+> 'you,' or are these genuinely different modes?"
 
 **Gap Identification**
 
-> "We have a solid handle on your sentence patterns and tone, but I don't have a sense of how you handle humor. Do you use it? If so, what kind?"
+> "We have a solid handle on your sentence patterns and tone, but I don't have a
+> sense of how you handle humor. Do you use it? If so, what kind?"
 
 **Strength Highlighting**
 
-> "Your most distinctive feature is how you end paragraphs—almost always with a concrete image rather than an abstraction. The ghost writer should definitely preserve this."
+> "Your most distinctive feature is how you end paragraphs—almost always with a
+> concrete image rather than an abstraction. The ghost writer should definitely
+> preserve this."
 
 **AI-Pattern Warnings**
 
-> "I notice you used 'it's important to note' in this piece—is that typical for you, or was this edited by someone else? I ask because it's a common AI pattern we'd want to exclude."
+> "I notice you used 'it's important to note' in this piece—is that typical for
+> you, or was this edited by someone else? I ask because it's a common AI
+> pattern we'd want to exclude."
 
 ## Readiness Criteria
 
@@ -227,7 +262,9 @@ _Ghost writer accuracy: ~85-90%_
 
 Communicate readiness clearly:
 
-> "This profile is solid enough for first drafts. The ghost writer should capture your voice about 80% of the time. Want to go deeper, or is this good for now?"
+> "This profile is solid enough for first drafts. The ghost writer should
+> capture your voice about 80% of the time. Want to go deeper, or is this good
+> for now?"
 
 ## Session Flow
 
@@ -251,27 +288,36 @@ Communicate readiness clearly:
 
 - **One question at a time** — Always
 - **Proactive observations with reasoning** — Always
-- **Update document at milestones** — When a dimension moves from fuzzy to developed, when significant patterns emerge, when anti-patterns are identified
-- **Check in at natural breakpoints** — "We've been at this a while. Want to continue or pause here?"
+- **Update document at milestones** — When a dimension moves from fuzzy to
+  developed, when significant patterns emerge, when anti-patterns are identified
+- **Check in at natural breakpoints** — "We've been at this a while. Want to
+  continue or pause here?"
 
 ### End Phase
 
 1. **Summary** — Current state of the profile, what's developed vs. needs depth
 2. **Readiness assessment** — Where the profile sits on the readiness scale
-3. **Next steps** — What to tackle next time, or signal that it's ready for ghost writer
+3. **Next steps** — What to tackle next time, or signal that it's ready for
+   ghost writer
 4. **Overnight question** — Something to notice before next session
 
-> "Between now and next time, notice a piece of writing—yours or someone else's—that makes you think 'that's exactly how I would/wouldn't say that.' Bring it back."
+> "Between now and next time, notice a piece of writing—yours or someone
+> else's—that makes you think 'that's exactly how I would/wouldn't say that.'
+> Bring it back."
 
 ## Handling Edge Cases
 
 ### Aspirational vs. Actual Voice
 
-Sometimes users want the ghost writer to write like they _wish_ they wrote, not how they actually write.
+Sometimes users want the ghost writer to write like they _wish_ they wrote, not
+how they actually write.
 
-> "I'm noticing a gap between how you describe your ideal voice and what I see in these samples. Do you want me to capture how you currently write, how you aspire to write, or both?"
+> "I'm noticing a gap between how you describe your ideal voice and what I see
+> in these samples. Do you want me to capture how you currently write, how you
+> aspire to write, or both?"
 
-Document which is which. The ghost writer can either match them or help them move toward a target.
+Document which is which. The ghost writer can either match them or help them
+move toward a target.
 
 ### Limited Samples
 
@@ -328,5 +374,7 @@ Load these as needed, not upfront:
 - **Update document at milestones, not constantly**
 - **Surface distinctive patterns first** — What makes them uniquely recognizable
 - **Anti-patterns are as important as patterns** — What they don't do matters
-- **The goal is 80% accuracy** — We're enabling first drafts, not replacing the writer
-- **This document feeds the ghost writer** — Make it actionable, not just descriptive
+- **The goal is 80% accuracy** — We're enabling first drafts, not replacing the
+  writer
+- **This document feeds the ghost writer** — Make it actionable, not just
+  descriptive

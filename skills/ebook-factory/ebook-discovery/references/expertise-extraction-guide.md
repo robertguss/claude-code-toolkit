@@ -1,6 +1,7 @@
 # Expertise Extraction Guide
 
-Dedicated support for the harder discovery path. Use when working with users who have deep expertise but limited published content.
+Dedicated support for the harder discovery path. Use when working with users who
+have deep expertise but limited published content.
 
 ## Table of Contents
 
@@ -45,7 +46,8 @@ This path requires:
 
 ### The Curse of Knowledge
 
-Experts can't remember what it was like not to know. What feels "obvious" to them is often the exact thing that would be valuable to teach.
+Experts can't remember what it was like not to know. What feels "obvious" to
+them is often the exact thing that would be valuable to teach.
 
 **Signs of the curse:**
 
@@ -62,7 +64,8 @@ Experts can't remember what it was like not to know. What feels "obvious" to the
 
 ### Tacit vs. Explicit Knowledge
 
-Much expertise is _tacit_—knowledge that's hard to articulate because it's embedded in intuition and practice.
+Much expertise is _tacit_—knowledge that's hard to articulate because it's
+embedded in intuition and practice.
 
 **Signs of tacit knowledge:**
 
@@ -75,7 +78,8 @@ Much expertise is _tacit_—knowledge that's hard to articulate because it's emb
 
 - Ask about specific decisions: "Walk me through the last time you did this"
 - Focus on exceptions: "What do you do when the normal approach doesn't work?"
-- Ask about mistakes: "What errors do beginners make that you've learned to avoid?"
+- Ask about mistakes: "What errors do beginners make that you've learned to
+  avoid?"
 
 ### Imposter Syndrome
 
@@ -339,7 +343,8 @@ Users often need help believing their expertise is valuable.
 
 ### Reframe "Obvious" as "Valuable"
 
-"What feels obvious to you after years of experience is exactly what someone starting out needs to learn. Your 'obvious' is their 'revelation.'"
+"What feels obvious to you after years of experience is exactly what someone
+starting out needs to learn. Your 'obvious' is their 'revelation.'"
 
 ### Use External Evidence
 
@@ -349,15 +354,18 @@ Users often need help believing their expertise is valuable.
 
 ### The "Younger Self" Frame
 
-"If you could go back and tell your younger self one thing, what would it be? That's probably an ebook."
+"If you could go back and tell your younger self one thing, what would it be?
+That's probably an ebook."
 
 ### The "Time Saved" Frame
 
-"If this ebook could save someone 6 months of figuring it out themselves, what would be in it?"
+"If this ebook could save someone 6 months of figuring it out themselves, what
+would be in it?"
 
 ### Normalize the Feeling
 
-"Most experts feel like their knowledge isn't special. That's actually a sign of real expertise—you've internalized it so deeply it feels normal."
+"Most experts feel like their knowledge isn't special. That's actually a sign of
+real expertise—you've internalized it so deeply it feels normal."
 
 ---
 
@@ -396,4 +404,5 @@ Even without metrics, describe:
 - Why they haven't succeeded yet
 - What would make them trust you
 
-This profile guides the ebook even without validation data. The ebook itself can become the validation.
+This profile guides the ebook even without validation data. The ebook itself can
+become the validation.

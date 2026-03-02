@@ -6,9 +6,12 @@ Conventions and techniques for blog posts and digital content.
 
 ## Purpose
 
-Blog posts have distinct conventions shaped by how people read online. This guide covers format-specific considerations while maintaining the writer's authentic voice.
+Blog posts have distinct conventions shaped by how people read online. This
+guide covers format-specific considerations while maintaining the writer's
+authentic voice.
 
-**Priority:** The DNA document defines voice. This guide provides format-aware techniques within that voice.
+**Priority:** The DNA document defines voice. This guide provides format-aware
+techniques within that voice.
 
 ---
 
@@ -195,7 +198,8 @@ N. Summary or call to action
 
 ### Subheadings
 
-Insert every 200-400 words. Ask: "If someone only read the headings, would they get the gist?"
+Insert every 200-400 words. Ask: "If someone only read the headings, would they
+get the gist?"
 
 ### Pull Quotes / Callouts
 
@@ -267,8 +271,7 @@ Keep examples minimal
 - SEO matters (depth signals)
 - Topic deserves exploration
 
-**The test:**
-Is every word earning its place? Cut until no more can be cut.
+**The test:** Is every word earning its place? Cut until no more can be cut.
 
 ---
 
@@ -304,7 +307,8 @@ Check DNA for:
 - Personal disclosure level
 - Anecdote usage
 
-Apply that level to the blog format. A personal writer's blog feels personal. An analytical writer's blog feels analytical but well-structured.
+Apply that level to the blog format. A personal writer's blog feels personal. An
+analytical writer's blog feels analytical but well-structured.
 
 ---
 
@@ -312,7 +316,8 @@ Apply that level to the blog format. A personal writer's blog feels personal. An
 
 ### 1. Burying the Lede
 
-The main point should come early. If readers leave after paragraph 2, they should still know the key insight.
+The main point should come early. If readers leave after paragraph 2, they
+should still know the key insight.
 
 ### 2. Wall of Text
 

@@ -6,7 +6,8 @@ Pre-delivery verification for ghost writer drafts.
 
 ## Purpose
 
-Run through this checklist before delivering drafts. Catching issues before delivery is better than revising after.
+Run through this checklist before delivering drafts. Catching issues before
+delivery is better than revising after.
 
 ---
 
@@ -14,11 +15,15 @@ Run through this checklist before delivering drafts. Catching issues before deli
 
 ### Pattern Application
 
-- [ ] **Sentence rhythm matches DNA** — Length patterns, variation, internal structure
-- [ ] **Punctuation matches DNA** — Em-dashes, semicolons, comma density as documented
-- [ ] **Word choice matches DNA** — Vocabulary level, favorites used, avoided words absent
+- [ ] **Sentence rhythm matches DNA** — Length patterns, variation, internal
+      structure
+- [ ] **Punctuation matches DNA** — Em-dashes, semicolons, comma density as
+      documented
+- [ ] **Word choice matches DNA** — Vocabulary level, favorites used, avoided
+      words absent
 - [ ] **Tone matches DNA** — Emotional temperature, formality level consistent
-- [ ] **Reader relationship matches DNA** — "I" frequency, "you" usage, authority stance
+- [ ] **Reader relationship matches DNA** — "I" frequency, "you" usage,
+      authority stance
 
 ### Ghost Writer Briefing Compliance
 
@@ -26,13 +31,15 @@ Run through this checklist before delivering drafts. Catching issues before deli
 - [ ] **"Don't Do This" items avoided** — No violations
 - [ ] **"When Uncertain" rules used** — Ambiguous decisions followed rules
 - [ ] **Sentence-level guidance followed** — Length, opening patterns, emphasis
-- [ ] **Structural guidance followed** — Paragraph length, transitions, opening/closing
+- [ ] **Structural guidance followed** — Paragraph length, transitions,
+      opening/closing
 
 ### Anti-Pattern Suppression
 
 - [ ] **DNA-specific anti-patterns avoided** — None present
 - [ ] **AI patterns suppressed** — No baseline AI tells
-- [ ] **Quick scan for AI tells** — "Delve," "leverage," "rich tapestry," etc. absent
+- [ ] **Quick scan for AI tells** — "Delve," "leverage," "rich tapestry," etc.
+      absent
 
 ---
 
@@ -79,7 +86,8 @@ Run through this checklist before delivering drafts. Catching issues before deli
 
 ### Accuracy
 
-- [ ] **Research placeholders marked** — `[STAT: ...]` format for unverified data
+- [ ] **Research placeholders marked** — `[STAT: ...]` format for unverified
+      data
 - [ ] **No made-up facts** — Nothing presented as true without verification
 - [ ] **Claims proportionate to evidence** — Not overstating
 
@@ -180,7 +188,8 @@ Run through this checklist before delivering drafts. Catching issues before deli
 
 - [ ] **Read Draft A aloud** (mentally) — Does it sound like them?
 - [ ] **Read Draft B aloud** (mentally) — Does it sound like them?
-- [ ] **Would this pass the "is this them?" test?** — If handed to someone who knows the writer
+- [ ] **Would this pass the "is this them?" test?** — If handed to someone who
+      knows the writer
 
 ### Honest Assessment
 

@@ -8,7 +8,9 @@
 
 ## Purpose
 
-Anticipates what skeptical readers will search for while reading. If they Google your claim and find devastating counterarguments you didn't address, you lose them. This document ensures you're aware of what's out there.
+Anticipates what skeptical readers will search for while reading. If they Google
+your claim and find devastating counterarguments you didn't address, you lose
+them. This document ensures you're aware of what's out there.
 
 ---
 
@@ -43,7 +45,8 @@ Anticipates what skeptical readers will search for while reading. If they Google
 
 ## High-Priority Inoculations
 
-Claims where Google results are most damaging and must be addressed preemptively:
+Claims where Google results are most damaging and must be addressed
+preemptively:
 
 | Claim | Search    | Top Counter      | Your Response     |
 | ----- | --------- | ---------------- | ----------------- |

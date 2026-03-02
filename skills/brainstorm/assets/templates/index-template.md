@@ -3,7 +3,8 @@
 **Created:** YYYY-MM-DD  
 **Last Updated:** YYYY-MM-DD  
 **Current Version:** vX  
-**Status:** [Raw Idea / Exploring / Converging / Ready to Execute / Paused / Completed / Abandoned]
+**Status:** [Raw Idea / Exploring / Converging / Ready to Execute / Paused /
+Completed / Abandoned]
 
 ---
 

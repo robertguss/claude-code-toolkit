@@ -1,6 +1,7 @@
 # Session Types Reference
 
-Guide for identifying brainstorming context and recommending appropriate methods.
+Guide for identifying brainstorming context and recommending appropriate
+methods.
 
 ## Session Type Detection
 
@@ -35,7 +36,8 @@ Listen for cues to identify the type of brainstorming session:
 4. **First Principles** — Challenge inherited assumptions
 5. **Pre-mortem** — Identify failure modes before committing
 
-**Watch out for:** Falling in love with the solution before validating the problem.
+**Watch out for:** Falling in love with the solution before validating the
+problem.
 
 ---
 
@@ -56,7 +58,8 @@ Listen for cues to identify the type of brainstorming session:
 4. **SCAMPER** — Vary existing ideas
 5. **Telos Examination** — Why does this content matter?
 
-**Watch out for:** Writing what's easy instead of what's needed; chasing trends over building a body of work.
+**Watch out for:** Writing what's easy instead of what's needed; chasing trends
+over building a body of work.
 
 ---
 
@@ -77,7 +80,8 @@ Listen for cues to identify the type of brainstorming session:
 4. **Steelman** — Argue for options you're dismissing
 5. **10/10/10** — Check against time horizons
 
-**Watch out for:** Deciding before actually exploring options; confirmation bias.
+**Watch out for:** Deciding before actually exploring options; confirmation
+bias.
 
 ---
 
@@ -119,7 +123,8 @@ Listen for cues to identify the type of brainstorming session:
 4. **Assumption Surfacing** — What must be true for this model to work?
 5. **Stewardship Frame** — Is this pricing faithful/fair?
 
-**Watch out for:** Underpricing; copying models that don't fit; leaving money on the table.
+**Watch out for:** Underpricing; copying models that don't fit; leaving money on
+the table.
 
 ---
 
@@ -140,7 +145,8 @@ Listen for cues to identify the type of brainstorming session:
 4. **SCAMPER** — Vary the positioning
 5. **Forced Analogies** — How do non-competitors position?
 
-**Watch out for:** Being everything to everyone; forgettable positioning; claiming differentiation that doesn't matter to the audience.
+**Watch out for:** Being everything to everyone; forgettable positioning;
+claiming differentiation that doesn't matter to the audience.
 
 ---
 
@@ -148,7 +154,8 @@ Listen for cues to identify the type of brainstorming session:
 
 ### Deep Exploration Mode
 
-**Characteristics:** Long session, open-ended, divergent, willing to go down rabbit holes.
+**Characteristics:** Long session, open-ended, divergent, willing to go down
+rabbit holes.
 
 **Approach:**
 
@@ -160,7 +167,8 @@ Listen for cues to identify the type of brainstorming session:
 
 ### Quick Progress Mode
 
-**Characteristics:** Short session, focused, need to move forward, decisions over exploration.
+**Characteristics:** Short session, focused, need to move forward, decisions
+over exploration.
 
 **Approach:**
 
@@ -183,12 +191,15 @@ Cross-reference other projects and existing work. Surface connections like:
 - "This might conflict with what you decided about Y"
 - "This could feed into your newsletter/book/other project"
 
-**Best for:** Building on existing work, ensuring consistency, leveraging past thinking.
+**Best for:** Building on existing work, ensuring consistency, leveraging past
+thinking.
 
 ### Clean-Slate Mode
 
 No references to other projects or prior work. Fresh perspective.
 
-**Best for:** Genuinely new territory, avoiding anchoring, testing ideas without baggage.
+**Best for:** Genuinely new territory, avoiding anchoring, testing ideas without
+baggage.
 
-**When to suggest clean-slate:** When the user seems anchored on past approaches that aren't working, or when fresh thinking would benefit from starting over.
+**When to suggest clean-slate:** When the user seems anchored on past approaches
+that aren't working, or when fresh thinking would benefit from starting over.

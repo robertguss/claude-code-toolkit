@@ -8,7 +8,9 @@
 
 ## Purpose
 
-Maps logical dependencies between claims. Some claims are foundational; others build on them. This reveals which claims are load-bearing and helps architect structure the argument.
+Maps logical dependencies between claims. Some claims are foundational; others
+build on them. This reveals which claims are load-bearing and helps architect
+structure the argument.
 
 ---
 

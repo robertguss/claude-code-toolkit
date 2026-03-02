@@ -12,6 +12,7 @@ Overall = (Coverage × 0.40) + (Freshness × 0.30) + (Quality × 0.20) + (Consis
 
 **Range:** 0-100  
 **Interpretation:**
+
 - 90-100: Excellent
 - 80-89: Good
 - 70-79: Adequate
@@ -25,11 +26,13 @@ Overall = (Coverage × 0.40) + (Freshness × 0.30) + (Quality × 0.20) + (Consis
 **What it measures:** Percentage of public surface area that is documented
 
 **Calculation:**
+
 ```
 Coverage = (documented_elements / total_public_elements) × 100
 ```
 
 **Example for REST API:**
+
 ```
 Documented endpoints: 12
 Total endpoints: 12
@@ -44,6 +47,7 @@ Coverage = ((12 + 3 + 8) / (12 + 3 + 10)) × 100
 ```
 
 **Adjustments:**
+
 - **Critical elements undocumented:** -10 points per critical gap
   - Critical: Authentication, main API endpoints, installation
 - **Examples missing:** -5 points if <50% of features have examples
@@ -66,11 +70,14 @@ staleness_penalty = (critical_stale × 20) + (important_stale × 10) + (minor_st
 ```
 
 **Staleness categories:**
+
 - **Critical stale:** Docs contradict current code, examples don't run
-- **Important stale:** New features undocumented, removed features still documented
+- **Important stale:** New features undocumented, removed features still
+  documented
 - **Minor stale:** Out-of-date version numbers, old screenshots
 
 **Example:**
+
 ```
 Critical stale items: 0
 Important stale items: 2
@@ -97,6 +104,7 @@ Freshness = max(100 - staleness_penalty - git_penalty, 0)
 ```
 
 **Example:**
+
 ```
 Commits since last doc: 15
 Max acceptable: 20
@@ -124,6 +132,7 @@ Quality = base_quality + bonuses - penalties
 **Base quality:** 70 (assuming adequate documentation exists)
 
 **Bonuses (max +30):**
+
 - Examples exist: +10
 - Working, tested examples: +5
 - ADRs present (≥3): +5
@@ -132,6 +141,7 @@ Quality = base_quality + bonuses - penalties
 - Progressive examples (basic → advanced): +2
 
 **Penalties:**
+
 - No examples: -20
 - Examples don't run: -15
 - No troubleshooting: -10
@@ -141,6 +151,7 @@ Quality = base_quality + bonuses - penalties
 - No diagrams for complex concepts: -5
 
 **Example:**
+
 ```
 Base: 70
 Has 12 working examples: +15
@@ -156,6 +167,7 @@ Quality = 70 + 30 - 0 = 100
 ```
 
 **Example with penalties:**
+
 ```
 Base: 70
 Has examples but some don't run: +10 - 10 = 0
@@ -182,26 +194,31 @@ Consistency = 100 - (inconsistency_penalty)
 **Inconsistency penalties:**
 
 **Terminology (max -30):**
+
 - Same concept, different terms: -10 per conflict
 - Inconsistent capitalization: -5 per conflict
 - Example: "user" vs "customer" vs "client" → -10
 
 **Tone (max -30):**
+
 - Mix of formal and casual: -15
 - Inconsistent voice (you vs one vs we): -10
 - Varying formality across sections: -5
 
 **Structure (max -20):**
+
 - Inconsistent heading hierarchy: -10
 - Different formatting for similar content: -5
 - Mixed list styles: -5
 
 **Formatting (max -20):**
+
 - Inconsistent code block styling: -10
 - Different link formats: -5
 - Varying emphasis patterns: -5
 
 **Example:**
+
 ```
 Terminology issues:
 - "API key" vs "access token" used interchangeably: -10
@@ -229,6 +246,7 @@ Consistency = 100 - 30 = 70
 ### Project State
 
 **Coverage:**
+
 - 12/12 endpoints documented
 - 3/3 schemas documented
 - 8/10 error codes documented
@@ -240,6 +258,7 @@ Coverage = ((12 + 3 + 8) / (12 + 3 + 10)) × 100
 ```
 
 **Freshness:**
+
 - 0 critical stale items
 - 2 important stale items (new endpoints not documented)
 - 3 minor stale items (version numbers)
@@ -252,6 +271,7 @@ Freshness = 100 - 26 - 7.5 = 66.5 → 67
 ```
 
 **Quality:**
+
 - Base: 70
 - 12 working examples: +15
 - 4 ADRs: +5
@@ -264,6 +284,7 @@ Quality = 70 + 28 = 98
 ```
 
 **Consistency:**
+
 - One terminology inconsistency: -10
 - Minor formatting issues: -5
 
@@ -272,6 +293,7 @@ Consistency = 100 - 15 = 85
 ```
 
 **Overall:**
+
 ```
 Overall = (92 × 0.40) + (67 × 0.30) + (98 × 0.20) + (85 × 0.10)
         = 36.8 + 20.1 + 19.6 + 8.5
@@ -293,16 +315,19 @@ The manifest tracks the last 10 health scores:
 **Interpretation:**
 
 **Upward trend (65 → 85):**
+
 - ✅ Documentation improving
 - ✅ Debt being addressed
 - ✅ Quality increasing
 
 **Flat trend (85 → 85):**
+
 - ⚠️ Stable but not improving
 - ⚠️ May indicate acceptable plateau
 - ⚠️ Or may indicate neglect
 
 **Downward trend (92 → 85):**
+
 - ❌ Quality declining
 - ❌ Debt accumulating
 - ❌ Freshness degrading
@@ -348,16 +373,19 @@ The manifest tracks the last 10 health scores:
 ### Recommended Thresholds
 
 **For production release:**
+
 - Minimum overall score: 80
 - Minimum coverage: 90
 - Minimum freshness: 85
 
 **For open source launch:**
+
 - Minimum overall score: 85
 - Minimum coverage: 95
 - Minimum quality: 85
 
 **For internal tools:**
+
 - Minimum overall score: 70
 - Minimum coverage: 80
 - Minimum freshness: 70
@@ -383,6 +411,7 @@ fi
 ```
 
 Add to CI pipeline:
+
 ```yaml
 - name: Check Documentation Health
   run: ./scripts/check-docs-health.sh
@@ -395,6 +424,7 @@ Add to CI pipeline:
 ### Initial Baseline
 
 First documentation run typically scores:
+
 - 50-70: Brand new docs, gaps expected
 - 70-80: Decent first pass
 - 80-90: Unusually thorough initial effort
@@ -403,10 +433,12 @@ First documentation run typically scores:
 ### Realistic Targets
 
 **Maintainable scores:**
+
 - 85-95: Excellent and sustainable
 - 95-100: Requires constant attention
 
 **Avoid perfectionism:**
+
 - 100/100 is rarely maintainable
 - 85-90 is typically "good enough"
 - Focus on high-value improvements
@@ -414,12 +446,14 @@ First documentation run typically scores:
 ### When Scores Seem Wrong
 
 If health score seems inaccurate:
+
 1. Review component scores individually
 2. Check for overly harsh penalties
 3. Verify bonus criteria are fair
-3. Adjust weights if needed (advanced)
+4. Adjust weights if needed (advanced)
 
 **Default weights are appropriate for most projects:**
+
 - Coverage: 40% (most important)
 - Freshness: 30% (critical for accuracy)
 - Quality: 20% (matters, but subjective)
@@ -429,17 +463,19 @@ If health score seems inaccurate:
 
 ## FAQ
 
-**Q: Why is coverage weighted highest?**
-A: Undocumented features are worse than imperfect documentation. Coverage ensures basics are present.
+**Q: Why is coverage weighted highest?** A: Undocumented features are worse than
+imperfect documentation. Coverage ensures basics are present.
 
-**Q: Why is consistency only 10%?**
-A: Perfect consistency is nice but not critical. Better to have complete, fresh docs with minor inconsistencies than perfect but incomplete docs.
+**Q: Why is consistency only 10%?** A: Perfect consistency is nice but not
+critical. Better to have complete, fresh docs with minor inconsistencies than
+perfect but incomplete docs.
 
-**Q: Can I change the weights?**
-A: The skill uses standard weights. If needed, manually adjust manifest scores, but default weights work well for most projects.
+**Q: Can I change the weights?** A: The skill uses standard weights. If needed,
+manually adjust manifest scores, but default weights work well for most
+projects.
 
-**Q: What's a "good" health score?**
-A: 80+ is good, 85+ is very good, 90+ is excellent. Anything above 80 indicates solid documentation.
+**Q: What's a "good" health score?** A: 80+ is good, 85+ is very good, 90+ is
+excellent. Anything above 80 indicates solid documentation.
 
-**Q: How often should I check health score?**
-A: After each feature release or weekly for active projects. Track trend over time.
+**Q: How often should I check health score?** A: After each feature release or
+weekly for active projects. Track trend over time.

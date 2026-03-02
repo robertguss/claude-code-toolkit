@@ -2,7 +2,8 @@
 
 ## Quick Context
 
-[2-3 sentences: What is this project? What problem are we solving? Current state in one line.]
+[2-3 sentences: What is this project? What problem are we solving? Current state
+in one line.]
 
 **Status:** [Raw Idea / Exploring / Converging / Ready to Execute / Paused]
 
@@ -31,7 +32,8 @@ Questions that need thinking before next session:
 
 ## Current Thinking
 
-[The substance of where things stand. This section is the heart of the document—capture the actual thinking, not just ideas listed.]
+[The substance of where things stand. This section is the heart of the
+document—capture the actual thinking, not just ideas listed.]
 
 ### Key Insights
 

@@ -1,14 +1,15 @@
 # Proof Burden Matching
 
-What level of evidence different types of claims require. Not all claims need the same evidentiary support—matching evidence to claim importance prevents both under-supporting critical arguments and over-researching minor points.
+What level of evidence different types of claims require. Not all claims need
+the same evidentiary support—matching evidence to claim importance prevents both
+under-supporting critical arguments and over-researching minor points.
 
 ---
 
 ## The Core Principle
 
-**Extraordinary claims require extraordinary evidence.**
-**Ordinary claims require ordinary evidence.**
-**Common knowledge requires no evidence.**
+**Extraordinary claims require extraordinary evidence.** **Ordinary claims
+require ordinary evidence.** **Common knowledge requires no evidence.**
 
 The proof burden depends on:
 
@@ -46,8 +47,9 @@ The proof burden depends on:
 - "Handwritten notes are significantly better for learning than typed notes"
 - "The Zettelkasten method will transform your intellectual output"
 
-**Research approach:**
-P1 priority. Extensive research. Both Claude and Gemini. Multiple prompts covering different evidence types. Validation must show Strong verdict.
+**Research approach:** P1 priority. Extensive research. Both Claude and Gemini.
+Multiple prompts covering different evidence types. Validation must show Strong
+verdict.
 
 ---
 
@@ -73,8 +75,9 @@ P1 priority. Extensive research. Both Claude and Gemini. Multiple prompts coveri
 - "Digital note-taking tools create different cognitive patterns than paper"
 - "Information overload has increased significantly in the past decade"
 
-**Research approach:**
-P1 or P2 priority. Solid research from both models. At least one prompt dedicated to this gap. Validation should show Adequate or Strong.
+**Research approach:** P1 or P2 priority. Solid research from both models. At
+least one prompt dedicated to this gap. Validation should show Adequate or
+Strong.
 
 ---
 
@@ -100,8 +103,8 @@ P1 or P2 priority. Solid research from both models. At least one prompt dedicate
 - "Note-taking has a long history in scholarly practice"
 - "Some researchers have found card-based systems useful"
 
-**Research approach:**
-P2 or P3 priority. Single source may suffice. One model may be enough. Validation can accept Adequate or Thin if not central.
+**Research approach:** P2 or P3 priority. Single source may suffice. One model
+may be enough. Validation can accept Adequate or Thin if not central.
 
 ---
 
@@ -126,8 +129,8 @@ P2 or P3 priority. Single source may suffice. One model may be enough. Validatio
 - "Most people have access to digital devices"
 - "Thinking is difficult"
 
-**Research approach:**
-Usually no dedicated research gap. May cite for interested readers but not required for persuasion.
+**Research approach:** Usually no dedicated research gap. May cite for
+interested readers but not required for persuasion.
 
 ---
 
@@ -281,7 +284,8 @@ Ask: Does the evidence match the burden?
 
 ## Book-Architect Integration
 
-The book-architect identifies proof burdens in the Architecture Document. Research-assistant should:
+The book-architect identifies proof burdens in the Architecture Document.
+Research-assistant should:
 
 1. **Receive** the proof burden assessment from architect
 2. **Verify** the burden assignment makes sense
@@ -301,4 +305,5 @@ For each significant claim:
 
 ---
 
-_Use this guide when assessing research gaps and validating whether evidence meets the burden._
+_Use this guide when assessing research gaps and validating whether evidence
+meets the burden._

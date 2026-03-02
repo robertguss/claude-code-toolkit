@@ -6,7 +6,9 @@ How to move between ideas, paragraphs, and sections with flow.
 
 ## Purpose
 
-Good transitions are invisible—readers don't notice them. Bad transitions create bumps, confusion, or exhaustion. This guide covers techniques for smooth movement at every level.
+Good transitions are invisible—readers don't notice them. Bad transitions create
+bumps, confusion, or exhaustion. This guide covers techniques for smooth
+movement at every level.
 
 ---
 
@@ -132,7 +134,8 @@ If the logic is clear, no connector is needed.
 
 Summarize where you've been, then launch forward:
 
-> "So the technology exists. The infrastructure is ready. What's missing is adoption."
+> "So the technology exists. The infrastructure is ready. What's missing is
+> adoption."
 
 ### The Pivot Sentence
 
@@ -174,7 +177,8 @@ The break signals: "We're moving to something new."
 
 Every sentence starts with "However," "Moreover," "Additionally":
 
-> "The product launched. **However**, sales were slow. **Moreover**, marketing struggled. **Additionally**, support was overwhelmed."
+> "The product launched. **However**, sales were slow. **Moreover**, marketing
+> struggled. **Additionally**, support was overwhelmed."
 
 **Fix:** Let some sentences connect logically without explicit connectors.
 
@@ -184,13 +188,15 @@ Jumping topics without warning:
 
 > "The code was finally working. Lunch was disappointing that day."
 
-**Fix:** If topics are related, show the connection. If not, use a section break.
+**Fix:** If topics are related, show the connection. If not, use a section
+break.
 
 ### 3. The Repetitive Echo
 
 Over-echoing the same word:
 
-> "The meeting was productive. The **productive** outcome led to action. This **productive** phase..."
+> "The meeting was productive. The **productive** outcome led to action. This
+> **productive** phase..."
 
 **Fix:** Echo once, then move on.
 
@@ -206,12 +212,12 @@ Transitions that waste words:
 
 No transition where one is needed:
 
-> Para about marketing strategy.
-> Para about engineering challenges.
+> Para about marketing strategy. Para about engineering challenges.
 
 Reader: "Wait, how did we get here?"
 
-**Fix:** Add a bridge, even if minimal: "But strategy meant nothing without execution."
+**Fix:** Add a bridge, even if minimal: "But strategy meant nothing without
+execution."
 
 ---
 
@@ -233,8 +239,8 @@ Mix invisible, light, and heavy transitions:
 
 > "**Despite this setback**, the team pressed on."
 
-If all transitions are heavy, prose feels mechanical.
-If all are invisible, readers may lose the thread.
+If all transitions are heavy, prose feels mechanical. If all are invisible,
+readers may lose the thread.
 
 ### The 3:1 Rule
 
@@ -322,7 +328,9 @@ Read the piece aloud (mentally). Notice:
 
 ### The Cover Test
 
-Cover the first sentence of each paragraph. Does the paragraph still make sense? If not, the transition may be doing too much work—the paragraph should be able to stand somewhat independently.
+Cover the first sentence of each paragraph. Does the paragraph still make sense?
+If not, the transition may be doing too much work—the paragraph should be able
+to stand somewhat independently.
 
 ### The Logic Test
 

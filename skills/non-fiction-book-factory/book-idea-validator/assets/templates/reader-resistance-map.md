@@ -8,7 +8,8 @@
 
 ## Purpose
 
-Maps where readers will push back hardest. Essential for sequencing—you must earn the right to make harder claims by establishing easier ones first.
+Maps where readers will push back hardest. Essential for sequencing—you must
+earn the right to make harder claims by establishing easier ones first.
 
 ---
 

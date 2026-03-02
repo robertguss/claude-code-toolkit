@@ -1,16 +1,20 @@
 # Brainstorming Methods - Detailed Guide
 
-A comprehensive reference for understanding and applying brainstorming methods. Use this when you want to understand a method before applying it, or when exploring which approach fits your situation.
+A comprehensive reference for understanding and applying brainstorming methods.
+Use this when you want to understand a method before applying it, or when
+exploring which approach fits your situation.
 
 ---
 
 ## Divergent Methods
 
-These methods help generate new ideas, break out of mental ruts, and expand the possibility space.
+These methods help generate new ideas, break out of mental ruts, and expand the
+possibility space.
 
 ### SCAMPER
 
-**What it is:** A systematic checklist of prompts that force you to look at an existing concept from seven different angles.
+**What it is:** A systematic checklist of prompts that force you to look at an
+existing concept from seven different angles.
 
 **The prompts:**
 
@@ -22,7 +26,8 @@ These methods help generate new ideas, break out of mental ruts, and expand the 
 - **E**liminate — What could you remove entirely?
 - **R**everse/Rearrange — What if you flipped the order or orientation?
 
-**When to use:** You have an existing idea, product, or concept and want to systematically explore variations.
+**When to use:** You have an existing idea, product, or concept and want to
+systematically explore variations.
 
 **How to apply:**
 
@@ -39,20 +44,24 @@ These methods help generate new ideas, break out of mental ruts, and expand the 
 - Modify: What if it was daily instead of weekly? 10x longer? 10x shorter?
 - Put to other uses: Could the research become a book? A consulting framework?
 - Eliminate: What if there were no links? No images? No consistent schedule?
-- Reverse: What if readers pitched topics to you? What if you wrote about what NOT to do?
+- Reverse: What if readers pitched topics to you? What if you wrote about what
+  NOT to do?
 
 ---
 
 ### Random Stimulus
 
-**What it is:** Introducing an unrelated word, image, or concept and forcing yourself to find connections to your problem.
+**What it is:** Introducing an unrelated word, image, or concept and forcing
+yourself to find connections to your problem.
 
-**When to use:** You're stuck in a mental rut, all ideas feel similar, or you need genuinely novel thinking.
+**When to use:** You're stuck in a mental rut, all ideas feel similar, or you
+need genuinely novel thinking.
 
 **How to apply:**
 
 1. State your problem clearly
-2. Generate a random stimulus (random word generator, open a book to random page, use a random image)
+2. Generate a random stimulus (random word generator, open a book to random
+   page, use a random image)
 3. List attributes, associations, and characteristics of that stimulus
 4. Force connections: "How might [attribute] apply to my problem?"
 5. Develop any promising connections into actual ideas
@@ -60,7 +69,8 @@ These methods help generate new ideas, break out of mental ruts, and expand the 
 **Example:** Problem: "How to make MVPKit stand out"
 
 - Random word: "Lighthouse"
-- Associations: guidance, warning, coastal, beam of light, solitary, automated, historic
+- Associations: guidance, warning, coastal, beam of light, solitary, automated,
+  historic
 - Forced connections:
   - "Guidance" → What if MVPKit included decision frameworks, not just code?
   - "Warning" → What if it flagged common MVP mistakes as you build?
@@ -71,14 +81,17 @@ These methods help generate new ideas, break out of mental ruts, and expand the 
 
 ### Forced Analogies
 
-**What it is:** Deliberately applying thinking from a different domain, industry, or persona to your problem.
+**What it is:** Deliberately applying thinking from a different domain,
+industry, or persona to your problem.
 
-**When to use:** You want fresh perspectives or suspect your industry has blind spots.
+**When to use:** You want fresh perspectives or suspect your industry has blind
+spots.
 
 **How to apply:**
 
 1. State your problem
-2. Choose an unrelated domain (another industry, a historical period, a fictional universe, a specific person)
+2. Choose an unrelated domain (another industry, a historical period, a
+   fictional universe, a specific person)
 3. Ask: "How would they approach this?" or "How does this work in that domain?"
 4. Extract principles and apply them to your context
 
@@ -87,21 +100,26 @@ These methods help generate new ideas, break out of mental ruts, and expand the 
 - Industries: How would a restaurant/hospital/airline handle this?
 - People: How would Bezos/your grandmother/a 5-year-old see this?
 - Nature: How do ecosystems/ant colonies/immune systems solve this?
-- History: How did pre-digital/medieval/ancient societies handle similar challenges?
+- History: How did pre-digital/medieval/ancient societies handle similar
+  challenges?
 
 **Example:** Problem: "How to build community around a technical product"
 
 - Analogy: "How do churches build community?"
-- Observations: Shared rituals, regular gatherings, mentorship structures, shared mission, service opportunities, small groups within larger body
-- Applied: Weekly office hours (ritual), mentorship pairing for new users, clear mission statement, contribution pathways, cohort-based onboarding
+- Observations: Shared rituals, regular gatherings, mentorship structures,
+  shared mission, service opportunities, small groups within larger body
+- Applied: Weekly office hours (ritual), mentorship pairing for new users, clear
+  mission statement, contribution pathways, cohort-based onboarding
 
 ---
 
 ### Worst Possible Idea
 
-**What it is:** Deliberately generating terrible, absurd, or counterproductive ideas, then examining what makes them bad and inverting.
+**What it is:** Deliberately generating terrible, absurd, or counterproductive
+ideas, then examining what makes them bad and inverting.
 
-**When to use:** The group is self-censoring, ideas feel too "safe," or you need to loosen up.
+**When to use:** The group is self-censoring, ideas feel too "safe," or you need
+to loosen up.
 
 **How to apply:**
 
@@ -132,7 +150,8 @@ These methods help organize, prioritize, and narrow down options.
 
 ### Affinity Grouping
 
-**What it is:** Organizing ideas into clusters based on natural relationships, then naming those clusters.
+**What it is:** Organizing ideas into clusters based on natural relationships,
+then naming those clusters.
 
 **When to use:** You have many ideas and need to see patterns and themes.
 
@@ -145,15 +164,18 @@ These methods help organize, prioritize, and narrow down options.
 5. Look for clusters that are dense (lots of energy there) vs. sparse
 6. Identify gaps: What categories are missing?
 
-**Tip:** Let groups emerge naturally rather than pre-defining categories. The naming often reveals insight.
+**Tip:** Let groups emerge naturally rather than pre-defining categories. The
+naming often reveals insight.
 
 ---
 
 ### Weighted Scoring
 
-**What it is:** Evaluating options against explicit criteria with assigned weights.
+**What it is:** Evaluating options against explicit criteria with assigned
+weights.
 
-**When to use:** Complex decisions where multiple factors matter and you need to make tradeoffs explicit.
+**When to use:** Complex decisions where multiple factors matter and you need to
+make tradeoffs explicit.
 
 **How to apply:**
 
@@ -172,13 +194,15 @@ These methods help organize, prioritize, and narrow down options.
 - Revenue potential (15%)
 - Time to MVP (15%)
 
-**Warning:** The value is in the conversation about weights and scores, not the final number. If the "winner" feels wrong, examine why.
+**Warning:** The value is in the conversation about weights and scores, not the
+final number. If the "winner" feels wrong, examine why.
 
 ---
 
 ### 2x2 Matrix
 
-**What it is:** Plotting options on two dimensions to reveal clusters and tradeoffs.
+**What it is:** Plotting options on two dimensions to reveal clusters and
+tradeoffs.
 
 **When to use:** You need to compare options and want to make tradeoffs visual.
 
@@ -188,7 +212,8 @@ These methods help organize, prioritize, and narrow down options.
 2. Draw the matrix with dimensions as axes
 3. Plot each option in the appropriate quadrant
 4. Discuss what each quadrant represents
-5. Look for options in the desirable quadrant; discuss whether others can be moved
+5. Look for options in the desirable quadrant; discuss whether others can be
+   moved
 
 **Classic dimensions:**
 
@@ -206,14 +231,17 @@ These methods help ensure you're solving the right problem.
 
 ### First Principles Thinking
 
-**What it is:** Breaking down a problem to its fundamental truths and rebuilding from there, rather than reasoning by analogy or convention.
+**What it is:** Breaking down a problem to its fundamental truths and rebuilding
+from there, rather than reasoning by analogy or convention.
 
-**When to use:** Conventional approaches aren't working, or you suspect you're trapped by inherited assumptions.
+**When to use:** Conventional approaches aren't working, or you suspect you're
+trapped by inherited assumptions.
 
 **How to apply:**
 
 1. State the problem or goal
-2. Ask: "What do we know to be absolutely true here?" (not assumed, not conventional—proven)
+2. Ask: "What do we know to be absolutely true here?" (not assumed, not
+   conventional—proven)
 3. List only foundational facts
 4. Rebuild: "Given only these truths, what options exist?"
 5. Compare to conventional thinking—where do they diverge?
@@ -222,9 +250,12 @@ These methods help ensure you're solving the right problem.
 
 - Conventional: "Look at competitor pricing and position accordingly"
 - First principles:
-  - What do I know? The course costs me X hours to create. Students get Y outcome. Market has Z alternatives.
-  - What's actually true about pricing? Price = perceived value. Value = outcome achieved + experience + certainty.
-  - Rebuild: What would I charge if competitors didn't exist? What outcome am I actually selling?
+  - What do I know? The course costs me X hours to create. Students get Y
+    outcome. Market has Z alternatives.
+  - What's actually true about pricing? Price = perceived value. Value = outcome
+    achieved + experience + certainty.
+  - Rebuild: What would I charge if competitors didn't exist? What outcome am I
+    actually selling?
 
 ---
 
@@ -232,7 +263,8 @@ These methods help ensure you're solving the right problem.
 
 **What it is:** Repeatedly asking "why" to drill past symptoms to root causes.
 
-**When to use:** You're treating symptoms rather than causes, or the real problem isn't clear.
+**When to use:** You're treating symptoms rather than causes, or the real
+problem isn't clear.
 
 **How to apply:**
 
@@ -256,9 +288,11 @@ These methods help ensure you're solving the right problem.
 
 ### Inversion
 
-**What it is:** Instead of asking how to succeed, asking how to guarantee failure—then avoiding those things.
+**What it is:** Instead of asking how to succeed, asking how to guarantee
+failure—then avoiding those things.
 
-**When to use:** You're stuck on the positive framing, you want to identify risks, or you need to challenge assumptions.
+**When to use:** You're stuck on the positive framing, you want to identify
+risks, or you need to challenge assumptions.
 
 **How to apply:**
 
@@ -287,25 +321,33 @@ These methods help ensure you're solving the right problem.
 
 ### Jobs-to-be-Done
 
-**What it is:** Understanding what "job" the customer is "hiring" your product to do—focusing on the outcome they want rather than the product itself.
+**What it is:** Understanding what "job" the customer is "hiring" your product
+to do—focusing on the outcome they want rather than the product itself.
 
-**When to use:** Product or service ideation, understanding customer motivation, competitive analysis.
+**When to use:** Product or service ideation, understanding customer motivation,
+competitive analysis.
 
 **How to apply:**
 
 1. Ask: "What is the customer trying to accomplish?" (the job)
 2. Ask: "What's the situation or trigger that creates this need?"
 3. Ask: "What does success look like for them?"
-4. Ask: "What are they currently hiring to do this job?" (competitors, workarounds, doing nothing)
+4. Ask: "What are they currently hiring to do this job?" (competitors,
+   workarounds, doing nothing)
 5. Ask: "What's frustrating about current solutions?"
 
-**JTBD statement format:** "When [situation], I want to [motivation], so I can [outcome]."
+**JTBD statement format:** "When [situation], I want to [motivation], so I can
+[outcome]."
 
 **Example:** Analyzing MVPKit
 
-- Job: "When I have a validated idea and limited time, I want to ship a working product fast, so I can start getting real user feedback before I burn through my runway."
-- Current hires: Building from scratch, other boilerplates, no-code tools, hiring contractors
-- Frustrations: Boilerplates are bloated, no-code limits customization, scratch takes too long
+- Job: "When I have a validated idea and limited time, I want to ship a working
+  product fast, so I can start getting real user feedback before I burn through
+  my runway."
+- Current hires: Building from scratch, other boilerplates, no-code tools,
+  hiring contractors
+- Frustrations: Boilerplates are bloated, no-code limits customization, scratch
+  takes too long
 
 ---
 
@@ -315,18 +357,23 @@ These methods help you see the problem from different angles.
 
 ### Six Thinking Hats
 
-**What it is:** A structured way to examine a topic from six distinct perspectives, one at a time.
+**What it is:** A structured way to examine a topic from six distinct
+perspectives, one at a time.
 
 **The hats:**
 
 - **White Hat** — Facts and information. What do we know? What don't we know?
-- **Red Hat** — Feelings and intuition. What's your gut reaction? (No justification required)
-- **Black Hat** — Caution and risks. What could go wrong? What are the weaknesses?
-- **Yellow Hat** — Benefits and value. What's good about this? Why might it work?
+- **Red Hat** — Feelings and intuition. What's your gut reaction? (No
+  justification required)
+- **Black Hat** — Caution and risks. What could go wrong? What are the
+  weaknesses?
+- **Yellow Hat** — Benefits and value. What's good about this? Why might it
+  work?
 - **Green Hat** — Creativity and alternatives. What else is possible? New ideas?
 - **Blue Hat** — Process and meta. What hat should we wear next? Are we done?
 
-**When to use:** Group discussions that go in circles, decisions where emotions and logic are tangled, need for structured comprehensive analysis.
+**When to use:** Group discussions that go in circles, decisions where emotions
+and logic are tangled, need for structured comprehensive analysis.
 
 **How to apply:**
 
@@ -340,9 +387,11 @@ These methods help you see the problem from different angles.
 
 ### Steelman
 
-**What it is:** Building the strongest possible case for a position you disagree with or are skeptical of.
+**What it is:** Building the strongest possible case for a position you disagree
+with or are skeptical of.
 
-**When to use:** Before dismissing an option, testing your own ideas, understanding opposition, avoiding echo chambers.
+**When to use:** Before dismissing an option, testing your own ideas,
+understanding opposition, avoiding echo chambers.
 
 **How to apply:**
 
@@ -352,15 +401,18 @@ These methods help you see the problem from different angles.
 4. Present it as if you believed it
 5. Only after steelmanning, respond with your actual view
 
-**Why it matters:** If you can't articulate why smart people disagree with you, you don't understand your own position well enough.
+**Why it matters:** If you can't articulate why smart people disagree with you,
+you don't understand your own position well enough.
 
 ---
 
 ### Pre-mortem
 
-**What it is:** Imagining the project has failed and working backward to identify what went wrong.
+**What it is:** Imagining the project has failed and working backward to
+identify what went wrong.
 
-**When to use:** Before committing to a plan, when confidence is high (that's when blind spots are biggest), for risk identification.
+**When to use:** Before committing to a plan, when confidence is high (that's
+when blind spots are biggest), for risk identification.
 
 **How to apply:**
 
@@ -371,15 +423,18 @@ These methods help you see the problem from different angles.
 5. Prioritize: Which failure modes are most likely and most severe?
 6. Address: What can we do now to prevent these?
 
-**Key insight:** It's psychologically easier to explain a failure that "happened" than to imagine one that might happen.
+**Key insight:** It's psychologically easier to explain a failure that
+"happened" than to imagine one that might happen.
 
 ---
 
 ### Assumption Surfacing
 
-**What it is:** Explicitly identifying the assumptions underlying a plan or belief.
+**What it is:** Explicitly identifying the assumptions underlying a plan or
+belief.
 
-**When to use:** Before major commitments, when something feels risky but unclear why, for foundational clarity.
+**When to use:** Before major commitments, when something feels risky but
+unclear why, for foundational clarity.
 
 **How to apply:**
 
@@ -403,25 +458,31 @@ These methods help you see the problem from different angles.
 
 ## Theological/Philosophical Methods
 
-These methods bring depth to foundational questions about purpose, assumptions, and stewardship.
+These methods bring depth to foundational questions about purpose, assumptions,
+and stewardship.
 
 ### Presuppositional Analysis
 
-**What it is:** Examining the worldview assumptions that underlie an idea, argument, or approach.
+**What it is:** Examining the worldview assumptions that underlie an idea,
+argument, or approach.
 
-**When to use:** Deep strategic decisions, when something feels "off" but you can't articulate why, understanding why reasonable people disagree, ensuring alignment with values.
+**When to use:** Deep strategic decisions, when something feels "off" but you
+can't articulate why, understanding why reasonable people disagree, ensuring
+alignment with values.
 
 **How to apply:**
 
 1. State the idea or approach
-2. Ask: "What view of [human nature / knowledge / purpose / reality] does this assume?"
+2. Ask: "What view of [human nature / knowledge / purpose / reality] does this
+   assume?"
 3. Make the presuppositions explicit
 4. Ask: "Do I actually hold these presuppositions?"
 5. If not: "What would this look like built on my actual foundations?"
 
 **Key presupposition categories:**
 
-- Anthropology: What does this assume about human nature? Capability? Motivation?
+- Anthropology: What does this assume about human nature? Capability?
+  Motivation?
 - Epistemology: What does this assume about how we know things?
 - Ethics: What does this assume about right/wrong, good/bad?
 - Teleology: What ultimate purpose does this assume?
@@ -429,8 +490,10 @@ These methods bring depth to foundational questions about purpose, assumptions, 
 **Example:** Analyzing a productivity system
 
 - Surface claim: "Optimize your time to maximize output"
-- Presuppositions: Time is a resource to be maximized. Output = value. Efficiency is a primary good.
-- Questions: Is productivity the telos? What about rest, relationships, formation? Does this assume I own my time, or that I'm a steward of it?
+- Presuppositions: Time is a resource to be maximized. Output = value.
+  Efficiency is a primary good.
+- Questions: Is productivity the telos? What about rest, relationships,
+  formation? Does this assume I own my time, or that I'm a steward of it?
 
 ---
 
@@ -438,30 +501,37 @@ These methods bring depth to foundational questions about purpose, assumptions, 
 
 **What it is:** Asking what ultimate end or purpose something serves.
 
-**When to use:** Strategic decisions, evaluating whether efforts are well-directed, connecting work to meaning.
+**When to use:** Strategic decisions, evaluating whether efforts are
+well-directed, connecting work to meaning.
 
 **How to apply:**
 
 1. State the activity, project, or decision
 2. Ask: "What is this ultimately for?"
-3. If the answer is instrumental (a means to something else), ask again: "And what is THAT for?"
+3. If the answer is instrumental (a means to something else), ask again: "And
+   what is THAT for?"
 4. Continue until you reach a terminal value (something good in itself)
 5. Evaluate: Is that terminal value actually good? Is this the best path to it?
 
 **Example:** "Why am I building this SaaS?"
 
-- To generate revenue → To have financial freedom → To have time for what matters → To invest in family, church, meaningful work → To live faithfully before God
+- To generate revenue → To have financial freedom → To have time for what
+  matters → To invest in family, church, meaningful work → To live faithfully
+  before God
 - Evaluation: Does this SaaS actually serve that telos? Are there better paths?
 
 ---
 
 ### Stewardship Frame
 
-**What it is:** Evaluating decisions through the lens of faithful stewardship rather than ownership.
+**What it is:** Evaluating decisions through the lens of faithful stewardship
+rather than ownership.
 
 **When to use:** Resource allocation, major decisions, evaluating opportunities.
 
-**Core question:** "I've been entrusted with [time/skills/resources/platform/opportunity]. What would faithful stewardship look like?"
+**Core question:** "I've been entrusted with
+[time/skills/resources/platform/opportunity]. What would faithful stewardship
+look like?"
 
 **Sub-questions:**
 

@@ -1,12 +1,15 @@
 # Chapter Architecture
 
-A chapter is not a container for content. It's a journey the reader takes—from one state to another, through a designed experience, toward a specific transformation.
+A chapter is not a container for content. It's a journey the reader takes—from
+one state to another, through a designed experience, toward a specific
+transformation.
 
 ## The One-Job Principle
 
 **Every chapter has ONE job.**
 
-Not "covers these topics" or "addresses these points"—a single, articulable purpose.
+Not "covers these topics" or "addresses these points"—a single, articulable
+purpose.
 
 ### Good Chapter Jobs
 
@@ -26,7 +29,8 @@ Not "covers these topics" or "addresses these points"—a single, articulable pu
 
 ### The Test
 
-Can you complete this sentence? "This chapter's job is to **\_** the reader so that they **\_**."
+Can you complete this sentence? "This chapter's job is to **\_** the reader so
+that they **\_**."
 
 If you can't complete it, the chapter lacks focus.
 
@@ -108,7 +112,8 @@ The question or tension that pulls the reader INTO this chapter.
 - Promise made in introduction
 - Natural curiosity from what they just learned
 
-**The rule:** Never start a chapter without an incoming hook. If there's no question pulling them in, they may not enter.
+**The rule:** Never start a chapter without an incoming hook. If there's no
+question pulling them in, they may not enter.
 
 ### Outgoing Hooks
 
@@ -138,9 +143,12 @@ The question or tension that propels the reader to the NEXT chapter.
 
 ### The Hook Chain
 
-Every chapter's outgoing hook should connect to the next chapter's incoming hook. Read just the hooks in sequence—they should form a coherent thread pulling the reader through the entire book.
+Every chapter's outgoing hook should connect to the next chapter's incoming
+hook. Read just the hooks in sequence—they should form a coherent thread pulling
+the reader through the entire book.
 
-**Test:** List all your hooks in order. Is there a gap? A non-sequitur? A broken link? Fix it.
+**Test:** List all your hooks in order. Is there a gap? A non-sequitur? A broken
+link? Fix it.
 
 ---
 
@@ -217,7 +225,8 @@ Not every chapter needs all components, but these are the building blocks:
 
 Every chapter should have ONE key insight—the thing that matters most.
 
-**The test:** If the reader remembers only one thing from this chapter, what must it be?
+**The test:** If the reader remembers only one thing from this chapter, what
+must it be?
 
 **Characteristics of good key insights:**
 
@@ -226,7 +235,8 @@ Every chapter should have ONE key insight—the thing that matters most.
 - Actionable or memorable
 - Earns its place (supported by the chapter's content)
 
-**Document this in the chapter blueprint.** Force yourself to articulate it. If you can't, the chapter may lack focus.
+**Document this in the chapter blueprint.** Force yourself to articulate it. If
+you can't, the chapter may lack focus.
 
 ---
 

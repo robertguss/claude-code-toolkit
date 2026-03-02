@@ -1,21 +1,25 @@
 # Handoff
 
-Create structured session handoff documents for continuity across Claude sessions.
+Create structured session handoff documents for continuity across Claude
+sessions.
 
 ## The Problem
 
-Claude sessions don't persist. When you end a session and start a new one, you lose:
+Claude sessions don't persist. When you end a session and start a new one, you
+lose:
 
 - The decisions you made and why
 - The context of what you were building
 - Where you left off in the task
 - The nuances and constraints you'd established
 
-Starting fresh means re-explaining everything, often losing important context in the translation.
+Starting fresh means re-explaining everything, often losing important context in
+the translation.
 
 ## The Solution
 
-The `/handoff` skill creates structured documents that capture everything a future session needs to pick up where you left off:
+The `/handoff` skill creates structured documents that capture everything a
+future session needs to pick up where you left off:
 
 - Current task state and progress
 - Decisions made with their reasoning
@@ -37,7 +41,8 @@ The `/handoff` skill creates structured documents that capture everything a futu
 
 **Step 2:** Asks what you want to capture:
 
-> "I'll create a handoff document. Is there anything specific you want to make sure I capture?"
+> "I'll create a handoff document. Is there anything specific you want to make
+> sure I capture?"
 
 **Step 3:** Generates a structured handoff document
 
@@ -48,9 +53,8 @@ The `/handoff` skill creates structured documents that capture everything a futu
 ```markdown
 # Session Handoff: [Brief Description]
 
-**Date:** 2025-01-15
-**Project:** /path/to/project
-**Session Duration:** ~2 hours
+**Date:** 2025-01-15 **Project:** /path/to/project **Session Duration:** ~2
+hours
 
 ## Current State
 
@@ -98,7 +102,9 @@ The handoff lets Claude hit the ground running without lengthy re-explanation.
 
 ## Related: Compaction Hook
 
-For in-session continuity (when context compacts but session continues), see the [compaction-hook](../compaction-hook/). It automatically improves what gets preserved during compaction.
+For in-session continuity (when context compacts but session continues), see the
+[compaction-hook](../compaction-hook/). It automatically improves what gets
+preserved during compaction.
 
 | Handoff Skill            | Compaction Hook           |
 | ------------------------ | ------------------------- |

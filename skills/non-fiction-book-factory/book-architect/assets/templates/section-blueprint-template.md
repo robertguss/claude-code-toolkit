@@ -10,7 +10,8 @@
 
 ## Section Purpose
 
-[What this section does for the reader. What transformation happens across these chapters? Why does this section exist?]
+[What this section does for the reader. What transformation happens across these
+chapters? Why does this section exist?]
 
 ---
 
@@ -61,7 +62,8 @@
 #### Chapter Architecture
 
 **Purpose:**  
-[This chapter's ONE job—complete the sentence: "This chapter's job is to _____ the reader so that they _____."]
+[This chapter's ONE job—complete the sentence: "This chapter's job is to _____
+the reader so that they _____."]
 
 **Content:**
 

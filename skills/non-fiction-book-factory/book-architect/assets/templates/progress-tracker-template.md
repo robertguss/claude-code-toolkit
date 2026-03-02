@@ -1,7 +1,8 @@
 # Architecture Progress: [Book Title]
 
 **Status:** Not Started / In Progress / Complete  
-**Current Phase:** [Intake / Book-Level Architecture / Section Blueprints / Integration]  
+**Current Phase:** [Intake / Book-Level Architecture / Section Blueprints /
+Integration]  
 **Last Session:** [Date]  
 **Next Session Planned:** [Date or TBD]
 
@@ -37,7 +38,8 @@ _Currently being worked on:_
 
 - [ ] [Item]
   - Started: [Date]
-  - Current status: [Specific progress—e.g., "Chapters 8-10 drafted, Chapter 11 in progress"]
+  - Current status: [Specific progress—e.g., "Chapters 8-10 drafted, Chapter 11
+    in progress"]
   - Blocked by: [If applicable]
 
 ---

@@ -47,6 +47,7 @@ npm install [project-name]
 ```
 
 Expected output:
+
 ```
 [what success looks like]
 ```
@@ -101,7 +102,8 @@ See [Configuration Guide](./docs/configuration.md) for full details.
 
 ## Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](./docs/contributing.md) for guidelines.
+We welcome contributions! See [CONTRIBUTING.md](./docs/contributing.md) for
+guidelines.
 
 ## License
 

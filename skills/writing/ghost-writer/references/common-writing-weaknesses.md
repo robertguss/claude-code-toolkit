@@ -6,9 +6,12 @@ Patterns that weaken prose. Watch for these during drafting and self-editing.
 
 ## Purpose
 
-Beyond AI patterns (covered in `anti-ai-patterns.md`), these are general weaknesses that make prose less effective. Avoiding these improves output quality even when they don't violate the writer's specific voice.
+Beyond AI patterns (covered in `anti-ai-patterns.md`), these are general
+weaknesses that make prose less effective. Avoiding these improves output
+quality even when they don't violate the writer's specific voice.
 
-**Note:** If the DNA document shows the writer uses these patterns intentionally, follow the DNA.
+**Note:** If the DNA document shows the writer uses these patterns
+intentionally, follow the DNA.
 
 ---
 
@@ -16,8 +19,7 @@ Beyond AI patterns (covered in `anti-ai-patterns.md`), these are general weaknes
 
 ### 1. Passive Voice Overuse
 
-**What It Is:**
-The subject receives the action rather than performing it.
+**What It Is:** The subject receives the action rather than performing it.
 
 **Examples:**
 
@@ -42,15 +44,13 @@ The subject receives the action rather than performing it.
 - Actor unimportant: "The samples were collected over three months"
 - Deliberate emphasis on recipient: "Kennedy was assassinated"
 
-**Fix:**
-Identify the actor. Make them the subject. Use active verb.
+**Fix:** Identify the actor. Make them the subject. Use active verb.
 
 ---
 
 ### 2. Nominalization
 
-**What It Is:**
-Turning verbs into nouns, often adding wordiness.
+**What It Is:** Turning verbs into nouns, often adding wordiness.
 
 **Examples:**
 
@@ -72,18 +72,16 @@ Turning verbs into nouns, often adding wordiness.
 - Creates abstract, bureaucratic tone
 - Often requires weak verbs (made, gave, performed)
 
-**Detection:**
-Watch for nouns ending in -tion, -ment, -ance, -ence preceded by weak verbs.
+**Detection:** Watch for nouns ending in -tion, -ment, -ance, -ence preceded by
+weak verbs.
 
-**Fix:**
-Find the buried verb. Use it directly.
+**Fix:** Find the buried verb. Use it directly.
 
 ---
 
 ### 3. Hedge Words and Qualifiers
 
-**What They Are:**
-Words that soften statements, reduce commitment.
+**What They Are:** Words that soften statements, reduce commitment.
 
 **Common Hedge Words:**
 
@@ -132,15 +130,14 @@ Words that soften statements, reduce commitment.
 - Appropriate caution: "In some cases..."
 - DNA document shows hedging is part of voice
 
-**Fix:**
-Cut the hedge. Make the claim. If you can't make it confidently, reconsider whether to make it.
+**Fix:** Cut the hedge. Make the claim. If you can't make it confidently,
+reconsider whether to make it.
 
 ---
 
 ### 4. Throat-Clearing Openings
 
-**What They Are:**
-Introductory phrases that delay the point.
+**What They Are:** Introductory phrases that delay the point.
 
 **Examples:**
 
@@ -162,11 +159,11 @@ Introductory phrases that delay the point.
 - Sound generic
 - Waste reader's time
 
-**Fix:**
-Delete the throat-clearing. Start with the actual point.
+**Fix:** Delete the throat-clearing. Start with the actual point.
 
-> Before: "In order to understand modern software development, we must first consider the history of programming."
-> After: "Modern software development has roots in the earliest programming languages."
+> Before: "In order to understand modern software development, we must first
+> consider the history of programming." After: "Modern software development has
+> roots in the earliest programming languages."
 
 Or even better: Start with something specific and interesting.
 
@@ -174,8 +171,7 @@ Or even better: Start with something specific and interesting.
 
 ### 5. Weak Verbs
 
-**What They Are:**
-Verbs that don't carry meaning, often requiring adverbs.
+**What They Are:** Verbs that don't carry meaning, often requiring adverbs.
 
 **Weak Verbs:**
 
@@ -204,15 +200,13 @@ Verbs that don't carry meaning, often requiring adverbs.
 - Require adverbs to do the work
 - Feel generic
 
-**Fix:**
-Find a verb that contains the adverb's meaning.
+**Fix:** Find a verb that contains the adverb's meaning.
 
 ---
 
 ### 6. Adverb Dependency
 
-**What It Is:**
-Relying on adverbs to do work the verb should do.
+**What It Is:** Relying on adverbs to do work the verb should do.
 
 **Examples:**
 
@@ -232,15 +226,13 @@ Relying on adverbs to do work the verb should do.
 - Shows lazy word choice
 - Reduces impact
 
-**Fix:**
-Find the precise verb. Cut the adverb.
+**Fix:** Find the precise verb. Cut the adverb.
 
 ---
 
 ### 7. Redundancy
 
-**What It Is:**
-Saying the same thing twice.
+**What It Is:** Saying the same thing twice.
 
 **Examples:**
 
@@ -267,15 +259,14 @@ Saying the same thing twice.
 - Shows careless thinking
 - Undermines trust in precision
 
-**Fix:**
-Cut the redundant word.
+**Fix:** Cut the redundant word.
 
 ---
 
 ### 8. Expletive Constructions
 
-**What They Are:**
-Sentences starting with "It is," "There is," or "There are" when these words don't refer to anything specific.
+**What They Are:** Sentences starting with "It is," "There is," or "There are"
+when these words don't refer to anything specific.
 
 **Examples:**
 
@@ -293,19 +284,18 @@ Sentences starting with "It is," "There is," or "There are" when these words don
 - Add words
 - Create passive feel
 
-**Fix:**
-Find the real subject. Start with it.
+**Fix:** Find the real subject. Start with it.
 
 ---
 
 ### 9. Prepositional Pile-Up
 
-**What It Is:**
-Chains of prepositional phrases that clutter sentences.
+**What It Is:** Chains of prepositional phrases that clutter sentences.
 
 **Example:**
 
-> "The book on the table in the corner of the room by the window near the door was old."
+> "The book on the table in the corner of the room by the window near the door
+> was old."
 
 **Why It's Weak:**
 
@@ -325,8 +315,7 @@ Chains of prepositional phrases that clutter sentences.
 
 ### 10. Mixed Metaphors
 
-**What They Are:**
-Combining incompatible figurative images.
+**What They Are:** Combining incompatible figurative images.
 
 **Examples:**
 
@@ -351,8 +340,7 @@ Combining incompatible figurative images.
 
 ### 11. Clichés
 
-**What They Are:**
-Overused expressions that have lost impact.
+**What They Are:** Overused expressions that have lost impact.
 
 **Examples:**
 
@@ -385,13 +373,11 @@ Overused expressions that have lost impact.
 
 ### 12. Unclear Pronoun Reference
 
-**What It Is:**
-Pronouns with ambiguous antecedents.
+**What It Is:** Pronouns with ambiguous antecedents.
 
 **Example:**
 
-> "When John met Bob, he said he was tired."
-> (Who said? Who was tired?)
+> "When John met Bob, he said he was tired." (Who said? Who was tired?)
 
 **Why It's Weak:**
 

@@ -8,7 +8,9 @@ _Inspired by Steven Pinker's "The Sense of Style"_
 
 ## Purpose
 
-Clear writing isn't about simple words—it's about alignment with how minds process information. This guide covers cognitive principles that make prose clearer and more effective.
+Clear writing isn't about simple words—it's about alignment with how minds
+process information. This guide covers cognitive principles that make prose
+clearer and more effective.
 
 ---
 
@@ -16,24 +18,26 @@ Clear writing isn't about simple words—it's about alignment with how minds pro
 
 ### What It Is
 
-The curse of knowledge is the difficulty of imagining what it's like not to know something you know.
+The curse of knowledge is the difficulty of imagining what it's like not to know
+something you know.
 
-Experts forget what it was like to learn. They skip steps. They use shorthand. They assume context that readers don't have.
+Experts forget what it was like to learn. They skip steps. They use shorthand.
+They assume context that readers don't have.
 
 ### Why It Matters
 
-Most unclear writing isn't caused by complex topics. It's caused by writers who can't see their subject from the reader's perspective.
+Most unclear writing isn't caused by complex topics. It's caused by writers who
+can't see their subject from the reader's perspective.
 
 ### How to Beat It
 
-**Imagine a specific reader:**
-Not "general audience" but a real person. Your smart friend who doesn't work in your field. Your mother. Your past self.
+**Imagine a specific reader:** Not "general audience" but a real person. Your
+smart friend who doesn't work in your field. Your mother. Your past self.
 
-**Explain the thing before using it:**
-Don't use a term before defining it. Don't reference a concept before establishing it.
+**Explain the thing before using it:** Don't use a term before defining it.
+Don't reference a concept before establishing it.
 
-**Test with outsiders:**
-Someone unfamiliar with the topic reveals blind spots.
+**Test with outsiders:** Someone unfamiliar with the topic reveals blind spots.
 
 ---
 
@@ -41,11 +45,11 @@ Someone unfamiliar with the topic reveals blind spots.
 
 ### The Stance
 
-Classic style positions the writer as a guide showing the reader something in the world. The prose is a window, not a barrier.
+Classic style positions the writer as a guide showing the reader something in
+the world. The prose is a window, not a barrier.
 
-**The writer knows something.**
-**The reader can know it too.**
-**The goal is to show, clearly.**
+**The writer knows something.** **The reader can know it too.** **The goal is to
+show, clearly.**
 
 ### What Classic Style Is Not
 
@@ -55,7 +59,8 @@ Classic style positions the writer as a guide showing the reader something in th
 
 ### Classic Style in Practice
 
-> Not: "In this essay, I will argue that the data suggests a possible relationship between..."
+> Not: "In this essay, I will argue that the data suggests a possible
+> relationship between..."
 >
 > Classic: "The data reveals a pattern: when prices rise, demand falls."
 
@@ -77,14 +82,16 @@ Readers build mental models. Each sentence should:
 
 Start with what's known; end with what's new.
 
-> Given: "The project launched in January."
-> New: "By March, it had attracted 50,000 users."
+> Given: "The project launched in January." New: "By March, it had attracted
+> 50,000 users."
 
-The reader anchors on "the project" (established) and receives "50,000 users" (new).
+The reader anchors on "the project" (established) and receives "50,000 users"
+(new).
 
 ### Breaking the Contract
 
-> Disorienting: "Fifty thousand users had signed up by March. The project launched in January."
+> Disorienting: "Fifty thousand users had signed up by March. The project
+> launched in January."
 
 The "50,000 users" lands before the reader has context.
 
@@ -96,9 +103,11 @@ The "50,000 users" lands before the reader has context.
 
 Keep the same topic in focus across sentences:
 
-> Coherent: "The algorithm analyzed the data. It identified three patterns. These patterns suggested..."
+> Coherent: "The algorithm analyzed the data. It identified three patterns.
+> These patterns suggested..."
 >
-> Incoherent: "The algorithm analyzed the data. Three patterns were identified. Suggestions emerged from analysis..."
+> Incoherent: "The algorithm analyzed the data. Three patterns were identified.
+> Suggestions emerged from analysis..."
 
 In the coherent version, focus stays on the active agent.
 
@@ -119,7 +128,8 @@ When presenting options, comparisons, or lists, keep structure parallel:
 
 > Parallel: "The team focused on speed, accuracy, and reliability."
 >
-> Not parallel: "The team focused on speed, making things accurate, and reliable systems."
+> Not parallel: "The team focused on speed, making things accurate, and reliable
+> systems."
 
 ---
 
@@ -131,11 +141,14 @@ Readers don't process word-by-word. They chunk phrases.
 
 A chunk that's too long overwhelms working memory:
 
-> Overloaded: "The exceptionally talented and remarkably experienced software engineer with over twenty years of industry expertise who had previously worked at three major technology companies reviewed the code."
+> Overloaded: "The exceptionally talented and remarkably experienced software
+> engineer with over twenty years of industry expertise who had previously
+> worked at three major technology companies reviewed the code."
 
 Better: Break it up. Front-load the subject.
 
-> Clear: "The software engineer reviewed the code. She had twenty years of experience at three major companies."
+> Clear: "The software engineer reviewed the code. She had twenty years of
+> experience at three major companies."
 
 ### Heavy Noun Phrases
 
@@ -163,7 +176,8 @@ The sentence extends rightward, adding information.
 
 **Left-branching (harder):**
 
-> "Filled with people, the room she saw when she opened the door was unexpected."
+> "Filled with people, the room she saw when she opened the door was
+> unexpected."
 
 The modifiers pile up before the main action.
 
@@ -175,7 +189,8 @@ The interruption in the middle strains working memory.
 
 ### Practical Application
 
-Prefer right-branching structures. When you add information, add it after the core sentence, not before.
+Prefer right-branching structures. When you add information, add it after the
+core sentence, not before.
 
 ---
 
@@ -185,13 +200,13 @@ Prefer right-branching structures. When you add information, add it after the co
 
 Metadiscourse is writing about the writing:
 
-> "In this section, we will examine..."
-> "As discussed above..."
-> "It is important to note that..."
+> "In this section, we will examine..." "As discussed above..." "It is important
+> to note that..."
 
 ### The Problem
 
-Metadiscourse creates distance. It's the writer talking about what they're going to say instead of saying it.
+Metadiscourse creates distance. It's the writer talking about what they're going
+to say instead of saying it.
 
 ### When It's Acceptable
 
@@ -205,8 +220,8 @@ Metadiscourse creates distance. It's the writer talking about what they're going
 - When it's throat-clearing
 - When it delays the actual content
 
-> Instead of: "It's important to note that the deadline is Friday."
-> Just say: "The deadline is Friday."
+> Instead of: "It's important to note that the deadline is Friday." Just say:
+> "The deadline is Friday."
 
 ---
 
@@ -234,8 +249,8 @@ Turning verbs into nouns creates abstract, harder-to-process prose:
 
 Find the buried verb. Use it.
 
-> Zombie: "The committee made a decision to conduct an investigation."
-> Alive: "The committee decided to investigate."
+> Zombie: "The committee made a decision to conduct an investigation." Alive:
+> "The committee decided to investigate."
 
 ---
 
@@ -245,8 +260,7 @@ Find the buried verb. Use it.
 
 When it hides responsibility or adds confusion:
 
-> Evasive: "Mistakes were made."
-> Clear: "We made mistakes."
+> Evasive: "Mistakes were made." Clear: "We made mistakes."
 
 ### When Passive Is Right
 
@@ -302,13 +316,15 @@ Not "never use passive" but "choose active or passive deliberately."
 
 Lots of information per sentence. Requires more cognitive effort.
 
-> Dense: "The thermodynamically favorable, entropy-driven self-assembly process spontaneously generated hierarchically organized nanostructures."
+> Dense: "The thermodynamically favorable, entropy-driven self-assembly process
+> spontaneously generated hierarchically organized nanostructures."
 
 ### Sparse Prose
 
 Less information per sentence. Easier to process.
 
-> Sparse: "The nanostructures assembled themselves. This process was thermodynamically favorable. It was driven by entropy."
+> Sparse: "The nanostructures assembled themselves. This process was
+> thermodynamically favorable. It was driven by entropy."
 
 ### Finding the Balance
 
@@ -342,7 +358,9 @@ Clarity principles are defaults. DNA overrides.
 
 ### The Invisible Window
 
-The best ghost writing is like a clear window. The reader sees the ideas, the personality, the voice. They don't see the sentence structure, the clause management, the word choices.
+The best ghost writing is like a clear window. The reader sees the ideas, the
+personality, the voice. They don't see the sentence structure, the clause
+management, the word choices.
 
 When writing is clear, craft becomes invisible. That's the goal.
 

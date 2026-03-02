@@ -1,10 +1,13 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with
+code in this repository.
 
 ## Project Overview
 
-This repository contains custom Claude skills—modular packages that extend Claude's capabilities with specialized workflows and domain knowledge. Skills are used with both Claude Code (CLI) and Claude.ai (web/mobile/desktop).
+This repository contains custom Claude skills—modular packages that extend
+Claude's capabilities with specialized workflows and domain knowledge. Skills
+are used with both Claude Code (CLI) and Claude.ai (web/mobile/desktop).
 
 ## Build Commands
 
@@ -53,13 +56,15 @@ Requires: `pyyaml` (for frontmatter parsing)
 
 ### Usage Modes
 
-**Claude Code**: Reference skills directly via filesystem paths in project `CLAUDE.md` or global `~/.claude/CLAUDE.md`
+**Claude Code**: Reference skills directly via filesystem paths in project
+`CLAUDE.md` or global `~/.claude/CLAUDE.md`
 
 **Claude.ai**: Upload packaged `.skill` files via Settings → Skills
 
 ## Templates
 
-The `templates/` directory contains document templates and guides for configuring Claude Code:
+The `templates/` directory contains document templates and guides for
+configuring Claude Code:
 
 | Document                    | Purpose                                                        |
 | --------------------------- | -------------------------------------------------------------- |
@@ -74,4 +79,5 @@ The `templates/` directory contains document templates and guides for configurin
 | INTERACTION-PATTERNS.md     | How different phrases affect Claude's processing               |
 | CLAUDE_DNA.md               | Understanding who Claude is — values, preferences, limitations |
 
-See [templates/README.md](templates/README.md) for full documentation and usage instructions
+See [templates/README.md](templates/README.md) for full documentation and usage
+instructions

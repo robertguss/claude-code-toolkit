@@ -1,6 +1,7 @@
 # Prioritization Guide
 
-How to choose among multiple candidates. Use when discovery surfaces more ideas than can be pursued.
+How to choose among multiple candidates. Use when discovery surfaces more ideas
+than can be pursued.
 
 ## Table of Contents
 
@@ -68,7 +69,8 @@ What does this ebook do beyond direct value?
 | Platform building | Grows audience in strategic direction      |
 | Credential        | Creates authority for speaking, consulting |
 
-**Weight higher when:** Authority intent, lead generation intent, long-term thinking
+**Weight higher when:** Authority intent, lead generation intent, long-term
+thinking
 
 ### Energy & Motivation
 
@@ -81,7 +83,8 @@ How excited is the author about this?
 | **Low**       | "Should" do it but not excited               |
 | **Resistant** | Avoiding it despite it seeming logical       |
 
-**Weight higher when:** Passion project intent, completion is the challenge, author energy matters most
+**Weight higher when:** Passion project intent, completion is the challenge,
+author energy matters most
 
 ---
 
@@ -126,7 +129,8 @@ Based on user's stated intent, which factors matter most?
 
 Present the recommendation with reasoning:
 
-"Based on your [intent] goal, I'd recommend starting with [Candidate X]. Here's why:
+"Based on your [intent] goal, I'd recommend starting with [Candidate X]. Here's
+why:
 
 - [Primary factor]: [Specific reasoning]
 - [Secondary factor]: [Specific reasoning]
@@ -143,7 +147,8 @@ Common prioritization dilemmas:
 
 ### High Validation vs. Low Energy
 
-**Situation:** One candidate has strong demand signals but author isn't excited. Another has high energy but uncertain demand.
+**Situation:** One candidate has strong demand signals but author isn't excited.
+Another has high energy but uncertain demand.
 
 **Considerations:**
 
@@ -155,11 +160,13 @@ Common prioritization dilemmas:
 
 - If author has never completed an ebook: prioritize energy
 - If author has completion track record: prioritize validation
-- If income is critical: prioritize validation with energy check ("Can you muster enough energy to finish this?")
+- If income is critical: prioritize validation with energy check ("Can you
+  muster enough energy to finish this?")
 
 ### Obvious Winner vs. Unexplored Territory
 
-**Situation:** One candidate is clearly the strongest by objective measures. But an unexplored mode might surface something better.
+**Situation:** One candidate is clearly the strongest by objective measures. But
+an unexplored mode might surface something better.
 
 **Considerations:**
 
@@ -175,7 +182,8 @@ Common prioritization dilemmas:
 
 ### Timely vs. Evergreen
 
-**Situation:** One candidate is timely but window is limited. Another is evergreen but less urgent.
+**Situation:** One candidate is timely but window is limited. Another is
+evergreen but less urgent.
 
 **Considerations:**
 
@@ -191,7 +199,8 @@ Common prioritization dilemmas:
 
 ### Easy Win vs. Significant Work
 
-**Situation:** One candidate is quick to create (high existing content). Another is stronger but requires significant new creation.
+**Situation:** One candidate is quick to create (high existing content). Another
+is stronger but requires significant new creation.
 
 **Considerations:**
 
@@ -274,7 +283,8 @@ Detailed matching guidance (supplements `candidate-assessment.md`):
 - High-effort ideas without proportional return potential
 - Niche topics with tiny audiences
 
-**Key question:** "If this were the only ebook you ever wrote, would it generate meaningful income?"
+**Key question:** "If this were the only ebook you ever wrote, would it generate
+meaningful income?"
 
 ### Authority Intent
 
@@ -325,7 +335,8 @@ Detailed matching guidance (supplements `candidate-assessment.md`):
 - Ideas unrelated to your services
 - Ebooks that cannibalize paid offerings
 
-**Key question:** "Will readers of this ebook become better prospects for your services?"
+**Key question:** "Will readers of this ebook become better prospects for your
+services?"
 
 ### Passion Project Intent
 
@@ -360,7 +371,8 @@ Detailed matching guidance (supplements `candidate-assessment.md`):
 
 **Examples:**
 
-- "Complete guide to X" → Beginner's guide, Intermediate techniques, Advanced strategies
+- "Complete guide to X" → Beginner's guide, Intermediate techniques, Advanced
+  strategies
 - "How to do Y" → Planning Y, Executing Y, Scaling Y
 - "Everything about Z" → Z for audience A, Z for audience B
 

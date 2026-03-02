@@ -6,9 +6,12 @@ Conventions and techniques for essays, articles, and extended pieces.
 
 ## Purpose
 
-Long-form essays (2,000+ words) require different approaches than short-form content. This guide covers structure, pacing, and craft considerations for extended writing.
+Long-form essays (2,000+ words) require different approaches than short-form
+content. This guide covers structure, pacing, and craft considerations for
+extended writing.
 
-**Priority:** The DNA document defines voice. This guide provides format-aware techniques within that voice.
+**Priority:** The DNA document defines voice. This guide provides format-aware
+techniques within that voice.
 
 ---
 
@@ -115,7 +118,8 @@ Long-form needs pace variation:
 - Character development
 - Careful analysis
 
-Alternate between fast and slow. Relentless speed exhausts; relentless slowness bores.
+Alternate between fast and slow. Relentless speed exhausts; relentless slowness
+bores.
 
 ### Section Length
 
@@ -141,7 +145,10 @@ Avoid: Five consecutive paragraphs of the same length.
 
 Vary sentence length constantly:
 
-> "She worked for thirty years. Every day, the same routine. Coffee at 6, desk by 7, lunch at her station, home by 6. It never changed. And then one morning, it did—completely and without warning, everything she had built collapsed into a single email that arrived at 6:47 a.m."
+> "She worked for thirty years. Every day, the same routine. Coffee at 6, desk
+> by 7, lunch at her station, home by 6. It never changed. And then one morning,
+> it did—completely and without warning, everything she had built collapsed into
+> a single email that arrived at 6:47 a.m."
 
 The rhythm creates interest even in summary.
 
@@ -258,17 +265,16 @@ Long-form should feel dense with meaning, not padded.
 
 Long-form can afford a longer opening—but it must earn it.
 
-**The scene-setting open:**
-Establish atmosphere, character, or setting before revealing the topic. Works when the scene is genuinely interesting.
+**The scene-setting open:** Establish atmosphere, character, or setting before
+revealing the topic. Works when the scene is genuinely interesting.
 
-**The in media res open:**
-Start mid-action, then fill in context. Creates immediate engagement.
+**The in media res open:** Start mid-action, then fill in context. Creates
+immediate engagement.
 
-**The question open:**
-Pose the central question directly, then spend the essay exploring it.
+**The question open:** Pose the central question directly, then spend the essay
+exploring it.
 
-**The thesis preview:**
-State your argument, then spend the essay supporting it.
+**The thesis preview:** State your argument, then spend the essay supporting it.
 
 ### Opening Don'ts
 
@@ -285,20 +291,15 @@ State your argument, then spend the essay supporting it.
 
 Long-form closings should feel like arrivals, not stops.
 
-**The synthesis:**
-Bring threads together into unified insight.
+**The synthesis:** Bring threads together into unified insight.
 
-**The callback:**
-Return to opening scene/image with new meaning.
+**The callback:** Return to opening scene/image with new meaning.
 
-**The expansion:**
-Zoom out to broader implications.
+**The expansion:** Zoom out to broader implications.
 
-**The forward look:**
-Where does this lead? What comes next?
+**The forward look:** Where does this lead? What comes next?
 
-**The quiet landing:**
-Understated finish after intense exploration.
+**The quiet landing:** Understated finish after intense exploration.
 
 ### Closing Don'ts
 
@@ -367,7 +368,8 @@ When addressing opposition:
 
 Highlight key insights:
 
-> "The question wasn't whether we could afford to act. It was whether we could afford not to."
+> "The question wasn't whether we could afford to act. It was whether we could
+> afford not to."
 
 ---
 

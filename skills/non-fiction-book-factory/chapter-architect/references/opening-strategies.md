@@ -1,8 +1,12 @@
 # Opening Strategies Reference
 
-The opening beat carries disproportionate weight. It sets the chapter's promise, establishes tone, and earns (or loses) the reader's continued attention. This reference provides strategies for opening chapters effectively.
+The opening beat carries disproportionate weight. It sets the chapter's promise,
+establishes tone, and earns (or loses) the reader's continued attention. This
+reference provides strategies for opening chapters effectively.
 
-**How to use this document:** During Phase 2 (Brainstorm) and Phase 4 (Flesh Out), consult these strategies when designing the opening beat. Consider which strategy best serves this specific chapter and reader state.
+**How to use this document:** During Phase 2 (Brainstorm) and Phase 4 (Flesh
+Out), consult these strategies when designing the opening beat. Consider which
+strategy best serves this specific chapter and reader state.
 
 ---
 
@@ -12,7 +16,8 @@ Every chapter opening must accomplish:
 
 1. **Earn continued reading** — Give the reader a reason to keep going
 2. **Set the contract** — Signal what this chapter will deliver
-3. **Match entry state** — Meet the reader where they are (coming from the previous chapter or, for chapter 1, the book's promise)
+3. **Match entry state** — Meet the reader where they are (coming from the
+   previous chapter or, for chapter 1, the book's promise)
 4. **Establish tone** — Set the emotional register for what follows
 
 ---
@@ -21,7 +26,8 @@ Every chapter opening must accomplish:
 
 ### 1. The Provocative Claim
 
-Open with a bold, counterintuitive, or surprising assertion that challenges the reader's assumptions.
+Open with a bold, counterintuitive, or surprising assertion that challenges the
+reader's assumptions.
 
 **Example shape:** "Everything you've been told about [X] is wrong."
 
@@ -41,9 +47,11 @@ Open with a bold, counterintuitive, or surprising assertion that challenges the 
 
 ### 2. The Story Opening
 
-Begin with a narrative—a scene, a person, an event—that embodies the chapter's theme.
+Begin with a narrative—a scene, a person, an event—that embodies the chapter's
+theme.
 
-**Example shape:** "In 1962, a researcher named [X] noticed something strange..."
+**Example shape:** "In 1962, a researcher named [X] noticed something
+strange..."
 
 **When to use:**
 
@@ -61,7 +69,8 @@ Begin with a narrative—a scene, a person, an event—that embodies the chapter
 
 ### 3. The Reader's Pain Point
 
-Open by articulating the problem, frustration, or gap the reader is experiencing.
+Open by articulating the problem, frustration, or gap the reader is
+experiencing.
 
 **Example shape:** "You've tried [X], but it's not working. Here's why..."
 
@@ -80,9 +89,11 @@ Open by articulating the problem, frustration, or gap the reader is experiencing
 
 ### 4. The Surprising Fact or Statistic
 
-Lead with data, research, or a fact that stops the reader and reframes their understanding.
+Lead with data, research, or a fact that stops the reader and reframes their
+understanding.
 
-**Example shape:** "Studies show that 73% of [X] actually [Y]—the opposite of what most people assume."
+**Example shape:** "Studies show that 73% of [X] actually [Y]—the opposite of
+what most people assume."
 
 **When to use:**
 
@@ -100,7 +111,8 @@ Lead with data, research, or a fact that stops the reader and reframes their und
 
 ### 5. The Question
 
-Open with a question that the chapter will answer—inviting the reader into inquiry.
+Open with a question that the chapter will answer—inviting the reader into
+inquiry.
 
 **Example shape:** "Why do smart people make the same mistake over and over?"
 
@@ -120,9 +132,11 @@ Open with a question that the chapter will answer—inviting the reader into inq
 
 ### 6. The In Medias Res
 
-Drop the reader into the middle of action, tension, or a scene already in progress.
+Drop the reader into the middle of action, tension, or a scene already in
+progress.
 
-**Example shape:** "The phone rang at 3 AM. This was the call that changed everything."
+**Example shape:** "The phone rang at 3 AM. This was the call that changed
+everything."
 
 **When to use:**
 
@@ -142,7 +156,8 @@ Drop the reader into the middle of action, tension, or a scene already in progre
 
 Explicitly tell the reader what they'll gain from this chapter.
 
-**Example shape:** "In this chapter, you'll learn the three principles that make [X] work."
+**Example shape:** "In this chapter, you'll learn the three principles that make
+[X] work."
 
 **When to use:**
 
@@ -160,9 +175,11 @@ Explicitly tell the reader what they'll gain from this chapter.
 
 ### 8. The Callback
 
-Open by referencing something from earlier in the book—returning to a story, concept, or image.
+Open by referencing something from earlier in the book—returning to a story,
+concept, or image.
 
-**Example shape:** "Remember the researcher from Chapter 3? Her story doesn't end there."
+**Example shape:** "Remember the researcher from Chapter 3? Her story doesn't
+end there."
 
 **When to use:**
 
@@ -182,7 +199,8 @@ Open by referencing something from earlier in the book—returning to a story, c
 
 Open with author vulnerability—admitting a mistake, failure, or change of mind.
 
-**Example shape:** "I used to believe [X]. I was wrong, and here's what changed my mind."
+**Example shape:** "I used to believe [X]. I was wrong, and here's what changed
+my mind."
 
 **When to use:**
 
@@ -200,9 +218,11 @@ Open with author vulnerability—admitting a mistake, failure, or change of mind
 
 ### 10. The Paradox or Tension
 
-Open by presenting a puzzle, contradiction, or unresolved tension that the chapter will explore.
+Open by presenting a puzzle, contradiction, or unresolved tension that the
+chapter will explore.
 
-**Example shape:** "The most productive people do less. This contradiction is the key to [X]."
+**Example shape:** "The most productive people do less. This contradiction is
+the key to [X]."
 
 **When to use:**
 

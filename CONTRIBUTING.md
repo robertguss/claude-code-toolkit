@@ -1,6 +1,7 @@
 # Contributing to Claude Code Toolkit
 
-Thank you for your interest in contributing. This guide covers how to submit skills, hooks, templates, or improvements.
+Thank you for your interest in contributing. This guide covers how to submit
+skills, hooks, templates, or improvements.
 
 ## Types of Contributions
 
@@ -14,9 +15,9 @@ Skills are packaged workflows that give Claude domain expertise. To add a skill:
 ```yaml
 ---
 name: your-skill-name
-description: "A description of at least 20 characters explaining what this skill does"
+description:
+  "A description of at least 20 characters explaining what this skill does"
 ---
-
 # Your Skill Instructions
 
 [Detailed instructions for Claude to follow...]
@@ -32,7 +33,8 @@ description: "A description of at least 20 characters explaining what this skill
    - `references/` — Supporting documentation loaded on demand
    - `assets/` — Templates, examples, configurations
 
-**Validation:** Run `python build.py --list` to verify your skill passes validation.
+**Validation:** Run `python build.py --list` to verify your skill passes
+validation.
 
 ### Hooks
 
@@ -80,12 +82,14 @@ just docs-serve
 ## Skill Guidelines
 
 **Do:**
+
 - Write clear, actionable instructions
 - Include examples
 - Document when to use (and when not to use) the skill
 - Keep the scope focused
 
 **Don't:**
+
 - Create skills that duplicate existing functionality
 - Include sensitive information or API keys
 - Write instructions that are vague or open to interpretation

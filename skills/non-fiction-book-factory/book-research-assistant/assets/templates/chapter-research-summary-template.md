@@ -1,8 +1,6 @@
 # Chapter Research Summary
 
-**Book Title:** [Title]
-**Chapter:** [Number] — [Title]
-**Completed:** [Date]
+**Book Title:** [Title] **Chapter:** [Number] — [Title] **Completed:** [Date]
 **Research Rounds:** [Number of validation rounds needed]
 
 ---
@@ -33,7 +31,8 @@
 
 ## Key Findings
 
-[For each major gap, distill the essential findings in 2-4 sentences. This is the "memory" that carries forward.]
+[For each major gap, distill the essential findings in 2-4 sentences. This is
+the "memory" that carries forward.]
 
 ### [Gap ID]: [Gap Description]
 
@@ -67,13 +66,11 @@ The "gold" that will definitely be used in this chapter:
 
 Direct quotes ready for potential use in the manuscript:
 
-> "[Quote]"
-> — [Attribution with full citation]
-> _Potential use: [Where/how this might be used]_
+> "[Quote]" — [Attribution with full citation] _Potential use: [Where/how this
+> might be used]_
 
-> "[Quote]"
-> — [Attribution with full citation]
-> _Potential use: [Where/how this might be used]_
+> "[Quote]" — [Attribution with full citation] _Potential use: [Where/how this
+> might be used]_
 
 ---
 
@@ -87,14 +84,13 @@ Direct quotes ready for potential use in the manuscript:
 
 ## Thesis Tensions & Challenges
 
-**Tensions Surfaced:**
-[Did any research complicate or challenge the book's core thesis?]
+**Tensions Surfaced:** [Did any research complicate or challenge the book's core
+thesis?]
 
-**Strength Assessment:**
-[How strong are these challenges? Must address head-on / Can acknowledge and move past / Minor concern]
+**Strength Assessment:** [How strong are these challenges? Must address head-on
+/ Can acknowledge and move past / Minor concern]
 
-**Recommended Response:**
-[How should these tensions be handled in the chapter?]
+**Recommended Response:** [How should these tensions be handled in the chapter?]
 
 ---
 
@@ -112,8 +108,8 @@ Direct quotes ready for potential use in the manuscript:
    - Evidence supporting it: [Brief summary]
    - Our response: [What evidence/argument addresses this]
 
-**Reader Ammunition:**
-[What will skeptical readers throw at this chapter? What do we have to respond?]
+**Reader Ammunition:** [What will skeptical readers throw at this chapter? What
+do we have to respond?]
 
 ---
 
@@ -130,7 +126,8 @@ _Note: Where readers might also be surprised and need more guidance._
 
 ## Recommended Emphasis Shifts
 
-Based on research, should the chapter emphasize something more or less than originally planned?
+Based on research, should the chapter emphasize something more or less than
+originally planned?
 
 | Original Emphasis | Recommended Shift  | Rationale                |
 | ----------------- | ------------------ | ------------------------ |
@@ -200,13 +197,17 @@ Things to keep in mind when drafting:
 
 **Thesis Refinements:** [None / How research suggests sharpening the argument]
 
-**Proof Burden Updates:** [None / Claims that need more/less evidence than planned]
+**Proof Burden Updates:** [None / Claims that need more/less evidence than
+planned]
 
-**Enemy Refinements:** [None / How research refined understanding of what book argues against]
+**Enemy Refinements:** [None / How research refined understanding of what book
+argues against]
 
-**Reader Journey Concerns:** [None / Places where transformation arc may not be supported]
+**Reader Journey Concerns:** [None / Places where transformation arc may not be
+supported]
 
-**Overall Architecture Verdict:** [Holds Strong / Minor Adjustments Needed / Significant Concerns]
+**Overall Architecture Verdict:** [Holds Strong / Minor Adjustments Needed /
+Significant Concerns]
 
 ---
 
@@ -220,4 +221,5 @@ Things to keep in mind when drafting:
 
 ---
 
-_This summary is the durable artifact for this chapter's research. It carries forward even when raw research files are too large to include in context._
+_This summary is the durable artifact for this chapter's research. It carries
+forward even when raw research files are too large to include in context._

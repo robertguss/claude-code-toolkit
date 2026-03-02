@@ -1,6 +1,9 @@
 # The Book Factory: Complete Reference Guide
 
-**Purpose:** This document captures the complete vision, philosophy, and specifications for a suite of Claude skills that replicate the traditional publishing infrastructure for nonfiction book creation. Use this to brief future Claude sessions when building individual skills.
+**Purpose:** This document captures the complete vision, philosophy, and
+specifications for a suite of Claude skills that replicate the traditional
+publishing infrastructure for nonfiction book creation. Use this to brief future
+Claude sessions when building individual skills.
 
 **Author:** Robert Guss  
 **Created:** December 29, 2025  
@@ -29,21 +32,31 @@
 
 ### The Core Insight
 
-Traditional publishing provides authors with a team of specialized experts: developmental editors, copy editors, fact-checkers, indexers, and more. Self-published authors typically lack access to this infrastructure, resulting in books that suffer from preventable weaknesses.
+Traditional publishing provides authors with a team of specialized experts:
+developmental editors, copy editors, fact-checkers, indexers, and more.
+Self-published authors typically lack access to this infrastructure, resulting
+in books that suffer from preventable weaknesses.
 
-This skill suite replicates that infrastructure using Claude, creating a "book factory" with specialized skills for each phase of the book creation process.
+This skill suite replicates that infrastructure using Claude, creating a "book
+factory" with specialized skills for each phase of the book creation process.
 
 ### Guiding Principles
 
-1. **Every decision serves the reader.** The question is never "what do I want to say?" but "what transformation does the reader need, and how can this book deliver it?"
+1. **Every decision serves the reader.** The question is never "what do I want
+   to say?" but "what transformation does the reader need, and how can this book
+   deliver it?"
 
-2. **Optimize for the reader's experience.** Structure, pacing, clarity, and engagement are all evaluated from the reader's perspective.
+2. **Optimize for the reader's experience.** Structure, pacing, clarity, and
+   engagement are all evaluated from the reader's perspective.
 
-3. **Skills hand off to each other.** Each skill produces structured output that the next skill consumes. This creates a consistent, repeatable workflow.
+3. **Skills hand off to each other.** Each skill produces structured output that
+   the next skill consumes. This creates a consistent, repeatable workflow.
 
-4. **Validate before investing.** The pipeline includes explicit validation gates to prevent wasted effort on books that won't succeed.
+4. **Validate before investing.** The pipeline includes explicit validation
+   gates to prevent wasted effort on books that won't succeed.
 
-5. **Nonfiction only.** This factory is designed specifically for nonfiction books. Fiction requires different approaches.
+5. **Nonfiction only.** This factory is designed specifically for nonfiction
+   books. Fiction requires different approaches.
 
 ### The Author Context
 
@@ -53,7 +66,8 @@ Robert Guss is:
 - An elder in the Orthodox Presbyterian Church
 - Grounded in Reformed theology and Van Tillian presuppositional apologetics
 - Self-publishes through Amazon KDP
-- Working on multiple book projects, with "Thinking with Paper" (about Luhmann's Zettelkasten method) being the most developed
+- Working on multiple book projects, with "Thinking with Paper" (about Luhmann's
+  Zettelkasten method) being the most developed
 
 ---
 
@@ -144,14 +158,16 @@ Robert Guss is:
 **Status:** ✅ Complete  
 **Location:** `claude-skills/brainstorm/`
 
-**Purpose:** Generic, multi-purpose brainstorming for any creative or analytical challenge. Not book-specific.
+**Purpose:** Generic, multi-purpose brainstorming for any creative or analytical
+challenge. Not book-specific.
 
 **Key Features:**
 
 - Multi-session continuity via versioned markdown documents
 - 25+ brainstorming methods catalog
 - Connected mode (cross-project awareness) vs. clean-slate mode
-- Idea maturity tracking (Raw → Developing → Refined → Ready → Parked → Eliminated)
+- Idea maturity tracking (Raw → Developing → Refined → Ready → Parked →
+  Eliminated)
 - Disagreement protocol and decision logging
 
 **Outputs:**
@@ -160,7 +176,8 @@ Robert Guss is:
 - Parking lot for cross-project ideas
 - Decision log with reasoning
 
-**Handoff:** Raw brainstorm documents feed into `book-ideation` for nonfiction-specific development.
+**Handoff:** Raw brainstorm documents feed into `book-ideation` for
+nonfiction-specific development.
 
 ---
 
@@ -171,7 +188,10 @@ Robert Guss is:
 **Status:** ✅ Complete  
 **Location:** `claude-skills/book-ideation/`
 
-**Purpose:** Transform raw ideas into structured nonfiction book concepts. Bridges the gap between generic brainstorming and book architecture by developing eight fundamental elements that determine whether a book should exist and what it must accomplish.
+**Purpose:** Transform raw ideas into structured nonfiction book concepts.
+Bridges the gap between generic brainstorming and book architecture by
+developing eight fundamental elements that determine whether a book should exist
+and what it must accomplish.
 
 **The Eight Elements:**
 
@@ -189,7 +209,8 @@ Robert Guss is:
 **Key Features:**
 
 - Multi-session development with versioned documents
-- Collaboration behaviors (surface insights, challenge weakness, push for specificity)
+- Collaboration behaviors (surface insights, challenge weakness, push for
+  specificity)
 - Quick Capture Mode for rapid ideas
 - Readiness criteria for downstream handoff
 - Nonfiction structural frameworks reference
@@ -203,9 +224,11 @@ Robert Guss is:
 
 **Outputs:**
 
-- Book Concept Document (versioned, with all eight elements and readiness assessment)
+- Book Concept Document (versioned, with all eight elements and readiness
+  assessment)
 
-**Handoff:** Book Concept Document feeds into `idea-validator` and `market-research`.
+**Handoff:** Book Concept Document feeds into `idea-validator` and
+`market-research`.
 
 ---
 
@@ -220,12 +243,14 @@ This phase answers two critical questions before significant investment:
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Stress-test the core ideas from the Book Concept Document against existing research before committing to architecture and drafting.
+**Purpose:** Stress-test the core ideas from the Book Concept Document against
+existing research before committing to architecture and drafting.
 
 **Key Activities:**
 
 - Identify the 3-5 core claims/theses from the Book Concept Document
-- Research each claim: What does existing literature say? Are there counterarguments?
+- Research each claim: What does existing literature say? Are there
+  counterarguments?
 - Flag weak spots, contradictions, areas needing more evidence
 - Identify what's genuinely novel vs. well-trodden ground
 - Surface related ideas, frameworks, or thinkers the author may not be aware of
@@ -247,11 +272,15 @@ This phase answers two critical questions before significant investment:
 
 **Design Considerations:**
 
-- Should use web search to find current research, competing books, expert opinions
-- Must be honest about weaknesses—the goal is to surface problems early, not validate ego
-- Should distinguish between "this needs more research" vs. "this thesis is fundamentally flawed"
+- Should use web search to find current research, competing books, expert
+  opinions
+- Must be honest about weaknesses—the goal is to surface problems early, not
+  validate ego
+- Should distinguish between "this needs more research" vs. "this thesis is
+  fundamentally flawed"
 
-**Handoff:** Validation Report informs Go/No-Go decision and feeds into `market-research`.
+**Handoff:** Validation Report informs Go/No-Go decision and feeds into
+`market-research`.
 
 ---
 
@@ -259,7 +288,8 @@ This phase answers two critical questions before significant investment:
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Determine if this book is worth writing from a business perspective, specifically for Amazon KDP self-publishing.
+**Purpose:** Determine if this book is worth writing from a business
+perspective, specifically for Amazon KDP self-publishing.
 
 **Key Activities:**
 
@@ -272,7 +302,8 @@ This phase answers two critical questions before significant investment:
   - Analyze pricing strategies
 - Estimate market size and realistic sales potential
 - Recommend positioning, pricing, title/subtitle direction
-- Assess platform fit: Does this book align with the author's existing audience (newsletter, social media)?
+- Assess platform fit: Does this book align with the author's existing audience
+  (newsletter, social media)?
 - Evaluate timing: Is there a trend or moment that makes this book timely?
 
 **Inputs:**
@@ -296,10 +327,12 @@ This phase answers two critical questions before significant investment:
 
 - Must use web search to access Amazon, analyze real books
 - Should be realistic, not optimistic—better to kill a bad idea early
-- Consider the author's goals: Is this book for income, authority-building, or passion?
+- Consider the author's goals: Is this book for income, authority-building, or
+  passion?
 - KDP-specific considerations: categories, keywords, description optimization
 
-**Handoff:** Market Research Report informs Go/No-Go decision. If Go, both reports feed into `book-architect`.
+**Handoff:** Market Research Report informs Go/No-Go decision. If Go, both
+reports feed into `book-architect`.
 
 ---
 
@@ -309,9 +342,11 @@ After validation, the author makes an explicit decision:
 
 - **GO:** Proceed to architecture with confidence
 - **REVISE:** Return to `book-ideation` to address weaknesses
-- **KILL:** Abandon this book idea (captured in parking lot for potential future revival)
+- **KILL:** Abandon this book idea (captured in parking lot for potential future
+  revival)
 
-This gate prevents wasted effort on books that are intellectually weak or commercially unviable.
+This gate prevents wasted effort on books that are intellectually weak or
+commercially unviable.
 
 ---
 
@@ -321,9 +356,13 @@ This gate prevents wasted effort on books that are intellectually weak or commer
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Design the reader's journey and create a comprehensive structural blueprint. This is where the book's skeleton is built—the order, pacing, and flow that will carry the reader from Point A to Point B.
+**Purpose:** Design the reader's journey and create a comprehensive structural
+blueprint. This is where the book's skeleton is built—the order, pacing, and
+flow that will carry the reader from Point A to Point B.
 
-**Core Philosophy:** Every structural decision serves the reader. The question is never "how do I organize my ideas?" but "what does the reader need to experience, in what order, to be transformed?"
+**Core Philosophy:** Every structural decision serves the reader. The question
+is never "how do I organize my ideas?" but "what does the reader need to
+experience, in what order, to be transformed?"
 
 **Key Activities (Multi-Session):**
 
@@ -401,7 +440,8 @@ This gate prevents wasted effort on books that are intellectually weak or commer
   - Research Gap List (specific questions for `research-assistant`)
   - Risk Assessment (where the book might fail to deliver)
 
-**Handoff:** Architecture Document drives `research-assistant` (to fill gaps) and `draft-coach` (to write chapters).
+**Handoff:** Architecture Document drives `research-assistant` (to fill gaps)
+and `draft-coach` (to write chapters).
 
 ---
 
@@ -411,7 +451,9 @@ This gate prevents wasted effort on books that are intellectually weak or commer
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Conduct deep, targeted research to fill specific gaps identified during architecture. Unlike `idea-validator` (which stress-tests existing ideas), this skill generates new material the book needs.
+**Purpose:** Conduct deep, targeted research to fill specific gaps identified
+during architecture. Unlike `idea-validator` (which stress-tests existing
+ideas), this skill generates new material the book needs.
 
 **Key Activities:**
 
@@ -448,7 +490,8 @@ This gate prevents wasted effort on books that are intellectually weak or commer
 - Must include source citations for fact-checking later
 - Should flag where claims need stronger evidence
 
-**Handoff:** Research Dossier feeds into `draft-coach` alongside Architecture Document.
+**Handoff:** Research Dossier feeds into `draft-coach` alongside Architecture
+Document.
 
 ---
 
@@ -458,7 +501,8 @@ This gate prevents wasted effort on books that are intellectually weak or commer
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Guide the author through the drafting process, chapter by chapter, maintaining momentum and quality while respecting the author's voice.
+**Purpose:** Guide the author through the drafting process, chapter by chapter,
+maintaining momentum and quality while respecting the author's voice.
 
 **Key Activities:**
 
@@ -495,19 +539,22 @@ This gate prevents wasted effort on books that are intellectually weak or commer
 - Must balance encouragement with honest feedback
 - Should track which chapters are drafted, in progress, or pending
 
-**Handoff:** Completed first draft enters the editing pipeline starting with `developmental-editor`.
+**Handoff:** Completed first draft enters the editing pipeline starting with
+`developmental-editor`.
 
 ---
 
 ## Phase 6: Editing Pipeline
 
-The editing pipeline moves from big-picture to fine-grained, each skill building on the previous.
+The editing pipeline moves from big-picture to fine-grained, each skill building
+on the previous.
 
 ### Skill: `developmental-editor`
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Big-picture editing focused on structure, argument, content gaps, and overall effectiveness. This is the "macro" edit.
+**Purpose:** Big-picture editing focused on structure, argument, content gaps,
+and overall effectiveness. This is the "macro" edit.
 
 **Key Activities:**
 
@@ -552,7 +599,8 @@ The editing pipeline moves from big-picture to fine-grained, each skill building
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Sentence-level editing focused on style, voice, flow, and clarity. This is the "micro" edit for prose quality.
+**Purpose:** Sentence-level editing focused on style, voice, flow, and clarity.
+This is the "micro" edit for prose quality.
 
 **Key Activities:**
 
@@ -591,7 +639,8 @@ The editing pipeline moves from big-picture to fine-grained, each skill building
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Technical editing focused on grammar, punctuation, consistency, and adherence to style guide.
+**Purpose:** Technical editing focused on grammar, punctuation, consistency, and
+adherence to style guide.
 
 **Key Activities:**
 
@@ -629,7 +678,8 @@ The editing pipeline moves from big-picture to fine-grained, each skill building
 
 **Status:** ⬜ Not yet built
 
-**Purpose:** Verify all factual claims, statistics, quotes, and citations for accuracy.
+**Purpose:** Verify all factual claims, statistics, quotes, and citations for
+accuracy.
 
 **Key Activities:**
 
@@ -703,7 +753,8 @@ The editing pipeline moves from big-picture to fine-grained, each skill building
 - Should not be making substantive changes at this stage
 - Focus on catching what everyone else missed
 
-**Handoff:** Proofread manuscript moves to `indexer` (if applicable) or is ready for publication.
+**Handoff:** Proofread manuscript moves to `indexer` (if applicable) or is ready
+for publication.
 
 ---
 
@@ -750,7 +801,8 @@ These principles apply across ALL skills in the factory:
 
 ### 1. Reader-First Decision Making
 
-Every decision—structural, stylistic, content—is evaluated from the reader's perspective:
+Every decision—structural, stylistic, content—is evaluated from the reader's
+perspective:
 
 - Will this help the reader understand?
 - Will this keep the reader engaged?
@@ -758,11 +810,13 @@ Every decision—structural, stylistic, content—is evaluated from the reader's
 
 ### 2. Versioned Documents
 
-All major artifacts are versioned (v1, v2, v3) so progress can be tracked and earlier versions can be referenced if needed.
+All major artifacts are versioned (v1, v2, v3) so progress can be tracked and
+earlier versions can be referenced if needed.
 
 ### 3. Explicit Handoffs
 
-Each skill produces structured output that the next skill consumes. The handoff should be clear:
+Each skill produces structured output that the next skill consumes. The handoff
+should be clear:
 
 - What document is being passed?
 - What should the next skill do with it?

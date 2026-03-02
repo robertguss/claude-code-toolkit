@@ -1,10 +1,12 @@
 # Documentation Patterns
 
-Common patterns for organizing and structuring documentation across all project types.
+Common patterns for organizing and structuring documentation across all project
+types.
 
 ## Progressive Disclosure README
 
-The README is the entry point. Structure it like a newspaper: most important information first, progressive depth.
+The README is the entry point. Structure it like a newspaper: most important
+information first, progressive depth.
 
 ### Structure
 
@@ -17,12 +19,12 @@ One-sentence description of what this does and why it exists.
 
 [30-second version: install and run]
 
-npm install my-project
-node index.js
+npm install my-project node index.js
 
 ## What is This?
 
 [2-minute explanation]
+
 - What problem does this solve?
 - Who is this for?
 - What makes it different?
@@ -49,33 +51,38 @@ node index.js
 ### Anti-Patterns to Avoid
 
 ❌ **Burying the quick start**
+
 ```markdown
 # Project
 
-[Long backstory about why project exists]
-[Detailed technical architecture]
+[Long backstory about why project exists] [Detailed technical architecture]
 [Finally, 10 paragraphs down: how to install]
 ```
 
 ✅ **Quick start first**
+
 ```markdown
 # Project
 
 Solves X problem in Y way.
 
 ## Quick Start
+
 npm install && npm start
 ```
 
 ❌ **Feature laundry list**
+
 ```markdown
 Features:
+
 - Feature 1
 - Feature 2
 - [50 more features]
 ```
 
 ✅ **Headline benefits**
+
 ```markdown
 - Fast: 10x faster than alternatives
 - Simple: 3 lines of code to get started
@@ -88,21 +95,25 @@ Features:
 
 For each endpoint, document:
 
-```markdown
+````markdown
 ### GET /api/users/:id
 
 Retrieves a single user by ID.
 
 **Parameters:**
+
 - `id` (path, required): User ID
 
 **Query Parameters:**
+
 - `include` (optional): Related data to include. Options: `posts`, `comments`
 
 **Request Headers:**
+
 - `Authorization`: Bearer token required
 
 **Response:** `200 OK`
+
 ```json
 {
   "id": "123",
@@ -111,17 +122,21 @@ Retrieves a single user by ID.
   "posts": [...]
 }
 ```
+````
 
 **Errors:**
+
 - `401 Unauthorized`: Invalid or missing token
 - `404 Not Found`: User does not exist
 
 **Example:**
+
 ```bash
 curl -H "Authorization: Bearer TOKEN" \
   https://api.example.com/api/users/123?include=posts
 ```
-```
+
+````
 
 ### Pattern: Resource Grouping
 
@@ -144,26 +159,30 @@ PATCH /api/users/:id
 
 ### Delete User
 DELETE /api/users/:id
-```
+````
 
 ## Command Documentation
 
 ### Pattern: Command Reference
 
-```markdown
+````markdown
 ### myapp deploy
 
 Deploys the application to production.
 
 **Usage:**
+
 ```bash
 myapp deploy [environment] [options]
 ```
+````
 
 **Arguments:**
+
 - `environment` (optional): Target environment. Default: `production`
 
 **Options:**
+
 - `-f, --force`: Skip confirmation prompts
 - `-v, --verbose`: Show detailed output
 - `--dry-run`: Show what would be deployed without deploying
@@ -171,20 +190,24 @@ myapp deploy [environment] [options]
 **Examples:**
 
 Deploy to production:
+
 ```bash
 myapp deploy production
 ```
 
 Deploy to staging with verbose output:
+
 ```bash
 myapp deploy staging --verbose
 ```
 
 Dry run:
+
 ```bash
 myapp deploy --dry-run
 ```
-```
+
+````
 
 ## Component Documentation
 
@@ -207,22 +230,25 @@ Displays user information in a card layout.
 
 **Example:**
 ```jsx
-<UserCard 
-  user={user} 
+<UserCard
+  user={user}
   showEmail={true}
   onEdit={() => console.log('Edit clicked')}
 />
-```
+````
 
 **Styling:**
+
 - Accepts `className` prop for custom styling
 - CSS variables: `--card-bg`, `--card-border`
 
 **Accessibility:**
+
 - Semantic HTML with proper heading hierarchy
 - Keyboard navigation supported
 - Screen reader friendly
-```
+
+````
 
 ## Architecture Documentation
 
@@ -243,30 +269,35 @@ graph TD
     API --> Queue[Message Queue]
     Queue --> Worker[Background Worker]
     Worker --> DB
-```
+````
 
 ## Components
 
 ### API Server
+
 - Express.js application
 - Handles HTTP requests
 - Implements business logic
 - Manages authentication
 
 ### Database
+
 - PostgreSQL 14
 - Stores user data, posts, comments
 - See [schema documentation](./schema.md)
 
 ### Cache Layer
+
 - Redis for session storage and rate limiting
 - 5-minute TTL on frequently accessed data
 
 ### Background Worker
+
 - Processes asynchronous tasks
 - Email sending, image processing
 - Runs on separate server
-```
+
+````
 
 ### Pattern: Data Flow
 
@@ -280,7 +311,7 @@ graph TD
 5. **API Server** enqueues image processing job
 6. **API Server** returns 201 Created
 7. **Background Worker** processes images asynchronously
-```
+````
 
 ## Troubleshooting Documentation
 
@@ -293,7 +324,9 @@ graph TD
 
 **Symptom:**
 ```
+
 Error: connect ECONNREFUSED 127.0.0.1:5432
+
 ```
 
 **Cause:** PostgreSQL is not running or connection config is incorrect
@@ -316,11 +349,13 @@ Error: connect ECONNREFUSED 127.0.0.1:5432
 **When:** Token validation fails
 
 **Common Causes:**
+
 - Token has expired
 - Token format is incorrect
 - Token was revoked
 
 **Resolution:**
+
 1. Get a new token via `/api/auth/login`
 2. Ensure token is passed in `Authorization` header
 3. Check token expiration time
@@ -330,10 +365,12 @@ Error: connect ECONNREFUSED 127.0.0.1:5432
 **When:** Too many requests from same IP
 
 **Common Causes:**
+
 - Burst of requests
 - Polling too frequently
 
 **Resolution:**
+
 - Wait for rate limit window to reset (shown in response headers)
 - Implement exponential backoff
 - Cache responses when possible
@@ -360,11 +397,13 @@ Thanks for your interest in contributing!
 ## Development Setup
 
 ### Prerequisites
+
 - Node.js 18+
 - PostgreSQL 14+
 - Redis 6+
 
 ### Environment Setup
+
 1. Copy `.env.example` to `.env`
 2. Update database credentials
 3. Run migrations: `npm run migrate`
@@ -373,6 +412,7 @@ Thanks for your interest in contributing!
 ## Code Style
 
 We use ESLint and Prettier:
+
 - Run linter: `npm run lint`
 - Format code: `npm run format`
 
@@ -395,7 +435,7 @@ We use ESLint and Prettier:
 
 ### Pattern: Multi-Platform Installation
 
-```markdown
+````markdown
 ## Installation
 
 ### macOS
@@ -403,15 +443,18 @@ We use ESLint and Prettier:
 ```bash
 brew install myapp
 ```
+````
 
 ### Linux
 
 **Debian/Ubuntu:**
+
 ```bash
 curl -fsSL https://example.com/install.sh | bash
 ```
 
 **Arch Linux:**
+
 ```bash
 yay -S myapp
 ```
@@ -419,12 +462,13 @@ yay -S myapp
 ### Windows
 
 **Using npm:**
+
 ```bash
 npm install -g myapp
 ```
 
-**Using installer:**
-Download from [releases page](https://github.com/user/myapp/releases)
+**Using installer:** Download from
+[releases page](https://github.com/user/myapp/releases)
 
 ### From Source
 
@@ -443,7 +487,8 @@ myapp --version
 ```
 
 Should output: `myapp v1.2.3`
-```
+
+````
 
 ## Configuration Documentation
 
@@ -474,11 +519,11 @@ database:
   host: localhost
   port: 5432
   name: myapp
-  
+
 cache:
   enabled: true
   ttl: 300
-```
+````
 
 ### Config Priority
 
@@ -487,7 +532,8 @@ cache:
 3. Defaults (lowest priority)
 
 **Example:** `PORT` env var overrides `server.port` in config file
-```
+
+````
 
 ## Deployment Documentation
 
@@ -507,25 +553,29 @@ cache:
 ```bash
 git clone https://github.com/user/myapp.git
 cd myapp
-```
+````
 
 2. Set environment variables:
+
 ```bash
 cp .env.example .env
 nano .env  # Edit as needed
 ```
 
 3. Deploy with Docker:
+
 ```bash
 docker-compose up -d
 ```
 
 4. Run migrations:
+
 ```bash
 docker-compose exec api npm run migrate
 ```
 
 5. Verify:
+
 ```bash
 curl https://yourdomain.com/health
 ```
@@ -538,7 +588,8 @@ curl https://yourdomain.com/health
 - [ ] Set up backups
 - [ ] Configure monitoring
 - [ ] Set up logging
-```
+
+````
 
 ## Migration Guide
 
@@ -555,22 +606,26 @@ Users table renamed to `accounts`:
 **Before (v1):**
 ```sql
 SELECT * FROM users WHERE id = 1;
-```
+````
 
 **After (v2):**
+
 ```sql
 SELECT * FROM accounts WHERE id = 1;
 ```
 
 #### API Changes
+
 Authentication endpoint changed:
 
 **Before (v1):**
+
 ```
 POST /auth/login
 ```
 
 **After (v2):**
+
 ```
 POST /api/v2/auth/token
 ```
@@ -578,31 +633,37 @@ POST /api/v2/auth/token
 ### Migration Steps
 
 1. **Backup your database**
+
 ```bash
 pg_dump myapp > backup.sql
 ```
 
 2. **Update code**
+
 ```bash
 git pull origin main
 npm install
 ```
 
 3. **Run migrations**
+
 ```bash
 npm run migrate:v2
 ```
 
 4. **Update environment variables**
+
 - Add: `API_VERSION=v2`
 - Remove: `LEGACY_MODE=true`
 
 5. **Restart application**
+
 ```bash
 pm2 restart myapp
 ```
 
 6. **Verify**
+
 ```bash
 curl https://api.example.com/health
 ```
@@ -610,12 +671,14 @@ curl https://api.example.com/health
 ### Rollback
 
 If needed:
+
 ```bash
 git checkout v1.x.x
 npm run migrate:down
 pm2 restart myapp
 ```
-```
+
+````
 
 ## Cross-References and Linking
 
@@ -631,10 +694,11 @@ All API endpoints require authentication. See [Authentication Guide](./auth.md) 
 ```bash
 curl -H "Authorization: Bearer TOKEN" \
   https://api.example.com/users
-```
+````
 
 For full authentication flow, see [Auth Flow Diagram](./auth.md#flow-diagram).
-```
+
+````
 
 ### Pattern: External Links
 
@@ -647,13 +711,13 @@ This project uses:
 - [Redis](https://redis.io/) - Cache and sessions
 
 See [package.json](../package.json) for full dependency list.
-```
+````
 
 ## Examples Documentation
 
 ### Pattern: Progressive Examples
 
-```markdown
+````markdown
 ## Examples
 
 ### Basic Usage
@@ -661,20 +725,21 @@ See [package.json](../package.json) for full dependency list.
 Simplest possible example:
 
 ```javascript
-const app = require('myapp');
+const app = require("myapp");
 app.start();
 ```
+````
 
 ### Common Pattern
 
 Most users do this:
 
 ```javascript
-const app = require('myapp');
+const app = require("myapp");
 
 app.configure({
   port: 3000,
-  database: process.env.DATABASE_URL
+  database: process.env.DATABASE_URL,
 });
 
 app.start();
@@ -685,24 +750,24 @@ app.start();
 For complex scenarios:
 
 ```javascript
-const app = require('myapp');
+const app = require("myapp");
 
 app.use(customMiddleware());
 
 app.configure({
   port: 3000,
   database: {
-    host: 'localhost',
-    pool: { min: 2, max: 10 }
+    host: "localhost",
+    pool: { min: 2, max: 10 },
   },
   cache: {
     enabled: true,
-    strategy: 'lru'
-  }
+    strategy: "lru",
+  },
 });
 
-app.on('ready', () => {
-  console.log('App is running');
+app.on("ready", () => {
+  console.log("App is running");
 });
 
 app.start();
@@ -715,7 +780,8 @@ Complete application:
 ```javascript
 // See /examples/complete-app.js for full runnable code
 ```
-```
+
+````
 
 ## Diagrams and Visuals
 
@@ -733,8 +799,9 @@ sequenceDiagram
     API->>Queue: Enqueue processing
     API-->>-Client: 201 Created
     Queue->>Worker: Process images
-```
-```
+````
+
+````
 
 **Architecture Diagram:**
 ```markdown
@@ -747,8 +814,9 @@ graph LR
     D --> E
     C --> F[Cache]
     D --> F
-```
-```
+````
+
+````
 
 **State Diagram:**
 ```markdown
@@ -760,5 +828,8 @@ stateDiagram-v2
     Review --> Draft: Rejected
     Published --> Archived
     Archived --> [*]
+````
+
 ```
+
 ```

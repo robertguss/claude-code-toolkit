@@ -1,8 +1,12 @@
 # Claude Code Toolkit
 
-Extend Claude Code with specialized workflows, automatic formatting, and better defaults.
+Extend Claude Code with specialized workflows, automatic formatting, and better
+defaults.
 
-**Skills** give Claude domain expertise—brainstorming methods, documentation generation, book writing pipelines. **Hooks** automate repetitive tasks—format code after edits, summarize changes at session end. **Templates** configure how Claude works with you.
+**Skills** give Claude domain expertise—brainstorming methods, documentation
+generation, book writing pipelines. **Hooks** automate repetitive tasks—format
+code after edits, summarize changes at session end. **Templates** configure how
+Claude works with you.
 
 Works with both Claude Code (CLI) and Claude.ai (web/mobile/desktop).
 
@@ -25,7 +29,8 @@ python build.py brainstorm
 
 ### Skills
 
-Packaged workflows that Claude follows when invoked. Use them with `/skillname` or reference in CLAUDE.md.
+Packaged workflows that Claude follows when invoked. Use them with `/skillname`
+or reference in CLAUDE.md.
 
 | Skill                                      | Description                                                    |
 | ------------------------------------------ | -------------------------------------------------------------- |
@@ -36,7 +41,8 @@ Packaged workflows that Claude follows when invoked. Use them with `/skillname` 
 **Book & Writing:**
 
 - [ebook-factory](skills/ebook-factory/) — Focused ebook creation pipeline
-- [non-fiction-book-factory](skills/non-fiction-book-factory/) — Full pipeline from idea to chapter architecture
+- [non-fiction-book-factory](skills/non-fiction-book-factory/) — Full pipeline
+  from idea to chapter architecture
 - [writing](skills/writing/) — Voice capture and ghost writing
 
 ### Hooks
@@ -70,7 +76,8 @@ Reference in your project or global CLAUDE.md:
 ```markdown
 # CLAUDE.md
 
-When brainstorming, read and follow /path/to/claude-code-toolkit/skills/brainstorm/SKILL.md
+When brainstorming, read and follow
+/path/to/claude-code-toolkit/skills/brainstorm/SKILL.md
 ```
 
 **Claude.ai (Web/Mobile/Desktop):**
@@ -149,7 +156,8 @@ claude-code-toolkit/
 
 ## Development
 
-This project uses [uv](https://docs.astral.sh/uv/) for dependency management and [just](https://github.com/casey/just) as a command runner.
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management and
+[just](https://github.com/casey/just) as a command runner.
 
 ```bash
 # Install dependencies
@@ -170,7 +178,8 @@ just
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting skills, hooks, or improvements.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting skills,
+hooks, or improvements.
 
 ## License
 
