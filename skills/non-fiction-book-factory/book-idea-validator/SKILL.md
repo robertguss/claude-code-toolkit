@@ -1,5 +1,9 @@
 ---
 name: book-idea-validator
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Stress-test book concepts against existing research before committing to
   architecture. Use when the user has a Book Concept Document ready for

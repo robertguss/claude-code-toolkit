@@ -1,5 +1,9 @@
 ---
 name: book-research-assistant
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Plan, orchestrate, and validate deep research for nonfiction books. Use when
   an author has completed book architecture and needs to fill research gaps

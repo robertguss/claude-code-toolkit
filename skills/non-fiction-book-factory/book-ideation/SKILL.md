@@ -1,5 +1,9 @@
 ---
 name: book-ideation
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Develop raw book ideas into structured nonfiction book concepts. Use when the
   user wants to develop a book idea, has brainstorm documents to refine into a

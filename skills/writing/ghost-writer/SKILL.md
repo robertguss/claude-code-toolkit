@@ -1,5 +1,9 @@
 ---
 name: ghost-writer
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Produce first drafts that match a writer's authentic voice using their Voice
   DNA Document. Consumes DNA documents from writing-dna-discovery skill.

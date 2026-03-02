@@ -1,5 +1,9 @@
 ---
 name: brainstorm
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Collaborative brainstorming partner for multi-session ideation projects. Use
   when the user wants to brainstorm, ideate, explore ideas, or think through

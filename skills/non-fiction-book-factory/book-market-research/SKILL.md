@@ -1,5 +1,9 @@
 ---
 name: book-market-research
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Assess commercial viability of book concepts for Amazon KDP self-publishing.
   Use when the user has a Book Concept Document and wants to understand market

@@ -1,5 +1,9 @@
 ---
 name: chapter-architect
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Plan and architect a single chapter at beat-level granularity. Use when you
   have a chapter from the Architecture Document and need to create a detailed

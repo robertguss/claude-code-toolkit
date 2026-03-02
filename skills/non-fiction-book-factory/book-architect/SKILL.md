@@ -1,5 +1,9 @@
 ---
 name: book-architect
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Design the structural and emotional architecture for nonfiction books. Use
   when an author has a validated book concept and needs to create the blueprint

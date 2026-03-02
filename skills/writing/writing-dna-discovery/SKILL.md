@@ -1,5 +1,9 @@
 ---
 name: writing-dna-discovery
+license: Proprietary
+metadata:
+  author: robertguss
+  version: "1.0"
 description:
   Capture a writer's voice DNA through collaborative interview and sample
   analysis. Use when someone wants to document their writing voice for use with
