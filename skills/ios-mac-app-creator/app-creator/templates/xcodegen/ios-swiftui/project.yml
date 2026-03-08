@@ -1,0 +1,63 @@
+name: __APP_NAME__
+options:
+  deploymentTarget:
+    iOS: __DEPLOYMENT_TARGET__
+settings:
+  base:
+    SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
+    GCC_TREAT_WARNINGS_AS_ERRORS: YES
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_VERSION: 6.0
+
+schemes:
+  __APP_NAME__:
+    shared: true
+    build:
+      targets:
+        __APP_NAME__: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - __APP_NAME__Tests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
+targets:
+  __APP_NAME__:
+    type: application
+    platform: iOS
+    bundleId: __BUNDLE_ID__
+    sources:
+      - path: Sources
+        type: syncedFolder
+    resources:
+      - Resources
+    settings:
+      base:
+        INFOPLIST_FILE: Sources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: __BUNDLE_ID__
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+    dependencies: []
+
+  __APP_NAME__Tests:
+    type: bundle.unit-test
+    platform: iOS
+    bundleId: __BUNDLE_ID__.Tests
+    sources:
+      - path: Tests
+        type: syncedFolder
+    settings:
+      base:
+        INFOPLIST_FILE: Tests/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: __BUNDLE_ID__.Tests
+    dependencies:
+      - target: __APP_NAME__
