@@ -4,26 +4,13 @@ description:
   Full-pipeline App Store opportunity research. Discovers underserved niches,
   analyzes competitor gaps, produces revenue-validated top-3 opportunity
   reports, writes MVP PRDs, and builds working prototypes on Rork
-  (https://rork.com/) — all automated through browser research.
-metadata:
-  tags:
-    app-store, research, mobile-app, competitor-analysis, market-research, prd,
-    prototype, rork, indie-hacker, startup
+  (https://rork.com/) — all automated through browser research. Use when the
+  user wants to find profitable app ideas, research App Store charts, analyze
+  competitor apps (ratings, reviews, revenue, gaps), generate opportunity
+  reports, write MVP PRDs, or build prototypes. Triggers on "find app
+  opportunities", "app store research", "what app should I build", "research
+  this app category", "find a gap in the app store".
 ---
-
-## When to Use
-
-Use this skill when the user wants to:
-
-- Find profitable app ideas in a category or niche
-- Research App Store charts for underserved opportunities
-- Analyze competitor apps (ratings, reviews, revenue, gaps)
-- Generate a top-3 opportunity report with revenue validation
-- Write a detailed MVP Product Requirements Document (PRD)
-- Build a working prototype from the PRD on [Rork](https://rork.com/)
-
-Trigger phrases: "find app opportunities", "app store research", "what app
-should I build", "research this app category", "find a gap in the app store"
 
 ## Prerequisites
 
@@ -35,10 +22,17 @@ should I build", "research this app category", "find a gap in the app store"
 ## Pipeline Overview
 
 ```
-App Store Charts → Competitor Deep-Dive → Gap Analysis → Top 3 Report → PRD → Rork Prototype
+1. Define Category
+2. App Store Charts
+3. Community & Demand Research
+4. Competitor Deep-Dive
+5. Gap Analysis
+6. Score & Rank
+7. Top 3 Report
+8. Quick Validation (optional)
+9. MVP PRD
+10. Rork Prototype (optional)
 ```
-
-The entire pipeline can run end-to-end in a single session (~30-45 min).
 
 ---
 
@@ -66,12 +60,45 @@ Browse the App Store charts in the relevant category using Chrome:
 
 1. **Navigate to:**
    `https://apps.apple.com/us/charts/iphone/{category-slug}/{category-id}`
+
+   **Apps:**
+   - Books: `/books-apps/6018`
+   - Business: `/business-apps/6000`
+   - Education: `/education-apps/6017`
+   - Entertainment: `/entertainment-apps/6016`
+   - Finance: `/finance-apps/6015`
+   - Food & Drink: `/food-drink-apps/6023`
+   - Graphics & Design: `/graphics-design-apps/6027`
    - Health & Fitness: `/health-fitness-apps/6013`
    - Lifestyle: `/lifestyle-apps/6012`
-   - Productivity: `/productivity-apps/6007`
-   - Education: `/education-apps/6017`
    - Medical: `/medical-apps/6020`
-   - Entertainment: `/entertainment-apps/6016`
+   - Music: `/music-apps/6011`
+   - Navigation: `/navigation-apps/6010`
+   - News: `/news-apps/6009`
+   - Photo & Video: `/photo-video-apps/6008`
+   - Productivity: `/productivity-apps/6007`
+   - Reference: `/reference-apps/6006`
+   - Shopping: `/shopping-apps/6024`
+   - Social Networking: `/social-networking-apps/6005`
+   - Sports: `/sports-apps/6004`
+   - Travel: `/travel-apps/6003`
+   - Utilities: `/utilities-apps/6002`
+   - Weather: `/weather-apps/6001`
+
+   **Games:**
+   - Action: `/action-games/7001`
+   - Adventure: `/adventure-games/7002`
+   - Board: `/board-games/7004`
+   - Card: `/card-games/7005`
+   - Casino: `/casino-games/7006`
+   - Puzzle: `/puzzle-games/7012`
+   - Racing: `/racing-games/7013`
+   - Role-Playing: `/role-playing-games/7014`
+   - Simulation: `/simulation-games/7016`
+   - Sports: `/sports-games/7017`
+   - Strategy: `/strategy-games/7018`
+   - Trivia: `/trivia-games/7019`
+   - Word: `/word-games/7020`
 
 2. **Document the top 25-50 apps** noting:
    - App name and position
@@ -87,23 +114,81 @@ Browse the App Store charts in the relevant category using Chrome:
 
 ---
 
-## Step 3: Competitor Deep-Dive
+## Step 3: Community & Demand Research
+
+Before deep-diving into competitors, validate that real demand exists outside
+the App Store. See
+[references/research-sources.md](references/research-sources.md) for detailed
+search patterns and sources.
+
+### Reddit & Forum Research
+
+Search Reddit for unmet demand signals in the category. Look for:
+
+- "Is there an app that..." posts with no good answer
+- Complaints about existing apps (pain points users will pay to escape)
+- Feature requests with high upvotes
+- "I switched from X to Y because..." (switching triggers)
+
+### Google Trends Validation
+
+Check Google Trends for the core problem keywords:
+
+- **Rising trend** = growing demand, may not be saturated
+- **Declining trend** = caution, avoid unless you have a unique angle
+- Note seasonal patterns to time your launch
+
+### Cross-Platform Gap Detection
+
+Check for opportunities invisible from the iOS App Store alone:
+
+- Apps with 1M+ installs on Google Play but no strong iOS equivalent
+- Popular web tools (Product Hunt, AlternativeTo) without native mobile apps
+- Top apps in other countries not yet available in the US
+
+### Indie Revenue Intelligence
+
+Search IndieHackers and Twitter (#buildinpublic) for real revenue data from solo
+devs and small teams in the category. Real numbers beat estimates.
+
+---
+
+## Step 4: Competitor Deep-Dive
 
 For each promising niche area, deep-dive into 5-8 competitor apps:
 
 ### Data to Collect Per App
 
-| Field                | How to Find                                     |
-| -------------------- | ----------------------------------------------- |
-| Name                 | App Store listing                               |
-| Ratings count        | App Store listing                               |
-| Star rating          | App Store listing                               |
-| Price / subscription | App Store listing                               |
-| Trustpilot score     | Search `{app name} trustpilot`                  |
-| Estimated revenue    | Search `{app name} revenue` or use web research |
-| Key features         | App Store description / screenshots             |
-| Top complaints       | 1-star App Store reviews, Trustpilot reviews    |
-| Missing features     | Compare across competitors                      |
+| Field                  | How to Find                                                   |
+| ---------------------- | ------------------------------------------------------------- |
+| Name                   | App Store listing                                             |
+| Ratings count          | App Store listing                                             |
+| Star rating            | App Store listing                                             |
+| Price / subscription   | App Store listing                                             |
+| Last updated           | App Store listing — stale (6+ months) = vulnerable            |
+| App size               | App Store listing — bloated (200MB+) = simplifier opportunity |
+| Dev replies to reviews | App Store reviews — silence = likely abandoned                |
+| Trustpilot score       | Search `{app name} trustpilot`                                |
+| Estimated revenue      | Search `{app name} revenue` or use web research               |
+| Key features           | App Store description / screenshots                           |
+| Top complaints         | 1-star App Store reviews, Trustpilot reviews                  |
+| Missing features       | Compare across competitors                                    |
+
+### Systematic Review Mining
+
+For each competitor, read the 10 most recent 1-star and 2-star reviews on the
+App Store. Categorize complaints into:
+
+- **Bugs/crashes** — Technical issues (less useful for opportunity finding)
+- **Missing features** — "I wish it had..." (direct feature gap signals)
+- **UX frustration** — "Too complicated", "Can't find..." (design opportunity)
+- **Pricing complaints** — "Too expensive for what it does" (pricing
+  opportunity)
+- **Broken promises** — "Doesn't do what it says" (trust/quality opportunity)
+
+The most valuable complaints are **missing features** and **UX frustration** —
+these are problems you can solve. If the same complaint appears across 3+
+competitors, you've found a validated gap.
 
 ### Revenue Estimation Techniques
 
@@ -128,9 +213,26 @@ For each promising niche area, deep-dive into 5-8 competitor apps:
 - Users complain about the same missing feature across multiple apps
 - Clear $5-15/mo willingness to pay
 
+### Opportunity Archetypes
+
+When analyzing competitors, identify which archetype fits the opportunity. This
+sharpens positioning and guides the PRD:
+
+| Archetype              | Signal                                           | Your Play                                    |
+| ---------------------- | ------------------------------------------------ | -------------------------------------------- |
+| **The Simplifier**     | Market leader is bloated, 200MB+, does too much  | Focused app that does 1 thing perfectly      |
+| **The Privacy Play**   | Competitors harvest data, require accounts       | Privacy-first, local-only, no account needed |
+| **The Design Upgrade** | Competitors are functional but visually dated    | Same core features, premium modern UI        |
+| **The Unbundler**      | Big app has 10 features, users only need 2       | Extract the 2 features into a clean app      |
+| **The Combiner**       | Users always pair 2 separate apps together       | Merge them into one seamless experience      |
+| **The Localizer**      | App thrives in other countries, no US equivalent | Bring the validated concept to a new market  |
+
+Most successful indie apps fit one or more of these archetypes. Name the
+archetype in the opportunity report — it clarifies the "why you win" story.
+
 ---
 
-## Step 4: Gap Analysis
+## Step 5: Gap Analysis
 
 Create a **feature comparison matrix** across the top competitors:
 
@@ -153,28 +255,52 @@ The winning opportunity is where:
 
 ---
 
-## Step 5: Top 3 Opportunity Report
+## Step 6: Score & Rank Opportunities
+
+Before writing the final report, score each candidate opportunity using the
+structured rubric in
+[references/scoring-framework.md](references/scoring-framework.md). Score on 5
+dimensions (1-5 each): Market Demand, Competition Weakness, Revenue Potential,
+Build Feasibility, and Differentiation Clarity. Total score determines rank.
+
+Present the scorecard to the user alongside the top 3 report.
+
+---
+
+## Step 7: Top 3 Opportunity Report
 
 Produce a ranked report with this structure:
 
 ```markdown
 # Top 3 App Opportunities in {Category}
 
+## Opportunity Scorecard
+
+| Dimension            | Opp 1: {Name} | Opp 2: {Name} | Opp 3: {Name} |
+| -------------------- | ------------- | ------------- | ------------- |
+| Market Demand (1-5)  |               |               |               |
+| Competition Weakness |               |               |               |
+| Revenue Potential    |               |               |               |
+| Build Feasibility    |               |               |               |
+| Differentiation      |               |               |               |
+| **TOTAL**            |               |               |               |
+
 ## Opportunity 1: {App Name} (RECOMMENDED)
 
-**One-line pitch:** {What it does in 10 words} **The gap:** {What's missing in
-the market} **Target user:** {Who and why they'd pay} **Revenue model:** {Price
-point and conversion assumptions} **Revenue path:** {How to reach $X/mo}
-**Competition:** {Who exists, why you win} **Build complexity:**
-{Low/Medium/High} **Confidence:** {High/Medium/Low with reasoning}
+**Archetype:** {Simplifier / Privacy Play / Design Upgrade / Unbundler /
+Combiner / Localizer} **One-line pitch:** {What it does in 10 words} **The
+gap:** {What's missing in the market} **Target user:** {Who and why they'd pay}
+**Revenue model:** {Price point and conversion assumptions} **Revenue path:**
+{How to reach $X/mo} **Competition:** {Who exists, why you win} **Build
+complexity:** {Low/Medium/High} **Confidence:** {High/Medium/Low with reasoning}
 
 ## Opportunity 2: {App Name}
 
-...
+{Same fields as above}
 
 ## Opportunity 3: {App Name}
 
-...
+{Same fields as above}
 
 ## Recommendation
 
@@ -185,12 +311,30 @@ point and conversion assumptions} **Revenue path:** {How to reach $X/mo}
 
 ---
 
-## Step 6: Write the MVP PRD
+## Step 8: Quick Validation (Optional)
+
+Before investing in a full PRD, suggest a lightweight smoke test to de-risk the
+chosen opportunity:
+
+- **Reddit validation post:** Post in a relevant subreddit describing the
+  concept and ask if people would use/pay for it. Frame as "I'm thinking about
+  building X — would this solve your problem?"
+- **Landing page test:** Create a simple one-page site describing the app with
+  an email signup. Use Carrd, Framer, or a single HTML page. Run for 3-7 days.
+- **Twitter/X poll:** Post a poll describing the problem and 3-4 solution
+  approaches. See which resonates.
+
+Skip this step if: the user wants to move fast, the opportunity scored 20+, or
+strong demand evidence already exists from Step 3.
+
+---
+
+## Step 9: Write the MVP PRD
 
 Once the user selects an opportunity, write a comprehensive PRD with these
 sections:
 
-1. **Executive Summary** — One paragraph pitch
+1. **Executive Summary** — One paragraph pitch, name the opportunity archetype
 2. **Market Opportunity** — Problem, market size, competitive landscape table,
    revenue validation
 3. **Target Users** — 3 personas with name, age, job, pain points, willingness
@@ -198,24 +342,36 @@ sections:
 4. **MVP Feature Set** — 5-8 feature groups with detailed specs, UI behavior,
    edge cases
 5. **Screen Map** — All screens listed with parent/child relationships
-6. **User Flow** — Primary user journey from onboarding to daily use
-7. **Monetization** — Free vs Premium feature split, pricing, trial strategy
-8. **Tech Stack** — Framework, libraries, state management, persistence
-9. **AI Features** — If applicable, what AI does and doesn't do
-10. **Data Models** — TypeScript interfaces for core entities
-11. **Design Direction** — Color palette (with hex codes), typography, component
+6. **Onboarding Flow** — First-time user experience step by step: what the user
+   sees on first launch, how many screens before value delivery, what
+   permissions are requested and when, how the app demonstrates its core value
+   within 60 seconds. This is the single biggest factor in retention.
+7. **User Flow** — Primary user journey from onboarding to daily use
+8. **Monetization** — Free vs Premium feature split, pricing, trial strategy
+9. **Tech Stack** — Framework, libraries, state management, persistence
+10. **AI Features** — If applicable, what AI does and doesn't do
+11. **Data Models** — TypeScript interfaces for core entities
+12. **Design Direction** — Color palette (with hex codes), typography, component
     style, mood
-12. **Launch Strategy** — Week 1-12 plan, marketing channels, content strategy
-13. **Success Metrics** — KPIs with specific targets
-14. **Risks & Mitigations** — Top 5 risks with solutions
-15. **Compliance** — Privacy, data handling, App Store guidelines
-16. **Future Roadmap** — V2, V3 features beyond MVP
+13. **App Store Listing (ASO)** — Optimized for discoverability:
+    - **App name** (30 char max) — include primary keyword
+    - **Subtitle** (30 char max) — reinforce value proposition
+    - **Keywords** (100 char max, comma-separated) — target low-competition,
+      high-intent terms from the research
+    - **First 3 lines of description** — these show before "more" tap, must hook
+      immediately
+    - **Screenshot strategy** — what each of the 5-10 screenshots should show
+14. **Launch Strategy** — Week 1-12 plan, marketing channels, content strategy
+15. **Success Metrics** — KPIs with specific targets
+16. **Risks & Mitigations** — Top 5 risks with solutions
+17. **Compliance** — Privacy, data handling, App Store guidelines
+18. **Future Roadmap** — V2, V3 features beyond MVP
 
 **Save the PRD as:** `PRD-{AppName}.md`
 
 ---
 
-## Step 7: Build on Rork (Optional)
+## Step 10: Build on Rork (Optional)
 
 If the user has a Rork account, build a working prototype:
 
@@ -263,48 +419,9 @@ TECH: Expo SDK 52+, TypeScript, Expo Router, {styling}, {animations}.
 
 ---
 
-## Revenue Validation Benchmarks
+## Revenue & Marketing Benchmarks
 
-Use these benchmarks to reality-check opportunity viability:
-
-| App Type            | Solo Dev Benchmark | Small Team  | Reference                    |
-| ------------------- | ------------------ | ----------- | ---------------------------- |
-| Niche utility       | $1-5K/mo           | $5-20K/mo   | Rootd ($1M+ total, 1 person) |
-| Habit/tracker       | $5-15K/mo          | $20-80K/mo  | Daylio ($50K/mo)             |
-| Gamified self-care  | $10-50K/mo         | $100K+/mo   | Finch ($2M/mo)               |
-| Meditation/wellness | $5-20K/mo          | $50-500K/mo | Calm ($100M+/yr)             |
-| Productivity        | $3-10K/mo          | $20-100K/mo | Various                      |
-| AI-powered tool     | $5-30K/mo          | $50-300K/mo | Emerging category            |
-
-## Pricing Sweet Spots (2025)
-
-| Tier         | Monthly           | Annual              | Best For                 |
-| ------------ | ----------------- | ------------------- | ------------------------ |
-| Impulse buy  | $2.99-4.99/mo     | $19.99-29.99/yr     | Simple utilities         |
-| **Standard** | **$5.99-6.99/mo** | **$34.99-44.99/yr** | **Most indie apps**      |
-| Premium      | $9.99-14.99/mo    | $59.99-99.99/yr     | AI-heavy or professional |
-
-## Marketing Channel Playbook
-
-| Channel             | Best For                    | Cost        | Time to Results  |
-| ------------------- | --------------------------- | ----------- | ---------------- |
-| TikTok organic      | Consumer apps, visual demos | Free        | 2-4 weeks        |
-| Reddit (niche subs) | Technical/niche apps        | Free        | 1-2 weeks        |
-| Product Hunt        | Productivity/dev tools      | Free        | Launch day spike |
-| Apple Search Ads    | Any iOS app                 | $0.50-3/tap | Immediate        |
-| Instagram Reels     | Lifestyle/wellness apps     | Free        | 2-6 weeks        |
-| Twitter/X           | Dev tools, indie hackers    | Free        | Ongoing          |
-
----
-
-## Example Session Output
-
-A complete session produces:
-
-1. **Category research notes** — charts analysis, competitor list
-2. **Top 3 Opportunity Report** — ranked with revenue validation
-3. **MVP PRD** — 16-section document with full specs
-4. **Working prototype** — live on [Rork](https://rork.com/) with shareable URL
-5. **Go-to-market notes** — pricing, channels, launch plan
-
-All in ~30-45 minutes of automated research and building.
+See [references/benchmarks.md](references/benchmarks.md) for revenue validation
+benchmarks, pricing sweet spots, and marketing channel playbook. Reference this
+when validating opportunities in Steps 5-7 and writing the launch strategy in
+Step 8.
