@@ -1,23 +1,25 @@
 ---
 name: app-store-opportunity-research
 description:
-  Full-pipeline App Store opportunity research. Discovers underserved niches,
-  analyzes competitor gaps, produces revenue-validated top-3 opportunity
-  reports, writes MVP PRDs, and builds working prototypes on Rork
-  (https://rork.com/) — all automated through browser research. Use when the
-  user wants to find profitable app ideas, research App Store charts, analyze
-  competitor apps (ratings, reviews, revenue, gaps), generate opportunity
-  reports, write MVP PRDs, or build prototypes. Triggers on "find app
-  opportunities", "app store research", "what app should I build", "research
-  this app category", "find a gap in the app store".
+  Full-pipeline mobile app opportunity research for iOS App Store and Google
+  Play Store. Discovers underserved niches, analyzes competitor gaps, produces
+  revenue-validated top-3 opportunity reports, writes MVP PRDs, and builds
+  working prototypes on Rork (https://rork.com/) — all automated through browser
+  research. Use when the user wants to find profitable app ideas, research App
+  Store or Google Play charts, analyze competitor apps (ratings, reviews,
+  revenue, gaps), generate opportunity reports, write MVP PRDs, or build
+  prototypes. Triggers on "find app opportunities", "app store research",
+  "google play research", "android app ideas", "what app should I build",
+  "research this app category", "find a gap in the app store".
 ---
 
 ## Prerequisites
 
-- **Chrome browser** with Claude in Chrome extension (for App Store browsing)
+- **Chrome browser** with Claude in Chrome extension (for store browsing)
 - **Rork account** at [rork.com](https://rork.com/) (for prototype building,
   optional)
 - No API keys required — all research is done through live browser interaction
+- Supports **iOS App Store**, **Google Play Store**, or **both** platforms
 
 ## Pipeline Overview
 
@@ -48,15 +50,24 @@ Ask the user what space they want to explore. Help them narrow down:
 **Key questions to ask:**
 
 1. What category or problem space interests you?
-2. Consumer or B2B? (Consumer is easier to validate quickly)
-3. Any budget constraints? (No-AI = cheaper to build, AI = higher ceiling)
-4. Target revenue? ($1K/mo hobby vs $10K/mo business)
+2. **Target platform?** iOS, Android, or both?
+   - **iOS only:** Higher revenue per user, research via App Store charts
+   - **Android only:** Larger user base, unique categories (Personalization,
+     Tools), research via Google Play charts
+   - **Both:** Cross-platform framework recommended (React Native/Expo or
+     Flutter), research both stores for the fullest picture
+3. Consumer or B2B? (Consumer is easier to validate quickly)
+4. Any budget constraints? (No-AI = cheaper to build, AI = higher ceiling)
+5. Target revenue? ($1K/mo hobby vs $10K/mo business)
 
 ---
 
-## Step 2: App Store Charts Research
+## Step 2: Store Charts Research
 
-Browse the App Store charts in the relevant category using Chrome:
+Browse the charts for the user's target platform(s) using Chrome. Research both
+stores when targeting both platforms — the competitive landscape often differs.
+
+### iOS App Store
 
 1. **Navigate to:**
    `https://apps.apple.com/us/charts/iphone/{category-slug}/{category-id}`
@@ -100,7 +111,16 @@ Browse the App Store charts in the relevant category using Chrome:
    - Trivia: `/trivia-games/7019`
    - Word: `/word-games/7020`
 
-2. **Document the top 25-50 apps** noting:
+### Google Play Store
+
+If targeting Android, see [references/google-play.md](references/google-play.md)
+for the full category list, chart URLs, and Android-specific data points. Google
+Play exposes install counts directly (more useful than iOS rating-count
+proxies).
+
+### For Both Platforms
+
+2. **Document the top 25-50 apps** on each target store, noting:
    - App name and position
    - Rating count (proxy for install base)
    - Star rating
@@ -140,9 +160,10 @@ Check Google Trends for the core problem keywords:
 
 ### Cross-Platform Gap Detection
 
-Check for opportunities invisible from the iOS App Store alone:
+Check for opportunities invisible from a single store:
 
-- Apps with 1M+ installs on Google Play but no strong iOS equivalent
+- Apps successful on one platform but weak on the other (e.g., strong on Android
+  with 1M+ installs but no quality iOS equivalent, or vice versa)
 - Popular web tools (Product Hunt, AlternativeTo) without native mobile apps
 - Top apps in other countries not yet available in the US
 
@@ -161,23 +182,23 @@ For each promising niche area, deep-dive into 5-8 competitor apps:
 
 | Field                  | How to Find                                                   |
 | ---------------------- | ------------------------------------------------------------- |
-| Name                   | App Store listing                                             |
-| Ratings count          | App Store listing                                             |
-| Star rating            | App Store listing                                             |
-| Price / subscription   | App Store listing                                             |
-| Last updated           | App Store listing — stale (6+ months) = vulnerable            |
-| App size               | App Store listing — bloated (200MB+) = simplifier opportunity |
-| Dev replies to reviews | App Store reviews — silence = likely abandoned                |
+| Name                   | Store listing                                                 |
+| Ratings count          | Store listing (Google Play also shows install count directly) |
+| Star rating            | Store listing                                                 |
+| Price / subscription   | Store listing                                                 |
+| Last updated           | Store listing — stale (6+ months) = vulnerable                |
+| App size               | Store listing — bloated (200MB+) = simplifier opportunity     |
+| Dev replies to reviews | Store reviews — silence = likely abandoned                    |
 | Trustpilot score       | Search `{app name} trustpilot`                                |
 | Estimated revenue      | Search `{app name} revenue` or use web research               |
-| Key features           | App Store description / screenshots                           |
-| Top complaints         | 1-star App Store reviews, Trustpilot reviews                  |
+| Key features           | Store description / screenshots                               |
+| Top complaints         | 1-star reviews on store and Trustpilot                        |
 | Missing features       | Compare across competitors                                    |
 
 ### Systematic Review Mining
 
 For each competitor, read the 10 most recent 1-star and 2-star reviews on the
-App Store. Categorize complaints into:
+target store(s). Categorize complaints into:
 
 - **Bugs/crashes** — Technical issues (less useful for opportunity finding)
 - **Missing features** — "I wish it had..." (direct feature gap signals)
@@ -209,7 +230,8 @@ competitors, you've found a validated gap.
 
 - Top competitors have poor reviews (< 3.0 Trustpilot)
 - Solo devs making $50K+/yr (proves indie viability)
-- "Editors' Choice" app exists with < 20K ratings (Apple promotes the niche)
+- Editors' Choice / Editor's Pick app exists with low ratings (store promotes
+  the niche)
 - Users complain about the same missing feature across multiple apps
 - Clear $5-15/mo willingness to pay
 
@@ -348,23 +370,32 @@ sections:
    within 60 seconds. This is the single biggest factor in retention.
 7. **User Flow** — Primary user journey from onboarding to daily use
 8. **Monetization** — Free vs Premium feature split, pricing, trial strategy
-9. **Tech Stack** — Framework, libraries, state management, persistence
+9. **Tech Stack** — Framework, libraries, state management, persistence. For
+   Android-specific or cross-platform options, see
+   [references/google-play.md](references/google-play.md)
 10. **AI Features** — If applicable, what AI does and doesn't do
 11. **Data Models** — TypeScript interfaces for core entities
 12. **Design Direction** — Color palette (with hex codes), typography, component
     style, mood
-13. **App Store Listing (ASO)** — Optimized for discoverability:
-    - **App name** (30 char max) — include primary keyword
-    - **Subtitle** (30 char max) — reinforce value proposition
-    - **Keywords** (100 char max, comma-separated) — target low-competition,
-      high-intent terms from the research
+13. **Store Listing (ASO)** — Optimized for discoverability. Write for each
+    target platform:
+    - **App name** (30 char max both platforms) — include primary keyword
+    - **iOS subtitle** (30 char max) / **Google Play short description** (80
+      char max) — reinforce value proposition
+    - **iOS keywords** (100 char max, comma-separated) — Google Play has no
+      keyword field; instead optimize the full description for search terms
     - **First 3 lines of description** — these show before "more" tap, must hook
       immediately
-    - **Screenshot strategy** — what each of the 5-10 screenshots should show
+    - **Screenshot strategy** — what each screenshot should show (iOS: max 10,
+      Google Play: max 8 per device type)
+    - **Google Play feature graphic** (1024x500) — required, prominently
+      displayed
+    - See [references/google-play.md](references/google-play.md) for full ASO
+      comparison between platforms
 14. **Launch Strategy** — Week 1-12 plan, marketing channels, content strategy
 15. **Success Metrics** — KPIs with specific targets
 16. **Risks & Mitigations** — Top 5 risks with solutions
-17. **Compliance** — Privacy, data handling, App Store guidelines
+17. **Compliance** — Privacy, data handling, App Store / Google Play guidelines
 18. **Future Roadmap** — V2, V3 features beyond MVP
 
 **Save the PRD as:** `PRD-{AppName}.md`
