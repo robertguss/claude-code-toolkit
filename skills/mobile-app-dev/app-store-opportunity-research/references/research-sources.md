@@ -15,22 +15,26 @@ site:reddit.com "I wish" {competitor app name}
 site:reddit.com "switched from" {competitor app name}
 site:reddit.com "alternative to" {competitor app name}
 site:reddit.com "{category}" app recommendation
+site:reddit.com "I'd pay" {category/problem}
+site:reddit.com "why is there no" {category/problem}
 ```
 
 ### Key Subreddits by Category
 
 | Category         | Subreddits                                                       |
 | ---------------- | ---------------------------------------------------------------- |
-| General app recs | r/AppRecommendations, r/iphone, r/ios, r/androidapps             |
+| General app recs | r/AppRecommendations, r/iphone, r/ios, r/iosapps                |
 | Productivity     | r/productivity, r/ADHD, r/GetStudying, r/bulletjournal           |
 | Health & Fitness | r/fitness, r/loseit, r/running, r/meditation, r/sleep            |
-| Finance          | r/personalfinance, r/YNAB, r/budgeting, r/financialplanning      |
+| Finance          | r/personalfinance, r/YNAB, r/budgeting, r/financialplanning     |
 | Mental Health    | r/anxiety, r/depression, r/selfimprovement, r/DecidingToBeBetter |
-| Parenting        | r/parenting, r/daddit, r/Mommit, r/NewParents                    |
-| Food & Cooking   | r/MealPrepSunday, r/EatCheapAndHealthy, r/Cooking                |
+| Parenting        | r/parenting, r/daddit, r/Mommit, r/NewParents                   |
+| Food & Cooking   | r/MealPrepSunday, r/EatCheapAndHealthy, r/Cooking               |
 | Education        | r/learnprogramming, r/languagelearning, r/GetStudying            |
-| Travel           | r/travel, r/solotravel, r/digitalnomad                           |
-| Lifestyle        | r/minimalism, r/declutter, r/organization                        |
+| Travel           | r/travel, r/solotravel, r/digitalnomad                          |
+| Lifestyle        | r/minimalism, r/declutter, r/organization                       |
+| Gaming           | r/iosgaming, r/iphonegaming, r/mobilegaming                     |
+| Privacy          | r/privacy, r/privacytoolsIO, r/degoogle                         |
 
 ### What to Extract from Reddit
 
@@ -39,6 +43,7 @@ site:reddit.com "{category}" app recommendation
 - **Switching triggers:** Why users left one app for another
 - **Willingness to pay:** Comments about pricing ("I'd pay $X for...")
 - **Feature requests:** Highly upvoted feature suggestions on app subreddits
+- **Subscription fatigue:** Complaints about subscription pricing ("not worth $X/mo")
 
 ## Google Trends Validation
 
@@ -51,50 +56,41 @@ Before committing to an opportunity, verify search demand:
    okay
 4. **Compare related terms:** See what variations are growing fastest
 5. **Check seasonality:** Fitness peaks in January, tax apps in spring, etc.
+6. **Compare against competitor brand names** to gauge relative interest
 
 ### Interpreting Trends
 
 - **Rising >50% YoY:** Strong signal — growing demand, may not be saturated yet
 - **Stable:** Proven demand, but competition is likely established
 - **Declining:** Avoid unless you've found a specific underserved angle
-- **Seasonal spikes:** Plan launch timing around peak interest
+- **Seasonal spikes:** Plan launch timing around peak interest (launch 2-4 weeks
+  before the spike to build momentum)
 
-## Cross-Platform Gap Detection
+## Web → Mobile Gap Detection
 
-Look for opportunities where demand exists but supply is weak on iOS:
+Look for opportunities where demand exists but no quality iOS app serves it:
 
-### Android → iOS Gaps
-
-1. Browse Google Play top charts in the same category
-2. Identify apps with 1M+ installs on Android
-3. Search the App Store for equivalents
-4. If no strong iOS equivalent exists → high-confidence opportunity
-
-### Web → Mobile Gaps
+### Product Hunt → iOS Gaps
 
 1. Search Product Hunt for recently launched web tools in the category
-2. Check if they have a native mobile app
-3. Popular web tools without mobile apps = opportunity (especially if the use
-   case is mobile-native)
+2. Check if they have a native iOS app
+3. Popular web tools without iOS apps = opportunity (especially if the use case
+   is mobile-native: on-the-go, quick capture, location-based)
+
+### AlternativeTo Discovery
+
+1. Browse `https://alternativeto.net/` — search for competitor apps
+2. What users are looking for alternatives to (dissatisfaction signal)
+3. Which alternatives have the most "likes" (demand signal)
+4. User comments explaining why they switched
 
 ### International → US Gaps
 
 1. Check App Store charts in other countries (UK, Germany, Japan, South Korea)
 2. Identify top apps not available or not localized for the US market
 3. Successful international apps with no US presence = validated concept
-
-### How to Browse Other Countries
-
-Change the country code in the App Store URL:
-
-- UK: `apps.apple.com/gb/charts/iphone/...`
-- Germany: `apps.apple.com/de/charts/iphone/...`
-- Japan: `apps.apple.com/jp/charts/iphone/...`
-- Australia: `apps.apple.com/au/charts/iphone/...`
-- Canada: `apps.apple.com/ca/charts/iphone/...`
-- South Korea: `apps.apple.com/kr/charts/iphone/...`
-- Brazil: `apps.apple.com/br/charts/iphone/...`
-- India: `apps.apple.com/in/charts/iphone/...`
+4. Pay attention to apps trending in Japan/Korea — trends often come West 6-12
+   months later
 
 ## Indie Hacker Revenue Intelligence
 
@@ -104,6 +100,7 @@ Real revenue data beats estimates. Search these sources:
 
 ```
 site:indiehackers.com {category} revenue
+site:indiehackers.com {category} ios
 site:indiehackers.com {app name}
 ```
 
@@ -121,6 +118,7 @@ Indie devs frequently share monthly revenue screenshots. Search for:
 
 - `#buildinpublic {category}`
 - `#indiehackers {category} revenue`
+- `#iosdev {category} revenue`
 
 ### Other Sources
 
@@ -128,23 +126,10 @@ Indie devs frequently share monthly revenue screenshots. Search for:
   share detailed revenue breakdowns
 - **Starter Story:** `https://www.starterstory.com/` — founder interviews with
   revenue data
-- **AppFigures / Sensor Tower blogs:** Sometimes publish category revenue
+- **AppFigures / Sensor Tower blogs:** Sometimes publish free category revenue
   reports
-
-## Product Hunt & Alternative Discovery
-
-### Product Hunt
-
-Browse `https://www.producthunt.com/` for recently launched apps in the space:
-
-- See what's being built (market direction)
-- Check upvote counts (demand signal)
-- Read comments for feature requests and criticism
-
-### AlternativeTo
-
-Browse `https://alternativeto.net/` — search for competitor apps to find:
-
-- What users are looking for alternatives to (dissatisfaction signal)
-- Which alternatives have the most "likes" (demand signal)
-- User comments explaining why they switched
+- **RevenueCat blog:** Publishes "State of Subscription Apps" reports with real
+  aggregate data
+- **Sub Club podcast (RevenueCat):** Indie devs share revenue numbers and growth
+  strategies
+- **Indie Dev Monday newsletter:** Weekly indie iOS dev profiles with revenue data

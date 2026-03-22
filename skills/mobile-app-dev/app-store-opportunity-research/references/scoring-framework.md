@@ -1,6 +1,7 @@
 # Opportunity Scoring Framework
 
-Score each opportunity on 5 dimensions (1-5 scale). Total score determines rank.
+Score each opportunity on 6 dimensions (1-5 scale, 30 max). Total score
+determines rank.
 
 ## Scoring Rubric
 
@@ -54,26 +55,37 @@ Score each opportunity on 5 dimensions (1-5 scale). Total score determines rank.
 | 4     | Strong differentiator; easy to explain in one sentence          |
 | 5     | Obvious gap everyone complains about; "why doesn't this exist?" |
 
+### 6. Regulatory Safety (1-5)
+
+| Score | Criteria                                                                    |
+| ----- | --------------------------------------------------------------------------- |
+| 1     | High rejection risk; medical device claims, financial trading, kids (COPPA) |
+| 2     | Moderate risk; health claims, dietary advice, requires special entitlements  |
+| 3     | Some review considerations; needs privacy labels, data handling compliance  |
+| 4     | Standard review process; no special requirements or sensitive categories    |
+| 5     | Zero regulatory concerns; straightforward utility or entertainment          |
+
 ## Score Interpretation
 
-| Total Score | Assessment                                                   |
-| ----------- | ------------------------------------------------------------ |
-| 20-25       | Strong opportunity — pursue with confidence                  |
-| 15-19       | Promising — worth building if the differentiator is clear    |
-| 10-14       | Marginal — only pursue if you have a unique unfair advantage |
-| 5-9         | Weak — avoid unless other factors compensate                 |
+| Total Score | Assessment                                                     |
+| ----------- | -------------------------------------------------------------- |
+| 25-30       | **Strong opportunity** — pursue with confidence                |
+| 20-24       | **Promising** — worth building if the differentiator is clear  |
+| 14-19       | **Marginal** — only pursue if you have a unique unfair advantage |
+| 6-13        | **Weak** — avoid unless other factors compensate               |
 
 ## Scorecard Template
 
 ```markdown
-| Dimension                  | App Idea A | App Idea B | App Idea C |
-| -------------------------- | ---------- | ---------- | ---------- |
-| Market Demand (1-5)        |            |            |            |
-| Competition Weakness (1-5) |            |            |            |
-| Revenue Potential (1-5)    |            |            |            |
-| Build Feasibility (1-5)    |            |            |            |
-| Differentiation (1-5)      |            |            |            |
-| **TOTAL**                  |            |            |            |
+| Dimension                    | App Idea A | App Idea B | App Idea C |
+| ---------------------------- | ---------- | ---------- | ---------- |
+| Market Demand (1-5)          |            |            |            |
+| Competition Weakness (1-5)   |            |            |            |
+| Revenue Potential (1-5)      |            |            |            |
+| Build Feasibility (1-5)      |            |            |            |
+| Differentiation (1-5)        |            |            |            |
+| Regulatory Safety (1-5)      |            |            |            |
+| **TOTAL (out of 30)**        |            |            |            |
 ```
 
 ## Tiebreaker Criteria
@@ -82,6 +94,9 @@ When two opportunities score within 2 points of each other:
 
 1. **Personal interest** — Will the builder stay motivated for 6+ months?
 2. **Speed to market** — Which can ship an MVP faster?
-3. **Moat potential** — Which builds defensibility over time (network effects,
-   data, brand)?
-4. **Content marketing fit** — Which has a natural content/SEO angle for growth?
+3. **Moat potential** — Which builds defensibility over time (data, switching
+   costs, brand)?
+4. **Content marketing fit** — Which has a natural content/SEO angle for organic
+   growth?
+5. **Platform alignment** — Is Apple actively promoting this category? (new APIs,
+   WWDC sessions, App Store featuring)
