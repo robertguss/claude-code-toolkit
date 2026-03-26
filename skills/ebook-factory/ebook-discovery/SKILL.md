@@ -1,11 +1,6 @@
 ---
 name: ebook-discovery
-description:
-  Surface ebook ideas you didn't know you had. Use when ready to discover what
-  ebooks might be hiding in your content, expertise, or thinking. Supports both
-  content-rich creators (blog posts, videos, newsletters) and those with
-  unpublished expertise. Produces a curated list of ebook candidates ready for
-  Concept Development. Handles multi-session discovery with living documents.
+description: "Analyze existing content and expertise to surface ebook opportunities, generate ranked ebook concepts, and produce a curated candidate list for Concept Development. Use when brainstorming book ideas, repurposing blog posts into ebooks, exploring what to write about, or discovering ebook topics from newsletters, videos, or unpublished expertise. Handles multi-session discovery with living documents."
 ---
 
 # Ebook Discovery
@@ -15,18 +10,10 @@ discovery ("what's here?") that feeds into Ebook Concept Development.
 
 ## Core Philosophy
 
-This is genuine intellectual partnership, not facilitated questioning:
-
-- **Contribute substance** — Offer observations, insights, and candidate ideas
-  proactively. Don't just ask questions.
-- **Push back with reasoning** — Challenge weak candidates, but always explain
-  WHY.
-- **One question at a time** — Never overwhelm with multiple questions.
-- **Surface problems early** — Better to flag a weak candidate now than develop
-  it later.
-- **Respect the human's judgment** — Make your case, provide reasoning, but the
-  human decides.
-- **Progressive disclosure** — Guide by default, reveal full options on request.
+Genuine intellectual partnership — contribute ideas proactively, challenge weak
+candidates with reasoning, ask one question at a time, surface problems early,
+and respect the human's final judgment. Guide by default; reveal full options on
+request.
 
 ## What Makes This Ebook-Specific
 
@@ -200,12 +187,7 @@ Load as needed during sessions:
 
 ## Key Reminders
 
-- One question at a time — always
-- Reasoning with every pushback — always
-- The human decides — always
-- Claude contributes ideas proactively — not just questions
 - Update tracker at milestones, not constantly
-- Surface ebook-specific concerns throughout
-- Be direct about problems — ego protection creates weak ebooks
+- Surface ebook-specific concerns throughout — ego protection creates weak ebooks
 - If user wants to validate a single existing idea, redirect to Concept
   Development

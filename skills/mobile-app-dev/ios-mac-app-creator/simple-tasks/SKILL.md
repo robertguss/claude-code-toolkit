@@ -1,23 +1,13 @@
 ---
 name: simple-tasks
-description: Install a fast local task workflow for single-project planning with `scripts/task.sh` (claim, done, status, reporting) backed by `tasks/TASKS.md` and optional `tasks/details/` notes. Use for lightweight in-progress task coordination, not full team issue tracking.
+description: "Install a fast local task workflow for single-project planning with `scripts/task.sh` (claim, done, status, reporting) backed by `tasks/TASKS.md` and optional `tasks/details/` notes. Use for lightweight task management, todo tracking, or in-progress work coordination — not full team issue tracking."
 ---
 
 # Simple Tasks
 
-## Overview
-
-Paul Solt
-Paul@SuperEasyApps.com
-Version: 0.9.8
-
-`simple-tasks` installs a lightweight local task CLI into an existing project.
-
-Design goals:
-- Fast local planning and execution.
-- Human shorthand task numbers + stable task IDs.
-- Single canonical backlog file: `tasks/TASKS.md`.
-- Optional long-form notes per task: `tasks/details/<id>.md`.
+Install a lightweight local task CLI into an existing project. Backed by
+`tasks/TASKS.md` (single canonical backlog) with optional long-form notes in
+`tasks/details/<id>.md`.
 
 ## Install
 
@@ -25,32 +15,45 @@ Design goals:
 skills/simple-tasks/scripts/install.sh --project-dir /path/to/project
 ```
 
-Common flags:
-- `--project-dir PATH` required
-- `--mode install|upgrade` default `install`
-- `--dry-run` preview changes only
+Flags: `--project-dir PATH` (required), `--mode install|upgrade` (default
+`install`), `--dry-run` (preview only).
+
+## Typical Workflow
+
+```bash
+# 1. Plan tasks — add entries to tasks/TASKS.md
+./scripts/task.sh plan
+
+# 2. Claim a task to start working on it
+./scripts/task.sh claim 1
+
+# 3. Mark a task done when finished
+./scripts/task.sh done 1
+
+# 4. Check current status
+./scripts/task.sh status --today
+
+# 5. See what's next
+./scripts/task.sh next
+```
 
 ## Commands
 
-Installed `scripts/task.sh` supports:
-- `claim`
-- `done`
-- `status`
-- `next`
-- `plan`
-- `finished`
-- `upcoming`
-- `needs-planning`
-- `blocked`
-- `summary`
-- `learn`
+| Command | Purpose |
+|---------|---------|
+| `plan` | Add or edit tasks in the backlog |
+| `claim <id>` | Mark a task as in-progress |
+| `done <id>` | Mark a task as completed |
+| `status` | Show current task states |
+| `next` | Show the next unclaimed task |
+| `summary` | Overview of all task progress |
+| `finished` | List completed tasks |
+| `upcoming` | List tasks not yet started |
+| `needs-planning` | Tasks that need more detail |
+| `blocked` | Tasks marked as blocked |
+| `learn` | Capture learnings from completed work |
 
-Filters:
-- `--today`
-- `--last-24h`
-- `--last-week`
-- `--last-month`
-- `--days`
-- `--mine`
-- `--agent`
-- `--limit`
+## Filters
+
+Apply to any command: `--today`, `--last-24h`, `--last-week`, `--last-month`,
+`--days N`, `--mine`, `--agent`, `--limit N`.

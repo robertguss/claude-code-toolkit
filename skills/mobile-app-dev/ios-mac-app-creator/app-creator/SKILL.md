@@ -1,51 +1,49 @@
 ---
 name: app-creator
-description: Orchestrate iOS/macOS app scaffolding and optional skill adoption for existing projects. Use when users want a guided wizard that can scaffold with XcodeGen and optionally install xcode-makefiles and simple-tasks.
+description: "Orchestrate iOS/macOS app scaffolding and optional skill adoption for existing projects. Use when creating a new iOS app, setting up an Xcode project, initializing a macOS app, or adopting an existing Swift project into the guided wizard that scaffolds with XcodeGen and optionally installs xcode-makefiles and simple-tasks."
 ---
 
 # App Creator
 
-## Overview
-
-Paul Solt
-Paul@SuperEasyApps.com
-Version: 0.9.8
-
-`app-creator` is now an orchestrator skill.
-
-Responsibilities:
-1. Scaffold new projects with XcodeGen templates.
-2. Adopt existing projects non-destructively.
-3. Optionally install subskills:
-   - `xcode-makefiles`
-   - `simple-tasks`
+Orchestrator skill that scaffolds new iOS/macOS projects with XcodeGen templates
+or adopts existing projects non-destructively, with optional subskill
+installation (`xcode-makefiles`, `simple-tasks`).
 
 ## Workflow
 
-1. Collect inputs.
-2. Run doctor checks.
+1. Collect inputs (app name, bundle ID, platform, UI framework, output dir).
+2. Run doctor checks — verify XcodeGen and dependencies are available.
 3. Choose mode: `new` or `adopt`.
 4. In `new` mode, scaffold app templates and run XcodeGen.
 5. Install selected subskills (default: both).
 6. Optionally initialize git and create a baseline commit.
 7. Print exact next commands.
 
+**Verify success:** After step 4, confirm `.xcodeproj` was generated. If doctor
+checks fail in step 2, resolve dependencies before proceeding.
+
 ## Modes
 
 ### New Project
-
-Run:
 
 ```bash
 skills/app-creator/scripts/init.sh --project-mode new
 ```
 
-Required fields in new mode:
-- App name
-- Bundle id
-- Platform (`ios` or `macos`)
-- UI framework (`swiftui`, `uikit`, `appkit`)
-- Output directory
+Required fields: app name, bundle ID, platform (`ios` or `macos`), UI framework
+(`swiftui`, `uikit`, `appkit`), output directory.
+
+**Complete example:**
+
+```bash
+skills/app-creator/scripts/init.sh \
+  --project-mode new \
+  --app-name MyApp \
+  --bundle-id com.example.myapp \
+  --platform ios \
+  --ui-framework swiftui \
+  --output-dir ./MyApp
+```
 
 ### Adopt Existing Project
 

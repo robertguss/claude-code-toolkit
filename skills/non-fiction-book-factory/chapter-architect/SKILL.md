@@ -4,11 +4,7 @@ license: Proprietary
 metadata:
   author: robertguss
   version: "1.0"
-description:
-  Plan and architect a single chapter at beat-level granularity. Use when you
-  have a chapter from the Architecture Document and need to create a detailed
-  outline before drafting. Produces a Chapter Outline Document for use by
-  draft-coach or ghostwriter.
+description: "Plan and architect a single chapter at beat-level granularity — define scene breaks, establish pacing, map emotional arcs, and identify tension points. Use when you have a chapter from the Architecture Document and need a detailed chapter breakdown, story beats outline, or chapter structure before drafting. Produces a Chapter Outline Document for use by draft-coach or ghostwriter."
 ---
 
 # Chapter Architect
@@ -18,47 +14,24 @@ beat-level outline that guides drafting while preserving creative freedom.
 
 ## Core Philosophy
 
-1. **Reader-first, always.** Every beat exists to move the reader toward the
-   chapter's destination—intellectually and emotionally.
-
-2. **Compass, not GPS.** The outline points direction and marks waypoints. It
-   does not dictate every turn. The ghostwriter has creative freedom within the
-   structure.
-
-3. **Collaborative partnership.** Claude contributes ideas, challenges weak
-   thinking, and advocates for what serves the reader. The author has final
-   approval on all decisions.
-
-4. **Intent over prescription.** Each beat captures _why_ it exists, not just
-   _what_ it contains. This enables intelligent adaptation during drafting.
-
-5. **Emotional arc matters.** Track not just where the reader is intellectually,
-   but how they _feel_ at each stage of the journey.
+- **Reader-first** — every beat moves the reader toward the chapter's
+  destination, intellectually and emotionally.
+- **Compass, not GPS** — the outline points direction; the ghostwriter has
+  creative freedom within the structure.
+- **Intent over prescription** — each beat captures _why_ it exists, enabling
+  intelligent adaptation during drafting.
+- The author has final approval on all decisions.
 
 ## Session Flow
 
-This skill is session-flexible. Simple chapters may complete in one session.
-Complex chapters may need natural pause points with thinking time between.
-
 ### Session Start
 
-1. **Identify context:**
-   - New chapter or continuing a previous session?
-   - If continuing, request the latest working draft.
-
-2. **Gather inputs:**
-   - Architecture Document (chapter specification)
-   - Research Dossier (chapter's section)
-   - Book Concept Document (reader, promise, voice)
-   - Any author notes on this chapter
-
-3. **Confirm which chapter** we're architecting and surface the key specs:
-   - Chapter number and working title
-   - Chapter's job
-   - Reader entry state
-   - Reader exit state
-   - Key concepts to cover
-   - Bridge from previous / to next chapter
+1. **Identify context:** New chapter or continuing? If continuing, request the
+   latest working draft.
+2. **Gather inputs:** Architecture Document, Research Dossier (chapter section),
+   Book Concept Document, any author notes.
+3. **Confirm which chapter** and surface key specs: number, working title, job,
+   reader entry/exit states, key concepts, bridges to adjacent chapters.
 
 ### Phase 1: Orient
 
@@ -75,11 +48,11 @@ Review inputs together. Surface any tensions, questions, or issues.
   confusion→clarity, etc.)
   - _Reference `references/emotional-arc-patterns.md` as needed_
 
-**Claude's role:** Surface concerns, ask probing questions, identify what's
-unclear or underdeveloped.
+Surface concerns, ask probing questions, identify what's unclear or
+underdeveloped.
 
-**Pause point:** If significant unresolved questions emerge, pause here to
-resolve them before proceeding.
+**Pause point:** If significant unresolved questions emerge, resolve before
+proceeding.
 
 ### Phase 2: Brainstorm Beats
 
@@ -96,31 +69,24 @@ Generate candidate beats without worrying about sequence yet.
    - _Reference `references/closing-strategies.md`_
 5. Capture all candidates without judging yet
 
-**Claude's role:** Actively contribute beat ideas, not just record. Suggest
-moves the author might not have considered. Ask "what about a beat that does X?"
+Actively contribute beat ideas. Suggest moves the author might not have
+considered.
 
 ### Phase 3: Sequence and Debate
 
-Put the beats in order. This is where real collaboration happens.
-
-**Process:**
-
 1. Propose an initial sequence
-2. Walk through the reader's experience: "They arrive here, then this happens,
-   now they feel..."
-3. Debate ordering decisions:
-   - Does the counterargument come before or after the main case?
-   - Where does the reader need relief or breathing room?
-   - What must be established before something else can land?
-4. Identify which beats are load-bearing (structural, can't move) vs. flexible
-5. Cut beats that aren't earning their place
-6. Add beats if gaps emerge
+2. Walk through the reader's experience beat by beat — track intellectual and
+   emotional state
+3. Debate ordering: counterargument placement, breathing room, prerequisite
+   knowledge
+4. Mark load-bearing beats (structural, can't move) vs. flexible
+5. Cut beats that aren't earning their place; add beats if gaps emerge
 
-**Claude's role:** Advocate for what serves the reader. Push back when a
-sequence feels off. Offer alternatives with reasoning.
+Advocate for the reader. Push back when a sequence feels off. Offer alternatives
+with reasoning.
 
-**Pause point:** If the sequence isn't clicking, pause here. Complex chapters
-may need marinating time.
+**Pause point:** If the sequence isn't clicking, pause — complex chapters may
+need marinating time.
 
 ### Phase 4: Flesh Out Beats
 
@@ -133,6 +99,17 @@ For each beat in the final sequence, define:
 - **Load-bearing flag** (yes/no—can this beat be moved or cut?)
 - **Notes** (anything the ghostwriter should know)
 
+**Example beat:**
+
+```
+Beat 3: "The Counterargument" (Challenge)
+What happens: Present the strongest objection to the chapter's thesis
+Reader destination: Intellectual — understands the real tension; Emotional — feels the stakes
+Key material: Research Dossier §4.2 (Smith 2021 study), reader survey quotes
+Load-bearing: Yes — thesis resolution in Beat 5 depends on this
+Notes: Keep this honest; a straw man weakens the payoff
+```
+
 **Special attention:** Opening and closing beats get deeper treatment.
 
 - _Reference `references/opening-strategies.md` and
@@ -143,30 +120,15 @@ For each beat in the final sequence, define:
 
 ### Phase 5: Review and Finalize
 
-Stress-test the complete arc before producing the document.
-
-**Process:**
-
-1. Claude walks through the reader's experience aloud—beat by beat, tracking
-   intellectual and emotional state
-2. Check against common problems
-   - _Read `references/common-chapter-problems.md`_
+1. Walk through the reader's experience beat by beat — track intellectual and
+   emotional state
+2. Check against common problems — _read `references/common-chapter-problems.md`_
 3. Verify the chapter delivers on its job and reaches the exit state
-4. Confirm the bridge to the next chapter works
-5. Final author approval
+4. Confirm bridge to the next chapter; get final author approval
 
-**Only after approval:** Produce the Chapter Outline Document using the
-template.
-
-- _Use `assets/templates/chapter-outline-template.md`_
-
-### Session End
-
-1. Produce the versioned Chapter Outline Document (v1, v2, etc.)
-2. Summarize any open questions or flags for the ghostwriter
-3. Confirm next steps:
-   - Ready for drafting? → Handoff to draft-coach or ghostwriter
-   - Need another session? → Note where to resume
+**Only after approval:** Produce the Chapter Outline Document using
+`assets/templates/chapter-outline-template.md`. Summarize open questions,
+confirm next steps (handoff to draft-coach/ghostwriter or note where to resume).
 
 ## Inputs
 
