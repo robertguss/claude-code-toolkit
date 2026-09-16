@@ -1,0 +1,49 @@
+# The wiki as a site: <wiki>/ built by Quartz (site/) and published to GitHub Pages on every push to main.
+name: Publish the wiki
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Quartz
+        working-directory: site
+        run: npm ci
+      - name: Install Quartz plugins
+        working-directory: site
+        run: npx quartz plugin install --from-config
+      - name: Build the wiki
+        working-directory: site
+        run: npx quartz build -d ../<wiki> -o public && rm -f public/CNAME
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

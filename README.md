@@ -32,11 +32,13 @@ python build.py brainstorm
 Packaged workflows that Claude follows when invoked. Use them with `/skillname`
 or reference in CLAUDE.md.
 
-| Skill                                      | Description                                                    |
-| ------------------------------------------ | -------------------------------------------------------------- |
-| [brainstorm](skills/brainstorm/)           | Multi-session ideation partner with method catalog             |
-| [code-documenter](skills/code-documenter/) | Intelligent documentation generation with health tracking      |
-| [handoff](skills/handoff/)                 | Session continuity documents for picking up where you left off |
+| Skill                                      | Description                                                                                     |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| [brainstorm](skills/brainstorm/)           | Multi-session ideation partner with method catalog                                              |
+| [code-documenter](skills/code-documenter/) | Intelligent documentation generation with health tracking                                       |
+| [handoff](skills/handoff/)                 | Session continuity documents for picking up where you left off                                  |
+| [lead](skills/lead/)                       | Lead a project: briefs to fresh Opus workers in Herdr, verified by your own probes              |
+| [project-wiki](skills/project-wiki/)       | A Karpathy-style LLM wiki in your repo, project record or research vault, published with Quartz |
 
 **Book & Writing:**
 
