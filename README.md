@@ -3,10 +3,10 @@
 Extend Claude Code with specialized workflows, automatic formatting, and better
 defaults.
 
-**Skills** give Claude domain expertise—brainstorming methods, documentation
-generation, book writing pipelines. **Hooks** automate repetitive tasks—format
-code after edits, summarize changes at session end. **Templates** configure how
-Claude works with you.
+**Skills** give Claude domain expertise—brainstorming methods, leading a project
+with worker agents, project wikis, book writing pipelines. **Hooks** automate
+repetitive tasks—format code after edits, summarize changes at session end.
+**Templates** configure how Claude works with you.
 
 Works with both Claude Code (CLI) and Claude.ai (web/mobile/desktop).
 
@@ -32,13 +32,13 @@ python build.py brainstorm
 Packaged workflows that Claude follows when invoked. Use them with `/skillname`
 or reference in CLAUDE.md.
 
-| Skill                                      | Description                                                                                     |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| [brainstorm](skills/brainstorm/)           | Multi-session ideation partner with method catalog                                              |
-| [code-documenter](skills/code-documenter/) | Intelligent documentation generation with health tracking                                       |
-| [handoff](skills/handoff/)                 | Session continuity documents for picking up where you left off                                  |
-| [lead](skills/lead/)                       | Lead a project: briefs to fresh Opus workers in Herdr, verified by your own probes              |
-| [project-wiki](skills/project-wiki/)       | A Karpathy-style LLM wiki in your repo, project record or research vault, published with Quartz |
+| Skill                                                                    | Description                                                                                     |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| [app-store-opportunity-research](skills/app-store-opportunity-research/) | iOS App Store opportunity research: niches, competitor gaps, revenue estimates, MVP PRDs        |
+| [brainstorm](skills/brainstorm/)                                         | Multi-session ideation partner with method catalog                                              |
+| [handoff](skills/handoff/)                                               | Session continuity documents for picking up where you left off                                  |
+| [lead](skills/lead/)                                                     | Lead a project: briefs to fresh Opus workers in Herdr, verified by your own probes              |
+| [project-wiki](skills/project-wiki/)                                     | A Karpathy-style LLM wiki in your repo, project record or research vault, published with Quartz |
 
 **Book & Writing:**
 
@@ -135,8 +135,9 @@ cp templates/CLAUDE.md ~/.claude/CLAUDE.md
 claude-code-toolkit/
 ├── skills/                    # Packaged workflows
 │   ├── brainstorm/
-│   ├── code-documenter/
 │   ├── handoff/
+│   ├── lead/
+│   ├── project-wiki/
 │   └── ...
 ├── hooks/                     # Automatic event handlers
 │   ├── auto-format/

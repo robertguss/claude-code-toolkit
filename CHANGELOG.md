@@ -13,6 +13,11 @@ All notable changes to this project are documented in this file.
   presets (project record, research vault), a schema-driven lint, and Quartz
   publishing to GitHub Pages
 - Documentation improvements with LICENSE.md, CONTRIBUTING.md, and CHANGELOG.md
+
+### Removed
+
+- The `code-documenter`, `doc-refresh`, and `mobile-app-dev` skills;
+  `app-store-opportunity-research` moved to the top level of `skills/`
 - Skill connections guide explaining how skills work together
 
 ## [2026-01-18] - Compound Writing Plugin
