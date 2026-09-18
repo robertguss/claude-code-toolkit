@@ -39,6 +39,7 @@ or reference in CLAUDE.md.
 | [handoff](skills/handoff/)                                               | Session continuity documents for picking up where you left off                                  |
 | [lead](skills/lead/)                                                     | Lead a project: briefs to fresh Opus workers in Herdr, verified by your own probes              |
 | [project-wiki](skills/project-wiki/)                                     | A Karpathy-style LLM wiki in your repo, project record or research vault, published with Quartz |
+| [ledger-tasks-yylo](skills/ledger-tasks-yylo/)                         | Durable Kanban task board for coding agents via the YYLO Ledger CLI: status, dependencies, ready ordering, receipts |
 
 **Book & Writing:**
 

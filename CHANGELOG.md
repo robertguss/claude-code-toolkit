@@ -12,6 +12,10 @@ All notable changes to this project are documented in this file.
 - **project-wiki skill** — a Karpathy-style LLM wiki inside a repo with two
   presets (project record, research vault), a schema-driven lint, and Quartz
   publishing to GitHub Pages
+- **ledger-tasks-yylo skill** — durable Kanban task management for coding agents
+  through the YYLO Ledger CLI (`yy ledger`): create/search/update tasks,
+  dependency graphs with cycle detection, `ready`/`order` for safe parallel
+  work, and receipt-preserving closes
 - Documentation improvements with LICENSE.md, CONTRIBUTING.md, and CHANGELOG.md
 - Skill connections guide explaining how skills work together
 
